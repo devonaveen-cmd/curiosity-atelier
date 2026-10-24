@@ -10,7 +10,10 @@ const E = process.env;
 const MOCK = E.MOCK === '1';
 const FORCE = E.FORCE === '1';
 const MIN_HOURS = Number(E.MIN_HOURS || 47);
-const DELAY = Number(E.CALL_DELAY_MS || 6000);
+const DELAY = Number(E.CALL_DELAY_MS || 7000);
+const T0 = Date.now();
+const BUDGET_MS = Number(E.MAX_MINUTES || 38) * 60000;      // generator stops starting new work after this, then publishes what it has
+const timeLeft = () => BUDGET_MS - (Date.now() - T0);
 const UA = 'CuriosityAtelier/1.0 (personal learning project)';
 const GEMINI_BASE = E.GEMINI_BASE || 'https://generativelanguage.googleapis.com';
 const HOUSES = ['theology', 'mindcraft', 'soundroom', 'aiml', 'systems', 'design'];
@@ -112,23 +115,28 @@ const gemini = {
       .filter((m) => m.supportedGenerationMethods?.includes('generateContent') && /flash/.test(m.name) && !/(image|tts|live|audio|embed|robot|computer|exp|learnlm)/.test(m.name))
       .map((m) => m.name.replace('models/', ''));
     const ver = (n) => parseFloat((n.match(/(\d+(?:\.\d+)?)/) || [0, 0])[1]);
-    return names.sort((a, b) => ver(b) - ver(a) || (/lite/.test(a) ? 1 : 0) - (/lite/.test(b) ? 1 : 0));
+    const pre = (n) => (/preview|exp|latest/.test(n) ? 1 : 0);
+    return names.sort((a, b) => pre(a) - pre(b) || ver(b) - ver(a) || (/lite/.test(a) ? 1 : 0) - (/lite/.test(b) ? 1 : 0));
   },
   async call(system, user) {
     this.models ||= await this.list();
+    this.bad ||= {};                                                   // models that keep failing are skipped for the rest of the run
+    let cands = this.models.filter((m) => (this.bad[m] || 0) < 2).slice(0, 4);
+    if (!cands.length) { this.bad = {}; cands = this.models.slice(0, 4); }
     let last;
-    for (const m of this.models.slice(0, 4)) {
+    for (const m of cands) {
       try {
         const r = await http(`${GEMINI_BASE}/v1beta/models/${m}:generateContent`, {
           method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': E.GEMINI_API_KEY },
           body: JSON.stringify({ systemInstruction: { parts: [{ text: system }] }, contents: [{ role: 'user', parts: [{ text: user }] }], generationConfig: { responseMimeType: 'application/json', temperature: 0.6 } })
-        }, { tries: 2, timeout: 90000 });
+        }, { tries: 1, timeout: 60000 });
         const j = await r.json();
         const text = (j.candidates?.[0]?.content?.parts || []).filter((p) => !p.thought).map((p) => p.text || '').join('');
         if (!text) throw new Error('empty response');
         used.add(`gemini/${m}`);
+        this.bad[m] = 0;
         return text;
-      } catch (e) { last = e; log(`gemini ${m} failed: ${String(e.message).slice(0, 100)}`); }
+      } catch (e) { this.bad[m] = (this.bad[m] || 0) + 1; last = e; log(`gemini ${m} failed: ${String(e.message).slice(0, 100)}`); }
     }
     throw last;
   }
@@ -199,11 +207,12 @@ async function askJSON({ system, user, validate, mock }) {
   let note = '', lastErr;
   for (let attempt = 0; attempt < 3; attempt++) {
     for (const p of PROVIDERS) {
+      if (timeLeft() < 0) throw new Error('time budget exhausted');
       try {
         const text = await p.call(system, user + note);
         await sleep(DELAY);
         return validate(extractJSON(text));
-      } catch (e) { lastErr = e; log(`${p.name} attempt ${attempt + 1}: ${String(e.message).slice(0, 140)}`); await sleep(DELAY); }
+      } catch (e) { lastErr = e; log(`${p.name} attempt ${attempt + 1}: ${String(e.message).slice(0, 140)}`); await sleep(/429|RESOURCE_EXHAUSTED|503|UNAVAILABLE/.test(String(e.message)) ? 20000 : DELAY); }
     }
     note = `\n\nYour previous reply was rejected: ${String(lastErr.message).slice(0, 200)}. Return ONLY one valid JSON object that follows the schema exactly.`;
   }
@@ -511,16 +520,23 @@ async function main() {
   }
   const n = (last?.n || 0) + 1, slug = String(n).padStart(3, '0');
   log(`Generating edition ${slug} with: ${MOCK ? 'MOCK' : PROVIDERS.map((p) => p.name).join(' > ') || 'NO PROVIDER'}`);
-  const failed = [];
-  const step = async (name, fn) => { try { const v = await fn(); log('ok  ', name); return v; } catch (e) { failed.push(name); log('FAIL', name, '-', String(e.message).slice(0, 160)); return null; } };
-
-  const capsuleExtras = await step('capsule', () => buildCapsule(n));
-  const signal = await step('aiSignal', buildSignal);
-  const openTab = await step('openTab', () => buildOpenTab(n));
-  const houses = {};
-  for (const k of [...HOUSES, 'frugal']) {
-    houses[k] = (await step(`house:${k}`, () => buildLesson(k, n, slug))) || { house: k, houseName: cfg.houses[k].name, unavailable: true, title: 'Not available this edition', sources: [] };
+  const step = async (name, fn) => { try { const v = await fn(); log('ok  ', name); return v; } catch (e) { log('FAIL', name, '-', String(e.message).slice(0, 160)); return null; } };
+  const jobs = [['capsule', () => buildCapsule(n)], ['aiSignal', buildSignal], ['openTab', () => buildOpenTab(n)],
+    ...[...HOUSES, 'frugal'].map((k) => [`house:${k}`, () => buildLesson(k, n, slug)])];
+  const got = {};
+  for (let pass = 1; pass <= 2; pass++) {
+    const todo = jobs.filter(([name]) => !got[name]);
+    if (!todo.length) break;
+    if (pass === 2) { if (timeLeft() < 120000) break; log(`Retrying ${todo.length} failed section(s) after a pause`); await sleep(MOCK ? 0 : Number(E.RETRY_PAUSE_MS ?? 45000)); }
+    for (const [name, fn] of todo) {
+      if (timeLeft() < 0) { log('SKIP', name, '- time budget used up'); continue; }
+      got[name] = await step(name, fn);
+    }
   }
+  const failed = jobs.map(([name]) => name).filter((name) => !got[name]);
+  const capsuleExtras = got.capsule, signal = got.aiSignal, openTab = got.openTab;
+  const houses = {};
+  for (const k of [...HOUSES, 'frugal']) houses[k] = got[`house:${k}`] || { house: k, houseName: cfg.houses[k].name, unavailable: true, title: 'Not available this edition', sources: [] };
   const puzzle = makePuzzle(n);
 
   const total = 3 + HOUSES.length + 1;
