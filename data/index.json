@@ -1,1 +1,12 @@
-{ "editions": [] }
+{
+ "editions": [
+  {
+   "n": 1,
+   "slug": "001",
+   "publishedAt": "2026-10-24T10:06:51.008Z",
+   "theme": "1 Thessalonians 1:1-10 · Cognitive bias · Compression",
+   "failed": [],
+   "cover": null
+  }
+ ]
+}
