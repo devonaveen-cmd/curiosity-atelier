@@ -1,0 +1,60 @@
+name: site
+on:
+  schedule:
+    - cron: '17 3 * * *'      # daily check; the script only creates an edition if the last one is 47h+ old
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Create a new edition even if the last one is recent'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ['data/**']
+permissions:
+  contents: write
+concurrency:
+  group: site
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Install image optimiser (optional, falls back gracefully)
+        run: npm install --no-save --no-audit --no-fund sharp || echo "sharp unavailable, storing raw images"
+      - name: Generate edition (skips itself if too soon)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          FORCE: ${{ inputs.force && '1' || '0' }}
+        run: node generator/generate.mjs
+      - name: Commit new data
+        run: |
+          git config user.name "atelier-bot"
+          git config user.email "atelier-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "edition $(date -u +%F)" && git push)
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions: { contents: read, pages: write, id-token: write }
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Stage site
+        run: mkdir _site && cp -r index.html fonts.css styles.css app.js sw.js manifest.webmanifest icon.svg fonts data _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+      - id: d
+        uses: actions/deploy-pages@v4

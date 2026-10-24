@@ -1,0 +1,579 @@
+{
+  "feeds": {
+    "ai": [
+      {
+        "name": "arXiv cs.LG (newest)",
+        "url": "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=6"
+      },
+      {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml"
+      },
+      {
+        "name": "Google Research Blog",
+        "url": "https://research.google/blog/rss/"
+      }
+    ],
+    "systems": [
+      {
+        "name": "LWN.net headlines",
+        "url": "https://lwn.net/headlines/rss"
+      }
+    ]
+  },
+  "words": [
+    "perspicacious",
+    "ephemeral",
+    "ubiquitous",
+    "sagacious",
+    "laconic",
+    "equanimity",
+    "verisimilitude",
+    "pellucid",
+    "sanguine",
+    "magnanimous",
+    "fastidious",
+    "ineffable",
+    "propitious",
+    "recalcitrant",
+    "taciturn",
+    "lucid",
+    "assiduous",
+    "candid",
+    "nuance",
+    "cogent",
+    "dispassionate",
+    "eloquent",
+    "gregarious",
+    "judicious"
+  ],
+  "openTabs": [
+    "https://roadmap.sh",
+    "https://developer.mozilla.org",
+    "https://pythontutor.com",
+    "https://visualgo.net",
+    "https://www.nand2tetris.org",
+    "https://beej.us/guide/bgc/",
+    "https://huggingface.co/learn",
+    "https://ciechanow.ski",
+    "https://distill.pub",
+    "https://fonts.google.com",
+    "https://musiclab.chromeexperiments.com",
+    "https://ocw.mit.edu",
+    "https://www.khanacademy.org",
+    "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+  ],
+  "houses": {
+    "theology": {
+      "name": "Scripture in its real world",
+      "brief": "Study Paul's letters in historical, literary and cultural context. Cover: the world behind the letter, why it was written, the passage under the microscope, physical evidence only if the sources mention any, the interpretation debate, and a careful present-day connection. Keep established evidence strictly separate from interpretation, tradition and speculation. Never present a good sermon story as history.",
+      "topics": [
+        {
+          "label": "1 Thessalonians 1:1-10",
+          "bible": "1 Thessalonians 1:1-10",
+          "wiki": [
+            "First Epistle to the Thessalonians",
+            "Thessaloniki"
+          ]
+        },
+        {
+          "label": "1 Thessalonians 2:1-12",
+          "bible": "1 Thessalonians 2:1-12",
+          "wiki": [
+            "First Epistle to the Thessalonians"
+          ]
+        },
+        {
+          "label": "1 Thessalonians 4:13-18",
+          "bible": "1 Thessalonians 4:13-18",
+          "wiki": [
+            "First Epistle to the Thessalonians"
+          ]
+        },
+        {
+          "label": "Acts 17:16-34, Paul in Athens",
+          "bible": "Acts 17:16-34",
+          "wiki": [
+            "Areopagus",
+            "Areopagus sermon"
+          ]
+        },
+        {
+          "label": "1 Corinthians 1:10-17",
+          "bible": "1 Corinthians 1:10-17",
+          "wiki": [
+            "First Epistle to the Corinthians",
+            "Ancient Corinth"
+          ]
+        },
+        {
+          "label": "1 Corinthians 8:1-13",
+          "bible": "1 Corinthians 8:1-13",
+          "wiki": [
+            "First Epistle to the Corinthians"
+          ]
+        },
+        {
+          "label": "1 Corinthians 11:17-34",
+          "bible": "1 Corinthians 11:17-34",
+          "wiki": [
+            "First Epistle to the Corinthians"
+          ]
+        },
+        {
+          "label": "1 Corinthians 15:1-11",
+          "bible": "1 Corinthians 15:1-11",
+          "wiki": [
+            "First Epistle to the Corinthians"
+          ]
+        },
+        {
+          "label": "2 Corinthians 4:7-18",
+          "bible": "2 Corinthians 4:7-18",
+          "wiki": [
+            "Second Epistle to the Corinthians"
+          ]
+        },
+        {
+          "label": "2 Corinthians 12:1-10",
+          "bible": "2 Corinthians 12:1-10",
+          "wiki": [
+            "Second Epistle to the Corinthians"
+          ]
+        },
+        {
+          "label": "Galatians 2:11-21",
+          "bible": "Galatians 2:11-21",
+          "wiki": [
+            "Epistle to the Galatians",
+            "Galatia"
+          ]
+        },
+        {
+          "label": "Galatians 3:23-29",
+          "bible": "Galatians 3:23-29",
+          "wiki": [
+            "Epistle to the Galatians"
+          ]
+        },
+        {
+          "label": "Galatians 5:1-15",
+          "bible": "Galatians 5:1-15",
+          "wiki": [
+            "Epistle to the Galatians"
+          ]
+        }
+      ],
+      "imageStyle": "macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial"
+    },
+    "mindcraft": {
+      "name": "IQ, EQ and the art of living well",
+      "brief": "Practical cognitive, emotional, communication and discipline skills. Real psychology, not inspirational quotes. Never claim a puzzle or habit raises IQ by a number. End with a small exercise the learner can do today.",
+      "topics": [
+        {
+          "label": "Cognitive bias",
+          "wiki": [
+            "Cognitive bias"
+          ]
+        },
+        {
+          "label": "Active listening",
+          "wiki": [
+            "Active listening"
+          ]
+        },
+        {
+          "label": "Working memory",
+          "wiki": [
+            "Working memory"
+          ]
+        },
+        {
+          "label": "Confirmation bias",
+          "wiki": [
+            "Confirmation bias"
+          ]
+        },
+        {
+          "label": "Emotional intelligence",
+          "wiki": [
+            "Emotional intelligence"
+          ]
+        },
+        {
+          "label": "Procrastination",
+          "wiki": [
+            "Procrastination"
+          ]
+        },
+        {
+          "label": "Spaced repetition",
+          "wiki": [
+            "Spaced repetition"
+          ]
+        },
+        {
+          "label": "Logical fallacies",
+          "wiki": [
+            "Fallacy"
+          ]
+        },
+        {
+          "label": "Nonviolent communication",
+          "wiki": [
+            "Nonviolent Communication"
+          ]
+        },
+        {
+          "label": "Dunning-Kruger effect",
+          "wiki": [
+            "Dunning–Kruger effect"
+          ]
+        }
+      ],
+      "imageStyle": "calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain"
+    },
+    "soundroom": {
+      "name": "Music from the inside",
+      "brief": "Explain how music is made, recorded, mixed and performed. Every lesson answers: what does it do, why would a producer use it, what does it sound like before and after (describe in words), and a tiny experiment using free or built-in tools. Respect cultural context; separate documented tradition from romanticised claims.",
+      "topics": [
+        {
+          "label": "Compression",
+          "wiki": [
+            "Dynamic range compression"
+          ]
+        },
+        {
+          "label": "Equalization",
+          "wiki": [
+            "Equalization (audio)"
+          ]
+        },
+        {
+          "label": "Reverb",
+          "wiki": [
+            "Reverberation"
+          ]
+        },
+        {
+          "label": "Chord progressions",
+          "wiki": [
+            "Chord progression"
+          ]
+        },
+        {
+          "label": "Microphones",
+          "wiki": [
+            "Microphone"
+          ]
+        },
+        {
+          "label": "Delay",
+          "wiki": [
+            "Delay (audio effect)"
+          ]
+        },
+        {
+          "label": "Mixing",
+          "wiki": [
+            "Audio mixing (recorded music)"
+          ]
+        },
+        {
+          "label": "Veena",
+          "wiki": [
+            "Veena"
+          ]
+        },
+        {
+          "label": "Mridangam",
+          "wiki": [
+            "Mridangam"
+          ]
+        },
+        {
+          "label": "Gregorian chant",
+          "wiki": [
+            "Gregorian chant"
+          ]
+        }
+      ],
+      "imageStyle": "motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric"
+    },
+    "aiml": {
+      "name": "AI/ML Fieldnotes",
+      "brief": "Bridge a first-year online degree and real engineering practice. Structure: the everyday term, the concept (intuition first, maths if useful), the working environment (tools, files, a few lines of Python), a lab exercise using free tools, and how to explain it like an engineer. Connect to BCA coursework. Explain prerequisites instead of throwing acronyms.",
+      "topics": [
+        {
+          "label": "Train, validation and test sets",
+          "wiki": [
+            "Training, validation, and test data sets"
+          ]
+        },
+        {
+          "label": "Overfitting",
+          "wiki": [
+            "Overfitting"
+          ]
+        },
+        {
+          "label": "Gradient descent",
+          "wiki": [
+            "Gradient descent"
+          ]
+        },
+        {
+          "label": "Linear regression",
+          "wiki": [
+            "Linear regression"
+          ]
+        },
+        {
+          "label": "Cross-validation",
+          "wiki": [
+            "Cross-validation (statistics)"
+          ]
+        },
+        {
+          "label": "Confusion matrix",
+          "wiki": [
+            "Confusion matrix"
+          ]
+        },
+        {
+          "label": "Word embeddings",
+          "wiki": [
+            "Word embedding"
+          ]
+        },
+        {
+          "label": "Transformers",
+          "wiki": [
+            "Transformer (deep learning architecture)"
+          ]
+        },
+        {
+          "label": "Retrieval-augmented generation",
+          "wiki": [
+            "Retrieval-augmented generation"
+          ]
+        },
+        {
+          "label": "Large language models",
+          "wiki": [
+            "Large language model"
+          ]
+        }
+      ],
+      "imageStyle": "grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms"
+    },
+    "systems": {
+      "name": "The Systems Forge",
+      "brief": "Build real understanding of software, not syntax memorisation. Include: why the structure exists, a tiny C or Python snippet, the bug a beginner makes, complexity or trade-offs, and a short debugging challenge. Show how the idea appears in real software.",
+      "feeds": "systems",
+      "topics": [
+        {
+          "label": "Pointers",
+          "wiki": [
+            "Pointer (computer programming)"
+          ]
+        },
+        {
+          "label": "Linked lists",
+          "wiki": [
+            "Linked list"
+          ]
+        },
+        {
+          "label": "Process scheduling",
+          "wiki": [
+            "Scheduling (computing)"
+          ]
+        },
+        {
+          "label": "Virtual memory",
+          "wiki": [
+            "Virtual memory"
+          ]
+        },
+        {
+          "label": "Hash tables",
+          "wiki": [
+            "Hash table"
+          ]
+        },
+        {
+          "label": "Binary search",
+          "wiki": [
+            "Binary search algorithm"
+          ]
+        },
+        {
+          "label": "Race conditions",
+          "wiki": [
+            "Race condition"
+          ]
+        },
+        {
+          "label": "Git",
+          "wiki": [
+            "Git"
+          ]
+        },
+        {
+          "label": "Big O notation",
+          "wiki": [
+            "Big O notation"
+          ]
+        },
+        {
+          "label": "File systems",
+          "wiki": [
+            "File system"
+          ]
+        }
+      ],
+      "imageStyle": "tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial"
+    },
+    "design": {
+      "name": "The Design Observatory",
+      "brief": "Teach visual literacy as a system of decisions (typography, colour, hierarchy, grids, movements). Finish with a tiny recreate-one-principle exercise. Describe visuals in words; use a small ASCII layout sketch in `visual` where helpful.",
+      "topics": [
+        {
+          "label": "Bauhaus",
+          "wiki": [
+            "Bauhaus"
+          ]
+        },
+        {
+          "label": "Swiss style",
+          "wiki": [
+            "Swiss Style (design)"
+          ]
+        },
+        {
+          "label": "Visual hierarchy",
+          "wiki": [
+            "Visual hierarchy"
+          ]
+        },
+        {
+          "label": "Colour theory",
+          "wiki": [
+            "Color theory"
+          ]
+        },
+        {
+          "label": "Typography",
+          "wiki": [
+            "Typography"
+          ]
+        },
+        {
+          "label": "Art Deco",
+          "wiki": [
+            "Art Deco"
+          ]
+        },
+        {
+          "label": "Grid systems",
+          "wiki": [
+            "Grid (graphic design)"
+          ]
+        },
+        {
+          "label": "Kerning",
+          "wiki": [
+            "Kerning"
+          ]
+        },
+        {
+          "label": "Skeuomorphism",
+          "wiki": [
+            "Skeuomorph"
+          ]
+        },
+        {
+          "label": "Minimalism",
+          "wiki": [
+            "Minimalism"
+          ]
+        }
+      ],
+      "imageStyle": "editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light"
+    },
+    "frugal": {
+      "name": "Frugal Chic",
+      "brief": "Develop taste without spending to perform it. Cover: what makes it beautiful, what makes it well made, the frugal alternative (secondhand, repair, DIY), and a neutral 'should I buy it' list in `checklist`. NEVER state prices or availability; say 'check current prices'. For cars add the engineering story, design intent, safety and realistic ownership burden.",
+      "topics": [
+        {
+          "label": "Capsule wardrobe",
+          "wiki": [
+            "Capsule wardrobe"
+          ]
+        },
+        {
+          "label": "Goodyear welted shoes",
+          "wiki": [
+            "Goodyear welt"
+          ]
+        },
+        {
+          "label": "Bespoke tailoring",
+          "wiki": [
+            "Bespoke tailoring"
+          ]
+        },
+        {
+          "label": "Leather",
+          "wiki": [
+            "Leather"
+          ]
+        },
+        {
+          "label": "Upcycling",
+          "wiki": [
+            "Upcycling"
+          ]
+        },
+        {
+          "label": "Wabi-sabi",
+          "wiki": [
+            "Wabi-sabi"
+          ]
+        },
+        {
+          "label": "Talbot-Lago T150-C SS",
+          "wiki": [
+            "Talbot-Lago T150-C SS"
+          ]
+        },
+        {
+          "label": "Citroën DS",
+          "wiki": [
+            "Citroën DS"
+          ]
+        },
+        {
+          "label": "Interior lighting",
+          "wiki": [
+            "Lighting"
+          ]
+        },
+        {
+          "label": "Mechanical watches",
+          "wiki": [
+            "Watch"
+          ]
+        }
+      ],
+      "imageStyle": "warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial"
+    }
+  },
+  "imageNote": "Prompts are built as: <lesson imagePrompt> + <house style> + safety suffix. FLUX renders poorly with text, so text and people are excluded.",
+  "imageSuffix": "No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "cover": {
+    "prompt": "Smooth stones, a jade massage tool and a polished spiral shell scattered on deep blue handmade paper",
+    "style": "tactile still-life photograph, soft directional light, rich cobalt blue paper texture, editorial photography"
+  }
+}
