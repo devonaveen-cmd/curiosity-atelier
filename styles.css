@@ -196,13 +196,6 @@ body.focus .lesson{padding-top:2rem}
 @keyframes fade{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
 
 /* ---------- palette card (home) ---------- */
-.pal{margin:.4rem 0}
-.pal .sw{all:unset;cursor:pointer;display:inline-block;width:2.6rem;height:2.6rem;margin-right:.35rem;border:1px solid #0004;transition:transform .2s}
-.pal .sw:hover{transform:translateY(-3px)}
-.pv{margin:.5rem 0;padding:1rem;background:var(--pa);color:var(--pb);transition:background .3s,color .3s}
-.pv.swap{background:var(--pb);color:var(--pa)}
-.pv b{display:block;font:400 2.2rem/1 var(--serif)}
-.pv i{display:block;height:5px;margin-top:.7rem;background:var(--pc)}
 .chk{display:flex;align-items:center;gap:.6rem;font-weight:600;cursor:pointer}
 
 /* ---------- home (Silhouette) ---------- */
@@ -215,12 +208,6 @@ body.focus .lesson{padding-top:2rem}
 .band{background:#000;color:var(--text);border-top:1px solid #ffffff1f}
 .band.tan,.band.cream,.band.cobalt{background:#000;color:var(--text)}
 .band .display{color:inherit}
-.cgrid{display:grid;gap:clamp(.8rem,2vw,1.4rem);grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
-.ccard{background:#EDE5D4;color:#2a1608;padding:clamp(1.2rem,3vw,2rem);display:flex;flex-direction:column;gap:.5rem;min-height:220px;--accent:#275075;--accent-fg:#fff;--fg:#402410}
-.ccard .kicker{color:#402410;opacity:.85}
-.ccard h3{font:500 clamp(1.45rem,3vw,2rem)/1.02 var(--tight);letter-spacing:-.04em;margin:.2rem 0}
-.ccard p{margin:.2rem 0;font-size:.95rem;line-height:1.5}
-.ccard a{color:#275075}
 .tiles{display:grid;gap:clamp(.8rem,2vw,1.2rem);grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
 .tile{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:340px;overflow:hidden;background:var(--bg);border-top:3px solid var(--accent);color:var(--text);text-decoration:none;transition:transform .35s ease,box-shadow .35s ease}
 .tile:hover{transform:translateY(-6px);box-shadow:0 18px 36px #0005}
@@ -240,6 +227,84 @@ body.focus .lesson{padding-top:2rem}
 .cta::before{content:"";position:absolute;inset:0;background:var(--noise);opacity:.14;mix-blend-mode:overlay;pointer-events:none}
 .cta>*{position:relative}
 footer.foot{background:#000;color:var(--text);border-top:1px solid #ffffff1f;text-align:center;padding:2.5rem 1rem 6rem;font:500 .72rem/2 var(--dm);letter-spacing:.16em;text-transform:uppercase}
+
+
+/* ---------- daily capsule v2: a bento spread, each slot with its own palette and layout ---------- */
+.band.capsule{background:radial-gradient(900px 520px at 10% 0%,#8B2E4440,transparent 70%),radial-gradient(800px 520px at 96% 42%,#37324A70,transparent 70%),radial-gradient(760px 420px at 35% 100%,#27507545,transparent 70%),#000}
+.cap-head h2{font-size:clamp(2.6rem,8vw,6.4rem);line-height:.9;margin:.5rem 0 0}
+.cap-head .script{font-size:1.02em;margin-top:-.04em}
+.marq{overflow:hidden;border-block:1px solid #ffffff26;margin:1.8rem 0 2rem;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marq-in{display:flex;gap:2rem;width:max-content;padding:.85rem 0;animation:mq 42s linear infinite;font:500 .78rem/1 var(--tight);letter-spacing:.22em;text-transform:uppercase}
+.marq-in span{white-space:nowrap}.marq-in i{font-style:normal;opacity:.5}
+@keyframes mq{to{transform:translateX(-50%)}}
+.capgrid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(.8rem,1.6vw,1.2rem);grid-auto-flow:dense}
+.cap{--mx:50%;--my:0%;position:relative;overflow:hidden;grid-column:span 4;background:var(--panel);color:var(--panel-fg);padding:clamp(1.2rem,2.6vw,2rem);display:flex;flex-direction:column;gap:.75rem;min-height:270px;isolation:isolate;transition-delay:calc(var(--i,0) * 70ms)}
+.cap.s7{grid-column:span 7}.cap.s5{grid-column:span 5}.cap.s8{grid-column:span 8}.cap.s4{grid-column:span 4}
+.cap::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(380px circle at var(--mx) var(--my),#ffffff22,transparent 65%);opacity:0;transition:opacity .35s}
+.cap:hover::before{opacity:1}
+.cap::after{content:"";position:absolute;inset:0;z-index:-1;background:var(--noise);mix-blend-mode:overlay;opacity:.3;pointer-events:none}
+.cap .kicker{color:var(--panel-fg)}
+.cap .no{position:absolute;top:.35rem;right:1rem;font:200 clamp(3.2rem,6vw,5.4rem)/1 var(--tight);letter-spacing:-.07em;color:var(--accent);opacity:.25;pointer-events:none;z-index:2}
+.cap h3{font:300 clamp(1.7rem,3.2vw,2.6rem)/1 var(--tight);letter-spacing:-.045em;margin:0;color:var(--panel-fg)}
+.cap p{margin:0;max-width:62ch}
+.cap .lab{display:block;font:600 .64rem/1 var(--tight);letter-spacing:.18em;text-transform:uppercase;opacity:.65;margin-bottom:.35rem}
+.cap a{color:inherit;text-decoration:underline;text-underline-offset:.22em}
+.cap a.btn{text-decoration:none}
+.cap .muted{opacity:.7}
+/* 01 word */
+.cap.word{min-height:440px;justify-content:flex-end}
+.bigword{font:300 clamp(3.4rem,10.5vw,8.4rem)/.88 var(--tight);letter-spacing:-.06em;margin-top:auto;overflow-wrap:break-word}
+.bigword.l2{font-size:clamp(2.9rem,8.2vw,6.4rem)}
+.bigword.l3{font-size:clamp(2.4rem,6.2vw,4.8rem)}
+.bigword.l4{font-size:clamp(2rem,5vw,3.8rem)}
+.cap .pos{font:400 2rem/1 var(--script);color:var(--accent);margin-right:.4rem}
+.cap .ph{opacity:.9}
+.cap .ex{font:italic 400 1.3rem/1.3 var(--serif);border-left:2px solid var(--accent);padding-left:.9rem}
+/* 02 colour: the card is the palette */
+.cap.col{padding:0;min-height:440px;background:#000}
+.stripes{display:flex;flex:1;min-height:250px}
+.stripes.rev{flex-direction:row-reverse}
+.stripe{all:unset;box-sizing:border-box;flex:1;cursor:pointer;display:flex;flex-direction:column;justify-content:flex-end;padding:1rem .8rem;font:600 .72rem/1.2 var(--tight);letter-spacing:.14em;text-transform:uppercase;transition:flex .45s ease}
+.stripe:hover,.stripe:focus-visible{flex:1.8}
+.cap.col .info{position:relative;padding:1.2rem 1.4rem 1.5rem;background:#000;display:flex;flex-direction:column;gap:.6rem;color:#F6EEED}
+.cap.col .info h3{color:#F6EEED}
+.cap.col .no{color:#fff;mix-blend-mode:difference;opacity:.5}
+/* 04 type specimen on a cream card (the one light card, for contrast) */
+.cap.cream{background:#EDE5D4;color:#2a1608;--panel-fg:#2a1608;--accent:#8B2E44}
+.cap.cream .kicker{color:#2a1608}
+.aa{font-size:clamp(5.5rem,14vw,9.5rem);line-height:.8;margin:.2rem 0 -.2rem}
+.pang{font-size:1.3rem;line-height:1.25}
+/* 03 AI signal */
+.cap.sig .tk{align-self:flex-start;background:var(--accent);color:var(--accent-fg);font:700 .66rem/1 var(--tight);letter-spacing:.16em;text-transform:uppercase;padding:.45rem .8rem;border-radius:99px}
+.cap.sig .two{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+.cap.sig .take{background:var(--accent);color:var(--accent-fg);padding:1rem 1.2rem;font-weight:600;max-width:none}
+.cap.sig .take .lab{opacity:.75}
+.cap.sig .take+p a{color:inherit}
+/* 05 interface study */
+.cap.ui .pat{font:400 clamp(2.4rem,5.2vw,3.8rem)/1 var(--script);color:var(--accent)}
+.cap.ui .tryit{border:1px dashed currentColor;padding:.9rem 1.1rem;margin-top:auto}
+/* 06 open tab: a little browser window */
+.cap.tab{padding:0}
+.cap.tab .chrome{display:flex;align-items:center;gap:.4rem;padding:.75rem 1rem;background:#00000050}
+.cap.tab .chrome i{width:.65rem;height:.65rem;border-radius:50%;background:currentColor;opacity:.5}
+.cap.tab .url{margin-left:.6rem;flex:1;background:#00000066;border-radius:99px;padding:.35rem .9rem;font:500 .8rem/1.2 var(--tight);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cap.tab .in{padding:1.3rem 1.5rem 1.6rem;display:flex;flex-direction:column;gap:.75rem;flex:1}
+.cap.tab .in>p:last-child{margin-top:auto}
+.cap.tab .no{top:3.4rem}
+/* 07 challenge: a ring that fills with the sunburst */
+.ring{position:relative;width:5.4rem;height:5.4rem;flex:none}
+.ring input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer;z-index:3}
+.ring .rb{position:absolute;inset:0;border:2px solid var(--accent);border-radius:50%;display:grid;place-items:center;transition:background .3s,transform .3s}
+.ring:hover .rb{transform:scale(1.06)}
+.ring .rb svg{width:2.7rem;height:2.7rem;color:var(--accent);opacity:.4;transition:opacity .3s}
+.ring input:checked + .rb{background:var(--accent)}
+.ring input:checked + .rb svg{color:var(--accent-fg);opacity:1;animation:spinin .9s ease}
+.ring input:focus-visible + .rb{outline:2px solid #fff;outline-offset:4px}
+@keyframes spinin{from{transform:rotate(-140deg) scale(.3)}to{transform:none}}
+.cap.chal .big{font:300 clamp(1.5rem,2.8vw,2.1rem)/1.12 var(--tight);letter-spacing:-.035em}
+.cap.chal .ring{margin-top:auto}
+.cap.rv.in:hover{transform:translateY(-6px);box-shadow:0 20px 40px #000a;transition-delay:0s}
+@media (max-width:900px){.cap,.cap.s7,.cap.s5,.cap.s8,.cap.s4{grid-column:1/-1}.cap.word{min-height:340px}.cap.col{min-height:400px}.cap.sig .two{grid-template-columns:1fr}}
 
 /* ---------- puzzle, board, archive ---------- */
 .latin{display:grid;grid-template-columns:repeat(4,3.6rem);gap:5px;margin:1.2rem 0}

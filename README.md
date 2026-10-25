@@ -66,6 +66,9 @@ Fonts (all SIL OFL, bundled in `fonts/`, so the app works offline): Inter Tight 
 
 Older editions (made before v2) still display; they just lack the key idea, glossary and images until you generate a new edition.
 
+## Daily capsule (bento spread)
+Seven slots, each with its own palette and layout: the word of the day set huge (with a pronounce button), a colour card that is the palette itself (tap a stripe to copy a hex, reverse the order), the AI/ML signal with a highlighted takeaway, a type specimen shown in its real typeface, an interface study with a script-set pattern name, the open tab drawn as a little browser window, and a tiny challenge you tick off with an animated ring. A slow ticker runs above the cards, and cards glow where your pointer is.
+
 ## Honesty features
 - Evidence labels: established / inference / debate / tradition / background / unverified. "Established" must point at a fetched source id, otherwise it is downgraded.
 - Prices are never generated. Colour contrast and puzzles are computed by code, not the model.
@@ -76,6 +79,7 @@ Older editions (made before v2) still display; they just lack the key idea, glos
 Edit `generator/config.json`: topics rotate in order (one per edition), feeds, word list and the "open tab" site list live there. Add topics freely.
 
 ## Limits you should know
+- The capsule's type specimen loads the featured font from Google Fonts when you are online. It is the only third-party request the app makes (Google can see that the page was opened). Offline, or if it fails, the specimen falls back to Inter Tight.
 - Model quality varies. Theology and history lessons deserve a human read before you trust them.
 - Free tiers change. Gemini free-tier inputs may be used by Google to improve its products, which is fine for public learning content, not for private notes (which never go to any model).
 - GitHub may pause scheduled workflows after 60 days without repo activity; re-enable in the Actions tab.

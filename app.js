@@ -120,19 +120,36 @@ function lessonHTML(ed, h, key) {
 const tile = (ed, k) => { const m = H[k], h = ed.houses?.[k]; return `<a class="tile rv" data-t="${m.t}" href="#/house/${k}">${imgBox(h?.image, '', false)}${prog(ed.slug).seen[k] ? '<span class="tick">Explored</span>' : ''}<div class="tile-t"><div class="kicker">${burst(14)}<span>House ${m.num}</span></div><h3 class="display" style="margin-top:.5rem">${esc(m.name)}</h3><p>${esc(h?.unavailable ? 'Not available this edition' : h?.title || '')}</p></div></a>`; };
 const tiles = (ed) => `<div class="tiles">${HOUSES.map((h) => tile(ed, h[0])).join('')}</div>`;
 
+// ---------- daily capsule: a bento spread, each slot has its own palette and layout ----------
+const hexInk = (h) => { const [r, g, b] = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255).map((c) => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4)); return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.42 ? '#000' : '#fff'; };
+const FONT_OK = /^[A-Za-z0-9][A-Za-z0-9 ]{1,40}$/;
+const loadedFonts = new Set();
+function loadFont(name) {   // progressive enhancement: show the specimen in its real typeface when online; falls back to Inter Tight offline
+  if (!FONT_OK.test(name || '') || loadedFonts.has(name)) return; loadedFonts.add(name);
+  const l = document.createElement('link'); l.rel = 'stylesheet'; l.href = 'https://fonts.googleapis.com/css2?family=' + name.trim().replace(/ +/g, '+') + '&display=swap'; document.head.appendChild(l);
+}
+const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
+function marquee(ed) {
+  const c = ed.capsule || {};
+  const items = [c.word?.word, c.colour?.name, c.type?.font, c.interfaceStudy?.pattern, c.openTab?.name, c.aiSignal && 'AI/ML signal'].filter(Boolean).map(esc);
+  if (items.length < 2) return '';
+  const row = items.map((x) => `<span>${x}</span><i>✺</i>`).join('');
+  return `<div class="marq" aria-hidden="true"><div class="marq-in">${row}${row}${row}${row}</div></div>`;
+}
 function capsuleCards(ed) {
-  const c = ed.capsule || {}, w = c.word, s = c.aiSignal, col = c.colour, t = c.type, i = c.interfaceStudy, o = c.openTab;
-  const p = prog(ed.slug);
-  const card = (k, body) => `<div class="ccard rv"><div class="kicker">${burst(14)}<span>${k}</span></div>${body}</div>`;
-  return `<div class="cgrid">
-   ${w ? card('Word of the day', `<h3>${esc(w.word)}</h3><p class="muted">${esc(w.phonetic)} ${esc(w.pos)}</p><p>${esc(w.definition)}</p><p><em>${esc(w.example)}</em></p><p>${esc(w.exercise)}</p><div class="row" style="margin:.3rem 0 0"><button data-act="say" data-w="${esc(w.word)}">🔊 Hear it</button></div>`) : ''}
-   ${s ? card('AI/ML signal', `<h3>${esc(s.title)}</h3><p><span class="badge">${esc(s.kind)}</span> <span class="muted">${esc(s.feed)} · ${fdate(s.date)}</span></p><p>${esc(s.whatHappened)}</p><p>${esc(s.whyItMatters)}</p><p><strong>Takeaway:</strong> ${esc(s.takeaway)}</p><p><a href="${url(s.url)}" target="_blank" rel="noopener">Read the source</a> · <span class="muted">based on a short excerpt</span></p>`) : ''}
-   ${col ? card('Colour pairing', `<h3>${esc(col.name)}</h3><div class="pal">${col.hexes.map((x) => `<button class="sw" style="background:${colour(x)}" data-act="copyhex" data-hex="${esc(x)}" title="Copy ${esc(x)}" aria-label="Copy ${esc(x)}"></button>`).join('')}</div><div class="pv" id="pv" style="--pa:${colour(col.hexes[0])};--pb:${colour(col.hexes[1])};--pc:${colour(col.hexes[2])}"><b>Aa</b><span>Text on background</span><i></i></div><div class="row" style="margin:.2rem 0"><button data-act="swap">Swap colours</button></div><p class="muted">${col.hexes.map(esc).join(' · ')} (tap a swatch to copy)</p><p>${esc(col.note)}</p><p>${esc(col.application)}</p><p class="muted">${esc(col.accessibility)}</p>`) : ''}
-   ${t ? card('Type specimen', `<h3>${esc(t.font)}</h3><p>${esc(t.character)}</p><p>${esc(t.bestUses)}</p><p><a href="${url(t.url)}" target="_blank" rel="noopener">See it on Google Fonts</a></p>`) : ''}
-   ${i ? card('Interface study', `<h3>${esc(i.pattern)}</h3><p>${esc(i.reasoning)}</p><p><strong>Try:</strong> ${esc(i.tryIt)}</p>`) : ''}
-   ${o ? card('The open tab', `<h3>${esc(o.name)}</h3><p>${esc(o.what)}</p><p>${esc(o.whyBookmark)}</p><p><a href="${url(o.url)}" target="_blank" rel="noopener">Open it</a> · <span class="muted">${o.verified ? 'reachable ' + esc(o.checkedAt) : 'not verified'}</span></p>`) : ''}
-   ${c.challenge ? card('Tiny challenge', `<p style="font-size:1.1rem">${esc(c.challenge)}</p><label class="chk"><input type="checkbox" data-chk="challenge" ${p.challenge ? 'checked' : ''}> Mark as done</label>`) : ''}
-  </div>`;
+  const c = ed.capsule || {}, w = c.word, s = c.aiSignal, col = c.colour, t = c.type, i = c.interfaceStudy, o = c.openTab, p = prog(ed.slug);
+  const cards = []; let n = 0;
+  const no = () => `<span class="no">${String(++n).padStart(2, '0')}</span>`;
+  const k = (label) => `<div class="kicker">${burst(14)}<span>${label}</span></div>`;
+  const card = (cls, theme, inner) => `<article class="cap ${cls} rv" data-t="${theme}" style="--i:${cards.length}">${inner}</article>`;
+  if (w) cards.push(card('s7 word', 'crimson', `${no()}${k('Word of the day')}<div class="bigword ${w.word.length > 15 ? 'l4' : w.word.length > 11 ? 'l3' : w.word.length > 8 ? 'l2' : ''}">${esc(w.word)}</div><div class="ph"><span class="pos">${esc(w.pos || '')}</span>${esc(w.phonetic)}</div><p>${esc(w.definition)}</p><p class="ex">${esc(w.example)}</p><p><span class="lab">Your turn</span>${esc(w.exercise)}</p><div class="row" style="margin:.2rem 0 0"><button data-act="say" data-w="${esc(w.word)}">🔊 Hear it</button></div>`));
+  if (col) cards.push(card('s5 col', 'home', `<div class="stripes" id="stripes">${col.hexes.map((x) => `<button class="stripe" style="background:${colour(x)};color:${hexInk(colour(x))}" data-act="copyhex" data-hex="${esc(x)}" aria-label="Copy ${esc(x)}"><span>${esc(x)}</span></button>`).join('')}</div><div class="info">${no()}${k('Colour pairing')}<h3>${esc(col.name)}</h3><p>${esc(col.note)}</p><p>${esc(col.application)}</p><p class="muted">${esc(col.accessibility)}</p><div class="row" style="margin:0"><button data-act="swap">Reverse order</button><span class="muted">Tap a stripe to copy its hex</span></div></div>`));
+  if (s) cards.push(card('s8 sig', 'neon', `${no()}${k('AI/ML signal')}<span class="tk">${esc(s.kind)}</span><h3>${esc(s.title)}</h3><p class="muted">${esc(s.feed)} · ${fdate(s.date)}</p><div class="two"><div><span class="lab">What happened</span><p>${esc(s.whatHappened)}</p></div><div><span class="lab">Why it matters</span><p>${esc(s.whyItMatters)}</p></div></div><p class="take"><span class="lab">Takeaway</span>${esc(s.takeaway)}</p><p><a href="${url(s.url)}" target="_blank" rel="noopener">Read the source</a> · <span class="muted">based on a short excerpt</span></p>`));
+  if (t) { loadFont(t.font); const ff = FONT_OK.test(t.font || '') ? `font-family:'${esc(t.font)}','Inter Tight',sans-serif` : ''; cards.push(card('s4 cream', 'home', `${no()}${k('Type specimen')}<div class="aa" style="${ff}">Aa</div><h3 style="${ff}">${esc(t.font)}</h3><p class="pang" style="${ff}">The quick brown fox jumps over the lazy dog.</p><p>${esc(t.character)}</p><p class="muted">${esc(t.bestUses)}</p><p><a href="${url(t.url)}" target="_blank" rel="noopener">See it on Google Fonts</a></p>`)); }
+  if (i) cards.push(card('s4 ui', 'sky', `${no()}${k('Interface study')}<div class="pat">${esc(i.pattern)}</div><p>${esc(i.reasoning)}</p><p class="tryit"><span class="lab">Try it</span>${esc(i.tryIt)}</p>`));
+  if (o) cards.push(card('s4 tab', 'blue', `<div class="chrome"><i></i><i></i><i></i><span class="url">${esc(hostOf(o.url) || o.url)}</span></div><div class="in">${no()}${k('The open tab')}<h3>${esc(o.name)}</h3><p>${esc(o.what)}</p><p>${esc(o.whyBookmark)}</p><p><a class="btn solid" href="${url(o.url)}" target="_blank" rel="noopener">Open it ${arrow}</a></p><p class="muted">${o.verified ? '● reachable on ' + esc(o.checkedAt) : 'not verified'}</p></div>`));
+  if (c.challenge) cards.push(card('s4 chal', 'green', `${no()}${k('Tiny challenge')}<p class="big">${esc(c.challenge)}</p><label class="ring"><input type="checkbox" data-chk="challenge" ${p.challenge ? 'checked' : ''} aria-label="Mark the challenge as done"><span class="rb">${burst(44)}</span></label><span class="muted">${p.challenge ? 'Done. Nicely done.' : 'Tap the ring when you have done it.'}</span>`));
+  return `<div class="capgrid">${cards.join('')}</div>`;
 }
 
 function homeHTML(ed) {
@@ -145,7 +162,7 @@ function homeHTML(ed) {
     <div class="spread" aria-hidden="true"><span>Ideas</span><span>woven</span><span>in</span><span>wonder</span></div></div>
     <p class="lead">A learning magazine with a new edition every two days: scripture, mind, sound, code, systems, design and the art of having less.</p>
     <a class="btn" href="#capsule" data-act="jump" data-to="capsule">Enter ${arrow}</a></div></header>
-  <section class="band tan" id="capsule"><div class="wrap wide"><div class="kicker">${burst(16)}<span>The daily capsule</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Little things worth knowing</h2>${capsuleCards(ed)}<p style="margin-top:1.4rem">${esc(ed.theme || '')}</p></div></section>
+  <section class="band capsule" id="capsule"><div class="wrap wide"><div class="cap-head"><div class="kicker">${burst(16)}<span>The daily capsule</span></div><h2 class="display">Little things<span class="script">worth knowing</span></h2></div>${marquee(ed)}${capsuleCards(ed)}<p class="muted" style="margin-top:1.6rem">${esc(ed.theme || '')}</p></div></section>
   <section class="band cobalt"><div class="wrap wide"><div class="kicker">${burst(16)}<span>The houses</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Seven rooms, seven moods</h2>${tiles(ed)}</div></section>
   <section class="band cream"><div class="wrap"><div class="kicker">${burst(16)}<span>The Dispatch</span></div><h2 class="display" style="margin:.4rem 0 1rem;font-size:clamp(2rem,6vw,4rem)">Six things worth your attention</h2><ol class="heads">${(ed.dispatch?.headlines || []).map((h) => `<li><div><span class="kicker">${esc(H[h.house]?.name || h.house)}</span><b>${esc(h.text)}</b></div></li>`).join('')}</ol><div class="row"><a class="btn" href="#/dispatch">Open the briefing ${arrow}</a></div></div></section>
   <section class="band cobalt cta"><div class="wrap"><div class="bar" style="max-width:420px;margin:0 auto 1rem;color:#fff"><i style="width:${(n / KEYS.length) * 100}%"></i></div><p style="margin:0 auto 1rem">${n} of ${KEYS.length} sections explored in this edition. No deadline, no streaks.</p>${older ? `<p>Catch-up idea: <a href="#/home" data-act="open" data-s="${older.slug}">Edition ${esc(older.slug)}</a> still has ${KEYS.length - seenCount(older.slug)} unexplored sections.</p>` : ''}<h2 class="display" style="font-size:clamp(2.2rem,7vw,5rem);margin:1rem 0">Let's keep wondering</h2><a class="btn" href="#/archive">Open the archive</a></div></section>
@@ -630,7 +647,7 @@ document.addEventListener('click', async (e) => {
   if (act === 'focus') { S.prefs.focus = !S.prefs.focus; save(); const y = scrollY; await render(false); scrollTo(0, y); return; }
   if (act === 'top') { scrollTo({ top: 0, behavior: 'smooth' }); return; }
   if (act === 'copyhex') { try { await navigator.clipboard.writeText(t.dataset.hex); toast(`Copied ${t.dataset.hex}`); } catch { toast(t.dataset.hex); } return; }
-  if (act === 'swap') { $('#pv')?.classList.toggle('swap'); return; }
+  if (act === 'swap') { $('#stripes')?.classList.toggle('rev'); return; }
   if (act === 'say') { try { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(t.dataset.w); u.lang = 'en'; u.rate = .85; speechSynthesis.speak(u); } catch { toast('Speech is not available here'); } return; }
   if (act === 'clipsel') { normBoard(); makeCard('quote', { html: `${esc(selText)}<br><small>— ${esc($('.lesson')?.dataset.title || 'lesson')}</small>` }); save(); $('#clipfab').hidden = true; getSelection()?.removeAllRanges(); toast('Clipped to your board'); return; }
   const ed = await edition(S.cur).catch(() => null);
@@ -672,6 +689,7 @@ document.addEventListener('change', async (e) => {
 document.addEventListener('mouseup', checkSelection);
 document.addEventListener('touchend', checkSelection);
 document.addEventListener('keyup', (e) => { if (e.key === 'Escape') { hidePop(); $('#clipfab') && ($('#clipfab').hidden = true); if (S.prefs.focus) { S.prefs.focus = false; save(); render(false); } } else if (e.key.startsWith('Arrow') && e.shiftKey) checkSelection(); });
+addEventListener('pointermove', (e) => { const c = e.target.closest?.('.cap'); if (c) { const r = c.getBoundingClientRect(); c.style.setProperty('--mx', (e.clientX - r.left) + 'px'); c.style.setProperty('--my', (e.clientY - r.top) + 'px'); } }, { passive: true });
 addEventListener('scroll', onScroll, { passive: true });
 addEventListener('resize', () => applyPrefs(document.body.classList.contains('focus') || !!$('.lesson')));
 addEventListener('hashchange', () => render());
