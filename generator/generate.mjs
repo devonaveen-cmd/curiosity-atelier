@@ -258,7 +258,12 @@ function validateLesson(l, sources) {
     quiz,
     checklist: Array.isArray(l.checklist) ? l.checklist.map(String).slice(0, 8) : [],
     furtherQuestions: Array.isArray(l.furtherQuestions) ? l.furtherQuestions.map(String).slice(0, 4) : [],
-    imagePrompt: str(l.imagePrompt, 15, 'imagePrompt', 300).replace(/[\u0000-\u001f]/g, ' ')
+    imagePrompt: str(l.imagePrompt, 15, 'imagePrompt', 300).replace(/[\u0000-\u001f]/g, ' '),
+    keyIdea: typeof l.keyIdea === 'string' ? l.keyIdea.trim().slice(0, 300) : '',
+    glossary: (Array.isArray(l.glossary) ? l.glossary : [])
+      .map((g) => ({ term: String(g?.term || '').trim().slice(0, 60), definition: String(g?.definition || '').trim().slice(0, 240) }))
+      .filter((g) => g.term.length > 1 && g.definition.length > 8 && String(l.core).toLowerCase().includes(g.term.toLowerCase()))   // a term must really appear in the text
+      .slice(0, 6)
   };
 }
 
@@ -269,7 +274,8 @@ HARD RULES
 2. Factual claims about people, dates, texts, products or research must come from the SOURCES provided. Cite them by id ("S1", "S2"...).
 3. Never invent quotes, citations, URLs, dates, statistics or prices. If sources do not support something, either leave it out or label it "background".
 4. Explain jargon. State prerequisites. Prefer one concrete example over three abstract ones.
-5. Evidence labels: "established" (directly supported by a given source), "inference" (reasonable reconstruction), "debate" (credible interpretations differ), "tradition" (limited or uncertain basis), "background" (general knowledge, not from a source).`;
+5. Evidence labels: "established" (directly supported by a given source), "inference" (reasonable reconstruction), "debate" (credible interpretations differ), "tradition" (limited or uncertain basis), "background" (general knowledge, not from a source).
+6. Text formatting inside text fields: **bold** marks a key term the first time it appears; *italics* mark titles, foreign words and gentle emphasis. Use nothing else: no headings, no lists, no other markdown.`;
 
 const SCHEMA = `{
  "title": "short lesson title",
@@ -283,9 +289,11 @@ const SCHEMA = `{
  "quiz": [{"q":"question","options":["a","b","c","d"],"answer":0,"explanation":"why"}],
  "checklist": ["optional short items, used for buying/decision checklists"],
  "furtherQuestions": ["two good next questions"],
+ "keyIdea": "ONE sentence (max 30 words) that captures the single most important idea of the lesson",
+ "glossary": [{"term":"a term that appears VERBATIM in core","definition":"plain-English definition, max 25 words"}],
  "imagePrompt": "ONE concrete scene to photograph for this lesson: objects, places, textures or materials (15-35 words). Never real people or faces, never text, letters or diagrams."
 }
-Give 3-6 evidence items and exactly 2 quiz questions with 4 distinct options each.`;
+Give 3-6 evidence items, exactly 2 quiz questions with 4 distinct options each, and 3-5 glossary terms.`;
 
 const srcBlock = (sources) => sources.map((s) => `[${s.id}] ${s.title} (${s.url})\n${s.text || s.summary || ''}`).join('\n\n');
 
@@ -293,14 +301,16 @@ function mockLesson(label, sources) {
   const s = sources[0]?.id || null;
   return {
     title: `Mock lesson: ${label}`, hook: 'This is mock content used only for testing the pipeline.',
-    core: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '.repeat(6) + '\n\n' + 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '.repeat(3),
+    core: '**Lorem ipsum** dolor sit amet, consectetur adipiscing *elit*. '.repeat(6) + '\n\n' + 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '.repeat(3),
     context: 'Mock context paragraph for pipeline testing, nothing here is real information.',
     evidence: [{ claim: 'Mock claim supported by the first source.', label: 'established', source: s }, { claim: 'Mock debated claim for UI testing.', label: 'debate', source: null }],
     visual: '[A] --> [B] --> [C]', realWorld: 'Mock real-world connection used to test layout and spacing.',
     exercise: { prompt: 'Mock exercise: write two sentences explaining the topic.', answerHint: 'Compare with the core text.' },
     quiz: [0, 1].map((i) => ({ q: `Mock question ${i + 1} about ${label}?`, options: ['Alpha', 'Beta', 'Gamma', 'Delta'], answer: i, explanation: 'Mock explanation.' })),
     checklist: ['Mock checklist item one', 'Mock checklist item two'], furtherQuestions: ['What would you ask next?', 'Where could you test this?'],
-    imagePrompt: `Still life of objects that represent ${label} on a textured backdrop in soft light`
+    imagePrompt: `Still life of objects that represent ${label} on a textured backdrop in soft light`,
+    keyIdea: 'This is a mock key idea sentence used only to test the pull-quote layout.',
+    glossary: [{ term: 'consectetur', definition: 'A mock glossary term used to test the definition popover.' }, { term: 'Sed do eiusmod', definition: 'Another mock term, shown on the flip card.' }]
   };
 }
 
@@ -324,7 +334,7 @@ async function makeImage(slug, key, scene, style, alt) {
       await fs.writeFile(path.join(dir, `${key}.svg`), svg);
       return { src: `data/img/${slug}/${key}.svg`, alt, prompt: scene, credit: IMG_CREDIT, aiGenerated: true };
     }
-    const prompt = `${scene}. Style: ${style}. ${cfg.imageSuffix}`.slice(0, 900);
+    const prompt = `${scene}. Style: ${style}. ${cfg.imageBase}. ${cfg.imageSuffix}`.slice(0, 900);
     const r = await http(`${CF_BASE}/client/v4/accounts/${CF_ID}/ai/run/${CF_MODEL}`, {
       method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${CF_TOKEN}` },
       body: JSON.stringify({ prompt, steps: Number(E.FLUX_STEPS || 4) })

@@ -56,6 +56,15 @@ Contrast was checked for every theme (body text at least 4.5:1, large headings a
 4. Setup: create a free Cloudflare account, copy your Account ID, create an API token with the "Workers AI" permission, and give both to `bootstrap.sh` (or add repo secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`). Without them the app still works with generated art.
 5. Honesty: AI images of historical subjects are illustrations, not evidence. They are always labelled, and the prompts avoid depicting real people.
 
+## What changed in v2: coherence, typography, interaction
+**One skeleton, eight palettes.** Every module shares the same body face (DM Sans), button language, hero anatomy (kicker, title, script accent line, hook, call to action), numbered section headers, sunburst logo mark, and the same grain and palette tint on every image. Only palette, display typeface, hero layout and a corner token vary.
+
+**Type roles.** CAPS for labels and navigation. Bold for key terms (with a highlighter underline). Italic for titles and emphasis, and for the pull-quote of each lesson's key idea. Dotted underline for glossary terms you can tap. Solid underline for links. A drop cap and small-caps opening line start every lesson. The writer model is told to use `**bold**` and `*italic*` only.
+
+**Interactive elements.** Sticky section index with reading progress and scroll-spy. Tap-to-define glossary terms plus flip cards. Evidence filter by label. Quiz score with retry. Text size and focus mode (Esc exits). Select any lesson text and tap Clip to drop it on the mind board. Collapsible briefings. Palette card with copy-hex and a swap preview. Pronounce button for the word of the day. Challenge checkbox. Edition switcher. Hero parallax (off for reduced-motion users).
+
+Older editions (made before v2) still display; they just lack the key idea, glossary and images until you generate a new edition.
+
 ## Honesty features
 - Evidence labels: established / inference / debate / tradition / background / unverified. "Established" must point at a fetched source id, otherwise it is downgraded.
 - Prices are never generated. Colour contrast and puzzles are computed by code, not the model.
