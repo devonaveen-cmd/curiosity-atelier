@@ -573,8 +573,8 @@
   "imageNote": "Prompts are built as: <lesson imagePrompt> + <house style> + safety suffix. FLUX renders poorly with text, so text and people are excluded.",
   "imageSuffix": "No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
   "cover": {
-    "prompt": "Smooth stones, a jade massage tool and a polished spiral shell scattered on deep blue handmade paper",
-    "style": "tactile still-life photograph, soft directional light, rich cobalt blue paper texture, editorial photography"
+    "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness",
+    "style": "dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain"
   },
-  "imageBase": "shared house look: analogue film grain, tactile materials, soft natural light, muted editorial still-life photography, shallow depth of field"
+  "imageBase": "shared house look: dark moody low-key lighting, deep black shadows, analogue film grain, tactile materials, muted editorial still-life photography, shallow depth of field"
 }

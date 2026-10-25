@@ -12,8 +12,8 @@ const firstSentence = (t) => (String(t).replace(/\*/g, '').match(/^.*?[.!?](\s|$
 
 // key, numeral, name, theme, hero layout
 const HOUSES = [
-  ['theology', 'I', 'Theology', 'oxblood', 'split'], ['mindcraft', 'II', 'Mindcraft', 'sky', 'split'], ['soundroom', 'III', 'Soundroom', 'crimson', 'center'],
-  ['aiml', 'IV', 'AI/ML Fieldnotes', 'neon', 'center'], ['systems', 'V', 'Systems Forge', 'blue', 'center'], ['design', 'VI', 'Design Observatory', 'green', 'split'], ['frugal', '✦', 'Frugal Chic', 'tan', 'split']
+  ['theology', 'I', 'Theology', 'oxblood', 'center'], ['mindcraft', 'II', 'Mindcraft', 'sky', 'center'], ['soundroom', 'III', 'Soundroom', 'crimson', 'center'],
+  ['aiml', 'IV', 'AI/ML Fieldnotes', 'neon', 'center'], ['systems', 'V', 'Systems Forge', 'blue', 'center'], ['design', 'VI', 'Design Observatory', 'green', 'center'], ['frugal', '✦', 'Frugal Chic', 'tan', 'center']
 ];
 const H = Object.fromEntries(HOUSES.map((h) => [h[0], { num: h[1], name: h[2], t: h[3], layout: h[4] }]));
 const KEYS = ['capsule', ...HOUSES.map((h) => h[0]), 'puzzle'];
@@ -141,13 +141,13 @@ function homeHTML(ed) {
   const nav = (prev || next) ? `<span class="nav">${prev ? `<a href="#/home" data-act="open" data-s="${prev.slug}" title="Older edition">◂ ${esc(prev.slug)}</a>` : ''}${next ? `<a href="#/home" data-act="open" data-s="${next.slug}" title="Newer edition">${esc(next.slug)} ▸</a>` : ''}</span>` : '';
   return `<header class="hero center" data-t="home">${imgBox(ed.cover, '', false)}<div class="hero-t">
     <div class="kicker">${burst(16)}<span>Edition ${esc(ed.slug)}</span><i>·</i><span>${fdate(ed.publishedAt)}</span>${nav}</div>
-    <div class="lockup"><h1 class="display wordmark">Curiosity Atelier</h1>
+    <div class="lockup"><h1 class="display wordmark">Curiosity<span class="script">Atelier</span></h1>
     <div class="spread" aria-hidden="true"><span>Ideas</span><span>woven</span><span>in</span><span>wonder</span></div></div>
     <p class="lead">A learning magazine with a new edition every two days: scripture, mind, sound, code, systems, design and the art of having less.</p>
     <a class="btn" href="#capsule" data-act="jump" data-to="capsule">Enter ${arrow}</a></div></header>
-  <section class="band tan" id="capsule"><div class="wrap wide"><div class="kicker" style="color:#22140A">${burst(16)}<span>The daily capsule</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Little things worth knowing</h2>${capsuleCards(ed)}<p style="margin-top:1.4rem">${esc(ed.theme || '')}</p></div></section>
-  <section class="band cobalt"><div class="wrap wide"><div class="kicker" style="color:#fff">${burst(16)}<span>The houses</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Seven rooms, seven moods</h2>${tiles(ed)}</div></section>
-  <section class="band cream"><div class="wrap"><div class="kicker" style="color:#402410">${burst(16)}<span>The Dispatch</span></div><h2 class="display" style="margin:.4rem 0 1rem;font-size:clamp(2rem,6vw,4rem)">Six things worth your attention</h2><ol class="heads">${(ed.dispatch?.headlines || []).map((h) => `<li><div><span class="kicker" style="color:#402410">${esc(H[h.house]?.name || h.house)}</span><b>${esc(h.text)}</b></div></li>`).join('')}</ol><div class="row"><a class="btn" href="#/dispatch">Open the briefing ${arrow}</a></div></div></section>
+  <section class="band tan" id="capsule"><div class="wrap wide"><div class="kicker">${burst(16)}<span>The daily capsule</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Little things worth knowing</h2>${capsuleCards(ed)}<p style="margin-top:1.4rem">${esc(ed.theme || '')}</p></div></section>
+  <section class="band cobalt"><div class="wrap wide"><div class="kicker">${burst(16)}<span>The houses</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Seven rooms, seven moods</h2>${tiles(ed)}</div></section>
+  <section class="band cream"><div class="wrap"><div class="kicker">${burst(16)}<span>The Dispatch</span></div><h2 class="display" style="margin:.4rem 0 1rem;font-size:clamp(2rem,6vw,4rem)">Six things worth your attention</h2><ol class="heads">${(ed.dispatch?.headlines || []).map((h) => `<li><div><span class="kicker">${esc(H[h.house]?.name || h.house)}</span><b>${esc(h.text)}</b></div></li>`).join('')}</ol><div class="row"><a class="btn" href="#/dispatch">Open the briefing ${arrow}</a></div></div></section>
   <section class="band cobalt cta"><div class="wrap"><div class="bar" style="max-width:420px;margin:0 auto 1rem;color:#fff"><i style="width:${(n / KEYS.length) * 100}%"></i></div><p style="margin:0 auto 1rem">${n} of ${KEYS.length} sections explored in this edition. No deadline, no streaks.</p>${older ? `<p>Catch-up idea: <a href="#/home" data-act="open" data-s="${older.slug}">Edition ${esc(older.slug)}</a> still has ${KEYS.length - seenCount(older.slug)} unexplored sections.</p>` : ''}<h2 class="display" style="font-size:clamp(2.2rem,7vw,5rem);margin:1rem 0">Let's keep wondering</h2><a class="btn" href="#/archive">Open the archive</a></div></section>
   <footer class="foot">The Curiosity Atelier · Edition ${esc(ed.slug)}<br>Written by free AI models from cited sources · images are AI illustrations${ed.generator?.failed?.length ? '<br>Missing this time: ' + esc(ed.generator.failed.join(', ')) : ''}</footer>`;
 }
@@ -171,7 +171,7 @@ function puzzleHTML(ed) {
 }
 
 function archiveHTML() {
-  const cards = INDEX.editions.map((e) => `<div class="arch" data-t="${['home', 'blue', 'tan'][e.n % 3]}">${imgBox(e.cover ? { src: e.cover, credit: 'AI illustration' } : null, '', false)}<div class="in"><div class="kicker" style="color:inherit">${burst(14)}<span>Edition ${esc(e.slug)}</span><i>·</i><span>${fdate(e.publishedAt)}</span></div><p style="margin:0">${esc(e.theme)}</p><div class="bar" style="width:100%"><i style="width:${(seenCount(e.slug) / KEYS.length) * 100}%"></i></div><span class="muted">${seenCount(e.slug)} / ${KEYS.length} explored</span><button data-act="open" data-s="${e.slug}">${S.cur === e.slug ? 'Currently open' : 'Open'}</button></div></div>`).join('');
+  const cards = INDEX.editions.map((e) => `<div class="arch" data-t="${['crimson', 'oxblood', 'sky', 'neon', 'blue', 'green', 'tan'][e.n % 7]}">${imgBox(e.cover ? { src: e.cover, credit: 'AI illustration' } : null, '', false)}<div class="in"><div class="kicker" style="color:inherit">${burst(14)}<span>Edition ${esc(e.slug)}</span><i>·</i><span>${fdate(e.publishedAt)}</span></div><p style="margin:0">${esc(e.theme)}</p><div class="bar" style="width:100%"><i style="width:${(seenCount(e.slug) / KEYS.length) * 100}%"></i></div><span class="muted">${seenCount(e.slug)} / ${KEYS.length} explored</span><button data-act="open" data-s="${e.slug}">${S.cur === e.slug ? 'Currently open' : 'Open'}</button></div></div>`).join('');
   const bms = S.bookmarks.map((b) => `<li><a href="#/house/${b.key}" data-act="open" data-s="${b.slug}">${esc(b.title)}</a> <span class="muted">· edition ${esc(b.slug)}</span></li>`).join('') || '<li class="muted">Nothing bookmarked yet.</li>';
   const wr = S.wrong.map((w) => `<li><strong>${esc(w.q)}</strong><br><span class="muted">Answer: ${esc(w.correct)} · edition ${esc(w.slug)}</span></li>`).join('') || '<li class="muted">No missed questions. Or none attempted yet.</li>';
   const notes = Object.entries(S.notes).filter(([, v]) => v).map(([k, v]) => `<li><span class="muted">${esc(k)}</span><br>${esc(v)}</li>`).join('') || '<li class="muted">No notes yet.</li>';
@@ -180,38 +180,373 @@ function archiveHTML() {
   <h2 class="display" style="margin-top:3rem">Your data</h2><p class="muted">Everything lives in this browser. Export a backup now and then.</p><div class="row"><button data-act="export">Export JSON</button><button data-act="import">Import JSON</button><input type="file" id="imp" accept="application/json" hidden></div></div></section>`;
 }
 
-// ---------- mind board ----------
+// ---------- mind board v2 ----------
+// Cards: note, heading, quote, checklist, frame (group), image, link. Rich text (bold/italic/underline/strike/bullets/highlight),
+// colours, sizes, resize, lock, duplicate, undo/redo, zoom + pan, labelled arrows, search, Markdown export. All stored in this browser.
+const CARD_COLORS = [['paper', '#EDE5D4', '#2a1608'], ['butter', '#F3E8A4', '#2a2508'], ['sage', '#C7DEA4', '#1c2414'], ['sky', '#B8CCE0', '#10202e'], ['rose', '#EBB5B0', '#2e1210'], ['ink', '#1c1c1c', '#F6EEED'], ['maroon', '#8B2E44', '#F6EEED'], ['neon', '#EDFF06', '#021121']];
+const HILITES = ['#FFF176', '#B9F6CA', '#FFB3C7', '#A5D8FF'];
+const KIND_LABEL = { note: 'Note', heading: 'Heading', quote: 'Quote', checklist: 'List', frame: 'Frame', image: 'Image', link: 'Link' };
+const RICH = new Set(['note', 'heading', 'quote', 'frame', 'image']);
+const DEF = { note: { w: 230, color: 'paper' }, heading: { w: 300, color: 'ink' }, quote: { w: 270, color: 'ink' }, checklist: { w: 240, color: 'butter' }, frame: { w: 440, h: 300, color: 'ink' }, image: { w: 260, color: 'paper' }, link: { w: 250, color: 'sky' } };
+const BW = 2200, BH = 1500;
+let BSEL = { card: null, link: null }, BCONN = null, HIST = [], HI = -1;
+const bd = () => S.board;
+const cardById = (id) => bd().cards.find((c) => c.id === id);
+const newId = (p = 'c') => p + Date.now().toString(36) + Math.floor(Math.random() * 999).toString(36);
+
+// ----- sanitiser: stored board HTML is untrusted (imports, old data), so only a small safe subset is ever rendered -----
+const OK_TAGS = new Set(['B', 'STRONG', 'I', 'EM', 'U', 'S', 'STRIKE', 'DEL', 'MARK', 'BR', 'DIV', 'P', 'UL', 'OL', 'LI', 'SPAN', 'A', 'SMALL']);
+const DROP_TAGS = new Set(['SCRIPT', 'STYLE', 'IFRAME', 'OBJECT', 'EMBED', 'LINK', 'META', 'SVG', 'MATH', 'TEMPLATE', 'NOSCRIPT']);
+const OK_STYLE = new Set(['background-color', 'color', 'font-weight', 'font-style', 'text-decoration', 'text-decoration-line']);
+function cleanStyle(st) {
+  const out = [];
+  String(st || '').split(';').forEach((d) => {
+    const [k, ...v] = d.split(':'); const key = (k || '').trim().toLowerCase(), val = v.join(':').trim();
+    if (!key || !val || !OK_STYLE.has(key) || !/^[#\w\s(),.%-]+$/.test(val) || /url|expression|javascript/i.test(val)) return;
+    if (key === 'background-color' && /^(transparent|rgba\(0,\s*0,\s*0,\s*0\))$/i.test(val)) return;
+    out.push(`${key}:${val}`);
+  });
+  return out.join(';');
+}
+function sanitize(html) {
+  const doc = new DOMParser().parseFromString('<body>' + (html || '') + '</body>', 'text/html');
+  const walk = (node) => {
+    [...node.childNodes].forEach((ch) => {
+      if (ch.nodeType === 3) return;
+      if (ch.nodeType !== 1) { ch.remove(); return; }
+      const tag = ch.tagName.toUpperCase();
+      if (DROP_TAGS.has(tag)) { ch.remove(); return; }
+      if (!OK_TAGS.has(tag)) { walk(ch); ch.replaceWith(...ch.childNodes); return; }
+      [...ch.attributes].forEach((at) => {
+        const n = at.name.toLowerCase();
+        if (n === 'style') { const s = cleanStyle(at.value); if (s) ch.setAttribute('style', s); else ch.removeAttribute('style'); }
+        else if (!(n === 'href' && tag === 'A' && /^https?:\/\//i.test(at.value))) ch.removeAttribute(at.name);
+      });
+      if (tag === 'A') { if (!ch.getAttribute('href')) { ch.replaceWith(...ch.childNodes); return; } ch.setAttribute('target', '_blank'); ch.setAttribute('rel', 'noopener noreferrer'); }
+      walk(ch);
+    });
+  };
+  walk(doc.body);
+  return doc.body.innerHTML;
+}
+const imgOk = (u) => (/^data:image\/(png|jpe?g|webp|gif);base64,[A-Za-z0-9+/=]+$/.test(u || '') || /^https:\/\/[^\s"'<>]+$/i.test(u || '') ? esc(u) : '');
+
+// ----- data: migrate v1 boards (cards with type/text, links as pairs) -----
+function normBoard() {
+  const b = S.board && typeof S.board === 'object' ? S.board : {};
+  b.cards = (Array.isArray(b.cards) ? b.cards : []).map((c) => c.kind ? c : { id: c.id || newId(), kind: c.type === 'url' ? 'link' : 'note', x: c.x || 30, y: c.y || 30, w: 230, h: null, color: c.type === 'url' ? 'sky' : 'paper', fs: 1, locked: false, url: c.type === 'url' ? c.text : undefined, html: c.type === 'url' ? '' : esc(c.text || '').replace(/\n/g, '<br>') });
+  b.links = (Array.isArray(b.links) ? b.links : []).map((l) => Array.isArray(l) ? { id: newId('l'), a: l[0], b: l[1], label: '', arrow: false } : l).filter((l) => l && l.a && l.b);
+  b.zoom = b.zoom || 1; S.board = b;
+}
+function viewPos() {
+  const b = $('#board'), z = bd().zoom || 1;
+  return b ? { x: Math.round((b.scrollLeft + 40) / z), y: Math.round((b.scrollTop + 40) / z) } : { x: 40, y: 40 };
+}
+function freeSpot(w, h) {   // first spot, scanning from the top-left of the current view, that does not overlap an existing card
+  const p = viewPos(), cs = bd().cards;
+  const hit = (x, y) => cs.some((c) => x < c.x + c.w + 16 && x + w + 16 > c.x && y < c.y + (c.h || 170) + 16 && y + h + 16 > c.y);
+  for (let r = 0; r < 14; r++) for (let k = 0; k < 6; k++) { const x = p.x + k * 260, y = p.y + r * 200; if (x + w < BW && y + h < BH && !hit(x, y)) return { x, y }; }
+  return p;
+}
+function makeCard(kind, o = {}) {
+  const d = DEF[kind] || DEF.note, p = o.x != null ? { x: o.x, y: o.y } : freeSpot(d.w, d.h || 170);
+  const c = { id: newId(), kind, x: p.x, y: p.y, w: d.w, h: d.h || null, color: d.color, fs: 1, locked: false, html: kind === 'heading' ? 'Heading' : kind === 'frame' ? 'Group' : '', ...o };
+  if (kind === 'checklist' && !c.items) c.items = [{ t: '', done: false }];
+  bd().cards.push(c); return c;
+}
+
+// ----- rendering -----
+function cardHTML(c) {
+  const [, bg, fg] = CARD_COLORS.find((x) => x[0] === c.color) || CARD_COLORS[0];
+  const style = `left:${c.x}px;top:${c.y}px;width:${c.w}px;${c.h ? `height:${c.h}px;` : ''}--bgc:${bg};--fgc:${fg};--fs:${[0.85, 1, 1.25][c.fs ?? 1]}`;
+  let body;
+  if (c.kind === 'checklist') body = `<div class="clist">${(c.items || []).map((it, i) => `<label class="ci"><input type="checkbox" data-ci="${i}" ${it.done ? 'checked' : ''}><span contenteditable="true" data-cit="${i}">${esc(it.t)}</span></label>`).join('')}<button class="add" data-b="ci-add" data-id="${c.id}">+ item</button></div>`;
+  else if (c.kind === 'link') body = `<div class="lnk"><small>Link</small><a href="${url(c.url)}" target="_blank" rel="noopener noreferrer">${esc(c.url)}</a></div>`;
+  else if (c.kind === 'image') body = `<img src="${imgOk(c.src)}" alt=""><div class="cap" contenteditable="true" data-cid="${c.id}" data-ph="Caption">${sanitize(c.html)}</div>`;
+  else body = `<div class="cbody" contenteditable="true" data-cid="${c.id}" data-ph="${c.kind === 'heading' ? 'Heading' : c.kind === 'frame' ? 'Group name' : 'Type here…'}">${sanitize(c.html)}</div>`;
+  return `<div class="bc ${c.locked ? 'locked' : ''} ${BSEL.card === c.id ? 'sel' : ''}" data-card="${c.id}" data-kind="${c.kind}" style="${style}"><div class="chead" data-drag="${c.id}"><span>${KIND_LABEL[c.kind] || 'Card'}${c.locked ? ' 🔒' : ''}</span><b data-b="del-id" data-id="${c.id}" title="Delete card">×</b></div>${body}<i class="rsz" data-rsz="${c.id}"></i></div>`;
+}
+function barHTML() {
+  const sw = CARD_COLORS.map(([k, bg]) => `<button class="cs" data-b="color" data-color="${k}" style="background:${bg}" title="Card colour: ${k}" aria-label="Card colour ${k}"></button>`).join('');
+  const hl = HILITES.map((h) => `<button class="cs" data-b="hl" data-v="${h}" data-needs="rich" style="background:${h}" title="Highlight" aria-label="Highlight ${h}"></button>`).join('');
+  return `<div class="bbar" id="bbar">
+  <div class="bg"><small>Add</small><button class="bt" data-b="add" data-kind="note">+ Note</button><button class="bt" data-b="add" data-kind="heading">+ Heading</button><button class="bt" data-b="add" data-kind="checklist">+ List</button><button class="bt" data-b="add" data-kind="frame">+ Frame</button><button class="bt" data-b="img">+ Image</button><input type="file" id="bimg" accept="image/*" hidden></div>
+  <div class="bg"><input type="text" id="bnew" placeholder="Type, or paste a link, then Enter" aria-label="Quick add"><button class="bt" data-b="addtext">Add</button></div>
+  <div class="bg"><small>Text</small><button class="bt" data-b="fmt" data-cmd="bold" data-needs="rich" title="Bold"><b>B</b></button><button class="bt" data-b="fmt" data-cmd="italic" data-needs="rich" title="Italic"><i>I</i></button><button class="bt" data-b="fmt" data-cmd="underline" data-needs="rich" title="Underline"><u>U</u></button><button class="bt" data-b="fmt" data-cmd="strikeThrough" data-needs="rich" title="Strikethrough"><s>S</s></button><button class="bt" data-b="fmt" data-cmd="insertUnorderedList" data-needs="rich" title="Bullet list">•</button></div>
+  <div class="bg"><small>Highlight</small>${hl}<button class="bt" data-b="hl" data-v="clear" data-needs="rich" title="Remove highlight">✕</button></div>
+  <div class="bg"><small>Size</small><button class="bt" data-b="fs" data-d="-1" data-needs="card">A−</button><button class="bt" data-b="fs" data-d="1" data-needs="card">A+</button></div>
+  <div class="bg"><small>Colour</small>${sw}</div>
+  <div class="bg"><button class="bt" data-b="dup" data-needs="card">Duplicate</button><button class="bt" data-b="lock" data-needs="card">Lock</button><button class="bt" data-b="del" data-needs="card">Delete</button></div>
+  <div class="bg"><button class="bt" data-b="conn">Connect</button><span class="lk"><input type="text" id="llabel" placeholder="Label this line" aria-label="Line label"><button class="bt" data-b="larrow">Arrow</button><button class="bt" data-b="ldel">Remove line</button></span></div>
+  <div class="bg"><button class="bt" data-b="undo" title="Undo (Ctrl+Z)">Undo</button><button class="bt" data-b="redo" title="Redo (Ctrl+Shift+Z)">Redo</button></div>
+  <div class="bg"><button class="bt" data-b="zout" title="Zoom out">−</button><span id="zl" class="meta">100%</span><button class="bt" data-b="zin" title="Zoom in">+</button><button class="bt" data-b="fit">Fit</button></div>
+  <div class="bg"><input type="search" id="bsearch" placeholder="Search cards" aria-label="Search cards"><button class="bt" data-b="md" title="Export as Markdown">Export .md</button></div>
+  </div>`;
+}
 function boardHTML() {
-  const B = S.board;
-  return `<section class="sec" style="min-height:80vh"><div class="wrap wide"><div class="kicker">${burst(16)}<span>Mind board</span></div><h1 class="display" style="margin:.5rem 0 1rem">Where curiosity gets messy</h1>
-  <div class="row"><input id="bnew" placeholder="Paste a thought, quote or URL" style="flex:1;min-width:200px"><button data-act="badd">Add card</button><button data-act="bconn" class="${S.connect ? 'on' : ''}">${S.connect ? 'Pick two cards…' : 'Connect cards'}</button></div>
-  <div class="board" id="board"><div class="canvas" id="canvas"><svg id="lines"></svg>
-  ${B.cards.map((c) => `<div class="bc ${S.connect === c.id ? 'pick' : ''}" data-card="${c.id}" style="left:${c.x}px;top:${c.y}px"><div class="chead" data-drag="${c.id}"><span>${esc(c.type)}</span><b data-act="bdel" data-id="${c.id}" title="Delete">×</b></div><div class="cbody" ${c.type === 'url' ? '' : 'contenteditable="true"'} data-cid="${c.id}">${c.type === 'url' ? `<a href="${url(c.text)}" target="_blank" rel="noopener">${esc(c.text)}</a>` : esc(c.text)}</div></div>`).join('')}
-  </div></div><p class="muted">Drag by the dark bar. Tap a line to remove a connection. Select any text in a lesson and tap "Clip" to drop it here. Cards stay private in this browser.</p></div></section>`;
+  return `<section class="sec" style="min-height:80vh"><div class="wrap wide"><div class="kicker">${burst(16)}<span>Mind board</span></div><h1 class="display" style="margin:.4rem 0 .2rem;font-size:clamp(2rem,5vw,3.6rem)">Where curiosity gets messy</h1>${barHTML()}<div class="board" id="board"><div class="zw" id="zw"><div class="canvas" id="canvas"></div></div></div><p class="muted hint">Double-click empty space to add a note. Drag a card by its top bar, resize from the corner, and select text to bold, italicise or highlight it. Shortcuts: Delete, Ctrl+D duplicate, Ctrl+Z undo, Esc deselect. Select text in any lesson and tap Clip to drop it here. Everything stays private in this browser.</p></div></section>`;
+}
+function paintBoard() {
+  const cv = $('#canvas'); if (!cv) return;
+  cv.innerHTML = `<svg id="lines"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--accent)"/></marker></defs></svg>` + bd().cards.map(cardHTML).join('');
+  applyZoom(); drawLines(); updBar(); applySearch();
+}
+function repaintCard(id, focusIdx) {
+  const c = cardById(id), el = $(`[data-card="${id}"]`); if (!c || !el) return paintBoard();
+  el.outerHTML = cardHTML(c); drawLines();
+  if (focusIdx != null) $(`[data-card="${id}"] [data-cit="${focusIdx}"]`)?.focus();
+}
+function applyCardStyle(c) {
+  const el = $(`[data-card="${c.id}"]`); if (!el) return;
+  const [, bg, fg] = CARD_COLORS.find((x) => x[0] === c.color) || CARD_COLORS[0];
+  el.style.setProperty('--bgc', bg); el.style.setProperty('--fgc', fg); el.style.setProperty('--fs', [0.85, 1, 1.25][c.fs ?? 1]);
+  drawLines();
+}
+const rectOf = (id) => { const e = $(`[data-card="${id}"]`); return e ? { x: e.offsetLeft, y: e.offsetTop, w: e.offsetWidth, h: e.offsetHeight } : null; };
+function edge(r, tx, ty) {
+  const cx = r.x + r.w / 2, cy = r.y + r.h / 2, dx = tx - cx, dy = ty - cy;
+  if (!dx && !dy) return [cx, cy];
+  const t = Math.min((r.w / 2) / Math.abs(dx || 1e-9), (r.h / 2) / Math.abs(dy || 1e-9));
+  return [cx + dx * t, cy + dy * t];
 }
 function drawLines() {
   const svg = $('#lines'); if (!svg) return;
-  const c = (id) => { const e = $(`[data-card="${id}"]`); return e ? [e.offsetLeft + e.offsetWidth / 2, e.offsetTop + e.offsetHeight / 2] : null; };
-  svg.innerHTML = S.board.links.map((l, i) => { const a = c(l[0]), b = c(l[1]); if (!a || !b) return ''; const d = `x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}"`; return `<line ${d}/><line class="hit" data-link="${i}" ${d}/>`; }).join('');
+  const defs = svg.querySelector('defs')?.outerHTML || '';
+  svg.innerHTML = defs + bd().links.map((l) => {
+    const a = rectOf(l.a), b = rectOf(l.b); if (!a || !b) return '';
+    const ac = [a.x + a.w / 2, a.y + a.h / 2], bc = [b.x + b.w / 2, b.y + b.h / 2], p1 = edge(a, bc[0], bc[1]), p2 = edge(b, ac[0], ac[1]);
+    const d = `M${p1[0]} ${p1[1]}L${p2[0]} ${p2[1]}`, mx = (p1[0] + p2[0]) / 2, my = (p1[1] + p2[1]) / 2;
+    return `<path class="ln ${BSEL.link === l.id ? 'sel' : ''}" d="${d}" ${l.arrow ? 'marker-end="url(#ah)"' : ''}/><path class="hit" data-link="${l.id}" d="${d}"/>${l.label ? `<text x="${mx}" y="${my - 7}">${esc(l.label)}</text>` : ''}`;
+  }).join('');
+}
+function applyZoom() {
+  const z = bd().zoom || 1, cv = $('#canvas'), zw = $('#zw'); if (!cv) return;
+  cv.style.transform = `scale(${z})`; zw.style.width = BW * z + 'px'; zw.style.height = BH * z + 'px';
+  const l = $('#zl'); if (l) l.textContent = Math.round(z * 100) + '%';
+}
+function setZoom(z) { bd().zoom = Math.max(0.4, Math.min(1.8, Math.round(z * 100) / 100)); applyZoom(); save(); }
+function fitZoom() {
+  const b = $('#board'); if (!b || !bd().cards.length) return setZoom(1);
+  const mx = Math.max(...bd().cards.map((c) => c.x + c.w)) + 60, my = Math.max(...bd().cards.map((c) => c.y + (c.h || 220))) + 60;
+  setZoom(Math.min(1.2, b.clientWidth / mx, b.clientHeight / my)); b.scrollTo(0, 0);
+}
+function applySearch() {
+  const q = ($('#bsearch')?.value || '').trim().toLowerCase();
+  document.querySelectorAll('.bc').forEach((e) => e.classList.toggle('dim', !!q && !e.innerText.toLowerCase().includes(q)));
+}
+function updBar() {
+  const bar = $('#bbar'); if (!bar) return;
+  const c = BSEL.card && cardById(BSEL.card), l = BSEL.link && bd().links.find((x) => x.id === BSEL.link);
+  bar.classList.toggle('haslink', !!l);
+  bar.querySelectorAll('[data-needs=card]').forEach((e) => e.classList.toggle('off', !c));
+  bar.querySelectorAll('[data-needs=rich]').forEach((e) => e.classList.toggle('off', !(c && RICH.has(c.kind))));
+  bar.querySelectorAll('.cs[data-color]').forEach((e) => { e.classList.toggle('on', !!c && c.color === e.dataset.color); e.classList.toggle('off', !c); });
+  bar.querySelector('[data-b=lock]')?.classList.toggle('on', !!(c && c.locked));
+  const cn = bar.querySelector('[data-b=conn]');
+  if (cn) { cn.classList.toggle('on', !!BCONN); cn.textContent = BCONN ? (BCONN === 'pending' ? 'Pick first card…' : 'Pick second card…') : 'Connect'; }
+  bar.querySelector('[data-b=undo]')?.classList.toggle('off', HI <= 0);
+  bar.querySelector('[data-b=redo]')?.classList.toggle('off', HI >= HIST.length - 1);
+  if (l) { const inp = $('#llabel'); if (inp && document.activeElement !== inp) inp.value = l.label || ''; bar.querySelector('[data-b=larrow]')?.classList.toggle('on', !!l.arrow); }
+}
+function select(card, link) {
+  BSEL = { card: card ?? null, link: link ?? null };
+  document.querySelectorAll('.bc').forEach((e) => e.classList.toggle('sel', e.dataset.card === BSEL.card));
+  drawLines(); updBar();
+}
+
+// ----- history -----
+function snap() {
+  const s = JSON.stringify(bd());
+  if (HIST[HI] === s) { updBar(); return; }
+  HIST = HIST.slice(0, HI + 1); HIST.push(s); if (HIST.length > 60) HIST.shift(); HI = HIST.length - 1; save(); updBar();
+}
+function restore(i) { const z = bd().zoom; HI = i; S.board = JSON.parse(HIST[HI]); S.board.zoom = z; BSEL = { card: null, link: null }; paintBoard(); save(); }
+const undo = () => { if (HI > 0) restore(HI - 1); };
+const redo = () => { if (HI < HIST.length - 1) restore(HI + 1); };
+
+// ----- actions -----
+function removeCard(id) { bd().cards = bd().cards.filter((c) => c.id !== id); bd().links = bd().links.filter((l) => l.a !== id && l.b !== id); BSEL = { card: null, link: null }; snap(); paintBoard(); }
+function removeLink(id) { bd().links = bd().links.filter((l) => l.id !== id); BSEL = { card: null, link: null }; snap(); paintBoard(); }
+function focusCard(id) { const el = $(`[data-card="${id}"]`); (el?.querySelector('[data-cid]') || el?.querySelector('[data-cit]'))?.focus(); }
+function addFromInput() {
+  const i = $('#bnew'), t = (i?.value || '').trim(); if (!t) return;
+  const c = /^https?:\/\/\S+$/i.test(t) ? makeCard('link', { url: t }) : makeCard('note', { html: esc(t).replace(/\n/g, '<br>') });
+  i.value = ''; snap(); BSEL.card = c.id; paintBoard();
+}
+function addImage(file) {
+  if (!file || !/^image\//.test(file.type)) return;
+  const fr = new FileReader();
+  fr.onload = () => {
+    const im = new Image();
+    im.onload = () => {
+      const k = Math.min(1, 900 / im.width), cv = document.createElement('canvas'); cv.width = Math.round(im.width * k); cv.height = Math.round(im.height * k);
+      cv.getContext('2d').drawImage(im, 0, 0, cv.width, cv.height);
+      const c = makeCard('image', { src: cv.toDataURL('image/jpeg', 0.82) }); snap(); BSEL.card = c.id; paintBoard(); toast('Image added');
+    };
+    im.src = fr.result;
+  };
+  fr.readAsDataURL(file);
+}
+function editorFor(c) {
+  const el = $(`[data-card="${c.id}"] [data-cid]`); if (!el) return null;
+  const sel = getSelection();
+  if (!(sel && sel.rangeCount && el.contains(sel.anchorNode)) || sel.isCollapsed) { el.focus(); document.execCommand('selectAll'); }   // nothing selected: format the whole card
+  return el;
+}
+function fmt(cmd, c) {
+  const el = editorFor(c); if (!el) return;
+  document.execCommand('styleWithCSS', false, true); document.execCommand(cmd);
+  el.dispatchEvent(new Event('input', { bubbles: true })); snap();
+}
+function highlight(v, c) {
+  const el = editorFor(c); if (!el) return;
+  document.execCommand('styleWithCSS', false, true);
+  if (!document.execCommand('hiliteColor', false, v === 'clear' ? 'transparent' : v)) document.execCommand('backColor', false, v === 'clear' ? 'transparent' : v);
+  el.dispatchEvent(new Event('input', { bubbles: true })); snap();
+}
+function pickConn(id) {
+  if (BCONN === 'pending') { BCONN = id; updBar(); return; }
+  if (BCONN && BCONN !== id) {
+    if (!bd().links.some((l) => (l.a === BCONN && l.b === id) || (l.a === id && l.b === BCONN))) {
+      const l = { id: newId('l'), a: BCONN, b: id, label: '', arrow: true }; bd().links.push(l); BCONN = null; snap(); select(null, l.id); $('#llabel')?.focus(); return;
+    }
+    toast('Those cards are already connected');
+  }
+  BCONN = null; updBar();
+}
+function htmlToMd(html) {
+  const doc = new DOMParser().parseFromString('<body>' + sanitize(html) + '</body>', 'text/html');
+  const w = (n) => [...n.childNodes].map((x) => {
+    if (x.nodeType === 3) return x.textContent; if (x.nodeType !== 1) return '';
+    const t = x.tagName, inner = w(x), st = x.getAttribute('style') || '';
+    if (t === 'BR') return '\n'; if (t === 'B' || t === 'STRONG') return `**${inner}**`; if (t === 'I' || t === 'EM') return `*${inner}*`;
+    if (t === 'S' || t === 'STRIKE' || t === 'DEL') return `~~${inner}~~`; if (t === 'U') return `<u>${inner}</u>`;
+    if (t === 'MARK' || /background/.test(st)) return `==${inner}==`; if (t === 'LI') return `- ${inner}\n`;
+    if (t === 'UL' || t === 'OL') return '\n' + inner; if (t === 'DIV' || t === 'P') return inner + '\n';
+    if (t === 'A') return `[${inner}](${x.getAttribute('href')})`; return inner;
+  }).join('');
+  return w(doc.body).replace(/\n{3,}/g, '\n\n').trim();
+}
+function exportMd() {
+  const cards = [...bd().cards].sort((a, b) => a.y - b.y || a.x - b.x);
+  const label = (c) => (c.kind === 'checklist' ? (c.items?.[0]?.t || 'List') : c.kind === 'link' ? c.url : htmlToMd(c.html).split('\n')[0] || KIND_LABEL[c.kind]).slice(0, 60);
+  let md = `# Mind board\n\n_Exported ${new Date().toISOString().slice(0, 10)}_\n\n`;
+  cards.forEach((c) => {
+    if (c.kind === 'heading') md += `## ${htmlToMd(c.html)}\n\n`;
+    else if (c.kind === 'frame') md += `### ▭ ${htmlToMd(c.html)}\n\n`;
+    else if (c.kind === 'quote') md += htmlToMd(c.html).split('\n').map((x) => `> ${x}`).join('\n') + '\n\n';
+    else if (c.kind === 'checklist') md += (c.items || []).map((i) => `- [${i.done ? 'x' : ' '}] ${i.t}`).join('\n') + '\n\n';
+    else if (c.kind === 'link') md += `<${c.url}>\n\n`;
+    else if (c.kind === 'image') md += `![image](embedded in board)${htmlToMd(c.html) ? `\n_${htmlToMd(c.html)}_` : ''}\n\n`;
+    else md += htmlToMd(c.html) + '\n\n';
+  });
+  if (bd().links.length) {
+    const byId = Object.fromEntries(cards.map((c) => [c.id, c]));
+    md += '## Connections\n\n' + bd().links.filter((l) => byId[l.a] && byId[l.b]).map((l) => `- **${label(byId[l.a])}** ${l.arrow ? '→' : '—'} **${label(byId[l.b])}**${l.label ? ` (${l.label})` : ''}`).join('\n') + '\n';
+  }
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([md], { type: 'text/markdown' })); a.download = `mind-board-${new Date().toISOString().slice(0, 10)}.md`; a.click(); toast('Exported as Markdown');
+}
+function barAction(t) {
+  const a = t.dataset.b, c = BSEL.card && cardById(BSEL.card), l = BSEL.link && bd().links.find((x) => x.id === BSEL.link);
+  if (a === 'add') { const n = makeCard(t.dataset.kind); snap(); BSEL.card = n.id; paintBoard(); focusCard(n.id); }
+  else if (a === 'img') $('#bimg').click();
+  else if (a === 'addtext') addFromInput();
+  else if (a === 'fmt' && c && RICH.has(c.kind)) fmt(t.dataset.cmd, c);
+  else if (a === 'hl' && c && RICH.has(c.kind)) highlight(t.dataset.v, c);
+  else if (a === 'fs' && c) { c.fs = Math.max(0, Math.min(2, (c.fs ?? 1) + Number(t.dataset.d))); applyCardStyle(c); snap(); }
+  else if (a === 'color' && c) { c.color = t.dataset.color; applyCardStyle(c); snap(); }
+  else if (a === 'dup' && c) { const n = { ...JSON.parse(JSON.stringify(c)), id: newId(), x: c.x + 30, y: c.y + 30, locked: false }; bd().cards.push(n); snap(); BSEL.card = n.id; paintBoard(); }
+  else if (a === 'lock' && c) { c.locked = !c.locked; snap(); repaintCard(c.id); updBar(); }
+  else if (a === 'del' && c) removeCard(c.id);
+  else if (a === 'conn') { BCONN = BCONN ? null : 'pending'; updBar(); }
+  else if (a === 'larrow' && l) { l.arrow = !l.arrow; snap(); drawLines(); updBar(); }
+  else if (a === 'ldel' && l) removeLink(l.id);
+  else if (a === 'undo') undo(); else if (a === 'redo') redo();
+  else if (a === 'zin') setZoom((bd().zoom || 1) + 0.1); else if (a === 'zout') setZoom((bd().zoom || 1) - 0.1); else if (a === 'fit') fitZoom();
+  else if (a === 'md') exportMd();
 }
 function wireBoard() {
-  const board = $('#board'); if (!board) return;
-  drawLines();
-  board.addEventListener('pointerdown', (e) => {
-    const h = e.target.closest('[data-drag]'); if (!h || e.target.closest('[data-act]')) return;
-    const el = h.parentElement, c = S.board.cards.find((x) => x.id === h.dataset.drag);
-    const sx = e.clientX, sy = e.clientY, ox = c.x, oy = c.y;
-    h.setPointerCapture(e.pointerId);
-    const mv = (ev) => { c.x = Math.max(0, ox + ev.clientX - sx); c.y = Math.max(0, oy + ev.clientY - sy); el.style.left = c.x + 'px'; el.style.top = c.y + 'px'; drawLines(); };
-    const up = () => { h.removeEventListener('pointermove', mv); h.removeEventListener('pointerup', up); save(); };
-    h.addEventListener('pointermove', mv); h.addEventListener('pointerup', up);
+  const board = $('#board'), bar = $('#bbar'); if (!board) return;
+  normBoard(); HIST = [JSON.stringify(bd())]; HI = 0; BSEL = { card: null, link: null }; BCONN = null;
+  paintBoard();
+  // toolbar: keep the text selection inside the card while clicking toolbar buttons
+  bar.addEventListener('mousedown', (e) => { if (e.target.closest('button')) e.preventDefault(); });
+  bar.addEventListener('click', (e) => { const t = e.target.closest('[data-b]'); if (t) barAction(t); });
+  bar.addEventListener('keydown', (e) => { if (e.key === 'Enter' && e.target.id === 'bnew') { e.preventDefault(); addFromInput(); } });
+  bar.addEventListener('input', (e) => {
+    if (e.target.id === 'bsearch') applySearch();
+    if (e.target.id === 'llabel') { const l = bd().links.find((x) => x.id === BSEL.link); if (l) { l.label = e.target.value; drawLines(); save(); } }
   });
-  board.addEventListener('input', (e) => { const b = e.target.closest('[data-cid]'); if (!b) return; const c = S.board.cards.find((x) => x.id === b.dataset.cid); if (c) { c.text = b.innerText; save(); } });
+  bar.addEventListener('change', (e) => { if (e.target.id === 'llabel') snap(); if (e.target.id === 'bimg') { addImage(e.target.files[0]); e.target.value = ''; } });
+  board.addEventListener('wheel', (e) => { if (e.ctrlKey || e.metaKey) { e.preventDefault(); setZoom((bd().zoom || 1) * (e.deltaY < 0 ? 1.1 : 0.9)); } }, { passive: false });
+  // pointer: select, drag, resize, pan
+  board.addEventListener('pointerdown', (e) => {
+    const z = bd().zoom || 1, card = e.target.closest('.bc'), id = card?.dataset.card;
+    const rs = e.target.closest('[data-rsz]'), dg = e.target.closest('[data-drag]');
+    if (id && !e.target.closest('[data-b="del-id"]') && !BCONN) select(id, null);
+    if (rs) {
+      const c = cardById(id), sx = e.clientX, sy = e.clientY, w0 = c.w, h0 = c.h || card.offsetHeight;
+      rs.setPointerCapture(e.pointerId);
+      const mv = (ev) => { c.w = Math.max(150, Math.round(w0 + (ev.clientX - sx) / z)); c.h = Math.max(70, Math.round(h0 + (ev.clientY - sy) / z)); card.style.width = c.w + 'px'; card.style.height = c.h + 'px'; drawLines(); };
+      const up = () => { rs.removeEventListener('pointermove', mv); rs.removeEventListener('pointerup', up); snap(); };
+      rs.addEventListener('pointermove', mv); rs.addEventListener('pointerup', up); e.preventDefault(); return;
+    }
+    if (dg && !e.target.closest('[data-b]')) {
+      const c = cardById(id); if (!c || c.locked) return;
+      const sx = e.clientX, sy = e.clientY, ox = c.x, oy = c.y; let moved = false;
+      dg.setPointerCapture(e.pointerId);
+      const mv = (ev) => { moved = true; c.x = Math.max(0, Math.min(BW - c.w, Math.round(ox + (ev.clientX - sx) / z))); c.y = Math.max(0, Math.min(BH - 60, Math.round(oy + (ev.clientY - sy) / z))); card.style.left = c.x + 'px'; card.style.top = c.y + 'px'; drawLines(); };
+      const up = () => { dg.removeEventListener('pointermove', mv); dg.removeEventListener('pointerup', up); if (moved) snap(); };
+      dg.addEventListener('pointermove', mv); dg.addEventListener('pointerup', up); return;
+    }
+    if (!card && ['canvas', 'zw', 'board', 'lines'].includes(e.target.id) && e.pointerType === 'mouse') {   // empty space: deselect + pan
+      if (!BCONN) select(null, null);
+      const sx = e.clientX, sy = e.clientY, l0 = board.scrollLeft, t0 = board.scrollTop;
+      board.setPointerCapture(e.pointerId);
+      const mv = (ev) => { board.scrollLeft = l0 - (ev.clientX - sx); board.scrollTop = t0 - (ev.clientY - sy); };
+      const up = () => { board.removeEventListener('pointermove', mv); board.removeEventListener('pointerup', up); };
+      board.addEventListener('pointermove', mv); board.addEventListener('pointerup', up);
+    }
+  });
+  board.addEventListener('dblclick', (e) => {
+    if (!['canvas', 'zw', 'board', 'lines'].includes(e.target.id)) return;
+    const z = bd().zoom || 1, r = board.getBoundingClientRect();
+    const c = makeCard('note', { x: Math.round((e.clientX - r.left + board.scrollLeft) / z), y: Math.round((e.clientY - r.top + board.scrollTop) / z) });
+    snap(); BSEL.card = c.id; paintBoard(); focusCard(c.id);
+  });
+  board.addEventListener('click', (e) => {
+    const del = e.target.closest('[data-b="del-id"]'); if (del) { removeCard(del.dataset.id); return; }
+    const add = e.target.closest('[data-b="ci-add"]'); if (add) { const c = cardById(add.dataset.id); c.items.push({ t: '', done: false }); snap(); repaintCard(c.id, c.items.length - 1); return; }
+    const ln = e.target.closest('[data-link]'); if (ln) { select(null, ln.dataset.link); $('#llabel')?.focus(); return; }
+    const card = e.target.closest('.bc'); if (card && BCONN) pickConn(card.dataset.card);
+  });
+  board.addEventListener('input', (e) => {
+    const cb = e.target.closest('[data-cid]'); if (cb) { const c = cardById(cb.dataset.cid); if (c) { c.html = sanitize(cb.innerHTML); save(); } return; }
+    const it = e.target.closest('[data-cit]'); if (it) { const c = cardById(it.closest('.bc').dataset.card); if (c) { c.items[Number(it.dataset.cit)].t = it.innerText.replace(/\n/g, ' '); save(); } }
+  });
+  board.addEventListener('change', (e) => { const ck = e.target.closest('[data-ci]'); if (ck) { const c = cardById(ck.closest('.bc').dataset.card); c.items[Number(ck.dataset.ci)].done = ck.checked; snap(); } });
+  board.addEventListener('focusout', (e) => { if (e.target.closest('[data-cid],[data-cit]')) snap(); });
+  board.addEventListener('keydown', (e) => {
+    const it = e.target.closest('[data-cit]'); if (!it) return;
+    const c = cardById(it.closest('.bc').dataset.card), i = Number(it.dataset.cit);
+    if (e.key === 'Enter') { e.preventDefault(); c.items.splice(i + 1, 0, { t: '', done: false }); snap(); repaintCard(c.id, i + 1); }
+    else if (e.key === 'Backspace' && !it.innerText.trim() && c.items.length > 1) { e.preventDefault(); c.items.splice(i, 1); snap(); repaintCard(c.id, Math.max(0, i - 1)); }
+  });
 }
-const addCard = (text, x, y) => { const t = text.trim(); if (!t) return; const n = S.board.cards.length; S.board.cards.push({ id: 'c' + Date.now() + Math.floor(Math.random() * 99), type: /^https?:\/\//i.test(t) ? 'url' : 'note', text: t, x: x ?? 30 + (n % 4) * 240, y: y ?? 30 + Math.floor(n / 4) * 170 }); save(); };
+document.addEventListener('keydown', (e) => {   // board shortcuts (only on the board, and never while typing)
+  if (!$('#board')) return;
+  if (e.key === 'Escape') { BCONN = null; select(null, null); return; }
+  if (e.target.closest?.('input,textarea,[contenteditable="true"]')) return;
+  const mod = e.ctrlKey || e.metaKey, k = e.key.toLowerCase();
+  if ((e.key === 'Delete' || e.key === 'Backspace') && BSEL.card) { e.preventDefault(); removeCard(BSEL.card); }
+  else if ((e.key === 'Delete' || e.key === 'Backspace') && BSEL.link) { e.preventDefault(); removeLink(BSEL.link); }
+  else if (mod && k === 'd' && BSEL.card) { e.preventDefault(); const c = cardById(BSEL.card), n = { ...JSON.parse(JSON.stringify(c)), id: newId(), x: c.x + 30, y: c.y + 30, locked: false }; bd().cards.push(n); snap(); BSEL.card = n.id; paintBoard(); }
+  else if (mod && k === 'z') { e.preventDefault(); e.shiftKey ? redo() : undo(); }
+  else if (mod && k === 'y') { e.preventDefault(); redo(); }
+});
 
 // ---------- routing & render ----------
-const THEME_FOR = { home: 'home', houses: 'home', dispatch: 'blue', puzzle: 'tan', board: 'tan', archive: 'home' };
+const THEME_FOR = { home: 'home', houses: 'home', dispatch: 'blue', puzzle: 'tan', board: 'home', archive: 'home' };
 let io;
 function reveal() {
   io?.disconnect();
@@ -297,7 +632,7 @@ document.addEventListener('click', async (e) => {
   if (act === 'copyhex') { try { await navigator.clipboard.writeText(t.dataset.hex); toast(`Copied ${t.dataset.hex}`); } catch { toast(t.dataset.hex); } return; }
   if (act === 'swap') { $('#pv')?.classList.toggle('swap'); return; }
   if (act === 'say') { try { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(t.dataset.w); u.lang = 'en'; u.rate = .85; speechSynthesis.speak(u); } catch { toast('Speech is not available here'); } return; }
-  if (act === 'clipsel') { addCard(`“${selText}” — ${$('.lesson')?.dataset.title || 'lesson'}`); $('#clipfab').hidden = true; getSelection()?.removeAllRanges(); toast('Clipped to your board'); return; }
+  if (act === 'clipsel') { normBoard(); makeCard('quote', { html: `${esc(selText)}<br><small>— ${esc($('.lesson')?.dataset.title || 'lesson')}</small>` }); save(); $('#clipfab').hidden = true; getSelection()?.removeAllRanges(); toast('Clipped to your board'); return; }
   const ed = await edition(S.cur).catch(() => null);
   if (act === 'quiz' && ed) {
     const h = ed.houses[t.dataset.k], qi = Number(t.dataset.q), oi = Number(t.dataset.o), q = h.quiz[qi], y = scrollY;
@@ -311,7 +646,7 @@ document.addEventListener('click', async (e) => {
     if (i >= 0) S.bookmarks.splice(i, 1); else S.bookmarks.push({ slug: ed.slug, key: t.dataset.k, title: ed.houses[t.dataset.k].title });
     save(); await render(false); scrollTo(0, y);
   } else if (act === 'clip' && ed) {
-    const h = ed.houses[t.dataset.k]; addCard(`${h.title}: ${h.hook}`); const u = h.sources?.[0]?.url; if (u) addCard(u); toast('Clipped to your board');
+    const h = ed.houses[t.dataset.k]; normBoard(); makeCard('quote', { html: `<strong>${esc(h.title)}</strong><br>${esc(h.hook)}` }); const u = h.sources?.[0]?.url; if (u) makeCard('link', { url: u }); save(); toast('Clipped to your board');
   } else if (act === 'dmode') { S.dmode = t.dataset.m; save(); render(false); }
   else if (act === 'open') { S.cur = t.dataset.s; save(); if (!t.getAttribute('href') || t.getAttribute('href') === '#/home') location.hash = '#/home'; render(); }
   else if (act === 'puz' && ed) {
@@ -324,25 +659,15 @@ document.addEventListener('click', async (e) => {
     $('#pmsg').textContent = ok ? '✔ Correct. Nicely done.' : 'Not yet. Look again, or read the explanation.';
     if (ok) { prog(ed.slug).puzzle = true; save(); }
   } else if (act === 'reveal') { $('#pexp').hidden = false; }
-  else if (act === 'badd') { const i = $('#bnew'); addCard(i.value); render(false); }
-  else if (act === 'bconn') { S.connect = S.connect ? null : 'pending'; render(false); }
-  else if (act === 'bdel') { const id = t.dataset.id; S.board.cards = S.board.cards.filter((c) => c.id !== id); S.board.links = S.board.links.filter((l) => !l.includes(id)); save(); render(false); }
   else if (act === 'export') {
     const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(S, null, 1)], { type: 'application/json' })); a.download = `atelier-backup-${new Date().toISOString().slice(0, 10)}.json`; a.click();
   } else if (act === 'import') $('#imp').click();
-});
-document.addEventListener('click', (e) => {   // board connect mode: pick two cards
-  const card = e.target.closest('[data-card]'); if (!card || !S.connect || e.target.closest('[data-act]') || e.target.closest('[data-drag]')) return;
-  const id = card.dataset.card;
-  if (S.connect === 'pending') { S.connect = id; render(false); return; }
-  if (S.connect !== id && !S.board.links.some((l) => l.includes(id) && l.includes(S.connect))) S.board.links.push([S.connect, id]);
-  S.connect = null; save(); render(false);
 });
 document.addEventListener('input', (e) => { const n = e.target.closest('[data-note]'); if (n) { S.notes[`${S.cur}/${n.dataset.note}`] = n.value; save(); } });
 document.addEventListener('change', async (e) => {
   if (e.target.matches('[data-chk]')) { prog(S.cur)[e.target.dataset.chk] = e.target.checked; save(); toast(e.target.checked ? 'Nice. Marked as done' : 'Unmarked'); return; }
   if (e.target.id !== 'imp' || !e.target.files[0]) return;
-  try { const j = JSON.parse(await e.target.files[0].text()); if (j && typeof j === 'object' && confirm('Replace your current data with this backup?')) { S = { ...S, ...j }; await kvSet('state', S); render(); } } catch { alert('That file could not be read.'); }
+  try { const j = JSON.parse(await e.target.files[0].text()); if (j && typeof j === 'object' && confirm('Replace your current data with this backup?')) { S = { ...S, ...j }; normBoard(); await kvSet('state', S); render(); } } catch { alert('That file could not be read.'); }
 });
 document.addEventListener('mouseup', checkSelection);
 document.addEventListener('touchend', checkSelection);
@@ -353,7 +678,7 @@ addEventListener('hashchange', () => render());
 
 // ---------- boot ----------
 (async () => {
-  const saved = await kvGet('state'); if (saved) S = { ...S, ...saved, prefs: { size: 1, focus: false, ...(saved.prefs || {}) } }; S.connect = null;
+  const saved = await kvGet('state'); if (saved) S = { ...S, ...saved, prefs: { size: 1, focus: false, ...(saved.prefs || {}) } }; S.connect = null; normBoard();
   document.body.insertAdjacentHTML('beforeend', '<div id="pop" hidden role="dialog"></div><div id="clipfab" hidden><button data-act="clipsel" onmousedown="event.preventDefault()">Clip to board</button></div><div id="toast" role="status" aria-live="polite"></div>');
   try { INDEX = await (await fetch('data/index.json')).json(); } catch { INDEX = { editions: [] }; }
   await render();

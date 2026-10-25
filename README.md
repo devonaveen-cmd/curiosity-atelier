@@ -32,22 +32,21 @@ python3 -m http.server 8000   # then open http://localhost:8000
 ```
 Small local models write weaker lessons and are slow on CPU. Treat Ollama as an offline fallback, not the main engine. Test the pipeline without any model: `MOCK=1 FORCE=1 node generator/generate.mjs` (writes placeholder text; delete `data/editions/*.json` and reset `data/index.json` to `{ "editions": [] }` afterwards).
 
-## Design system (studied from the four reference screens)
-Each subject is a "module" with its own palette, type and layout, all sampled from your references (hex values read from the PNGs).
+## Design system (v3: one look, eight palettes)
+Every page is pure black (`#000`). Every house uses the Soundroom look: thin, tightly tracked headlines (Inter Tight), a large script accent line (Pinyon Script), a full-bleed grainy hero, pill buttons and tracked-caps labels. Only the palette changes per module:
 
-| Module | Reference look | Palette | Type | Layout |
-|---|---|---|---|---|
-| Home, Archive | Silhouette | tan `#A47E5A`, cream `#EDE5D4`, cobalt `#275075`, brown `#402410` | Instrument Serif caps, DM Sans | full-bleed hero, wordmark + tagline spread to the same width, cream cards on tan, cobalt bands |
-| Systems Forge (+ Dispatch) | Silhouette blue | cobalt `#275075`, deep `#1B3A57`, white | Instrument Serif caps, DM Sans | centred hero, flat bands |
-| Frugal Chic (+ Puzzle, Board) | Silhouette tan | tan `#A47E5A`, cream `#EDE5D4` | Instrument Serif caps, DM Sans | split hero, cream panels |
-| Theology | Luminare oxblood | `#810603`, coral `#F26B55`, cream `#F6EEED` | Alegreya Sans ExtraBold | split hero, square rectangular buttons |
-| Mindcraft | Luminare sky | `#90A9C3`, teal `#24485C` | Alegreya Sans ExtraBold | split hero |
-| Design Observatory | Luminare green | `#3F4D32`, lime `#C7DEA4` | Alegreya Sans ExtraBold | split hero |
-| Soundroom | Crimson Thorns | black, maroon `#8B2E44`, off-white `#F6EEED` | Inter Tight (tight tracking), Pinyon Script | full-bleed hero, huge thin title + script line, film grain |
-| AI/ML Fieldnotes | Wesley Taylor | navy `#021121`, acid yellow `#EDFF06`, plum `#37324A` | Space Grotesk thin caps, Mea Culpa swash initial | centred hero, sunburst glyph, pill buttons, grain |
+| Module | Panel colour (alternate sections, tiles) | Accent (script line, buttons, highlights) |
+|---|---|---|
+| Home, Archive, Board | `#161616` | cream `#F6EEED` |
+| Soundroom | maroon `#8B2E44` | cream `#F6EEED` |
+| Theology | oxblood `#810603` | coral `#F26B55` |
+| Mindcraft | teal `#2D5366` | sky `#90A9C3` |
+| AI/ML Fieldnotes | plum `#37324A` | acid yellow `#EDFF06` |
+| Systems Forge, Dispatch | cobalt `#275075` | light blue `#9CC3EA` |
+| Design Observatory | olive `#3F4D32` | lime `#C7DEA4` |
+| Frugal Chic, Puzzle | umber `#6B4E34` | sand `#DDB892` |
 
-Honest note on fonts: the exact typefaces cannot be read from a PNG. I rendered about 40 open-licence candidates next to your headlines and picked the closest. Instrument Serif and Alegreya Sans ExtraBold are close matches; DM Sans is a near-certain match for the Silhouette body text. All fonts are bundled in `fonts/` (SIL OFL), so the app works offline.
-Contrast was checked for every theme (body text at least 4.5:1, large headings at least 3:1). Two heading colours are slightly lighter than in the references (oxblood coral, sky teal) so they pass.
+Fonts (all SIL OFL, bundled in `fonts/`, so the app works offline): Inter Tight for everything, Instrument Serif for the logo and italic quotes, Pinyon Script for the accent line. All text/background pairs were checked for contrast.
 
 ## AI images
 1. The text model writes an `imagePrompt` for each lesson (objects, places and textures only: never people, faces or text, because image models garble them).
@@ -62,6 +61,8 @@ Contrast was checked for every theme (body text at least 4.5:1, large headings a
 **Type roles.** CAPS for labels and navigation. Bold for key terms (with a highlighter underline). Italic for titles and emphasis, and for the pull-quote of each lesson's key idea. Dotted underline for glossary terms you can tap. Solid underline for links. A drop cap and small-caps opening line start every lesson. The writer model is told to use `**bold**` and `*italic*` only.
 
 **Interactive elements.** Sticky section index with reading progress and scroll-spy. Tap-to-define glossary terms plus flip cards. Evidence filter by label. Quiz score with retry. Text size and focus mode (Esc exits). Select any lesson text and tap Clip to drop it on the mind board. Collapsible briefings. Palette card with copy-hex and a swap preview. Pronounce button for the word of the day. Challenge checkbox. Edition switcher. Hero parallax (off for reduced-motion users).
+
+**Mind board v2.** Seven card kinds (note, heading, quote, checklist, frame, image, link). Rich text with bold, italic, underline, strikethrough, bullets and four highlight colours (select text first, or format the whole card). Eight card colours, three text sizes, drag, corner-resize, lock, duplicate. Connect cards with arrows and labels. Undo/redo (60 steps), zoom and fit, pan by dragging empty space, double-click to add a note, search that dims non-matching cards, and Markdown export. Old boards are migrated automatically, and stored card HTML is sanitised before it is ever shown.
 
 Older editions (made before v2) still display; they just lack the key idea, glossary and images until you generate a new edition.
 
