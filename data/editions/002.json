@@ -1,0 +1,811 @@
+{
+ "n": 2,
+ "slug": "002",
+ "publishedAt": "2026-10-25T06:08:11.416Z",
+ "theme": "1 Thessalonians 2:1-12 · Active listening · Equalization",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.8-flash",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": null,
+ "capsule": {
+  "word": {
+   "word": "ephemeral",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Lasting for a very short time; fleeting or temporary.",
+   "example": "Cache files are ephemeral by design, holding data only until the system reboots.",
+   "exercise": "Write a sentence using 'ephemeral' to describe temporary user data or screen states in a web app.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Muted Terminal Slate",
+   "hexes": [
+    "#1E222A",
+    "#ABB2BF",
+    "#61AFEF"
+   ],
+   "note": "This palette balances a deep charcoal background with crisp neutral silver text and a calm blue accent. The balanced contrast reduces eye strain during long coding sessions while keeping interactive elements distinct and readable.",
+   "application": "Dark mode developer tools, code editors, or technical documentation sites.",
+   "accessibility": "Strongest pair: #1E222A with #ABB2BF, contrast 7.48:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "JetBrains Mono",
+   "character": "Technical, clear, and disciplined. Its tall lower-case height and clear distinction between easily confused characters make code readable at a glance.",
+   "bestUses": "Works exceptionally well for code blocks, terminal interfaces, and data-dense tables. Avoid using it for long-form narrative text or editorial body paragraphs.",
+   "url": "https://fonts.google.com/specimen/JetBrains+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Skeleton Screens",
+   "reasoning": "Instead of showing a blank screen or a spinner, skeleton screens display light grey shapes that mimic the layout of content as it loads. This reduces perceived wait time, reassures users that the system is working, and prevents jarring layout shifts once data arrives.",
+   "tryIt": "Open a content-heavy web app, use dev tools to throttle your network to 'Slow 3G', refresh, and sketch the wireframe shapes that appear before the images render.",
+   "aiGenerated": true
+  },
+  "challenge": "Identify one ephemeral UI element on a site you used today (like a toast alert) and write down how its appearance could be handled with a subtle animation.",
+  "aiSignal": {
+   "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+   "url": "https://arxiv.org/abs/2610.31657v1",
+   "date": "2026-10-22T17:58:52Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Based on the paper's summary, the authors evaluated cost-aware abstention, a strategy where an IT ticket routing system declines to make an automated prediction if an error costs more than human review. They compared four traditional classifiers against four large language models across a dataset of 47,837 tickets under explicit cost constraints.",
+   "whyItMatters": "In practical applications, forcing an automated model to guess every time can create expensive mistakes that outweigh the benefits of automation. Evaluating systems with explicit cost models shows engineers how to balance automated speed against the safety of falling back to a human.",
+   "takeaway": "Reliable software design is not just about raw prediction accuracy; it also requires knowing when a system should safely say 'I do not know.'"
+  },
+  "openTab": {
+   "url": "https://developer.mozilla.org",
+   "name": "MDN Web Docs",
+   "what": "MDN Web Docs is a resource that provides information about Open Web technologies. It covers HTML, CSS, and APIs for both traditional websites and progressive web apps.",
+   "whyBookmark": "It gives you a direct, reliable reference to look up core web building blocks like HTML, CSS, and web APIs as you build your projects.",
+   "verified": true,
+   "checkedAt": "2026-10-25"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Thessalonians 2:1-12",
+   "title": "Scripture in its Real World: 1 Thessalonians 2:1-12",
+   "hook": "Ever wonder how ancient writers defended their integrity against skeptics? Paul's letter to the Thessalonians offers a raw, firsthand look at early apostolic defense.",
+   "core": "In 1 Thessalonians 2:1-12, Paul reflects on his past behavior among the believers in Thessalonica [S1, S2]. He reminds them that his visit was not in vain, noting that he and his companions had suffered and been shamefully treated previously at Philippi before boldly sharing the Good News in conflict [S1].\n\nPaul explicitly defends his methods against common ancient criticisms. He asserts that his message did not stem from error, uncleanness, or deception [S1]. Unlike traveling charlatans or flattering opportunists looking for personal glory or financial gain—referred to as a \"cloak of covetousness\"—Paul emphasizes that he and his team worked night and day so they would not be a financial burden to anyone [S1].\n\nInstead of acting like harsh authorities, Paul uses intimate family metaphors. He describes his gentleness as a \"nursing mother\" cherishing her children, and his exhortation as that of a \"father\" encouraging his own children to walk worthily of God [S1]. This passage provides a window into the interpersonal dynamics and ethical expectations of early Christian leadership.",
+   "context": "Prerequisites: Basic familiarity with the New Testament letters. In historical and cultural context, traveling philosophers and rhetoricians were common in the Greco-Roman world. Many charged fees or sought patronage, prestige, and power. Paul's letter addresses the church in Thessalonica, located in modern-day Greece [S2], actively differentiating his unpaid, labor-intensive, and affectionate approach from manipulative itinerant speakers of his era.",
+   "evidence": [
+    {
+     "claim": "Paul and his companions suffered and were shamefully treated at Philippi before visiting Thessalonica.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul worked night and day so as not to burden the Thessalonians financially while preaching.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The First Epistle to the Thessalonians is addressed to the church in Thessalonica, in modern-day Greece.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Paul utilized family metaphors like a nursing mother and a father to describe his conduct.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "",
+   "realWorld": "In modern professional settings, people often defend their credibility when accused of hidden motives. Just as Paul contrasted his transparent, hard-working approach with exploitative speakers, contemporary whistleblowers, open-source maintainers, and independent journalists often publish logs, financial transparency reports, or character histories to prove they are not acting out of hidden greed or deceit.",
+   "exercise": {
+    "prompt": "Read 1 Thessalonians 2:1-12 using a free online Bible reader. Highlight every phrase where Paul contrasts his actual behavior with what he claims he *didn't* do (e.g., not of error, no flattery).",
+    "answerHint": "You should find at least four distinct negative contrasts about how they did not behave."
+   },
+   "quiz": [
+    {
+     "q": "Where does S2 state that the church addressed in the epistle is located?",
+     "options": [
+      "Rome, Italy",
+      "Philippi, Macedonia",
+      "Thessalonica, in modern-day Greece",
+      "Athens, Greece"
+     ],
+     "answer": 2,
+     "explanation": "Source S2 explicitly notes that the epistle is addressed to the church in Thessalonica, in modern-day Greece."
+    },
+    {
+     "q": "According to 1 Thessalonians 2:9, how did Paul support himself while preaching?",
+     "options": [
+      "By charging a fixed fee to listeners",
+      "By working night and day so as not to burden anyone",
+      "By relying entirely on Roman state funding",
+      "By accepting large donations from Philippi"
+     ],
+     "answer": 1,
+     "explanation": "Source S1 states they engaged in labor and travail, working night and day so that they might not burden any of the believers."
+    }
+   ],
+   "checklist": [
+    "Read 1 Thessalonians 2:1-12 text",
+    "Note the mention of Philippi",
+    "Identify the parental metaphors used"
+   ],
+   "furtherQuestions": [
+    "How do other Pauline letters compare in their defense of his apostleship?",
+    "What specific economic pressures did traveling artisans face in first-century Macedonia?"
+   ],
+   "imagePrompt": "A worn leather-bound ancient text resting on a rough wooden table beside a small clay oil lamp casting a warm, soft glow in a quiet room.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Thessalonians 2:1-12 (World English Bible)",
+     "url": "https://bible-api.com/1%20Thessalonians%202%3A1-12",
+     "kind": "scripture",
+     "retrievedAt": "2026-10-25"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Thessalonians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Thessalonians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Active listening",
+   "title": "Active Listening: Tuning In",
+   "hook": "Most people listen just to reply. Active listening changes that by intentionally engaging with what someone else is saying.",
+   "core": "Active listening is the act of intentionally engaging with communication [S1]. Instead of mentally drafting your response while the other person is still talking, your goal is to fully absorb their information, comprehension, and understanding [S1].\n\nWhen you practice this, the speaker receives clear confirmation that their point is actually coming across [S1]. Research demonstrates that this specific style of engagement promotes trust and actively reduces misunderstandings between people [S1]. \n\nBy being consciously engaged, you eliminate barriers that normally cloud casual conversation [S1]. The core skill requires discipline: setting aside your own urge to interrupt, judge, or immediately fix the problem, so you can map the speaker's thoughts, perceptions, and ideas accurately [S1].",
+   "context": "Prerequisites: Basic conversational fluency and a willingness to tolerate brief moments of silence. In professional settings, technical environments, and collaborative programming, active listening prevents costly assumptions about system requirements or project goals.",
+   "evidence": [
+    {
+     "claim": "Active listening is the act of intentionally engaging with communication.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Listeners absorb more information, comprehension, and understanding by being consciously engaged.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The goal of active listening is to eliminate any misunderstandings.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Research has demonstrated that active listening promotes trust and reduces misunderstandings.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Speaker -> [ Conscious Engagement ] -> Clear Understanding & Reduced Misunderstandings",
+   "realWorld": "In software development, active listening appears during requirements-gathering meetings. A developer repeats back a client's workflow constraints in their own words before writing a single line of code, ensuring both parties share an exact mental model of the feature.",
+   "exercise": {
+    "prompt": "During your next conversation today, let the other person finish speaking completely, pause for two seconds, and then summarize back what they just said before offering your own opinion.",
+    "answerHint": "Did the speaker confirm your summary was accurate, or did they clarify a point you missed?"
+   },
+   "quiz": [
+    {
+     "q": "What is the primary goal of active listening according to the source?",
+     "options": [
+      "To quickly win an argument",
+      "To eliminate any misunderstandings and establish clear communication",
+      "To memorize every single word spoken",
+      "To test the speaker's logic"
+     ],
+     "answer": 1,
+     "explanation": "The source explicitly states that the goal is to eliminate any misunderstandings and establish clear communication."
+    },
+    {
+     "q": "What does research demonstrate that active listening promotes?",
+     "options": [
+      "Trust and reduced misunderstandings",
+      "Higher IQ scores",
+      "Faster typing speeds",
+      "Better public speaking skills"
+     ],
+     "answer": 0,
+     "explanation": "S1 notes that research has demonstrated active listening promotes trust and reduces misunderstandings."
+    }
+   ],
+   "checklist": [
+    "Put away distracting devices",
+    "Listen without drafting your reply",
+    "Summarize back the core point"
+   ],
+   "furtherQuestions": [
+    "How can you practice active listening in a text-based chat environment?",
+    "What are the physical signs that someone is consciously engaged in a conversation?"
+   ],
+   "imagePrompt": "A close-up shot of two ceramic mugs on a rustic wooden table, with soft morning light filtering through a nearby window, evoking a quiet space for conversation.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Active listening",
+     "url": "https://en.wikipedia.org/wiki/Active_listening",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Equalization",
+   "title": "Sculpting Sound with Equalization",
+   "hook": "Ever wonder why your favorite tracks sound crystal clear while voice memos sound muddy? Equalization lets you carve out space for every instrument in a song.",
+   "core": "Equalization, commonly called **EQ**, is the process of adjusting the volume of different frequency bands within an audio signal [S1]. Think of audio as a tall stack of building blocks, where low bass frequencies sit at the bottom and high treble frequencies sit at the top. An equalizer acts like a set of volume faders for specific vertical slices of that stack.\n\nA producer uses EQ primarily to fix problems and create balance. If a vocal track sounds muddy and blocked by the guitar, a producer will use an EQ to lower a specific frequency range on the guitar, making room for the human voice to shine through.\n\nBefore EQ, a dense mix can sound thick, cluttered, and boomy, where every instrument fights for the exact same acoustic space. After applying a thoughtful EQ cut, the sound transforms: individual instruments step into their own clear space, the mud disappears, and the overall mix suddenly feels transparent and open.",
+   "context": "Before diving into EQ, you should know that audio is measured in Hertz (Hz) for frequency and decibels (dB) for volume. Human hearing typically ranges from 20 Hz (very deep bass) to 20,000 Hz (very high sizzle). Historically, early equalizers were massive hardware circuits built into telephone systems and recording studios to correct tonal imbalances caused by long cables or imperfect microphones [S1]. Today, most EQs live inside computer software as digital plugins.",
+   "evidence": [
+    {
+     "claim": "Equalization or EQ is the process of adjusting the volume of different frequency bands within an audio signal.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The circuit or equipment used to achieve equalization is called an equalizer.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Early equalizers were developed out of telephone and broadcast engineering needs.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Human hearing ranges roughly from 20 Hz to 20,000 Hz.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Low Frequencies (Bass) <---> Mid Frequencies (Vocals) <---> High Frequencies (Treble)",
+   "realWorld": "Every time you adjust the bass or treble knobs on a car stereo, or select a 'Podcast' or 'Bass Boost' preset on your phone's music app, you are using equalization to reshape how frequencies reach your ears.",
+   "exercise": {
+    "prompt": "Open any free audio editor like Audacity or your phone's voice memo app. Load a song you like, find the built-in graphic EQ effect, and extreme-boost the highest slider while cutting the lowest slider to zero.",
+    "answerHint": "The music will instantly lose its deep thump and sound thin, tinny, and harsh like an old telephone."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary function of an equalizer?",
+     "options": [
+      "Adjusting the volume of different frequency bands within an audio signal",
+      "Adding echo and reverb to a dry vocal track",
+      "Making the overall recording twice as loud",
+      "Converting analog tape signals into digital MP3 files"
+     ],
+     "answer": 0,
+     "explanation": "Equalization specifically targets and adjusts the volume levels of specific frequency ranges in sound [S1]."
+    },
+    {
+     "q": "What is the device or circuit used to perform equalization called?",
+     "options": [
+      "A compressor",
+      "An equalizer",
+      "An oscillator",
+      "A limiter"
+     ],
+     "answer": 1,
+     "explanation": "The circuit or equipment used to achieve equalization is called an equalizer [S1]."
+    }
+   ],
+   "checklist": [
+    "Choose a reliable digital audio workstation (DAW)",
+    "Load a parametric EQ plugin onto your audio track",
+    "Listen closely on flat-response headphones or studio monitors"
+   ],
+   "furtherQuestions": [
+    "What is the difference between a high-pass filter and a low-shelf EQ?",
+    "How do producers use EQ to fix masking when two instruments share the same frequencies?"
+   ],
+   "imagePrompt": "Close up of an audio mixing console with glowing knobs and colorful frequency graphs displayed on a dark computer screen inside a quiet studio.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Audio equalization",
+     "url": "https://en.wikipedia.org/wiki/Audio_equalization",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Overfitting",
+   "title": "Overfitting: When a Model Learns Too Much",
+   "hook": "Memorizing the exact answers to a practice test won't help you pass the final exam. Machine learning models face the exact same trap.",
+   "core": "Overfitting happens when a mathematical model corresponds too closely or exactly to a particular set of data, and as a result may fail to fit additional data or predict future observations reliably [S1]. Imagine fitting a high-degree polynomial function to a scatterplot; if the curve twists wildly to hit every single point, it has captured accidental noise instead of the true underlying pattern [S1].\n\nIn practical engineering, an overfitted model contains more parameters than can be justified by the available data [S1]. Instead of generalizing the core trend, the model unknowingly extracts residual variation—the random noise unique to that specific training set—and treats it as if it were a permanent rule of the system [S1]. This means your code looks brilliant in development, scoring 100% on training data, but fails completely when handed fresh data in production.",
+   "context": "Prerequisites: Basic understanding of variables, data points, and plotting graphs on an X-Y axis. In your first-year computer science or BCA coursework, you will often build algorithms that try to minimize error on a training set. Overfitting is the hidden danger when you optimize that error reduction too far.",
+   "evidence": [
+    {
+     "claim": "Overfitting is the production of an analysis that corresponds too closely to a particular set of data and fails to fit additional data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "An overfitted model contains more parameters than can be justified by the data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Overfitting involves unknowingly extracting residual variation as if it represents the underlying model structure.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "In polynomial models, parameters represent the degree of the polynomial.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Underfitting:  .---.      Good Fit:  ( ^ )      Overfitting: /\\/\\/\\/\n  (Too simple)           (Balanced)            (Too complex)",
+   "realWorld": "A web startup trains a spam filter on last month's emails and achieves 99.9% accuracy. When deployed live, it blocks legitimate messages because it memorized specific phrasing from old spam rather than general patterns of malicious mail.",
+   "exercise": {
+    "prompt": "Write a Python script using scikit-learn where you fit a LinearRegression and a high-degree PolynomialFeatures model (degree 15) to 10 noisy data points. Plot both curves.",
+    "answerHint": "Notice how the linear model looks smooth and misses some points, while the degree 15 polynomial loops wildly through every single data point."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary consequence of an overfitted model?",
+     "options": [
+      "It fails to predict future observations reliably.",
+      "It runs much faster than simpler models.",
+      "It requires zero parameters to function.",
+      "It ignores the training data entirely."
+     ],
+     "answer": 0,
+     "explanation": "Because an overfitted model learns the noise of a specific dataset, it cannot generalize to new data S1."
+    },
+    {
+     "q": "What do parameters represent in the special case of a polynomial model?",
+     "options": [
+      "The degree of a polynomial",
+      "The total file size in megabytes",
+      "The number of training samples",
+      "The speed of execution"
+     ],
+     "answer": 0,
+     "explanation": "S1 explicitly states that in a polynomial function model, these parameters represent the degree of a polynomial."
+    }
+   ],
+   "checklist": [
+    "Split data into training and testing sets",
+    "Check model performance on unseen data",
+    "Avoid unnecessarily complex model architectures"
+   ],
+   "furtherQuestions": [
+    "How do regularization techniques like L1 and L2 help prevent overfitting?",
+    "What is the exact mathematical relationship between sample size and model complexity?"
+   ],
+   "imagePrompt": "A worn chalkboard covered in chalk equations and a tangled, overly complex hand-drawn graph next to a simple, smooth curve sketch.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Overfitting",
+     "url": "https://en.wikipedia.org/wiki/Overfitting",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Linked lists",
+   "title": "Chaining Memory: The Linked List",
+   "hook": "Arrays force your data into a strict, continuous row of memory, but a linked list lets your data pieces scatter across memory while still knowing who comes next.",
+   "core": "**Jargon decoder**: A **node** is a tiny container holding your data and a pointer. A **pointer** is just a memory address telling the computer where to look next. Prerequisites: basic understanding of variables and memory addresses.\n\nIn a standard array, every element lives side by side. If you want to insert a new item in the middle, you have to shove everything else over. A linked list solves this differently [S1]. Instead of physical placement deciding the order, each element (node) points directly to the next one in the sequence [S1].\n\nHere is a tiny Python snippet showing the structure:\n\n```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\nfirst = Node('A')\nsecond = Node('B')\nfirst.next = second\n```\n\nThis structure allows for efficient insertion or removal of elements from any position once you are there, because you only need to update pointer addresses rather than shifting an entire block of memory [S1]. However, there is a major trade-off: data access time is linear [S1]. To find the fifth item, you must start at the first and walk down the chain step by step [S1]. Random access is impossible [S1], and arrays generally have better cache locality [S1].",
+   "context": "Before tackling linked lists, you should feel comfortable with basic references or pointers. In systems programming, understanding how data structures map onto hardware memory is essential for writing efficient code.",
+   "evidence": [
+    {
+     "claim": "A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "In its most basic form, each node contains data and a reference to the next node in the sequence.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "This structure allows for efficient insertion or removal of elements from any position during iteration.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Data access time is linear with respect to the number of nodes because accessing any node requires prior nodes to be accessed first.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Arrays have better cache locality compared to linked lists.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "[Data: A] -> [Next | Data: B] -> [Next | Data: C] -> None",
+   "realWorld": "Linked lists appear all over operating systems and software engineering tasks where data items are frequently added or removed on the fly, such as in memory management tracking or task schedulers.",
+   "exercise": {
+    "prompt": "Write a small Python function that counts how many nodes are in a linked list starting from a given head node.",
+    "answerHint": "Start a counter at zero, loop while the current node is not None, increment the counter, and move to node.next."
+   },
+   "quiz": [
+    {
+     "q": "What does each node in a basic linked list contain?",
+     "options": [
+      "Only raw memory addresses",
+      "Data and a reference to the next node",
+      "An index number and a fixed size",
+      "A continuous array of integers"
+     ],
+     "answer": 1,
+     "explanation": "A basic node holds the data value plus a reference (or pointer) to the next node in the sequence [S1]."
+    },
+    {
+     "q": "Why is random access not possible in a basic linked list?",
+     "options": [
+      "Nodes are not stored sequentially in memory, so you must traverse from the start",
+      "Pointers are always encrypted by the CPU",
+      "Linked lists can only hold string data types",
+      "Python does not support accessing nodes directly"
+     ],
+     "answer": 0,
+     "explanation": "Because elements are serially linked rather than placed physically side-by-side, you must visit prior nodes sequentially to reach later ones [S1]."
+    }
+   ],
+   "checklist": [
+    "Check that your pointer doesn't point to None before reading .next",
+    "Ensure you keep a reference to the head node so you don't lose the list"
+   ],
+   "furtherQuestions": [
+    "How does a doubly linked list differ from the basic singly linked list described here?",
+    "At what point does the overhead of storing pointers outweigh the memory saved by avoiding array reallocation?"
+   ],
+   "imagePrompt": "Close up of a wooden board with several small paper notes connected in a straight line by thin black yarn string, in warm workshop lighting.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Linked list",
+     "url": "https://en.wikipedia.org/wiki/Linked_list",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] The first part of the 7.4 merge window",
+     "url": "https://lwn.net/Articles/1101211/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-25",
+     "date": "Fri, 23 Oct 2026 18:54:33 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: [$] Seeking smaller kernel stacks",
+     "url": "https://lwn.net/Articles/1100271/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-25",
+     "date": "Fri, 23 Oct 2026 14:59:24 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: Security updates for Friday",
+     "url": "https://lwn.net/Articles/1102546/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-25",
+     "date": "Fri, 23 Oct 2026 13:02:03 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: [$] The end of __get_user() and __put_user()",
+     "url": "https://lwn.net/Articles/1102061/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-25",
+     "date": "Thu, 22 Oct 2026 16:25:50 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Swiss style",
+   "title": "The Swiss Style Grid: Structure as Clarity",
+   "hook": "Good design isn't about adding decoration; it's about making relationships between elements instantly clear. The Swiss Style treats layout like an architectural blueprint.",
+   "core": "When you look at a Swiss Style layout, you are looking at a system of deliberate decisions. The core of this approach relies on four main pillars: typography, colour, hierarchy, and mathematical grids. Instead of centering text for decoration, designers use left-aligned, ragged-right typography (usually sans-serif fonts like Akzidenz-Grotesk) because it mimics natural reading patterns and creates clean vertical lines.\n\n**Hierarchy** is the tool you use to tell the viewer's eye what to look at first, second, and last. By manipulating scale and weight—making a headline massive and body text tiny—you establish immediate order without needing decorative frames or shadows. **Colour** is used sparingly, often with high contrast, acting as a structural anchor rather than a mood ring.\n\nUnderpinning all of this is the **grid**. A grid is a network of intersecting vertical and horizontal lines that guide where elements live. By locking content to a strict grid, you create a rhythm. Even when elements are asymmetrical, the underlying grid ensures the page feels stable and intentional rather than chaotic.",
+   "context": "The Swiss Style, also known as the International Typographic Style, formed in the 1950s and 1960s [S1]. It drew deep inspiration from Russian Constructivism, the Bauhaus school, and classical modernism [S1]. While championed by Swiss graphic artists, its principles quickly spread globally [S1] because they solved a universal engineering problem: how to communicate complex information across language barriers clearly and efficiently. Prerequisites for studying this include basic familiarity with digital layout tools and an eye for alignment.",
+   "evidence": [
+    {
+     "claim": "Swiss style is a trend in graphic design formed in the 1950s–1960s.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The style was influenced by the International Typographic Style, Russian Constructivism, the Bauhaus school, and classical modernism.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The style is associated with the activities of Swiss graphic artists, but its principles spread into many other countries.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Left-aligned, ragged-right sans-serif typography mimics natural reading patterns.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "+--------------------------------+\n| [BIG TITLE]                    |\n|                                |\n| +-------------+ +------------+ |\n| | Column 1    | | Column 2   | |\n| | Text line   | | Text line  | |\n| | Text line   | | Text line  | |\n| +-------------+ +------------+ |\n+--------------------------------+",
+   "realWorld": "You encounter Swiss Style principles every day in modern software interfaces, operating system typography, corporate branding, and mobile app design. Whenever an interface uses a strict layout grid, high-contrast sans-serif type, and whitespace to separate components, it is using Swiss design logic.",
+   "exercise": {
+    "prompt": "Open a free design tool (like Figma or Google Slides), draw a grid with two vertical columns, and arrange a headline, a short paragraph, and a block of color using only left alignment and a sans-serif font.",
+    "answerHint": "Check if your elements align to invisible vertical lines and if the headline scale immediately tells the viewer where to start reading."
+   },
+   "quiz": [
+    {
+     "q": "When did the Swiss Style form as a prominent design trend?",
+     "options": [
+      "1920s–1930s",
+      "1950s–1960s",
+      "1980s–1990s",
+      "2000s–2010s"
+     ],
+     "answer": 1,
+     "explanation": "The Swiss style formed in the 1950s–1960s under the influence of movements like Bauhaus and Russian Constructivism."
+    },
+    {
+     "q": "Which of the following movements influenced the development of the Swiss Style?",
+     "options": [
+      "Art Nouveau",
+      "The Bauhaus school",
+      "Pop Art",
+      "Cyberpunk"
+     ],
+     "answer": 1,
+     "explanation": "Source S1 explicitly notes that the style was influenced by the tradition of the Bauhaus school, among others."
+    }
+   ],
+   "checklist": [
+    "Use a sans-serif typeface",
+    "Establish a strict multi-column grid",
+    "Rely on scale for hierarchy instead of decoration",
+    "Keep text left-aligned with a ragged right edge"
+   ],
+   "furtherQuestions": [
+    "How does breaking a grid purposefully create tension in a design?",
+    "In what ways did the digital revolution change how designers apply Swiss style grids?"
+   ],
+   "imagePrompt": "Close-up of a raw wooden drafting table with a metal T-square, a black ink pen, and a sheet of grid paper under bright natural studio lighting.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Swiss Style (design)",
+     "url": "https://en.wikipedia.org/wiki/Swiss_Style_(design)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Goodyear welted shoes",
+   "title": "Goodyear Welted Shoes",
+   "hook": "Goodyear welted shoes look better as they age and can be repaired instead of thrown away. They let you build taste through durability rather than fast consumption.",
+   "core": "At its heart, a Goodyear welt is a strip of leather, rubber, or plastic running along the perimeter of a shoe outsole [S1]. This construction method creates a durable bond between the upper part of the shoe and the sole. When the bottom wears down from walking, a cobbler can slice through the stitching, remove the worn sole, and stitch on a fresh one without destroying the rest of the shoe.\n\nWhat makes them well made is this exact repairability. Glued-together shoes are essentially disposable; once the sole fails, the shoe goes to the landfill. Welted shoes reward patience. The inner layer of cork molds to the shape of your foot over time, making them feel custom-fitted after a few weeks of wear.\n\nThe frugal alternative is buying them secondhand. Because these shoes last for decades, you can often find high-end pairs online or in thrift shops for a fraction of new retail costs. Even if they need minor stitching or new heels, repairing them is usually cheaper than buying new trendy footwear every year.",
+   "context": "Prerequisites: basic appreciation for materials and craft. The basic principle behind the Goodyear welt machine was invented in 1862 by Auguste Destouy, who used a curved needle to stitch turned shoes [S1]. The machine was later improved in 1869 by Destouy and Daniel Mills, working for Charles Goodyear Jr. [S1]. This mechanical innovation transformed shoemaking from a purely manual craft into a reliable industrial process.",
+   "evidence": [
+    {
+     "claim": "A Goodyear welt is a strip of leather, rubber, or plastic that runs along the perimeter of a shoe outsole.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The basic principle behind the Goodyear welt machine was invented in 1862 by Auguste Destouy.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Daniel Mills was an English mechanic employed by Charles Goodyear Jr.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Goodyear welted shoes can be resoled multiple times.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "+-----------------------+\n|      Upper Shoe       |\n|-----------------------|\n|    Cork Filling Layer |\n|=== Goodyear Welt =====|\n|------- Outsole -------|\n+-----------------------+",
+   "realWorld": "You will spot these shoes in professional offices, vintage markets, and local repair shops where people maintain items for decades rather than replacing them seasonally.",
+   "exercise": {
+    "prompt": "Inspect a pair of shoes in your closet or online. Look closely at where the upper shoe meets the sole to see if you can spot actual stitching or if it is just smooth plastic glue.",
+    "answerHint": "Look for visible thread stitches running along the outside edge of the sole, often sitting in a little channel."
+   },
+   "quiz": [
+    {
+     "q": "Who invented the basic principle behind the Goodyear welt machine in 1862?",
+     "options": [
+      "Auguste Destouy",
+      "Charles Goodyear Jr.",
+      "Daniel Mills",
+      "William J. Dudley"
+     ],
+     "answer": 0,
+     "explanation": "Auguste Destouy invented the basic principle behind the machine with a curved needle in 1862, as documented in S1."
+    },
+    {
+     "q": "What is the primary practical advantage of a Goodyear welted construction?",
+     "options": [
+      "It makes the shoe completely waterproof instantly",
+      "It allows the shoe to be easily resoled when worn out",
+      "It eliminates the need for any break-in period",
+      "It makes the shoe weigh less than a sneaker"
+     ],
+     "answer": 1,
+     "explanation": "The construction allows a cobbler to replace the worn outsole by cutting the stitching without ruining the upper shoe."
+    }
+   ],
+   "checklist": [
+    "Check current prices before buying new",
+    "Inspect secondhand listings for deep heel wear",
+    "Confirm a local cobbler can handle resoling in your area",
+    "Ensure the upper leather is free of deep cracks"
+   ],
+   "furtherQuestions": [
+    "How does the inner cork layer affect foot comfort over time?",
+    "What is the difference between Blake stitching and a Goodyear welt?"
+   ],
+   "imagePrompt": "A close-up shot of a well-worn leather shoe sole showing distinct edge stitching, a stacked leather heel, and a rich brown patina on a wooden workbench.",
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Goodyear welt",
+     "url": "https://en.wikipedia.org/wiki/Goodyear_welt",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-25"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "cipher",
+  "title": "Language day: crack the cipher",
+  "prompt": "Each letter was moved 12 places forward in the alphabet. Decode: PUEBMEEUAZMFQ",
+  "answer": "dispassionate",
+  "explanation": "Shift every letter back by 12. The word is \"dispassionate\"."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Scripture in its Real World: 1 Thessalonians 2:1-12"
+   },
+   {
+    "house": "mindcraft",
+    "text": "Active Listening: Tuning In"
+   },
+   {
+    "house": "soundroom",
+    "text": "Sculpting Sound with Equalization"
+   },
+   {
+    "house": "aiml",
+    "text": "Overfitting: When a Model Learns Too Much"
+   },
+   {
+    "house": "systems",
+    "text": "Chaining Memory: The Linked List"
+   },
+   {
+    "house": "design",
+    "text": "The Swiss Style Grid: Structure as Clarity"
+   },
+   {
+    "house": "frugal",
+    "text": "Goodyear Welted Shoes"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Scripture in its Real World: 1 Thessalonians 2:1-12",
+    "text": "Ever wonder how ancient writers defended their integrity against skeptics? Paul's letter to the Thessalonians offers a raw, firsthand look at early apostolic defense. In 1 Thessalonians 2:1-12, Paul reflects on his past behavior among the believers in Thessalonica [S1, S2].",
+    "sources": [
+     "https://bible-api.com/1%20Thessalonians%202%3A1-12",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Thessalonians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "Active Listening: Tuning In",
+    "text": "Most people listen just to reply. Active listening changes that by intentionally engaging with what someone else is saying. Active listening is the act of intentionally engaging with communication [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Active_listening"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Sculpting Sound with Equalization",
+    "text": "Ever wonder why your favorite tracks sound crystal clear while voice memos sound muddy? Equalization lets you carve out space for every instrument in a song. Equalization, commonly called EQ, is the process of adjusting the volume of different frequency bands within an audio signal [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Audio_equalization"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Overfitting: When a Model Learns Too Much",
+    "text": "Memorizing the exact answers to a practice test won't help you pass the final exam. Machine learning models face the exact same trap. Overfitting happens when a mathematical model corresponds too closely or exactly to a particular set of data, and as a result may fail to fit additional data or predict future observations reliably [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Overfitting"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "Chaining Memory: The Linked List",
+    "text": "Arrays force your data into a strict, continuous row of memory, but a linked list lets your data pieces scatter across memory while still knowing who comes next. Jargon decoder: A node is a tiny container holding your data and a pointer.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Linked_list",
+     "https://lwn.net/Articles/1101211/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Swiss Style Grid: Structure as Clarity",
+    "text": "Good design isn't about adding decoration; it's about making relationships between elements instantly clear. The Swiss Style treats layout like an architectural blueprint. When you look at a Swiss Style layout, you are looking at a system of deliberate decisions.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Swiss_Style_(design)"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Goodyear Welted Shoes",
+    "text": "Goodyear welted shoes look better as they age and can be repaired instead of thrown away. They let you build taste through durability rather than fast consumption. At its heart, a Goodyear welt is a strip of leather, rubber, or plastic running along the perimeter of a shoe outsole [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Goodyear_welt"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: ephemeral",
+   "Puzzle: Language day: crack the cipher",
+   "AI/ML signal: Cost-Aware Abstention for LLM-Based IT Ticket Classification"
+  ]
+ }
+}

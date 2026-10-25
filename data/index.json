@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 2,
+   "slug": "002",
+   "publishedAt": "2026-10-25T06:08:11.416Z",
+   "theme": "1 Thessalonians 2:1-12 · Active listening · Equalization",
+   "failed": [],
+   "cover": null
+  },
+  {
    "n": 1,
    "slug": "001",
    "publishedAt": "2026-10-24T10:06:51.008Z",
