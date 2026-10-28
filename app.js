@@ -120,8 +120,9 @@ function lessonHTML(ed, h, key) {
 const tile = (ed, k) => { const m = H[k], h = ed.houses?.[k]; return `<a class="tile rv" data-t="${m.t}" href="#/house/${k}">${imgBox(h?.image, '', false)}${prog(ed.slug).seen[k] ? '<span class="tick">Explored</span>' : ''}<div class="tile-t"><div class="kicker">${burst(14)}<span>House ${m.num}</span></div><h3 class="display" style="margin-top:.5rem">${esc(m.name)}</h3><p>${esc(h?.unavailable ? 'Not available this edition' : h?.title || '')}</p></div></a>`; };
 const tiles = (ed) => `<div class="tiles">${HOUSES.map((h) => tile(ed, h[0])).join('')}</div>`;
 
-// ---------- daily capsule: a bento spread, each slot has its own palette and layout ----------
-const hexInk = (h) => { const [r, g, b] = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255).map((c) => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4)); return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.42 ? '#000' : '#fff'; };
+// ---------- daily capsule: a personal-dashboard bento; every tile is a link to its own full page ----------
+const hexLum = (h) => { const [r, g, b] = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255).map((c) => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4)); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+const hexInk = (h) => (hexLum(h) > 0.42 ? '#000' : '#fff');
 const FONT_OK = /^[A-Za-z0-9][A-Za-z0-9 ]{1,40}$/;
 const loadedFonts = new Set();
 function loadFont(name) {   // progressive enhancement: show the specimen in its real typeface when online; falls back to Inter Tight offline
@@ -129,27 +130,61 @@ function loadFont(name) {   // progressive enhancement: show the specimen in its
   const l = document.createElement('link'); l.rel = 'stylesheet'; l.href = 'https://fonts.googleapis.com/css2?family=' + name.trim().replace(/ +/g, '+') + '&display=swap'; document.head.appendChild(l);
 }
 const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
-function marquee(ed) {
-  const c = ed.capsule || {};
-  const items = [c.word?.word, c.colour?.name, c.type?.font, c.interfaceStudy?.pattern, c.openTab?.name, c.aiSignal && 'AI/ML signal'].filter(Boolean).map(esc);
-  if (items.length < 2) return '';
-  const row = items.map((x) => `<span>${x}</span><i>✺</i>`).join('');
-  return `<div class="marq" aria-hidden="true"><div class="marq-in">${row}${row}${row}${row}</div></div>`;
+// one muted accent per slot: same saturation and lightness, so many hues still read as one family
+const SLOTS = [
+  { key: 'word', label: 'Word of the day', tone: 'blue', a: '#8EA2C9' },
+  { key: 'signal', label: 'AI/ML signal', tone: 'char', a: '#C2A56B' },
+  { key: 'colour', label: 'Colour pairing', tone: 'char', a: '#B88593' },
+  { key: 'type', label: 'Type specimen', tone: 'char', a: '#948DBA' },
+  { key: 'interface', label: 'Interface study', tone: 'blue', a: '#8EA2C9' },
+  { key: 'tab', label: 'The open tab', tone: 'stone', a: '#ADADA3' },
+  { key: 'challenge', label: 'Tiny challenge', tone: 'char', a: '#8FA58C' }
+];
+const slotData = (ed, k) => { const c = ed.capsule || {}; return { word: c.word, signal: c.aiSignal, colour: c.colour, type: c.type, interface: c.interfaceStudy, tab: c.openTab, challenge: c.challenge ? { text: c.challenge } : null }[k] || null; };
+const contrastInfo = (col) => { const m = /contrast ([\d.]+):1 \(([^)]*)\)/.exec(col?.accessibility || ''); if (!m) return null; return { ratio: m[1], level: /AAA/.test(m[2]) ? 'AAA' : /large/.test(m[2]) ? 'AA LARGE' : /AA/.test(m[2]) ? 'AA' : 'FAIL' }; };
+const fontStyle = (f) => (FONT_OK.test(f || '') ? `font-family:'${esc(f)}','Inter Tight',sans-serif` : '');
+const LINE_ART = '<svg class="lart" viewBox="0 0 160 160" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><circle cx="160" cy="160" r="150"/><circle cx="160" cy="160" r="100"/><circle cx="160" cy="160" r="50"/><path d="M160 10L10 160M160 60L60 160M160 110L110 160"/></svg>';
+const num2 = (n) => String(n + 1).padStart(2, '0');
+
+function tileHTML(ed, s, i) {
+  const d = slotData(ed, s.key), p = prog(ed.slug);
+  if (!d) return `<div class="dt ghost" data-k="${s.key}"><span>${esc(s.label)}<br>not available this edition</span></div>`;
+  const wrap = (cls, inner) => `<a class="dt ${cls} rv" data-k="${s.key}" href="#/capsule/${s.key}" style="--a:${s.a};--i:${i}" aria-label="Open: ${esc(s.label)}">${inner}</a>`;
+  const top = `<div class="dtop"><span class="lab">${s.label}</span><span class="go" aria-hidden="true">↗</span></div>`;
+  if (s.key === 'word') { const L = d.word.length; return wrap('blue', `<div>${top}<span class="pill" style="margin-top:.7rem;background:#F6F6F2;color:#2b3a56">${esc(d.pos || 'word')}</span></div><div><div class="big w ${L > 11 ? 'l2' : ''}">${esc(d.word)}</div><div class="rule" style="margin:.7rem 0 .5rem"></div><div class="row2"><span class="den">${esc(d.phonetic || '')}</span><span class="den">/ ${L} LTRS</span></div></div>`); }
+  if (s.key === 'signal') return wrap('', `<div>${top}<span class="pill" style="margin-top:.7rem">${esc(d.kind)}</span></div><div class="ttl">${esc(d.title)}</div><div class="row2"><span class="den">${esc(d.feed)}</span><span class="den">${fdate(d.date)}</span></div>`);
+  if (s.key === 'colour') { const ci = contrastInfo(d); return wrap('', `${top}<div class="bars">${d.hexes.map((h) => `<i style="background:${colour(h)};height:${Math.round(30 + 70 * Math.sqrt(hexLum(colour(h))))}%"></i>`).join('')}</div><div><div class="den" style="margin-bottom:.5rem">${esc(d.name)}</div><div class="row2"><div class="big">${ci ? ci.ratio : d.hexes.length}</div><span class="den">/ ${ci ? ci.level : 'HUES'}</span></div></div>`); }
+  if (s.key === 'type') { loadFont(d.font); const ff = fontStyle(d.font); return wrap('', `${top}<div class="aa" style="${ff}">Aa</div><div class="row2"><span class="den" style="${ff}">${esc(d.font)}</span><span class="den">/ GOOGLE FONT</span></div>`); }
+  if (s.key === 'interface') return wrap('blue', `${LINE_ART}${top}<div><div class="nm">${esc(d.pattern)}</div><div class="dots" style="margin-top:.8rem" aria-hidden="true">${SLOTS.map((_, n) => `<i class="${n === 4 ? 'on' : ''}"></i>`).join('')}</div></div>`);
+  if (s.key === 'tab') return wrap('stone', `${top}<div class="nm">${esc(d.name)}</div><div class="row2"><span class="den">${esc(hostOf(d.url))}</span><span class="den">${d.verified ? '● REACHABLE' : 'UNVERIFIED'}</span></div>`);
+  const done = !!p.challenge, C = 2 * Math.PI * 46;
+  return wrap('chal', `<div class="l"><div>${top}</div><div class="ttl">${esc(d.text)}</div><span class="den">TAP TO OPEN</span></div><div class="ring"><svg viewBox="0 0 112 112" aria-hidden="true"><circle class="tr" cx="56" cy="56" r="46" fill="none" stroke-width="6"/><circle class="pr" cx="56" cy="56" r="46" fill="none" stroke-width="6" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${done ? 0 : C.toFixed(1)}"/></svg><b>${done ? '1/1' : '0/1'}</b><small>DONE</small></div>`);
 }
-function capsuleCards(ed) {
-  const c = ed.capsule || {}, w = c.word, s = c.aiSignal, col = c.colour, t = c.type, i = c.interfaceStudy, o = c.openTab, p = prog(ed.slug);
-  const cards = []; let n = 0;
-  const no = () => `<span class="no">${String(++n).padStart(2, '0')}</span>`;
-  const k = (label) => `<div class="kicker">${burst(14)}<span>${label}</span></div>`;
-  const card = (cls, theme, inner) => `<article class="cap ${cls} rv" data-t="${theme}" style="--i:${cards.length}">${inner}</article>`;
-  if (w) cards.push(card('s7 word', 'crimson', `${no()}${k('Word of the day')}<div class="bigword ${w.word.length > 15 ? 'l4' : w.word.length > 11 ? 'l3' : w.word.length > 8 ? 'l2' : ''}">${esc(w.word)}</div><div class="ph"><span class="pos">${esc(w.pos || '')}</span>${esc(w.phonetic)}</div><p>${esc(w.definition)}</p><p class="ex">${esc(w.example)}</p><p><span class="lab">Your turn</span>${esc(w.exercise)}</p><div class="row" style="margin:.2rem 0 0"><button data-act="say" data-w="${esc(w.word)}">🔊 Hear it</button></div>`));
-  if (col) cards.push(card('s5 col', 'home', `<div class="stripes" id="stripes">${col.hexes.map((x) => `<button class="stripe" style="background:${colour(x)};color:${hexInk(colour(x))}" data-act="copyhex" data-hex="${esc(x)}" aria-label="Copy ${esc(x)}"><span>${esc(x)}</span></button>`).join('')}</div><div class="info">${no()}${k('Colour pairing')}<h3>${esc(col.name)}</h3><p>${esc(col.note)}</p><p>${esc(col.application)}</p><p class="muted">${esc(col.accessibility)}</p><div class="row" style="margin:0"><button data-act="swap">Reverse order</button><span class="muted">Tap a stripe to copy its hex</span></div></div>`));
-  if (s) cards.push(card('s8 sig', 'neon', `${no()}${k('AI/ML signal')}<span class="tk">${esc(s.kind)}</span><h3>${esc(s.title)}</h3><p class="muted">${esc(s.feed)} · ${fdate(s.date)}</p><div class="two"><div><span class="lab">What happened</span><p>${esc(s.whatHappened)}</p></div><div><span class="lab">Why it matters</span><p>${esc(s.whyItMatters)}</p></div></div><p class="take"><span class="lab">Takeaway</span>${esc(s.takeaway)}</p><p><a href="${url(s.url)}" target="_blank" rel="noopener">Read the source</a> · <span class="muted">based on a short excerpt</span></p>`));
-  if (t) { loadFont(t.font); const ff = FONT_OK.test(t.font || '') ? `font-family:'${esc(t.font)}','Inter Tight',sans-serif` : ''; cards.push(card('s4 cream', 'home', `${no()}${k('Type specimen')}<div class="aa" style="${ff}">Aa</div><h3 style="${ff}">${esc(t.font)}</h3><p class="pang" style="${ff}">The quick brown fox jumps over the lazy dog.</p><p>${esc(t.character)}</p><p class="muted">${esc(t.bestUses)}</p><p><a href="${url(t.url)}" target="_blank" rel="noopener">See it on Google Fonts</a></p>`)); }
-  if (i) cards.push(card('s4 ui', 'sky', `${no()}${k('Interface study')}<div class="pat">${esc(i.pattern)}</div><p>${esc(i.reasoning)}</p><p class="tryit"><span class="lab">Try it</span>${esc(i.tryIt)}</p>`));
-  if (o) cards.push(card('s4 tab', 'blue', `<div class="chrome"><i></i><i></i><i></i><span class="url">${esc(hostOf(o.url) || o.url)}</span></div><div class="in">${no()}${k('The open tab')}<h3>${esc(o.name)}</h3><p>${esc(o.what)}</p><p>${esc(o.whyBookmark)}</p><p><a class="btn solid" href="${url(o.url)}" target="_blank" rel="noopener">Open it ${arrow}</a></p><p class="muted">${o.verified ? '● reachable on ' + esc(o.checkedAt) : 'not verified'}</p></div>`));
-  if (c.challenge) cards.push(card('s4 chal', 'green', `${no()}${k('Tiny challenge')}<p class="big">${esc(c.challenge)}</p><label class="ring"><input type="checkbox" data-chk="challenge" ${p.challenge ? 'checked' : ''} aria-label="Mark the challenge as done"><span class="rb">${burst(44)}</span></label><span class="muted">${p.challenge ? 'Done. Nicely done.' : 'Tap the ring when you have done it.'}</span>`));
-  return `<div class="capgrid">${cards.join('')}</div>`;
+function dashHead(ed) {   // real numbers from your own progress, shown the way the reference shows balances
+  const p = prog(ed.slug); let total = 0, answered = 0, correct = 0;
+  Object.entries(ed.houses || {}).forEach(([k, h]) => (h?.quiz || []).forEach((q, qi) => { total++; const pick = p.quiz[`${k}:${qi}`]; if (pick !== undefined) { answered++; if (pick === q.answer) correct++; } }));
+  const bm = S.bookmarks.filter((b) => b.slug === ed.slug).length;
+  const i = INDEX.editions.findIndex((e) => e.slug === ed.slug), prev = INDEX.editions[i + 1], next = INDEX.editions[i - 1];
+  const st = (l, v) => `<div class="st"><span>${l}</span><b>${v}</b></div>`;
+  return `<div class="dhead"><div class="dlogo" aria-hidden="true">${'<i></i>'.repeat(9)}</div>${st('Edition', esc(ed.slug))}${st('Published', fdate(ed.publishedAt))}<span class="sep"></span>${st('Explored', `${seenCount(ed.slug)}/${KEYS.length}`)}${st('Quiz', `${answered}/${total}`)}${st('Accuracy', answered ? Math.round((correct / answered) * 100) + '%' : '—')}${st('Bookmarks', bm)}<span class="grow"></span><div class="en">${prev ? `<a href="#/home" data-act="open" data-s="${prev.slug}">◂ ${esc(prev.slug)}</a>` : ''}${next ? `<a href="#/home" data-act="open" data-s="${next.slug}">${esc(next.slug)} ▸</a>` : ''}</div></div>`;
+}
+const capsuleCards = (ed) => `<div class="dash">${dashHead(ed)}<div class="dgrid">${SLOTS.map((s, i) => tileHTML(ed, s, i)).join('')}</div></div>`;
+
+function capsuleDetailHTML(ed, key) {
+  const idx = SLOTS.findIndex((s) => s.key === key); if (idx < 0) return null;
+  const s = SLOTS[idx], d = slotData(ed, key), p = prog(ed.slug), n = SLOTS.length;
+  const prev = SLOTS[(idx + n - 1) % n], next = SLOTS[(idx + 1) % n];
+  const crumbs = `<div class="crumbs"><a href="#/home" data-act="tocapsule">← Capsule</a><div class="pg" role="navigation" aria-label="Capsule items">${SLOTS.map((x, k) => `<a href="#/capsule/${x.key}" class="${k === idx ? 'on' : ''}" aria-label="${esc(x.label)}" title="${esc(x.label)}"></a>`).join('')}</div><span>${num2(idx)} / ${num2(n - 1)}</span></div>`;
+  const nx = `<div class="nx"><a href="#/capsule/${prev.key}">← ${num2((idx + n - 1) % n)} ${esc(prev.label)}</a><a href="#/capsule/${next.key}">${num2((idx + 1) % n)} ${esc(next.label)} →</a></div>`;
+  const page = (hd, bd) => `<section class="sec cdet" style="min-height:80vh"><div class="wrap wide">${crumbs}<article class="dpage ${s.tone === 'char' ? '' : s.tone}" style="--a:${s.a}"><div class="hd"><div class="lab"><span>${esc(s.label)}</span><span>${num2(idx)}</span></div>${hd}</div><div class="bd">${bd}</div>${nx}</article></div></section>`;
+  if (!d) return page('<h1 class="sm">Not available this edition</h1>', '<p>This part of the capsule could not be generated this time. It will be back next edition.</p>');
+  if (key === 'word') return page(`<h1>${esc(d.word)}</h1><div class="sb">${esc(d.pos || '')} ${esc(d.phonetic || '')} · ${d.word.length} letters</div>`, `<div><span class="lab">Meaning</span><p>${esc(d.definition)}</p></div><p class="ex">${esc(d.example)}</p><div class="box"><span class="lab">Your turn</span><p>${esc(d.exercise)}</p></div><div class="row"><button data-act="say" data-w="${esc(d.word)}">🔊 Hear it</button></div>${d.dictionary ? '' : '<p class="muted">No dictionary entry was found, so the AI wrote this definition.</p>'}`);
+  if (key === 'signal') return page(`<h1 class="sm">${esc(d.title)}</h1><div class="sb">${esc(d.kind)} · ${esc(d.feed)} · ${fdate(d.date)}</div>`, `<div class="two"><div><span class="lab">What happened</span><p>${esc(d.whatHappened)}</p></div><div><span class="lab">Why it matters</span><p>${esc(d.whyItMatters)}</p></div></div><p class="take"><span class="lab">Takeaway</span>${esc(d.takeaway)}</p><p><a href="${url(d.url)}" target="_blank" rel="noopener">Read the source</a> · <span class="muted">based on a short excerpt, so check the original</span></p>`);
+  if (key === 'colour') return page(`<h1>${esc(d.name)}</h1><div class="sb">${d.hexes.map(esc).join(' · ')}</div>`, `<div class="stripes" id="stripes">${d.hexes.map((x) => `<button class="stripe" style="background:${colour(x)};color:${hexInk(colour(x))}" data-act="copyhex" data-hex="${esc(x)}" aria-label="Copy ${esc(x)}"><span>${esc(x)}</span></button>`).join('')}</div><div class="row" style="margin:0"><button data-act="swap">Reverse order</button><span class="muted">Tap a stripe to copy its hex</span></div><p>${esc(d.note)}</p><div><span class="lab">Where to use it</span><p>${esc(d.application)}</p></div><p class="muted">${esc(d.accessibility)}</p>`);
+  if (key === 'type') { loadFont(d.font); const ff = fontStyle(d.font); return page(`<h1 class="sm" style="${ff}">${esc(d.font)}</h1><div class="sb">Google Fonts · open licence (check the specimen page)</div>`, `<div class="bigspec" style="${ff}">Aa</div><p style="${ff};font-size:1.7rem;line-height:1.25">The quick brown fox jumps over the lazy dog.</p><p>${esc(d.character)}</p><div><span class="lab">Best uses</span><p>${esc(d.bestUses)}</p></div><p><a href="${url(d.url)}" target="_blank" rel="noopener">See it on Google Fonts</a></p>`); }
+  if (key === 'interface') return page(`<h1 class="sm">${esc(d.pattern)}</h1>`, `<div><span class="lab">Why designers use it</span><p>${esc(d.reasoning)}</p></div><div class="box"><span class="lab">Try it · about 10 minutes</span><p>${esc(d.tryIt)}</p></div>`);
+  if (key === 'tab') return page(`<h1 class="sm">${esc(d.name)}</h1><div class="sb">${esc(hostOf(d.url))}</div>`, `<p>${esc(d.what)}</p><div><span class="lab">Why bookmark it</span><p>${esc(d.whyBookmark)}</p></div><div class="row"><a class="btn solid" href="${url(d.url)}" target="_blank" rel="noopener">Open it ${arrow}</a></div><p class="muted">${d.verified ? '● reachable on ' + esc(d.checkedAt) : 'not verified'}</p>`);
+  return page(`<h1 class="sm">${esc(d.text)}</h1>`, `<div class="chk"><label class="rg"><input type="checkbox" data-chk="challenge" ${p.challenge ? 'checked' : ''} aria-label="Mark the challenge as done"><span class="rb">${burst(44)}</span></label><p id="chalmsg">${p.challenge ? 'Done. Nicely done.' : 'Tap the ring when you have done it.'}</p></div>`);
 }
 
 function homeHTML(ed) {
@@ -162,7 +197,7 @@ function homeHTML(ed) {
     <div class="spread" aria-hidden="true"><span>Ideas</span><span>woven</span><span>in</span><span>wonder</span></div></div>
     <p class="lead">A learning magazine with a new edition every two days: scripture, mind, sound, code, systems, design and the art of having less.</p>
     <a class="btn" href="#capsule" data-act="jump" data-to="capsule">Enter ${arrow}</a></div></header>
-  <section class="band capsule" id="capsule"><div class="wrap wide"><div class="cap-head"><div class="kicker">${burst(16)}<span>The daily capsule</span></div><h2 class="display">Little things<span class="script">worth knowing</span></h2></div>${marquee(ed)}${capsuleCards(ed)}<p class="muted" style="margin-top:1.6rem">${esc(ed.theme || '')}</p></div></section>
+  <section class="band capsule" id="capsule"><div class="wrap wide"><div class="cap-head"><div><div class="kicker">${burst(16)}<span>The daily capsule</span></div><h2 class="display">Little things<span class="script">worth knowing</span></h2></div><p class="hint">Press any tile to open it ↗</p></div>${capsuleCards(ed)}</div></section>
   <section class="band cobalt"><div class="wrap wide"><div class="kicker">${burst(16)}<span>The houses</span></div><h2 class="display" style="margin:.4rem 0 1.4rem;font-size:clamp(2rem,6vw,4rem)">Seven rooms, seven moods</h2>${tiles(ed)}</div></section>
   <section class="band cream"><div class="wrap"><div class="kicker">${burst(16)}<span>The Dispatch</span></div><h2 class="display" style="margin:.4rem 0 1rem;font-size:clamp(2rem,6vw,4rem)">Six things worth your attention</h2><ol class="heads">${(ed.dispatch?.headlines || []).map((h) => `<li><div><span class="kicker">${esc(H[h.house]?.name || h.house)}</span><b>${esc(h.text)}</b></div></li>`).join('')}</ol><div class="row"><a class="btn" href="#/dispatch">Open the briefing ${arrow}</a></div></div></section>
   <section class="band cobalt cta"><div class="wrap"><div class="bar" style="max-width:420px;margin:0 auto 1rem;color:#fff"><i style="width:${(n / KEYS.length) * 100}%"></i></div><p style="margin:0 auto 1rem">${n} of ${KEYS.length} sections explored in this edition. No deadline, no streaks.</p>${older ? `<p>Catch-up idea: <a href="#/home" data-act="open" data-s="${older.slug}">Edition ${esc(older.slug)}</a> still has ${KEYS.length - seenCount(older.slug)} unexplored sections.</p>` : ''}<h2 class="display" style="font-size:clamp(2.2rem,7vw,5rem);margin:1rem 0">Let's keep wondering</h2><a class="btn" href="#/archive">Open the archive</a></div></section>
@@ -563,8 +598,8 @@ document.addEventListener('keydown', (e) => {   // board shortcuts (only on the 
 });
 
 // ---------- routing & render ----------
-const THEME_FOR = { home: 'home', houses: 'home', dispatch: 'blue', puzzle: 'tan', board: 'home', archive: 'home' };
-let io;
+const THEME_FOR = { capsule: 'home', home: 'home', houses: 'home', dispatch: 'blue', puzzle: 'tan', board: 'home', archive: 'home' };
+let io, pendingScroll = null;
 function reveal() {
   io?.disconnect();
   const els = document.querySelectorAll('.rv');
@@ -579,7 +614,7 @@ function applyPrefs(isLesson) {
 }
 async function render(top = true) {
   const route = (location.hash.split('/')[1] || 'home').split('?')[0], arg = location.hash.split('/')[2];
-  document.querySelectorAll('#nav a').forEach((a) => a.classList.toggle('on', a.dataset.r === route || (route === 'house' && a.dataset.r === 'houses')));
+  document.querySelectorAll('#nav a').forEach((a) => a.classList.toggle('on', a.dataset.r === route || (route === 'house' && a.dataset.r === 'houses') || (route === 'capsule' && a.dataset.r === 'home')));
   const isLesson = route === 'house' && !!H[arg];
   const theme = isLesson ? H[arg].t : THEME_FOR[route] || 'home';
   document.body.dataset.t = theme;
@@ -594,11 +629,13 @@ async function render(top = true) {
   try { ed = await edition(S.cur); } catch { app.innerHTML = '<p class="pad">Could not load this edition. Check your connection and try again.</p>'; return; }
   if (isLesson) { seen(ed.slug, arg); app.innerHTML = lessonHTML(ed, ed.houses[arg], arg); }
   else if (route === 'houses' || route === 'house') app.innerHTML = `<section class="sec" style="min-height:80vh"><div class="wrap wide"><div class="kicker">${burst(16)}<span>Edition ${esc(ed.slug)}</span></div><h1 class="display" style="margin:.5rem 0 1.5rem">The houses</h1>${tiles(ed)}</div></section>`;
+  else if (route === 'capsule') { seen(ed.slug, 'capsule'); app.innerHTML = capsuleDetailHTML(ed, arg) || '<section class="sec"><div class="wrap"><h1 class="display">Not found</h1><p><a href="#/home">Back to the capsule</a></p></div></section>'; }
   else if (route === 'dispatch') app.innerHTML = dispatchHTML(ed);
   else if (route === 'puzzle') { seen(ed.slug, 'puzzle'); app.innerHTML = puzzleHTML(ed); }
   else { seen(ed.slug, 'capsule'); app.innerHTML = homeHTML(ed); }
   reveal(); onScroll();
-  if (top) scrollTo(0, 0);
+  if (pendingScroll) { const id = pendingScroll; pendingScroll = null; requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: 'start', behavior: 'instant' })); }
+  else if (top) scrollTo(0, 0);
 }
 
 // ---------- scroll: reading progress, section spy, hero parallax ----------
@@ -639,6 +676,7 @@ document.addEventListener('click', async (e) => {
   const t = e.target.closest('[data-act]'); if (!t) { const ln = e.target.closest('[data-link]'); if (ln) { S.board.links.splice(Number(ln.dataset.link), 1); save(); drawLines(); } return; }
   const act = t.dataset.act;
   // synchronous, no data needed
+  if (act === 'tocapsule') { pendingScroll = 'capsule'; return; }
   if (act === 'jump') { e.preventDefault(); document.getElementById(t.dataset.to)?.scrollIntoView({ behavior: 'smooth' }); return; }
   if (act === 'gl') { showPop(t, GL[Number(t.dataset.i)] || { term: '', definition: '' }); return; }
   if (act === 'flip') { t.classList.toggle('on'); return; }
@@ -682,14 +720,14 @@ document.addEventListener('click', async (e) => {
 });
 document.addEventListener('input', (e) => { const n = e.target.closest('[data-note]'); if (n) { S.notes[`${S.cur}/${n.dataset.note}`] = n.value; save(); } });
 document.addEventListener('change', async (e) => {
-  if (e.target.matches('[data-chk]')) { prog(S.cur)[e.target.dataset.chk] = e.target.checked; save(); toast(e.target.checked ? 'Nice. Marked as done' : 'Unmarked'); return; }
+  if (e.target.matches('[data-chk]')) { prog(S.cur)[e.target.dataset.chk] = e.target.checked; save(); const m = $('#chalmsg'); if (m) m.textContent = e.target.checked ? 'Done. Nicely done.' : 'Tap the ring when you have done it.'; toast(e.target.checked ? 'Nice. Marked as done' : 'Unmarked'); return; }
   if (e.target.id !== 'imp' || !e.target.files[0]) return;
   try { const j = JSON.parse(await e.target.files[0].text()); if (j && typeof j === 'object' && confirm('Replace your current data with this backup?')) { S = { ...S, ...j }; normBoard(); await kvSet('state', S); render(); } } catch { alert('That file could not be read.'); }
 });
 document.addEventListener('mouseup', checkSelection);
 document.addEventListener('touchend', checkSelection);
-document.addEventListener('keyup', (e) => { if (e.key === 'Escape') { hidePop(); $('#clipfab') && ($('#clipfab').hidden = true); if (S.prefs.focus) { S.prefs.focus = false; save(); render(false); } } else if (e.key.startsWith('Arrow') && e.shiftKey) checkSelection(); });
-addEventListener('pointermove', (e) => { const c = e.target.closest?.('.cap'); if (c) { const r = c.getBoundingClientRect(); c.style.setProperty('--mx', (e.clientX - r.left) + 'px'); c.style.setProperty('--my', (e.clientY - r.top) + 'px'); } }, { passive: true });
+document.addEventListener('keyup', (e) => { if (e.key === 'Escape') { hidePop(); $('#clipfab') && ($('#clipfab').hidden = true); if (S.prefs.focus) { S.prefs.focus = false; save(); render(false); } } else if ((e.key === 'ArrowLeft' || e.key === 'ArrowRight') && location.hash.startsWith('#/capsule/') && !e.target.closest?.('input,textarea,[contenteditable="true"]')) { const k = location.hash.split('/')[2], i = SLOTS.findIndex((s) => s.key === k); if (i >= 0) location.hash = `#/capsule/${SLOTS[(i + (e.key === 'ArrowRight' ? 1 : SLOTS.length - 1)) % SLOTS.length].key}`; }
+  else if (e.key.startsWith('Arrow') && e.shiftKey) checkSelection(); });
 addEventListener('scroll', onScroll, { passive: true });
 addEventListener('resize', () => applyPrefs(document.body.classList.contains('focus') || !!$('.lesson')));
 addEventListener('hashchange', () => render());

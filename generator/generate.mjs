@@ -323,7 +323,21 @@ const IMG_CREDIT = 'AI-generated illustration (FLUX.1 schnell, Cloudflare Worker
 let sharp = null;
 try { sharp = (await import('sharp')).default; } catch { /* optional: raw output is stored if sharp is absent */ }
 
-async function makeImage(slug, key, scene, style, alt) {
+// Every image is graded in code so the set looks like one family: 16:10 crop, darker, slightly desaturated,
+// tinted toward the house palette (multiply + soft-light) and vignetted. Film grain is NOT baked in (the app adds it with CSS, which keeps files small).
+async function gradeImage(buf, tint) {
+  if (!sharp) return buf;
+  if (E.GRADE === '0') return sharp(buf).resize({ width: 900, withoutEnlargement: true }).jpeg({ quality: 72, mozjpeg: true }).toBuffer();
+  const W = 1024, Hh = 640, hex = /^#[0-9a-f]{6}$/i.test(tint || '') ? tint : '#275075';
+  const rgb = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16));
+  const lift = rgb.map((v) => Math.round(v + (255 - v) * 0.4));          // a lightened tint, multiplied in: shadows go to black, mid-tones take the house colour
+  const solid = (c, alpha) => ({ create: { width: W, height: Hh, channels: 4, background: { r: c[0], g: c[1], b: c[2], alpha } } });
+  const base = await sharp(buf).resize(W, Hh, { fit: 'cover', position: 'attention' }).modulate({ brightness: 0.8, saturation: 0.6 }).linear(1.12, -8).toBuffer();
+  const vignette = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${Hh}"><defs><radialGradient id="v" cx="50%" cy="48%" r="75%"><stop offset="40%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".75"/></radialGradient></defs><rect width="100%" height="100%" fill="url(#v)"/></svg>`);
+  return sharp(base).composite([{ input: solid(lift, 0.7), blend: 'multiply' }, { input: solid(rgb, 0.25), blend: 'soft-light' }, { input: vignette }]).jpeg({ quality: 72, mozjpeg: true }).toBuffer();
+}
+
+async function makeImage(slug, key, scene, style, alt, tint) {
   if (!IMAGES_ON) return null;
   const dir = path.join(DATA, 'img', slug);
   await fs.mkdir(dir, { recursive: true });
@@ -343,11 +357,22 @@ async function makeImage(slug, key, scene, style, alt) {
     const b64 = j?.result?.image;
     if (!b64) throw new Error('no image in response');
     let buf = Buffer.from(b64, 'base64');
-    if (sharp) buf = await sharp(buf).resize({ width: 900, withoutEnlargement: true }).jpeg({ quality: 72, mozjpeg: true }).toBuffer();
+    buf = await gradeImage(buf, tint);
     await fs.writeFile(path.join(dir, `${key}.jpg`), buf);
     await sleep(800);
     return { src: `data/img/${slug}/${key}.jpg`, alt, prompt, credit: IMG_CREDIT, aiGenerated: true };
   } catch (e) { log('image failed', key, String(e.message).slice(0, 120)); return null; }
+}
+
+// Used by generator/preview-image.mjs: render a single image into preview/ so you can judge the look before a full run.
+export async function previewImage(houseKey, scene) {
+  const house = cfg.houses[houseKey]; if (!house) throw new Error(`Unknown house "${houseKey}". Use one of: ${Object.keys(cfg.houses).join(', ')}`);
+  if (!(CF_ID && CF_TOKEN)) throw new Error('Set CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN first.');
+  const r = await makeImage('_preview', houseKey, scene, house.imageStyle, 'preview', house.imageTint);
+  if (!r) throw new Error('Image generation failed (see the message above).');
+  const dest = path.join(ROOT, 'preview'); await fs.mkdir(dest, { recursive: true });
+  const out = path.join(dest, `${houseKey}.jpg`); await fs.copyFile(path.join(ROOT, r.src), out); await fs.rm(path.join(DATA, 'img', '_preview'), { recursive: true, force: true });
+  return out;
 }
 
 async function pruneImages(index) {
@@ -386,7 +411,7 @@ ${grounded ? 'SOURCES:\n' + srcBlock(sources) : 'SOURCES: none could be fetched 
 Return JSON matching this schema:
 ${SCHEMA}`;
   const lesson = await askJSON({ system: SYSTEM, user, validate: (j) => validateLesson(j, sources), mock: () => mockLesson(topic.label, sources.length ? sources : [{ id: 'S1' }]) });
-  const image = await makeImage(slug, key, lesson.imagePrompt, house.imageStyle, `Illustration for: ${lesson.title}`);
+  const image = await makeImage(slug, key, lesson.imagePrompt, house.imageStyle, `Illustration for: ${lesson.title}`, house.imageTint);
   return { house: key, houseName: house.name, topic: topic.label, ...lesson, image, grounded, aiGenerated: true, status: 'unreviewed',
     sources: sources.map(({ id, title, url, kind, retrievedAt, date }) => ({ id, title, url, kind, retrievedAt, ...(date ? { date } : {}) })) };
 }
@@ -552,7 +577,7 @@ async function main() {
   const total = 3 + HOUSES.length + 1;
   if (failed.length > total / 2) throw new Error(`Too many failures (${failed.join(', ')}). Edition not published.`);
 
-  const cover = await makeImage(slug, 'cover', cfg.cover.prompt, cfg.cover.style, 'Cover illustration');
+  const cover = await makeImage(slug, 'cover', cfg.cover.prompt, cfg.cover.style, 'Cover illustration', cfg.cover.tint);
   const capsule = capsuleExtras ? { ...capsuleExtras, aiSignal: signal, openTab } : { aiSignal: signal, openTab };
   const edition = {
     n, slug, publishedAt: new Date().toISOString(),

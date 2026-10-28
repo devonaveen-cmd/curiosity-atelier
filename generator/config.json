@@ -164,7 +164,8 @@
           ]
         }
       ],
-      "imageStyle": "macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial"
+      "imageStyle": "macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial",
+      "imageTint": "#810603"
     },
     "mindcraft": {
       "name": "IQ, EQ and the art of living well",
@@ -231,7 +232,8 @@
           ]
         }
       ],
-      "imageStyle": "calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain"
+      "imageStyle": "calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain",
+      "imageTint": "#2D5366"
     },
     "soundroom": {
       "name": "Music from the inside",
@@ -298,7 +300,8 @@
           ]
         }
       ],
-      "imageStyle": "motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric"
+      "imageStyle": "motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric",
+      "imageTint": "#8B2E44"
     },
     "aiml": {
       "name": "AI/ML Fieldnotes",
@@ -365,7 +368,8 @@
           ]
         }
       ],
-      "imageStyle": "grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms"
+      "imageStyle": "grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms",
+      "imageTint": "#37324A"
     },
     "systems": {
       "name": "The Systems Forge",
@@ -433,7 +437,8 @@
           ]
         }
       ],
-      "imageStyle": "tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial"
+      "imageStyle": "tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial",
+      "imageTint": "#275075"
     },
     "design": {
       "name": "The Design Observatory",
@@ -500,7 +505,8 @@
           ]
         }
       ],
-      "imageStyle": "editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light"
+      "imageStyle": "editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light",
+      "imageTint": "#3F4D32"
     },
     "frugal": {
       "name": "Frugal Chic",
@@ -567,14 +573,16 @@
           ]
         }
       ],
-      "imageStyle": "warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial"
+      "imageStyle": "warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial",
+      "imageTint": "#6B4E34"
     }
   },
   "imageNote": "Prompts are built as: <lesson imagePrompt> + <house style> + safety suffix. FLUX renders poorly with text, so text and people are excluded.",
   "imageSuffix": "No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
   "cover": {
     "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness",
-    "style": "dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain"
+    "style": "dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain",
+    "tint": "#275075"
   },
-  "imageBase": "shared house look: dark moody low-key lighting, deep black shadows, analogue film grain, tactile materials, muted editorial still-life photography, shallow depth of field"
+  "imageBase": "shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography"
 }

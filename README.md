@@ -46,12 +46,12 @@ Every page is pure black (`#000`). Every house uses the Soundroom look: thin, ti
 | Design Observatory | olive `#3F4D32` | lime `#C7DEA4` |
 | Frugal Chic, Puzzle | umber `#6B4E34` | sand `#DDB892` |
 
-Fonts (all SIL OFL, bundled in `fonts/`, so the app works offline): Inter Tight for everything, Instrument Serif for the logo and italic quotes, Pinyon Script for the accent line. All text/background pairs were checked for contrast.
+Fonts (all SIL OFL, bundled in `fonts/`, so the app works offline): Inter Tight for text, Instrument Serif for the logo and italic quotes, Pinyon Script for the accent line, Azeret Mono for the capsule dashboard. All text/background pairs were checked for contrast.
 
 ## AI images
 1. The text model writes an `imagePrompt` for each lesson (objects, places and textures only: never people, faces or text, because image models garble them).
 2. The generator adds that house's style line from `generator/config.json` (for example "motion-blurred 35mm film photograph, marigold and deep green, light leak" for Soundroom) and calls FLUX.1 schnell on Cloudflare Workers AI. Cost is roughly 60 Neurons per image against a free allowance of 10,000 per day, so 8 images per edition is far below the limit.
-3. Images are compressed with `sharp`, stored in `data/img/<edition>/`, and labelled "AI illustration" in the app. Images for editions older than the newest 40 are pruned (set `IMG_KEEP`), and any missing image falls back to generated grain art in the module's palette.
+3. Every image is then graded in code so the set looks like one family: cropped to 16:10, darkened, partly desaturated, tinted toward that house's palette (`imageTint` in `generator/config.json`) and vignetted. Set `GRADE=0` to turn the grade off. Images are compressed with `sharp`, stored in `data/img/<edition>/`, and labelled "AI illustration" in the app. Images for editions older than the newest 40 are pruned (set `IMG_KEEP`), and any missing image falls back to generated grain art in the module's palette.
 4. Setup: create a free Cloudflare account, copy your Account ID, create an API token with the "Workers AI" permission, and give both to `bootstrap.sh` (or add repo secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`). Without them the app still works with generated art.
 5. Honesty: AI images of historical subjects are illustrations, not evidence. They are always labelled, and the prompts avoid depicting real people.
 
@@ -66,8 +66,16 @@ Fonts (all SIL OFL, bundled in `fonts/`, so the app works offline): Inter Tight 
 
 Older editions (made before v2) still display; they just lack the key idea, glossary and images until you generate a new edition.
 
-## Daily capsule (bento spread)
-Seven slots, each with its own palette and layout: the word of the day set huge (with a pronounce button), a colour card that is the palette itself (tap a stripe to copy a hex, reverse the order), the AI/ML signal with a highlighted takeaway, a type specimen shown in its real typeface, an interface study with a script-set pattern name, the open tab drawn as a little browser window, and a tiny challenge you tick off with an animated ring. A slow ticker runs above the cards, and cards glow where your pointer is.
+## Daily capsule (personal-dashboard bento)
+Styled after your dashboard reference: charcoal tiles on a near-black canvas, slate-blue and stone accent tiles, Azeret Mono labels and big numerals, thin rules and round ↗ buttons. A stats strip along the top shows real numbers from your own progress (edition, date, sections explored, quiz answered, accuracy, bookmarks) plus an edition switcher.
+
+The seven slots are compact tiles, and each one is a real link to its own full page (`#/capsule/word`, `/signal`, `/colour`, `/type`, `/interface`, `/tab`, `/challenge`), so the home page stays short. On an item page you get the full content, 01 to 07 position dots, previous/next links, left/right arrow keys, and a back link that returns you to the dashboard (not the top of the page). The colour tile draws the palette as bars and shows the computed contrast ratio; the type tile shows the font in its own face when online; the challenge tile is a progress ring that fills when you finish it. A slot that failed to generate shows as a dashed placeholder instead of breaking the layout.
+
+## Try one image before a full run
+```
+CLOUDFLARE_ACCOUNT_ID=... CLOUDFLARE_API_TOKEN=... node generator/preview-image.mjs theology "an old brass key resting on a folded paper map"
+```
+This writes `preview/theology.jpg` so you can judge the look (and adjust `imageStyle` / `imageTint` in the config) before spending a whole edition.
 
 ## Honesty features
 - Evidence labels: established / inference / debate / tradition / background / unverified. "Established" must point at a fetched source id, otherwise it is downgraded.

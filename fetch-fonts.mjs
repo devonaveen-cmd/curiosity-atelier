@@ -9,7 +9,8 @@ import path from 'node:path';
 const WANT = [
   ['instrument-serif', 'Instrument Serif', [[400, 'normal'], [400, 'italic']]],
   ['inter-tight', 'Inter Tight', [[300, 'normal'], [400, 'normal'], [700, 'normal'], [400, 'italic']]],
-  ['pinyon-script', 'Pinyon Script', [[400, 'normal']]]
+  ['pinyon-script', 'Pinyon Script', [[400, 'normal']]],
+  ['azeret-mono', 'Azeret Mono', [[400, 'normal'], [500, 'normal']]]
 ];
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'atelier-fonts-'));
 execSync('npm init -y', { cwd: tmp, stdio: 'ignore' });
