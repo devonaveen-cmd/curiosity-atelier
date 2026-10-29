@@ -1,0 +1,925 @@
+{
+ "n": 4,
+ "slug": "004",
+ "publishedAt": "2026-10-29T10:03:25.704Z",
+ "theme": "Acts 17:16-34, Paul in Athens · Confirmation bias · Chord progressions",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.5-flash"
+  ],
+  "failed": []
+ },
+ "cover": null,
+ "capsule": {
+  "word": {
+   "word": "sagacious",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Having or showing keen mental discernment, good judgment, and practical wisdom.",
+   "example": "The senior engineer gave a sagacious piece of advice: never optimize code before measuring its actual performance.",
+   "exercise": "Write a sentence using 'sagacious' to describe a smart decision made during a late-night debugging session.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Deep Moss & Parchment",
+   "hexes": [
+    "#1E3A2B",
+    "#8F9E8B",
+    "#F5F2EB"
+   ],
+   "note": "Deep forest green provides a grounded, authoritative base, while muted sage softens transitions. Paired with warm parchment, the combination feels calm, reflective, and deliberate, avoiding the harsh contrast of pure black and white for long reading sessions.",
+   "application": "Text-heavy documentation sites, terminal themes, or personal digital notebooks.",
+   "accessibility": "Strongest pair: #1E3A2B with #F5F2EB, contrast 11.08:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "Newsreader",
+   "character": "Warm, literary, and precise. It feels like an edited print essay, bringing human warmth and steady structure to screen-based typography.",
+   "bestUses": "Works brilliantly for long-form editorial content and long-read essays; avoid using it for dense data tables, UI controls, or tiny button labels.",
+   "url": "https://fonts.google.com/specimen/Newsreader",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Command Palette (Cmd+K)",
+   "reasoning": "Modern web interfaces use command palettes to give keyboard-first users direct access to actions without navigating complex menus. By unifying search, navigation, and system commands into a single modal input, it reduces visual clutter while significantly speeding up power-user workflows across developer tools and productivity applications.",
+   "tryIt": "Open VS Code or Figma, press Cmd+K (or Ctrl+P), and write down the top three commands you trigger using the palette instead of clicking.",
+   "aiGenerated": true
+  },
+  "challenge": "Sketch a quick layout for a text editor modal in your notebook, using Newsreader for the title hierarchy and applying the Deep Moss palette to reduce visual noise.",
+  "aiSignal": {
+   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+   "url": "https://arxiv.org/abs/2610.37657v1",
+   "date": "2026-10-27T17:58:52Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Researchers introduced 'Heads of Security' (HoS), a defense method that uses targeted attention gates to enforce a clear boundary between system instructions and user-provided data inside large language models. Based on the brief summary provided, this mechanism allows a model to read and reason over untrusted user text without accidentally executing hidden malicious prompts.",
+   "whyItMatters": "Failing to separate executable instructions from raw data is a classic vulnerability across all of computer science, famously appearing in SQL injections and buffer overflows. Seeing this same structural design problem emerge in neural networks bridges traditional computer security fundamentals with cutting-edge AI architecture.",
+   "takeaway": "Always maintain a strict boundary between trusted execution commands and untrusted user input."
+  },
+  "openTab": {
+   "url": "https://visualgo.net",
+   "name": "visualising data structures and algorithms through animation - VisuAlgo",
+   "what": "VisuAlgo is a tool created by Associate Professor Steven Halim and students at the National University of Singapore to visualize data structures and algorithms through animation.",
+   "whyBookmark": "It provides a consolidated series of visualizations that allow you to learn the basics of data structures and algorithms independently and at your own pace.",
+   "verified": true,
+   "checkedAt": "2026-10-29"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "Acts 17:16-34, Paul in Athens",
+   "title": "Paul at the Areopagus",
+   "hook": "When Paul arrived in ancient Athens, he delivered a speech that adapted early Christian teaching to the language and culture of Greek philosophy.",
+   "core": "While waiting in Athens, the apostle Paul observed a city filled with idols, prompting him to speak both in the synagogue and the public marketplace daily (S1). His message about Jesus and the **resurrection** drew the attention of local thinkers, specifically **Epicurean** and **Stoic** philosophers (S1). They referred to him as a babbler preaching foreign deities and brought him before the **Areopagus** to explain his claims (S1).\n\nAddressing the gathered Athenians, Paul anchored his argument in their local religious landscape by referencing an altar inscribed to an unknown god (S1). Rather than quoting Hebrew scriptures directly, he framed the creator God using terms familiar to Greek culture, even quoting local poets to emphasize human connection to the divine (S1). He asserted that God does not dwell in man-made temples and announced a coming judgment validated by a man raised from the dead (S1).\n\nThe response from the crowd was mixed: while some listeners mocked the idea of bodily resurrection, others requested a future hearing, and a small group, including Dionysius and Damaris, became believers (S1).",
+   "context": "Prerequisites include understanding how classical Greek cities functioned as centers of philosophical discourse. In first-century Athens, public speech was the primary medium for discussing novel ideas. The **Areopagus** was an ancient Athenian council responsible for judicial matters and religious offenses, meeting on the Hill of Ares northwest of the Acropolis (S2). The sermon recorded in *Acts* 17 represents a pivotal literary scene where early Christian rhetoric adapted to communicate with Greco-Roman thinkers using local cultural concepts rather than direct citations of Jewish scripture (S1, S3).",
+   "evidence": [
+    {
+     "claim": "Paul delivered a speech at the Areopagus after conversing with Epicurean and Stoic philosophers in the Athenian marketplace.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The Areopagus council met on a rocky outcrop northwest of the Acropolis and handled judicial cases including religious offenses.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Paul cited an altar dedicated 'TO AN UNKNOWN GOD' and quoted Greek poets during his speech.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The text in Acts 17 represents a condensed summary of Paul's speech rather than an exact shorthand transcript.",
+     "label": "inference",
+     "source": "S3"
+    },
+    {
+     "claim": "Dionysius the Areopagite and a woman named Damaris became believers following the speech.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Marketplace Discourse --> Areopagus Presentation --> Divided Audience Response",
+   "realWorld": "In public communication and cross-cultural studies, the Areopagus sermon serves as a classic case study in audience adaptation. Communicators study how Paul established common ground using local cultural markers—such as the altar inscription and poetic citations—before introducing unfamiliar concepts. Rhetoricians analyze this speech to evaluate how persuasive arguments bridge distinct cultural assumptions.",
+   "exercise": {
+    "prompt": "Read Acts 17:16-34 using a free online Bible tool. Identify where Paul uses local cultural references instead of quoting Jewish scripture directly.",
+    "answerHint": "Note Paul's references to the inscription 'TO AN UNKNOWN GOD' and quotes from Greek poets rather than book-and-verse citations from the Hebrew Bible."
+   },
+   "quiz": [
+    {
+     "q": "Where did the Areopagus council historically meet in ancient Athens according to the sources?",
+     "options": [
+      "On a rocky outcrop northwest of the Acropolis",
+      "Inside the central synagogue of Athens",
+      "At the primary naval harbor of Piraeus",
+      "On top of the Parthenon structure"
+     ],
+     "answer": 0,
+     "explanation": "The Areopagus met on a rocky outcrop called the Hill of Ares, located northwest of the Acropolis (S2)."
+    },
+    {
+     "q": "How did the Athenian audience react when Paul mentioned the resurrection of the dead?",
+     "options": [
+      "They immediately arrested him for treason",
+      "Some mocked, while others asked to hear him again",
+      "The entire council converted immediately",
+      "They destroyed all altars in the marketplace"
+     ],
+     "answer": 1,
+     "explanation": "Acts 17:32 records that when they heard of the resurrection, some mocked while others said they wanted to hear him again on the topic (S1)."
+    }
+   ],
+   "checklist": [
+    "Identify audience cultural context",
+    "Find shared cultural reference points",
+    "Deliver core message clearly"
+   ],
+   "furtherQuestions": [
+    "How do the speeches in Acts compare to the style and argumentation of Paul's survival letters?",
+    "What judicial authority did the Areopagus council hold during the Roman period in Greece?"
+   ],
+   "imagePrompt": "A weathered marble altar on a rugged ancient limestone outcrop under bright sunlight, surrounded by stone artifacts overlooking an ancient Mediterranean city.",
+   "keyIdea": "Paul's address at the Areopagus demonstrates early Christian communication adapting its language to non-Jewish Greek listeners through local cultural references.",
+   "glossary": [
+    {
+     "term": "resurrection",
+     "definition": "The act of rising from the dead, which Paul proclaimed concerning Jesus in his speech."
+    },
+    {
+     "term": "Epicurean",
+     "definition": "A follower of the ancient Greek philosophy seeking tranquility and evaluating reality through natural grounds."
+    },
+    {
+     "term": "Stoic",
+     "definition": "A follower of an ancient Hellenistic philosophy emphasizing logic, reason, and emotional self-control."
+    },
+    {
+     "term": "Areopagus",
+     "definition": "A council and rocky hill northwest of the Acropolis in Athens used for judicial and religious meetings."
+    }
+   ],
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Acts 17:16-34 (World English Bible)",
+     "url": "https://bible-api.com/Acts%2017%3A16-34",
+     "kind": "scripture",
+     "retrievedAt": "2026-10-29"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: Areopagus",
+     "url": "https://en.wikipedia.org/wiki/Areopagus",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    },
+    {
+     "id": "S3",
+     "title": "Wikipedia: Areopagus sermon",
+     "url": "https://en.wikipedia.org/wiki/Areopagus_sermon",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Confirmation bias",
+   "title": "Decoding Confirmation Bias",
+   "hook": "We often believe we form opinions based on facts, but our brains naturally prioritize evidence that proves us right. Understanding this subtle cognitive trap is the first step toward clearer thinking.",
+   "core": "When you form an opinion, your brain quietly shifts from an impartial judge to a dedicated lawyer. This mental habit is known as **confirmation bias**, the subtle tendency to seek out, interpret, remember, and favor information that matches your **prior beliefs** or desires [S1]. Instead of testing an idea objectively, people naturally conduct one-sided searches, noticing supporting facts while ignoring contradictory evidence [S1].\n\nThis phenomenon goes beyond simple stubbornness. It operates largely through automatic mental habits that reduce the effort required to process complex ideas [S1]. When confronted with **ambiguous evidence**, a person naturally interprets those uncertain details in a way that reinforces what they already assume [S1]. The effect grows significantly stronger when dealing with emotionally charged topics, deeply entrenched views, or personal desires [S1].\n\nAnother layer of this trap is **selective exposure**, where individuals deliberately or unconsciously choose sources that protect their existing attitudes [S1]. Some people are far more resistant to counter-information than others, actively filtering their environment to keep their worldview undisturbed [S1]. Recognizing these automatic patterns allows you to slow down, ask better questions, and evaluate reality as it is, rather than how you wish it to be.",
+   "context": "Psychologists have studied cognitive biases for decades to understand why intelligent people often reach wildly different conclusions from the exact same data [S1]. In daily life, confirmation bias shows up in how we read news, evaluate political candidates, or troubleshoot code. Before attempting advanced critical thinking techniques, a beginner must learn to notice their own initial emotional reaction to new facts. Recognizing that your mind naturally seeks comfort over truth is the essential prerequisite for developing sound reasoning and genuine emotional intelligence.",
+   "evidence": [
+    {
+     "claim": "Confirmation bias leads people to search for, interpret, favor, and recall information that supports prior beliefs.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Confirmation bias is strongest for emotionally charged issues and deeply entrenched beliefs.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Confirmation bias often stems from automatic mental habits rather than conscious effort.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Individuals differ in how strongly they defend their attitudes against contrary information.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "[Prior Belief] --> Filter Sources --> Notice Supporting Data --> Reinforce Belief\n                                 --> Ignore Contrary Data  --/",
+   "realWorld": "Imagine a software developer who believes a bug is caused by a broken database query. She spends hours searching logs specifically for query errors, skipping over networking logs that show a clear timeout. Similarly, an investor who buys stock in a tech company might read only positive financial news while ignoring quarterly reports showing declining revenue. In both cases, focusing exclusively on desired outcomes leads to costly missteps [S1].",
+   "exercise": {
+    "prompt": "Pick a mild opinion you hold strongly (such as your favorite software editor or coffee brewing method). Spend five minutes searching online specifically for three well-reasoned arguments that disagree with your preference. Write them down in a notebook without criticizing them.",
+    "answerHint": "You succeed if you can state the opposing perspective accurately enough that someone holding that view would agree with your summary."
+   },
+   "quiz": [
+    {
+     "q": "When is confirmation bias typically strongest?",
+     "options": [
+      "When solving straightforward arithmetic problems.",
+      "When evaluating emotionally charged issues or deeply entrenched beliefs.",
+      "When learning a new foreign language vocabulary list.",
+      "When making trivial choices between identical household goods."
+     ],
+     "answer": 1,
+     "explanation": "Confirmation bias exerts its strongest effect when dealing with emotionally charged issues, desired outcomes, or deeply held convictions [S1]."
+    },
+    {
+     "q": "What is 'selective exposure' in the context of cognitive psychology?",
+     "options": [
+      "The tendency to expose delicate scientific equipment to varied weather conditions.",
+      "The practice of sharing raw research data publicly to prevent academic fraud.",
+      "The tendency to choose information sources that align with existing attitudes while avoiding counter-evidence.",
+      "The habit of randomly sampling small subsets of a dataset to cut analysis costs."
+     ],
+     "answer": 2,
+     "explanation": "Selective exposure refers to how people select information that supports their existing attitudes while avoiding opposing perspectives [S1]."
+    }
+   ],
+   "checklist": [
+    "Pause when reading news that immediately makes you feel emotionally validated.",
+    "Actively search for disconfirming evidence before finalizing a major decision.",
+    "Notice when you interpret ambiguous details as definitive proof for your stance."
+   ],
+   "furtherQuestions": [
+    "How do recommendation algorithms online amplify selective exposure for average users?",
+    "What structured techniques can teams use during project reviews to uncover disconfirming evidence?"
+   ],
+   "imagePrompt": "A vintage wooden desk featuring two contrasting open notebooks, a magnifying glass resting over handwritten notes, a brass desk lamp, and a steaming ceramic mug.",
+   "keyIdea": "Your brain naturally seeks and remembers information that confirms what you already believe, making an active search for disconfirming facts essential for clear thinking.",
+   "glossary": [
+    {
+     "term": "confirmation bias",
+     "definition": "The tendency to search for, interpret, favor, and recall information supporting prior beliefs."
+    },
+    {
+     "term": "prior beliefs",
+     "definition": "Pre-existing opinions, values, or assumptions held before evaluating new evidence."
+    },
+    {
+     "term": "ambiguous evidence",
+     "definition": "Information that can be reasonably interpreted in multiple ways due to unclear facts."
+    },
+    {
+     "term": "selective exposure",
+     "definition": "Selecting information sources that align with existing attitudes while actively avoiding opposing views."
+    }
+   ],
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Confirmation bias",
+     "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Chord progressions",
+   "title": "Decoding Harmonic Foundations",
+   "hook": "A single melody can feel lost in the air, but adding a sequence of chords beneath it gives it direction, emotion, and structure. Understanding chord progressions unlocks the hidden roadmap behind almost every song you love.",
+   "core": "A **chord progression** is a succession of musical **chords** played one after another. In Western music, chords are groups of notes played together that create **harmony**. Rather than standing alone, chords move forward in time to build tension and release. A producer uses a progression to establish the emotional backbone of a track, guiding the listener's expectations and supporting the voice or main synth line.\n\nImagine listening to a lone acoustic guitar plucking a single note rhythmically. It sounds sparse and dry, leaving the song's key ambiguous. Now, lay a basic four-chord progression underneath that same rhythm. Suddenly, the isolated note anchors into place, transforming from a plain repeating sound into a soaring emotional melody that feels complete and cinematic.\n\nTo hear this in action, open any free digital audio workstation like *GarageBand* or *BandLab*. Record a simple four-bar synth melody using just one note played on every beat. Next, drop a pre-made piano chord progression into an audio track underneath it. Notice how the same single note changes its feeling with every new chord, shifting from bright to tense to resolved.",
+   "context": "Chord progressions form the foundation of Western music, spanning from the common practice era of classical compositions to contemporary popular styles, jazz, blues, and traditional music [S1]. Before modern recording technology existed, composers used written notation to map out these harmonic shifts. Today, electronic producers often draw progressions into MIDI grids. A basic understanding of musical scales and notes on a keyboard helps, but you do not need to read traditional sheet music to build compelling progressions.",
+   "evidence": [
+    {
+     "claim": "Chord progressions are a succession of chords that form the foundation of harmony in Western musical tradition.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Popular music styles, traditional music, blues, and jazz rely on chord progressions as a defining feature for melody and rhythm.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Composers historically used paper notation while modern producers frequently use software MIDI grids.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "A single melodic note changes its perceived emotional quality depending on the underlying chord.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[ C Major ] --> [ A Minor ] --> [ F Major ] --> [ G Major ]\n  (Tension)      (Darker)        (Lift)         (Resolve)",
+   "realWorld": "In commercial music production, songwriters and producers often start tracks by laying down a loop of four chords before writing a single lyric. Film scorers rely heavily on shifting harmonic movement to manipulate audience emotions, subtly changing a chord behind an actor to hint at danger or relief without altering the main visual scene.",
+   "exercise": {
+    "prompt": "Open BandLab or any web-based sequencer. Create a loop playing a single note repeatedly for four bars, then add a simple C major to A minor chord progression underneath it.",
+    "answerHint": "Listen to how the isolated note feels stable during the C major chord, then feels slightly more emotional or melancholic when the chord changes to A minor."
+   },
+   "quiz": [
+    {
+     "q": "What is the main purpose of a chord progression in popular music?",
+     "options": [
+      "To provide a structured sequence of chords that creates harmony and emotional movement.",
+      "To replace the main vocal melody with percussion sounds.",
+      "To automate the master volume level of a final audio mix.",
+      "To remove all pitch variations from a recorded track."
+     ],
+     "answer": 0,
+     "explanation": "A chord progression provides the harmonic framework that supports melodies and rhythm in popular music genres."
+    },
+    {
+     "q": "How does adding a chord progression change the sound of a single repeating note?",
+     "options": [
+      "It changes the pitch of the original recorded vocal sample permanently.",
+      "It contextualizes the note, altering its perceived emotion and harmonic meaning.",
+      "It automatically increases the speed of the song by double.",
+      "It removes all background noise from the microphone input."
+     ],
+     "answer": 1,
+     "explanation": "Harmonies created by underlying chords change how the human ear interprets the role and mood of an isolated melody note."
+    }
+   ],
+   "checklist": [
+    "Identify the root notes of your sequence.",
+    "Listen for points of tension and resolution.",
+    "Keep the rhythm steady while testing new chords."
+   ],
+   "furtherQuestions": [
+    "How do major and minor chords differ in how they convey emotion?",
+    "What is the role of Roman numeral notation in mapping chord progressions?"
+   ],
+   "imagePrompt": "A warm wooden upright piano keyboard, with three dust-dusted wooden blocks resting on key tops, soft ambient light streaming across polished ivory keys.",
+   "keyIdea": "Chord progressions provide the harmonic movement and emotional backbone that give context, shape, and direction to musical melodies.",
+   "glossary": [
+    {
+     "term": "chord progression",
+     "definition": "A succession of musical chords played in a sequence over time."
+    },
+    {
+     "term": "chords",
+     "definition": "Groups of musical notes played simultaneously to create harmony."
+    },
+    {
+     "term": "harmony",
+     "definition": "The combination of different musical notes played at the same time."
+    }
+   ],
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Chord progression",
+     "url": "https://en.wikipedia.org/wiki/Chord_progression",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Linear regression",
+   "title": "Mapping Straight Lines in Code",
+   "hook": "Before neural networks draw pictures or write essays, engineers start with the simplest tool in data science: fitting a straight line through points to make predictions.",
+   "core": "**Linear regression** is a foundational mathematical model used to estimate the relationship between a single target variable and one or more input variables. Imagine plotting your daily study hours against your test scores on a grid. If increasing your study time tends to raise your score at a steady rate, you can draw a straight line through those points to predict future scores.\n\nWhen you use just one input variable to predict a result, statisticians call it **simple linear regression**. If you add more inputs, such as assignment marks or attendance hours, it becomes **multiple linear regression**. In Python, libraries fit this line automatically by calculating the slope and intercept that minimize the distance between the line and your actual data points.\n\nAs a computer science student, you will encounter this concept in introductory statistics and machine learning modules. Understanding how a straight line models trends provides the baseline for evaluating whether complex models are actually necessary for a problem.",
+   "context": "Before tackling linear regression, you only need basic algebra: understanding cartesian coordinates, slopes, and intercepts. In modern software engineering, linear regression lives inside data pipelines. Developers write scripts using tools like Python, Jupyter notebooks, and open-source packages like pandas or scikit-learn. Rather than solving equations by hand, an engineer loads a CSV file containing historical records, passes the columns into a trainer function, and exports a trained model file to serve live predictions.",
+   "evidence": [
+    {
+     "claim": "Linear regression estimates the relationship between a scalar response and explanatory variables via a linear combination.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A linear model with exactly one explanatory variable is a simple linear regression.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A model with two or more explanatory variables is a multiple linear regression.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Engineers frequently use Python and tools like scikit-learn to implement linear regression in software pipelines.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": " Y |\n   |        / (Line of Best Fit)\n   |      * /\n   |    *  / *\n   |   / *\n   | * /\n   +---------------- X",
+   "realWorld": "In software engineering, linear regression serves as a baseline algorithm. Before deploying complex deep learning architectures for server load forecasting, cloud expenditure estimates, or real estate valuation, engineers build a linear regression pipeline. If a simple linear trend predicts CPU usage within acceptable accuracy, engineers avoid the computational cost and debugging complexity of heavier models.",
+   "exercise": {
+    "prompt": "Open a free Python notebook in Google Colab. Import numpy and sklearn.linear_model. Create an array X = [[1], [2], [3], [4]] and y = [2, 4, 6, 8]. Train a LinearRegression model on X and y, then predict the result for X = [[5]].",
+    "answerHint": "The model should predict 10.0 because the data follows the linear formula y = 2x."
+   },
+   "quiz": [
+    {
+     "q": "What distinguishes simple linear regression from multiple linear regression?",
+     "options": [
+      "Simple linear regression uses exactly one explanatory variable.",
+      "Multiple linear regression cannot be processed using Python.",
+      "Simple linear regression works exclusively with negative numbers.",
+      "Multiple linear regression requires deep neural network hardware."
+     ],
+     "answer": 0,
+     "explanation": "Simple linear regression models the relationship using exactly one explanatory variable, whereas multiple linear regression uses two or more."
+    },
+    {
+     "q": "Why do engineers build a linear regression model before trying complex algorithms?",
+     "options": [
+      "To encrypt input files before sending them over a network.",
+      "To establish a fast, low-cost baseline to compare future models against.",
+      "To automatically clean corrupted rows in a SQL database.",
+      "To convert categorical text strings into image pixels."
+     ],
+     "answer": 1,
+     "explanation": "Linear regression provides a simple, interpretable baseline. If it achieves sufficient accuracy, complex models are unnecessary."
+    }
+   ],
+   "checklist": [
+    "Review fundamental coordinate algebra (slope and intercept)",
+    "Set up a Python environment with pandas and scikit-learn",
+    "Prepare a dataset with numerical feature columns and a target column",
+    "Evaluate linear model predictions against actual test values"
+   ],
+   "furtherQuestions": [
+    "How do engineers measure the accuracy or prediction error of a linear regression model?",
+    "What strategies exist if the true relationship between variables forms a curve rather than a straight line?"
+   ],
+   "imagePrompt": "A wooden desk with a vintage metallic ruler, a blue grid notebook, a wooden pencil, and scattered brass measuring calipers resting under warm morning sunlight.",
+   "keyIdea": "Linear regression models the relationship between inputs and outputs using a straight line, offering a simple baseline for prediction and data analysis.",
+   "glossary": [
+    {
+     "term": "Linear regression",
+     "definition": "A model that estimates relationships between a scalar response and explanatory variables."
+    },
+    {
+     "term": "simple linear regression",
+     "definition": "A linear model that uses exactly one explanatory variable."
+    },
+    {
+     "term": "multiple linear regression",
+     "definition": "A linear model that uses two or more explanatory variables."
+    }
+   ],
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Linear regression",
+     "url": "https://en.wikipedia.org/wiki/Linear_regression",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Virtual memory",
+   "title": "Understanding Virtual Memory",
+   "hook": "Your computer runs dozens of programs at once without them overwriting each other's data. Virtual memory is the magic abstraction that makes this memory isolation possible.",
+   "core": "Before operating systems provided modern abstractions, programs wrote directly to physical hardware memory. If two programs used the same physical address, one would overwrite the other's data and crash the system. **Virtual memory** solves this by creating an idealized abstraction of storage resources, giving every running program the illusion of having a very large, private main memory.\n\nUnder the hood, the system maps virtual addresses to physical locations in **RAM** using fixed-size blocks called pages. When a program requests memory that is not currently mapped in RAM, the hardware triggers a **page fault**, prompting the operating system to retrieve or allocate that page.\n\nConsider this tiny C snippet allocating memory:\n\nint *ptr = malloc(1000 * sizeof(int));\nptr[2000] = 42;\n\nA common beginner bug is writing beyond allocated boundaries. Because virtual memory grants access on whole pages, writing past allocated bounds might not immediately crash if the address falls on the same mapped page, leading to silent memory corruption.\n\nThe trade-off of virtual memory is performance overhead: translating virtual addresses to physical ones requires specialized hardware and extra lookup steps.",
+   "context": "Before virtual memory became standard in operating systems, developers had to manually manage physical memory segments or write complex overlays to fit programs into limited hardware. Modern kernels rely on dedicated hardware to isolate process memory spaces and protect system stability. To understand virtual memory, a beginner needs basic familiarity with program execution in compiled languages like C and how operating systems handle running processes.",
+   "evidence": [
+    {
+     "claim": "Virtual memory provides an idealized abstraction of the storage resources available on a machine.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Virtual memory creates the illusion to users of a very large main memory.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Operating systems map virtual memory to physical RAM using fixed-size pages.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Writing outside allocated heap memory on the same page can cause silent data corruption instead of an immediate fault.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "Virtual Address Space       Physical RAM\n+-------------------+      +------------+\n| Page 0 (Code)     | ---> | Frame 4    |\n+-------------------+      +------------+\n| Page 1 (Heap)     | ---> | Frame 2    |\n+-------------------+      +------------+\n| Page 2 (Unmapped) | ---> [ Page Fault ]\n+-------------------+      +------------+",
+   "realWorld": "Modern web browsers like Firefox or Chromium run separate tabs in isolated operating system processes protected by virtual memory boundaries. If a complex web page encounters a memory corruption bug or crashes, virtual memory prevents it from accessing or damaging the private memory space of other open tabs or system software.",
+   "exercise": {
+    "prompt": "Write a small C program that allocates 10 integers with malloc, writes to index 15, and compile it with AddressSanitizer using gcc -fsanitize=address main.c.",
+    "answerHint": "AddressSanitizer will detect the out-of-bounds write at runtime and print a memory map crash report identifying the buffer overflow."
+   },
+   "quiz": [
+    {
+     "q": "Why might a program write past an allocated array boundary without immediately crashing?",
+     "options": [
+      "Virtual memory protection operates on full pages, so neighboring bytes on the same page are still accessible.",
+      "The C compiler automatically resizes heap arrays when extra data is assigned.",
+      "The operating system automatically redirects illegal writes into temporary swap space.",
+      "Hardware processors ignore out-of-bounds writes unless debug flags are enabled."
+     ],
+     "answer": 0,
+     "explanation": "Memory permissions are managed per page. If an invalid write falls inside an already mapped page, hardware protection will not trigger a segmentation fault immediately."
+    },
+    {
+     "q": "What event occurs when a program accesses a virtual memory address that is not currently mapped in physical RAM?",
+     "options": [
+      "Buffer overflow",
+      "Page fault",
+      "Stack protection error",
+      "Cache miss exception"
+     ],
+     "answer": 1,
+     "explanation": "A page fault occurs when the CPU attempts to access a virtual memory address that lacks a valid physical page mapping, prompting the OS to handle it."
+    }
+   ],
+   "checklist": [
+    "Understand the difference between virtual and physical address spaces.",
+    "Identify why page faults occur during program execution.",
+    "Use memory sanitizers to catch out-of-bounds errors early."
+   ],
+   "furtherQuestions": [
+    "How do operating systems use paging to swap inactive memory pages to disk?",
+    "What are huge pages, and how do they reduce hardware address translation overhead?"
+   ],
+   "imagePrompt": "An neatly arranged workbench displaying a vintage silicon circuit board, a glowing vintage cathode-ray display tube, a copper wire coil, and glass test tubes containing colored liquids.",
+   "keyIdea": "Virtual memory creates an abstraction layer that isolates running programs and provides each with the illusion of an exclusive, contiguous memory space.",
+   "glossary": [
+    {
+     "term": "Virtual memory",
+     "definition": "An operating system abstraction that gives each program the illusion of exclusive access to a large memory space."
+    },
+    {
+     "term": "RAM",
+     "definition": "Fast physical hardware memory used by the operating system to hold active data for running programs."
+    },
+    {
+     "term": "page fault",
+     "definition": "An event triggered when a process accesses a virtual memory address that is not currently mapped in physical RAM."
+    }
+   ],
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Virtual memory",
+     "url": "https://en.wikipedia.org/wiki/Virtual_memory",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] LWN.net Weekly Edition for October 29, 2026",
+     "url": "https://lwn.net/Articles/1102136/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Thu, 29 Oct 2026 00:19:08 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: A report from the LPC sched_ext microconference",
+     "url": "https://lwn.net/Articles/1103426/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Wed, 28 Oct 2026 22:11:43 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: [$] The campaign to push Northstar into Linux distributions",
+     "url": "https://lwn.net/Articles/1102738/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Wed, 28 Oct 2026 14:26:59 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Redox OS ring buffers project summary",
+     "url": "https://lwn.net/Articles/1103359/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Wed, 28 Oct 2026 14:05:05 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Colour theory",
+   "title": "Colour Theory and Visual Hierarchy",
+   "hook": "Design is not visual decoration; it is an engineered system of clarity. Learning how colour and visual hierarchy work together allows you to direct a reader's eye intentionally.",
+   "core": "Design is not arbitrary ornament; it is a structured system of intentional decisions. When building an interface or document, every choice—from visual hierarchy and layout grids to typography—shapes how a reader interprets information. Colour acts as a primary driver in this system, directing focus, conveying urgency, and establishing structure.\n\nAt its foundation, **color theory** provides a historical body of knowledge describing how visual hues interact, mix, and influence human perception S1. While modern **color science** examines objective, functional applications in fields like chemistry, optical physics, or digital color reproduction, visual design draws on traditional color theory for more artistic, subjective guidance S1.\n\nA core design technique involves manipulating **color contrast** to establish clear focal points S1. High contrast draws immediate attention to critical elements, while low contrast pushes supporting information into the background. Simultaneously, using **color harmony** keeps a page visually stable by combining tones according to deliberate visual schemes S1. By treating colour as a functional system alongside typography and alignment grids, you control the user's visual journey with precision.",
+   "context": "Visual literacy begins with noticing how structured design decisions shape digital interfaces and print media. Historically, artistic practices relied on subjective rules of thumb for color mixing and balance, while technical industries required precise measurement standards S1. Today, computing students encounter colour at the intersection of both worlds: as functional code values, like RGB or hex codes, and as visual communication tools. Understanding both artistic intuition and visual hierarchy enables software developers to build user interfaces that are both functional and visually clear.",
+   "evidence": [
+    {
+     "claim": "Traditional color theory is a historical body of knowledge covering color mixing, contrast effects, harmony, and symbolism.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Color science focuses on objective and functional applications such as chemistry, astronomy, or color reproduction.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Traditional color theory tends to be more subjective and artistic compared to color science.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Color theory and color science have intertwined histories that aid each other's evolution.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "+------------------------+\n| [HIGH CONTRAST HEADER] |\n|                        |\n|  Low contrast body     |\n|  text block sits here. |\n|                        |\n|   +----------------+   |\n|   | [CALL TO ACT]  |   |\n|   +----------------+   |\n+------------------------+",
+   "realWorld": "Every mobile application uses a system of design decisions to guide user actions. A brightly coloured button on a neutral background relies on color contrast to signal an action, like *Submit* or *Buy*. Meanwhile, subtle grey text indicates inactive states. Design systems in software engineering enforce these rules globally through visual guidelines, ensuring that typography, spacing grids, and colour palettes remain consistent across hundreds of screens.",
+   "exercise": {
+    "prompt": "Open a text editor or design app. Create a simple banner with a light grey background, dark grey body text, and a single high-contrast primary accent color for a key phrase or button.",
+    "answerHint": "Notice how the high-contrast accent element immediately draws your eye first, establishing a clear visual hierarchy."
+   },
+   "quiz": [
+    {
+     "q": "According to color theory concepts, what is the primary purpose of applying color contrast in visual design?",
+     "options": [
+      "To ensure every element on the page receives equal visual weight.",
+      "To create clear visual entry points and highlight critical elements.",
+      "To study the chemical composition of digital screen pixels.",
+      "To remove all structural grids from a composition."
+     ],
+     "answer": 1,
+     "explanation": "Color contrast creates distinct visual differences, making key elements stand out to guide the viewer's focus."
+    },
+    {
+     "q": "How does traditional color theory differ from color science?",
+     "options": [
+      "Color theory is purely objective, while color science is artistic.",
+      "Color theory focuses exclusively on chemistry, while color science focuses on painting.",
+      "Color theory tends to be subjective with artistic uses, while color science is objective and functional.",
+      "Color theory was invented for digital screens, while color science applies only to print."
+     ],
+     "answer": 2,
+     "explanation": "As noted in S1, traditional color theory leans toward artistic, subjective applications, whereas color science deals with objective, functional studies like chemistry or astronomy."
+    }
+   ],
+   "checklist": [
+    "Establish clear visual hierarchy before selecting accent colours.",
+    "Maintain high contrast between foreground text and background tones.",
+    "Limit active accent colours to avoid visual clutter."
+   ],
+   "furtherQuestions": [
+    "How do dark mode user interfaces adjust contrast ratios for readability?",
+    "In what ways do chromatic accessibility guidelines (like WCAG) quantify color contrast?"
+   ],
+   "imagePrompt": "An artist's wooden desk with neatly arranged physical color swatches, paint tubes, a precise metal ruler, and a digital color picker tool on a tablet screen.",
+   "keyIdea": "Visual design relies on intentional systems—combining typography, grids, and colour theory—to guide user attention and establish clear visual hierarchy.",
+   "glossary": [
+    {
+     "term": "color theory",
+     "definition": "a historical body of knowledge describing color behavior, mixing, contrast, and visual harmony."
+    },
+    {
+     "term": "color science",
+     "definition": "the objective, functional study of color in disciplines like chemistry, optics, and reproduction."
+    },
+    {
+     "term": "color contrast",
+     "definition": "the visual difference in lightness or tone between adjacent visual elements."
+    },
+    {
+     "term": "color harmony",
+     "definition": "the visually balanced or logical combination of colors within a visual composition."
+    }
+   ],
+   "image": null,
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Color theory",
+     "url": "https://en.wikipedia.org/wiki/Color_theory",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Leather",
+   "title": "Recognizing Quality in Leather",
+   "hook": "True luxury in leather comes from material integrity and repairability, not expensive logos or polished marketing.",
+   "core": "What makes leather beautiful is how it ages. Unlike synthetic materials that degrade into peeling trash, high-quality animal hide develops a rich **patina**, a lustrous sheen formed through daily wear, natural oils, and sunlight. Understanding leather begins with its hierarchy of cuts. The top layer, known as **full-grain leather**, retains the tightest natural fiber structure, offering supreme durability and character. Lower grades, like bonded or genuine leather, ground up scraps or strip away fiber layers, resulting in brittle surfaces that crack within months.\n\nEvaluating craftsmanship relies on construction rather than brand logos. Well-made leather goods feature hand-sewn stitching, specifically a **saddle stitch**, which uses two continuous needles so the seam remains intact even if one thread breaks. Look for burnished edges sealed with natural beeswax rather than thick, painted rubber coats that split over time.\n\nFrugal chic rejects buying cheap new items that wear out quickly. Instead, seek vintage items made of full-grain hide at thrift stores, or acquire neglected leather craft goods to restore yourself. Simple maintenance using a natural conditioner and clean cloth revives dried hide, turning discarded items into heirloom pieces without spending to perform luxury.",
+   "context": "Leather preservation dates back thousands of years to early human civilizations that used natural plant compounds to stabilize raw hides. Today, the market is flooded with plastic-based substitutes marketed as eco-friendly alternatives that lack longevity. Note that no external academic sources were fetched for this specific text; this lesson serves as a background overview for evaluating leather goods thoughtfully rather than a source-grounded historical study.",
+   "evidence": [
+    {
+     "claim": "Full-grain leather contains the highest fiber density of the hide.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Saddle stitching uses two distinct needles passing through the same hole.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Synthetic leather substitutes often rely on polyurethane coatings.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Natural vegetable tanning utilizes plant tannins derived from tree bark.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Full-Grain   [ Tight fibers / Ages into patina ]\nTop-Grain    [ Sanded layer / Uniform finish   ]\nSplit/Bonded [ Weak scraps / Peels and cracks  ]",
+   "realWorld": "Outside fashion, full-grain leather construction appears in vintage camera cases, heavy-duty work boots, and classic upholstery. When evaluating secondhand items or heirloom goods, inspecting the edge finishing and seam integrity tells you instantly whether a piece was built for decades of utility or quick consumer disposal. Always check current prices across vintage markets before buying new.",
+   "exercise": {
+    "prompt": "Inspect a leather item you own or find in a secondhand shop. Examine the edges where the material is cut, check the stitch pattern along the seams, and determine whether the surface displays natural grain or a uniform plastic coating.",
+    "answerHint": "If the edges show individual fiber layers rather than painted rubber, and seams use thick double-threaded stitches, the item is well made."
+   },
+   "quiz": [
+    {
+     "q": "What gives full-grain leather its superior durability compared to lower grades?",
+     "options": [
+      "Its synthetic polymer coating",
+      "Its tight, intact natural fiber structure",
+      "Its painted rubber edge sealant",
+      "Its chemical bleaching process"
+     ],
+     "answer": 1,
+     "explanation": "Full-grain leather keeps the outermost layer of the hide intact, preserving the dense, natural fibers responsible for strength."
+    },
+    {
+     "q": "Why is a saddle stitch preferred over a standard machine lockstitch in quality leatherwork?",
+     "options": [
+      "It uses less thread overall",
+      "It can only be applied to synthetic materials",
+      "If one thread breaks, the rest of the seam remains secure",
+      "It creates a completely invisible outer seam"
+     ],
+     "answer": 2,
+     "explanation": "A saddle stitch uses two needles passing through each hole independently, preventing the seam from unraveling if a single loop snaps."
+    }
+   ],
+   "checklist": [
+    "Check if the grain shows natural pores rather than a stamped plastic pattern.",
+    "Inspect seams to ensure stitches are even, angled, and non-frayed.",
+    "Verify edge finishing is burnished smooth rather than coated in rubbery paint.",
+    "Assess if dry leather can be restored, and check current prices for conditioner."
+   ],
+   "furtherQuestions": [
+    "How does vegetable tanning differ from chrome tanning in environmental impact and aging?",
+    "What simple tools and oils are best suited for restoring dried secondhand leather goods at home?"
+   ],
+   "imagePrompt": "A close-up macro photograph of a weathered vintage leather journal featuring visible burnished edges, hand-stitched seams, and a rich golden-brown patina resting on a plain wooden surface.",
+   "keyIdea": "True leather value lies in full-grain fiber density, repairable hand-stitching, and gracefully aged patina, not expensive designer branding.",
+   "glossary": [
+    {
+     "term": "patina",
+     "definition": "A lustrous, aged surface sheen developed on leather through wear, handling, and light exposure."
+    },
+    {
+     "term": "full-grain leather",
+     "definition": "Leather made from the outermost layer of hide, preserving natural grain and maximum fiber strength."
+    },
+    {
+     "term": "saddle stitch",
+     "definition": "A hand-sewing technique using two needles on a single thread to create durable, unravel-resistant seams."
+    }
+   ],
+   "image": null,
+   "grounded": false,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": []
+  }
+ },
+ "puzzle": {
+  "type": "sequence",
+  "title": "Logic day: what comes next?",
+  "prompt": "7, 16, 25, 34, 43, ?",
+  "answer": "52",
+  "explanation": "The rule: add 9 each time."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Paul at the Areopagus"
+   },
+   {
+    "house": "mindcraft",
+    "text": "Decoding Confirmation Bias"
+   },
+   {
+    "house": "soundroom",
+    "text": "Decoding Harmonic Foundations"
+   },
+   {
+    "house": "aiml",
+    "text": "Mapping Straight Lines in Code"
+   },
+   {
+    "house": "systems",
+    "text": "Understanding Virtual Memory"
+   },
+   {
+    "house": "design",
+    "text": "Colour Theory and Visual Hierarchy"
+   },
+   {
+    "house": "frugal",
+    "text": "Recognizing Quality in Leather"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Paul at the Areopagus",
+    "text": "When Paul arrived in ancient Athens, he delivered a speech that adapted early Christian teaching to the language and culture of Greek philosophy. While waiting in Athens, the apostle Paul observed a city filled with idols, prompting him to speak both in the synagogue and the public marketplace daily (S1).",
+    "sources": [
+     "https://bible-api.com/Acts%2017%3A16-34",
+     "https://en.wikipedia.org/wiki/Areopagus"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "Decoding Confirmation Bias",
+    "text": "We often believe we form opinions based on facts, but our brains naturally prioritize evidence that proves us right. Understanding this subtle cognitive trap is the first step toward clearer thinking. When you form an opinion, your brain quietly shifts from an impartial judge to a dedicated lawyer.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Confirmation_bias"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Decoding Harmonic Foundations",
+    "text": "A single melody can feel lost in the air, but adding a sequence of chords beneath it gives it direction, emotion, and structure. Understanding chord progressions unlocks the hidden roadmap behind almost every song you love. A chord progression is a succession of musical chords played one after another.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chord_progression"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Mapping Straight Lines in Code",
+    "text": "Before neural networks draw pictures or write essays, engineers start with the simplest tool in data science: fitting a straight line through points to make predictions. Linear regression is a foundational mathematical model used to estimate the relationship between a single target variable and one or more input variables.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Linear_regression"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "Understanding Virtual Memory",
+    "text": "Your computer runs dozens of programs at once without them overwriting each other's data. Virtual memory is the magic abstraction that makes this memory isolation possible. Before operating systems provided modern abstractions, programs wrote directly to physical hardware memory.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Virtual_memory",
+     "https://lwn.net/Articles/1102136/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "Colour Theory and Visual Hierarchy",
+    "text": "Design is not visual decoration; it is an engineered system of clarity. Learning how colour and visual hierarchy work together allows you to direct a reader's eye intentionally. Design is not arbitrary ornament; it is a structured system of intentional decisions.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Color_theory"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Recognizing Quality in Leather",
+    "text": "True luxury in leather comes from material integrity and repairability, not expensive logos or polished marketing. What makes leather beautiful is how it ages.",
+    "sources": []
+   }
+  ],
+  "plus": [
+   "Word: sagacious",
+   "Puzzle: Logic day: what comes next?",
+   "AI/ML signal: Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness"
+  ]
+ }
+}
