@@ -1,0 +1,982 @@
+{
+ "n": 5,
+ "slug": "005",
+ "publishedAt": "2026-10-29T14:50:19.296Z",
+ "theme": "1 Corinthians 1:10-17 · Emotional intelligence · Microphones",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.5-flash",
+   "gemini/gemini-3.5-flash-lite",
+   "gemini/gemini-3.1-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/005/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "laconic",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Using very few words to express an idea clearly and concisely.",
+   "example": "His laconic commit message, 'fixed bug,' left the team guessing until they read the pull request.",
+   "exercise": "Write a laconic sentence describing your favorite command-line tool.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Terminal Slate",
+   "hexes": [
+    "#1E1E24",
+    "#4A7C59",
+    "#F2F4F3"
+   ],
+   "note": "Deep charcoal grounds the palette, muted pine green adds focused energy without distraction, and soft off-white provides crisp, low-glare contrast for readable text in long reading sessions.",
+   "application": "Dark-mode developer documentation sites and minimal code editor interfaces.",
+   "accessibility": "Strongest pair: #1E1E24 with #F2F4F3, contrast 15.01:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "Space Mono",
+   "character": "Retro-futuristic and precise; its fixed character width creates structural rhythm while geometric details keep it accessible.",
+   "bestUses": "Works best in code blocks, terminal prompts, and data tables; avoid using it for extended paragraphs of body text.",
+   "url": "https://fonts.google.com/specimen/Space+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Command Palette",
+   "reasoning": "Command palettes give power users quick, keyboard-driven access to deep navigation and actions without cluttering the primary UI. By combining search with immediate command execution, designers eliminate visual noise while keeping complex applications fast and predictable for experienced users.",
+   "tryIt": "Open VS Code or GitHub, press Cmd+Shift+P (or Ctrl+Shift+P), and list 3 actions you usually click to perform that are faster via the keyboard.",
+   "aiGenerated": true
+  },
+  "challenge": "Rewrite a wordy comment from one of your recent code projects into a single, laconic sentence.",
+  "aiSignal": {
+   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+   "url": "https://arxiv.org/abs/2610.37657v1",
+   "date": "2026-10-27T17:58:52Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Researchers introduced 'Heads of Security' (HoS), a defense method that protects language models from prompt injection attacks. It adds small, learned attention gates to specific attention heads to control how a model routes attention between trusted instructions and untrusted user data.",
+   "whyItMatters": "Based on the abstract provided, prompt injections succeed when a model fails to separate what it should do from what it is simply reading. HoS attempts to fix this by letting models safely process untrusted text without accidentally executing malicious commands embedded inside it.",
+   "takeaway": "Separating instructions from untrusted data is a core computer science security principle that is just as vital when working with AI models."
+  },
+  "openTab": {
+   "url": "https://www.nand2tetris.org",
+   "name": "https://www.nand2tetris.org",
+   "what": "Nand2Tetris is a hands-on project website that guides you through building a modern computer system from scratch, starting with a single NAND gate.",
+   "whyBookmark": "You should bookmark it because it gives you a profound, bottom-up understanding of how hardware and software actually fit together.",
+   "verified": true,
+   "checkedAt": "2026-10-29"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Corinthians 1:10-17",
+   "title": "Divisions in Corinth",
+   "hook": "When a community breaks into rival camps, how does a founder respond? Paul addresses a fractured church trying to figure out who is in charge.",
+   "core": "Welcome to *The Curiosity Atelier*. In 1 Corinthians 1:10-17, the **apostle** Paul writes to address serious arguments fracturing a local church [S1, S2]. Reports from Chloe’s household revealed that community members were splitting into factions, each claiming allegiance to different leaders like Paul, Apollos, or Cephas [S1].\n\nPaul immediately confronts these loyalties by asking sharp rhetorical questions: Is Christ divided? Was Paul crucified for you? [S1] He clarifies that his primary task was preaching the good news rather than baptizing crowds, wanting to ensure that human allegiance never overshadowed the cross of Christ [S1].\n\nPrerequisites for reading this text include a basic grasp of early Christian history and the nature of ancient letter-writing [S2]. When reading ancient correspondence, we must remember we are listening to only one side of a conversation, piecing together a past community's internal disputes from a single perspective.",
+   "context": "Ancient **Corinth** was a major city-state situated on the Isthmus of Corinth, connecting the Peloponnese peninsula to mainland Greece [S3]. Archaeological investigations by the American School of Classical Studies at Athens and the Greek Ministry of Culture have uncovered vast parts of these ancient ruins since 1896 [S3]. The Christian congregation living in this bustling environment faced distinct local pressures, leading Paul to write this **epistle** to resolve behavioral and theological fractures [S2].",
+   "evidence": [
+    {
+     "claim": "The letter reports contentions in Corinth through people from Chloe's household.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Corinthians were saying they follow Paul, Apollos, Cephas, or Christ.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul states he baptized Crispus, Gaius, and the household of Stephanas.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The First Epistle to the Corinthians addresses divisions, sexual immorality, and other community issues.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Systematic archaeological excavations of ancient Corinth began in 1896.",
+     "label": "established",
+     "source": "S3"
+    }
+   ],
+   "visual": "",
+   "realWorld": "In modern organizations, groups often split into rival factions based on who brought them into the project or whose methodology they prefer. Paul's approach demonstrates how to redirect a divided team back to their core shared mission.",
+   "exercise": {
+    "prompt": "Read 1 Corinthians 1:10-17 using an online Bible tool and highlight every time a specific leader's name is mentioned.",
+    "answerHint": "You should find Paul, Apollos, Cephas, and Christ mentioned in verses 12 and 13."
+   },
+   "quiz": [
+    {
+     "q": "Who reported the contentions among the Corinthians to Paul?",
+     "options": [
+      "Those from Chloe's household",
+      "Crispus and Gaius",
+      "Apollos and Cephas",
+      "The Greek Ministry of Culture"
+     ],
+     "answer": 0,
+     "explanation": "Verse 11 explicitly states that the contentions were reported by those from Chloe's household."
+    },
+    {
+     "q": "Where is ancient Corinth located?",
+     "options": [
+      "On an island near Rome",
+      "On the Isthmus of Corinth joining the Peloponnese to mainland Greece",
+      "Directly inside modern Athens",
+      "In the northern region of Macedonia"
+     ],
+     "answer": 1,
+     "explanation": "Source 3 notes that Corinth was a city-state on the Isthmus of Corinth, joining the Peloponnese peninsula to mainland Greece."
+    }
+   ],
+   "checklist": [],
+   "furtherQuestions": [
+    "How do modern groups form factional loyalties similar to the Corinthian divisions?",
+    "What does archaeology reveal about the physical layout of ancient Corinth during Paul's era?"
+   ],
+   "imagePrompt": "Weathered ancient stone ruins under bright sunlight, showing broken marble columns and old fragments scattered across dry dirt ground.",
+   "keyIdea": "Paul writes to a divided church in Corinth to steer them away from human rivalries and back to the central message of the cross.",
+   "glossary": [
+    {
+     "term": "apostle",
+     "definition": "An authoritative early Christian leader, envoy, or messenger sent out to proclaim a teaching or faith."
+    },
+    {
+     "term": "Corinth",
+     "definition": "An ancient Greek city-state located on a narrow strip of land connecting the Peloponnese to the mainland."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/theology.jpg",
+    "alt": "Illustration for: Divisions in Corinth",
+    "prompt": "Weathered ancient stone ruins under bright sunlight, showing broken marble columns and old fragments scattered across dry dirt ground.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Corinthians 1:10-17 (World English Bible)",
+     "url": "https://bible-api.com/1%20Corinthians%201%3A10-17",
+     "kind": "scripture",
+     "retrievedAt": "2026-10-29"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Corinthians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    },
+    {
+     "id": "S3",
+     "title": "Wikipedia: Ancient Corinth",
+     "url": "https://en.wikipedia.org/wiki/Ancient_Corinth",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Emotional intelligence",
+   "title": "The Mechanics of Emotional Intelligence",
+   "hook": "Technical skills get you hired, but emotional intelligence keeps you effective. Mastering your internal state is as vital as mastering your code.",
+   "core": "Emotional intelligence, often abbreviated as **EQ**, is the capability to perceive, use, understand, and manage emotions effectively. It is not about suppressing feelings, but rather using emotional information to guide your thinking and behavior in complex environments. This process begins with **emotional literacy**, which is the ability to accurately identify and label your specific feelings. Instead of a vague sense of frustration, you might identify the precise feeling as anxiety over a deadline or annoyance at a technical roadblock.\n\nOnce you can name the emotion, you can manage it. This involves adjusting your emotional state to better suit the situation at hand. For instance, if you are feeling overwhelmed while debugging, recognizing that state allows you to step back and shift your focus. High EQ also requires the ability to perceive the emotions of others. By observing cues from peers or teammates, you can adjust your communication style to be more collaborative. Integrating these skills creates a feedback loop where your emotional awareness informs your logical decisions, leading to more sustainable and productive work habits.",
+   "context": "Emotional intelligence is a recognized field in psychology (S1). It is distinct from cognitive intelligence (IQ) and is not a fixed trait; it can be developed through practice and reflection. Prerequisites for this lesson include a willingness to observe your own internal reactions without judgment. This is particularly relevant for computing students who often spend long hours in high-pressure, solitary environments where emotional regulation is essential for long-term success.",
+   "evidence": [
+    {
+     "claim": "Emotional intelligence is the ability to perceive, use, understand, manage, and handle emotions.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Emotional literacy is a component of emotional intelligence.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "EQ involves using emotional information to guide thinking and behavior.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Emotional intelligence can be applied to both self-regulation and social interaction.",
+     "label": "inference",
+     "source": "S1"
+    },
+    {
+     "claim": "High EQ allows for adjusting emotions to adapt to different environments.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "   [Perceive] -> [Label] -> [Manage] -> [Adapt]",
+   "realWorld": "In a professional setting, EQ appears when a developer receives critical feedback on their code. Instead of reacting defensively, a person with high EQ recognizes their initial frustration, pauses to process the feedback objectively, and uses that information to improve the technical solution. This prevents interpersonal friction and results in better software architecture.",
+   "exercise": {
+    "prompt": "For one day, keep a small notebook. Every time you feel a strong emotion, write down the time and the specific label for that feeling.",
+    "answerHint": "You have succeeded if you can identify at least three distinct emotions beyond just 'good' or 'bad' by the end of the day."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary role of emotional literacy in EQ?",
+     "options": [
+      "To eliminate all negative emotions",
+      "To accurately identify and name specific feelings",
+      "To increase cognitive processing speed",
+      "To hide emotions from colleagues"
+     ],
+     "answer": 1,
+     "explanation": "Emotional literacy focuses on the recognition and labeling of feelings, which is the foundation for managing them."
+    },
+    {
+     "q": "How does EQ interact with logical tasks like coding?",
+     "options": [
+      "It replaces the need for logic",
+      "It is unrelated to technical work",
+      "It uses emotional data to guide thinking and behavior",
+      "It makes technical tasks easier to perform"
+     ],
+     "answer": 2,
+     "explanation": "EQ integrates emotional data to help you navigate your environment and guide your decision-making process."
+    }
+   ],
+   "checklist": [
+    "Identify three distinct feelings today",
+    "Pause before reacting to frustration",
+    "Observe a peer's emotional cue"
+   ],
+   "furtherQuestions": [
+    "How can emotional intelligence reduce burnout?",
+    "What is the difference between empathy and emotional intelligence?"
+   ],
+   "imagePrompt": "A simple wooden desk with a single open notebook, a fountain pen, and a ceramic mug of tea, soft morning light falling across the surface, clean and quiet aesthetic.",
+   "keyIdea": "Emotional intelligence is the practice of identifying, understanding, and using your emotions as data to make better decisions and navigate social environments effectively.",
+   "glossary": [
+    {
+     "term": "EQ",
+     "definition": "A measure of emotional intelligence, representing the ability to manage emotions."
+    },
+    {
+     "term": "emotional literacy",
+     "definition": "The ability to accurately recognize, understand, and label your own emotions."
+    },
+    {
+     "term": "emotional intelligence",
+     "definition": "The ability to perceive, use, understand, manage, and handle emotions."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/mindcraft.jpg",
+    "alt": "Illustration for: The Mechanics of Emotional Intelligence",
+    "prompt": "A simple wooden desk with a single open notebook, a fountain pen, and a ceramic mug of tea, soft morning light falling across the surface, clean and quiet aesthetic.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Emotional intelligence",
+     "url": "https://en.wikipedia.org/wiki/Emotional_intelligence",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Microphones",
+   "title": "Microphones: Music from the Inside",
+   "hook": "Every recorded track begins with a tiny mechanical translation. Let us look inside the device that turns physical air vibrations into usable electricity.",
+   "core": "At its most basic level, a **microphone** is a **transducer** that takes physical acoustic energy and turns it into an **electrical signal** [S1]. When a singer makes a sound, air molecules vibrate and push against a very thin internal membrane inside the mic. As this membrane moves, it generates a tiny voltage that travels down a cable.\n\nA producer uses a microphone to capture a live performance so it can be recorded, edited, and played back later. Before the mic captures it, the sound exists purely as moving air in a room, carrying reflections off walls and natural warmth. After the mic converts it, that same sound becomes a fragile electronic wave.\n\nTo your ears, raw audio straight from a budget mic might sound thin, distant, or boxy. After a producer routes that signal through software, adjusts the tone, and balances the volume, it sounds crisp, upfront, and polished.\n\nPrerequisites for this lesson: you should know that sound travels in waves through the air. No complex math is needed here, just a curious ear.",
+   "context": "Microphones are foundational tools found in telephony, broadcasting, hearing aids, and mobile devices [S1]. While modern digital audio workstations offer endless ways to alter sound after capture, the physical microphone remains the essential first checkpoint in any recording session.",
+   "evidence": [
+    {
+     "claim": "A microphone is a transducer that converts sound into an electrical signal.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Microphones are colloquially called a mic or mike.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Microphones are used in telecommunication, sound recording, and broadcasting.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Consumer electronics featuring microphones include telephones and hearing aids.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Mobile devices also use microphones.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Sound Wave -> [ Microphone ] -> Electrical Signal",
+   "realWorld": "Outside the studio, microphones live everywhere: hidden inside your smartphone for voice notes, built into your laptop for video calls, and clipped to news reporters on television broadcasts.",
+   "exercise": {
+    "prompt": "Open the built-in voice memo app on your phone, record yourself whispering closely into the device, and then record yourself speaking from two feet away.",
+    "answerHint": "Notice how the close recording sounds louder and bass-heavy, while the distant recording sounds quieter and picks up room echoes."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary function of a microphone?",
+     "options": [
+      "To convert sound into an electrical signal",
+      "To amplify guitar volume",
+      "To store digital audio files permanently",
+      "To block background room noise"
+     ],
+     "answer": 0,
+     "explanation": "A microphone acts as a transducer, turning physical acoustic sound waves into electricity."
+    },
+    {
+     "q": "Which of these devices contains a microphone according to the text?",
+     "options": [
+      "Hearing aids",
+      "Electric toasters",
+      "Mechanical clocks",
+      "Standard desk lamps"
+     ],
+     "answer": 0,
+     "explanation": "The text explicitly lists hearing aids as consumer electronics that use microphones."
+    }
+   ],
+   "checklist": [
+    "Check if your device has a working built-in mic",
+    "Ensure your recording software is set to the correct input",
+    "Test audio levels before recording a full take"
+   ],
+   "furtherQuestions": [
+    "How do dynamic and condenser microphones differ in construction?",
+    "What role do physical room reflections play in vocal recordings?"
+   ],
+   "imagePrompt": "A close-up shot of a vintage studio microphone sitting on a dark wooden desk, showing metallic mesh textures and a coiled black cable.",
+   "keyIdea": "A microphone acts as a physical translator, converting moving air into electrical signals that computers can record.",
+   "glossary": [
+    {
+     "term": "microphone",
+     "definition": "A transducer that converts sound into an electrical signal."
+    },
+    {
+     "term": "transducer",
+     "definition": "A device that converts energy from one form to another."
+    },
+    {
+     "term": "electrical signal",
+     "definition": "A current of electricity that carries encoded information, such as audio."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/soundroom.jpg",
+    "alt": "Illustration for: Microphones: Music from the Inside",
+    "prompt": "A close-up shot of a vintage studio microphone sitting on a dark wooden desk, showing metallic mesh textures and a coiled black cable.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Microphone",
+     "url": "https://en.wikipedia.org/wiki/Microphone",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Cross-validation",
+   "title": "Cross-Validation: Testing Your Model Wisely",
+   "hook": "If you train an AI on all your data, you have no fair way to check if it actually learned or just memorized. Cross-validation solves this by shuffling and splitting your data into fresh tests.",
+   "core": "**Cross-validation**, sometimes called rotation estimation or out-of-sample testing, is a model validation technique used to assess how the results of a statistical analysis will generalize to an independent data set [S1]. Imagine teaching a student for an exam using only the exact practice questions they will see on the test. They might get a perfect score by memorizing answers rather than understanding the material. \n\nIn machine learning, if you train a model on your entire dataset and test it on that exact same data, you get an overly optimistic score. To fix this, **cross-validation** uses **resampling** and sample splitting methods that use different portions of the data to test and train a model on different iterations [S1]. By rotating which part of the data acts as the unseen test set, you get a much honest measure of your model's true predictive power.\n\nEngineers rely on this technique when the primary goal is prediction, wanting to estimate accurately how a predictive model will perform in practice [S1]. It also helps assess the overall quality of a fitted model and the stability of its parameters across different data subsets [S1].",
+   "context": "Before tackling this technique, you should be comfortable with basic programming logic, functions, and the fundamental idea of training a machine learning model on a dataset. In your first-year degree coursework, you likely learned about training sets and test sets; cross-validation simply takes that basic split and repeats it systematically to avoid relying on a single lucky or unlucky random partition of your data.",
+   "evidence": [
+    {
+     "claim": "Cross-validation is sometimes called rotation estimation or out-of-sample testing.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It assesses how results of a statistical analysis generalize to an independent data set.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It includes resampling and sample splitting methods using different portions of data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It is often used when the goal is prediction and estimating real-world performance.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It can assess the quality of a fitted model and parameter stability.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Dataset -> [Fold 1: Test | Fold 2: Train | Fold 3: Train] -> Iteration 1\nDataset -> [Fold 1: Train | Fold 2: Test | Fold 3: Train] -> Iteration 2",
+   "realWorld": "In software engineering teams building credit scoring systems or medical diagnostics, cross-validation prevents deploying a model that looks great in a lab test but fails completely on new customers walking through the door tomorrow.",
+   "exercise": {
+    "prompt": "Using Python and scikit-learn, load a standard dataset like iris and apply cross_val_score to evaluate a simple classifier across 5 folds.",
+    "answerHint": "Check that your code returns an array of 5 distinct accuracy scores rather than a single number."
+   },
+   "quiz": [
+    {
+     "q": "What is a primary goal of cross-validation?",
+     "options": [
+      "To estimate how accurately a predictive model will perform in practice",
+      "To make training run ten times faster",
+      "To delete duplicate rows from a messy dataset",
+      "To increase the total number of input features"
+     ],
+     "answer": 0,
+     "explanation": "Cross-validation is used to assess how well results generalize and estimate real-world predictive performance [S1]."
+    },
+    {
+     "q": "Which methods are included in cross-validation?",
+     "options": [
+      "Resampling and sample splitting methods",
+      "Manual data entry and spreadsheet sorting",
+      "Image compression and color grading",
+      "Network packet routing and encryption"
+     ],
+     "answer": 0,
+     "explanation": "Cross-validation includes resampling and sample splitting methods that use different portions of data [S1]."
+    }
+   ],
+   "checklist": [
+    "Verify your data is shuffled before splitting",
+    "Choose an appropriate number of folds",
+    "Ensure test and train folds do not overlap incorrectly"
+   ],
+   "furtherQuestions": [
+    "How many folds should I use for a small dataset versus a massive one?",
+    "What is the difference between standard k-fold cross-validation and stratified cross-validation?"
+   ],
+   "imagePrompt": "A neat wooden desktop featuring an open laptop displaying colorful data charts, a spiral notebook with handwritten arithmetic, and a ceramic mug filled with dark coffee.",
+   "keyIdea": "Cross-validation tests your model across multiple different data splits to ensure it actually generalizes rather than just memorizing training examples.",
+   "glossary": [
+    {
+     "term": "cross-validation",
+     "definition": "A model validation technique for assessing how results of a statistical analysis will generalize to an independent data set [S1]."
+    },
+    {
+     "term": "resampling",
+     "definition": "A method using different portions of the data to test and train a model on different iterations [S1]."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/aiml.jpg",
+    "alt": "Illustration for: Cross-Validation: Testing Your Model Wisely",
+    "prompt": "A neat wooden desktop featuring an open laptop displaying colorful data charts, a spiral notebook with handwritten arithmetic, and a ceramic mug filled with dark coffee.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Cross-validation (statistics)",
+     "url": "https://en.wikipedia.org/wiki/Cross-validation_(statistics)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Hash tables",
+   "title": "The Hash Table",
+   "hook": "Imagine searching through a billion names for a single phone number one by one. A hash table lets you find that data instantly, no matter how large the collection grows.",
+   "core": "Prerequisites include a basic grasp of arrays and functions. When you write software, you often need to store information as pairs, linking a name to a value, much like a dictionary. A **hash table** is a data structure that implements this associative array by mapping keys to values [S1]. Imagine an array of empty slots, often called **buckets**. When you hand the data structure a key, it passes that key through a **hash function** [S1]. This function performs a mathematical calculation to compute an **index**, which points directly to a specific bucket where your value lives [S1]. Because the index calculation takes a constant amount of time, looking up information does not require scanning every item.\n\nHere is a tiny Python snippet showing how this works in practice:\n\n*phone_book = {\"Alice\": \"555-1234\"}*\n*print(phone_book[\"Alice\"])*\n\nThe beginner trap is assuming hash tables are magical and free. When two different keys generate the same index, a **collision** happens, and handling it requires extra design. Furthermore, hash functions take CPU cycles, so for tiny lists, a simple array scan can actually be faster.",
+   "context": "Hash tables became a cornerstone of practical software engineering decades ago as memory sizes grew and programmers needed ways to manage associative data without writing slow search loops. They sit beneath dictionaries in Python, maps in Java, and symbol tables in compilers. To understand them fully, you only need to know how standard array indexing works in computer memory.",
+   "evidence": [
+    {
+     "claim": "A hash table is a data structure that implements an associative array, mapping keys to values.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A hash table uses a hash function to compute an index into an array of buckets or slots.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A map implemented by a hash table is called a hash map.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Key -> [Hash Function] -> Index (Bucket) -> Stored Value",
+   "realWorld": "Operating systems and kernels rely on hash tables to track active network connections, open files, and process identifiers so that lookups happen instantly under heavy system loads.",
+   "exercise": {
+    "prompt": "Write a small Python dictionary mapping three fruit names to their colors, then retrieve one color by its key using square brackets.",
+    "answerHint": "Run your script in a terminal; if it prints the correct color without throwing a KeyError, your lookup succeeded."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary purpose of a hash function in a hash table?",
+     "options": [
+      "To encrypt the data for security",
+      "To compute an index into an array of buckets",
+      "To compress the size of the stored values",
+      "To sort the keys in alphabetical order"
+     ],
+     "answer": 1,
+     "explanation": "The hash function takes a key and computes an index or hash code that indicates which bucket holds the value."
+    },
+    {
+     "q": "What is an alternative name for an associative array implemented by a hash table?",
+     "options": [
+      "Stack",
+      "Queue",
+      "Hash map",
+      "Linked node"
+     ],
+     "answer": 2,
+     "explanation": "A map implemented specifically by a hash table is called a hash map."
+    }
+   ],
+   "checklist": [
+    "Choose a hash function that distributes keys evenly",
+    "Plan how your code will handle collisions"
+   ],
+   "furtherQuestions": [
+    "How do programming languages handle situations when two different keys map to the exact same bucket?",
+    "What makes a hash function 'good' versus one that causes performance bottlenecks?"
+   ],
+   "imagePrompt": "A neatly organized wooden apothecary cabinet with many small numbered drawers, illuminated by a warm single desk lamp on a dark workbench.",
+   "keyIdea": "A hash table uses a mathematical function to transform a search key directly into an array index, enabling instant data retrieval.",
+   "glossary": [
+    {
+     "term": "hash table",
+     "definition": "A data structure that implements an associative array to map keys to values using a mathematical function."
+    },
+    {
+     "term": "buckets",
+     "definition": "Slots or positions inside the underlying array of a hash table where values are stored."
+    },
+    {
+     "term": "hash function",
+     "definition": "An algorithm that computes a numeric index from a given input key."
+    },
+    {
+     "term": "index",
+     "definition": "The numerical position pointing to a specific location within an array."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/systems.jpg",
+    "alt": "Illustration for: The Hash Table",
+    "prompt": "A neatly organized wooden apothecary cabinet with many small numbered drawers, illuminated by a warm single desk lamp on a dark workbench.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Hash table",
+     "url": "https://en.wikipedia.org/wiki/Hash_table",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] Containers as a recognized kernel object",
+     "url": "https://lwn.net/Articles/1102593/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Thu, 29 Oct 2026 14:02:30 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Security updates for Thursday",
+     "url": "https://lwn.net/Articles/1103666/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Thu, 29 Oct 2026 13:18:42 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: [$] LWN.net Weekly Edition for October 29, 2026",
+     "url": "https://lwn.net/Articles/1102136/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Thu, 29 Oct 2026 00:19:08 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: A report from the LPC sched_ext microconference",
+     "url": "https://lwn.net/Articles/1103426/",
+     "kind": "feed",
+     "retrievedAt": "2026-10-29",
+     "date": "Wed, 28 Oct 2026 22:11:43 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Typography",
+   "title": "The Architecture of Letters",
+   "hook": "Typography is not just choosing a pretty font; it is an engineered system of visual decisions that guides how humans process information.",
+   "core": "**Typography** is the art and technique of arranging type to make written language legible and readable when displayed [S1]. Think of it as a set of design knobs you twist to control how easily the eye travels across a screen or page. The arrangement of type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters [S1]. Every single one of these choices alters the rhythm of reading. If your line spacing is too tight, paragraphs blur into dense blocks. If your letter spacing is wide, words lose their cohesive shapes.\n\nType design is a closely related craft, sometimes considered part of typography; most typographers do not design typefaces, and some type designers do not consider themselves typographers [S1]. When you build a user interface as a computing student, you are acting as a typographer. You choose how system text scales, how error messages sit against backgrounds, and how readable code editors are in low light.\n\nTypography also may be used as an ornamental and decorative device, unrelated to the communication of information [S1]. In those moments, letters stop being transparent windows to meaning and become physical shapes, akin to brushstrokes or structural steel beams in a building.",
+   "context": "Prerequisites include basic familiarity with digital text editors or basic web development tools. Historically, typography grew out of movable metal type, where every individual letter had to be hand-cast, spaced with physical lead slugs, and locked into a printing press frame. Today, those physical constraints have shifted into digital parameters like cascading style sheets and vector font files, but the core visual laws remain identical.",
+   "evidence": [
+    {
+     "claim": "Typography is the art and technique of arranging type to make written language legible and readable when displayed.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The arrangement of type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Type design is a closely related craft, sometimes considered part of typography.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Most typographers do not design typefaces, and some type designers do not consider themselves typographers.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Typography also may be used as an ornamental and decorative device, unrelated to the communication of information.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "  +--------------------------------+\n  | Heading: 24pt, tight tracking  |\n  |                                |\n  | Body text: 16pt, generous line |\n  | spacing for comfortable reading|\n  +--------------------------------+",
+   "realWorld": "Every time you open an integrated development environment, check your smartphone lock screen, or read a pull request comment, typography is at work. Good interface typography prevents eye strain during long coding sessions.",
+   "exercise": {
+    "prompt": "Open a plain text editor or a simple webpage template. Take a paragraph of text and adjust only the line spacing until it feels comfortable to read.",
+    "answerHint": "Compare your adjusted paragraph to a cramped default block; the lines should feel distinct without drifting apart."
+   },
+   "quiz": [
+    {
+     "q": "What does typography primarily involve according to the text?",
+     "options": [
+      "Arranging type to make written language legible and readable",
+      "Writing original fiction and poetry",
+      "Manufacturing physical metal printing presses",
+      "Designing custom microchips for displays"
+     ],
+     "answer": 0,
+     "explanation": "Typography is defined as the art and technique of arranging type to make written language legible and readable."
+    },
+    {
+     "q": "Which of the following describes the relationship between type design and typography?",
+     "options": [
+      "They are strictly identical professions",
+      "Type design is a closely related craft, sometimes considered part of typography",
+      "Typographers always design their own typefaces from scratch",
+      "Type designers never consider themselves typographers"
+     ],
+     "answer": 1,
+     "explanation": "Type design is a closely related craft, sometimes considered part of typography, though practitioners often specialize in one or the other."
+    }
+   ],
+   "checklist": [
+    "Check line spacing on body text",
+    "Ensure distinct scale between headings and body copy",
+    "Review letter spacing for clarity"
+   ],
+   "furtherQuestions": [
+    "How do screen resolutions and pixel rendering change how we design type?",
+    "What distinguishes a typeface from a font in digital systems?"
+   ],
+   "imagePrompt": "Close-up macro shot of metal printing blocks and wooden letterpress characters resting on a cluttered wooden workbench.",
+   "keyIdea": "Typography is an intentional system of spacing and sizing decisions that transforms raw text into readable, structured communication.",
+   "glossary": [
+    {
+     "term": "Typography",
+     "definition": "The art and technique of arranging type to make written language legible and readable when displayed."
+    },
+    {
+     "term": "Typefaces",
+     "definition": "Stylistic designs of alphabetic symbols and characters selected during the arrangement of type."
+    },
+    {
+     "term": "Typographers",
+     "definition": "Practitioners who arrange type styles and appearances, most of whom do not design the underlying typefaces."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/design.jpg",
+    "alt": "Illustration for: The Architecture of Letters",
+    "prompt": "Close-up macro shot of metal printing blocks and wooden letterpress characters resting on a cluttered wooden workbench.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Typography",
+     "url": "https://en.wikipedia.org/wiki/Typography",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Upcycling",
+   "title": "The Art of Upcycling",
+   "hook": "Taste is not a purchase receipt. Discover how to transform everyday waste into something of lasting value without spending a fortune.",
+   "core": "**Upcycling**, also known as creative reuse, is the process of transforming by-products, waste materials, useless, or unwanted products into new materials or products perceived to be of greater quality, such as artistic value or environmental value [S1]. Instead of throwing things away, you look at what is already in front of you and ask how its core structure can serve a better purpose.\n\nWhat makes an upcycled piece beautiful is its rejection of factory-molded perfection. A well-made upcycled object retains the honest wear of its past life while gaining a sturdier functional redesign. When you mend a broken joint or stitch a torn seam with visible, durable thread, you are not hiding the flaw; you are celebrating the intervention.\n\nThe frugal alternative to buying new is a mix of secondhand hunting, careful repair, and simple do-it-yourself adjustments. Before browsing a store, look at what you already own that can be altered or fixed. This approach shifts your focus from consumption to curation, building genuine personal style through patience rather than a credit card.",
+   "context": "Prerequisites: basic hand-use skills and an eye for hidden potential. Historically, transforming discarded materials into usable goods was a necessity of tight household budgets and material shortages. Today, it is an intentional design choice that values resourcefulness over rapid consumption [S1].",
+   "evidence": [
+    {
+     "claim": "Upcycling is the process of transforming waste materials into new products of greater quality.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Upcycling is also known as creative reuse.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Upcycling creates products perceived to have higher artistic or environmental value.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Taste is developed through curation and patience rather than spending money.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "Waste Material -> [ Creative Process ] -> Higher Quality Product",
+   "realWorld": "You see upcycling in local repair cafes where volunteers help neighbors mend clothes, and in independent workshops turning discarded shipping pallets into sturdy shelving units.",
+   "exercise": {
+    "prompt": "Find one unwanted item in your room and sketch a plan to alter or repair it into something useful.",
+    "answerHint": "Check if your plan requires zero or minimal new purchases."
+   },
+   "quiz": [
+    {
+     "q": "What is another name for upcycling?",
+     "options": [
+      "Creative reuse",
+      "Mass production",
+      "Planned obsolescence",
+      "Digital curation"
+     ],
+     "answer": 0,
+     "explanation": "Upcycling is explicitly defined as creative reuse in the source text [S1]."
+    },
+    {
+     "q": "According to the lesson, what does an upcycled object gain?",
+     "options": [
+      "A factory warranty",
+      "Greater quality or artistic value",
+      "A mandatory retail price",
+      "Digital connectivity"
+     ],
+     "answer": 1,
+     "explanation": "The process transforms unwanted items into products perceived to be of greater quality, such as artistic or environmental value [S1]."
+    }
+   ],
+   "checklist": [
+    "Check current prices before buying new tools",
+    "Evaluate if you already own a substitute",
+    "Inspect structural soundness before repairing",
+    "Assess time investment required for DIY"
+   ],
+   "furtherQuestions": [
+    "How do you distinguish between trash with potential and simple clutter?",
+    "What basic tools give the highest return on investment for repairs?"
+   ],
+   "imagePrompt": "A neatly arranged workbench with weathered wooden planks, spools of thick thread, simple hand tools, and a half-finished ceramic repair project in soft natural light.",
+   "keyIdea": "Upcycling turns unwanted waste into higher-value goods through creative reuse, proving that taste requires resourcefulness rather than money.",
+   "glossary": [
+    {
+     "term": "Upcycling",
+     "definition": "Transforming waste materials or unwanted products into new items of greater artistic or environmental quality."
+    },
+    {
+     "term": "Creative reuse",
+     "definition": "Another term for upcycling, focusing on imaginative ways to repurpose discarded items."
+    },
+    {
+     "term": "By-products",
+     "definition": "Secondary products derived from a manufacturing process or chemical reaction."
+    }
+   ],
+   "image": {
+    "src": "data/img/005/frugal.jpg",
+    "alt": "Illustration for: The Art of Upcycling",
+    "prompt": "A neatly arranged workbench with weathered wooden planks, spools of thick thread, simple hand tools, and a half-finished ceramic repair project in soft natural light.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Upcycling",
+     "url": "https://en.wikipedia.org/wiki/Upcycling",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-10-29"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "cipher",
+  "title": "Language day: crack the cipher",
+  "prompt": "Each letter was moved 11 places forward in the alphabet. Decode: APWWFNTO",
+  "answer": "pellucid",
+  "explanation": "Shift every letter back by 11. The word is \"pellucid\"."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Divisions in Corinth"
+   },
+   {
+    "house": "mindcraft",
+    "text": "The Mechanics of Emotional Intelligence"
+   },
+   {
+    "house": "soundroom",
+    "text": "Microphones: Music from the Inside"
+   },
+   {
+    "house": "aiml",
+    "text": "Cross-Validation: Testing Your Model Wisely"
+   },
+   {
+    "house": "systems",
+    "text": "The Hash Table"
+   },
+   {
+    "house": "design",
+    "text": "The Architecture of Letters"
+   },
+   {
+    "house": "frugal",
+    "text": "The Art of Upcycling"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Divisions in Corinth",
+    "text": "When a community breaks into rival camps, how does a founder respond? Paul addresses a fractured church trying to figure out who is in charge. Welcome to *The Curiosity Atelier*.",
+    "sources": [
+     "https://bible-api.com/1%20Corinthians%201%3A10-17",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "The Mechanics of Emotional Intelligence",
+    "text": "Technical skills get you hired, but emotional intelligence keeps you effective. Mastering your internal state is as vital as mastering your code. Emotional intelligence, often abbreviated as EQ, is the capability to perceive, use, understand, and manage emotions effectively.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Emotional_intelligence"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Microphones: Music from the Inside",
+    "text": "Every recorded track begins with a tiny mechanical translation. Let us look inside the device that turns physical air vibrations into usable electricity. At its most basic level, a microphone is a transducer that takes physical acoustic energy and turns it into an electrical signal [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Microphone"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Cross-Validation: Testing Your Model Wisely",
+    "text": "If you train an AI on all your data, you have no fair way to check if it actually learned or just memorized. Cross-validation solves this by shuffling and splitting your data into fresh tests. Cross-validation, sometimes called rotation estimation or out-of-sample testing, is a model validation technique used to assess how the results of a statistical analysis will generalize to an independent data set [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cross-validation_(statistics)"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "The Hash Table",
+    "text": "Imagine searching through a billion names for a single phone number one by one. A hash table lets you find that data instantly, no matter how large the collection grows. Prerequisites include a basic grasp of arrays and functions.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hash_table",
+     "https://lwn.net/Articles/1102593/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Architecture of Letters",
+    "text": "Typography is not just choosing a pretty font; it is an engineered system of visual decisions that guides how humans process information. Typography is the art and technique of arranging type to make written language legible and readable when displayed [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Typography"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "The Art of Upcycling",
+    "text": "Taste is not a purchase receipt. Discover how to transform everyday waste into something of lasting value without spending a fortune. Upcycling, also known as creative reuse, is the process of transforming by-products, waste materials, useless, or unwanted products into new materials or products perceived to be of greater quality, such as artistic value or environmental value [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Upcycling"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: laconic",
+   "Puzzle: Language day: crack the cipher",
+   "AI/ML signal: Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness"
+  ]
+ }
+}

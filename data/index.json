@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 5,
+   "slug": "005",
+   "publishedAt": "2026-10-29T14:50:19.296Z",
+   "theme": "1 Corinthians 1:10-17 · Emotional intelligence · Microphones",
+   "failed": [],
+   "cover": "data/img/005/cover.jpg"
+  },
+  {
    "n": 4,
    "slug": "004",
    "publishedAt": "2026-10-29T10:03:25.704Z",
