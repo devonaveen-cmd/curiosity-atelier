@@ -232,13 +232,13 @@ footer.foot{background:#000;color:var(--text);border-top:1px solid #ffffff1f;tex
 /* ---------- daily capsule v4: a personal-dashboard bento. Every tile is a link that opens its full page. ----------
    Palette sampled from the reference: charcoal #1F1F21 tiles on #111015, slate blue #506384, stone #ADADA3, near-white text.
    A family of muted accents (same saturation and lightness) gives each charcoal tile its own colour without breaking the calm. */
-:root{--mono:'Azeret Mono',ui-monospace,Menlo,Consolas,monospace;--char:#1F1F21;--char2:#27282c;--canvas:#111015;--slate:#506384;--stone:#ADADA3;--dim:#7d7c82;--paper:#F2F0EA}
+:root{--mono:'Azeret Mono',ui-monospace,Menlo,Consolas,monospace;--char:#000000;--char2:#000000;--canvas:#000000;--slate:#506384;--dim:#7d7c82;--paper:#F2F0EA}
 .band.capsule{background:#000}
 .cap-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap;margin-bottom:1.1rem}
 .cap-head h2{font-size:clamp(2rem,5.4vw,3.8rem);line-height:.95;margin:.45rem 0 0}
 .cap-head .script{font-size:1em;margin-top:-.04em}
 .cap-head .hint{margin:0;font:400 .72rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;opacity:.65}
-.dash{background:var(--canvas);border:1px solid #ffffff12;padding:8px}
+.dash{background:#000000;padding:8px}
 .dhead{display:flex;align-items:center;gap:1.5rem;padding:6px 8px 12px;overflow-x:auto;scrollbar-width:none;font-family:var(--mono)}
 .dhead::-webkit-scrollbar{display:none}
 .dlogo{display:grid;grid-template-columns:repeat(3,4px);gap:3px;flex:none;padding-right:1.1rem;border-right:1px solid #ffffff1c}
@@ -252,16 +252,14 @@ footer.foot{background:#000;color:var(--text);border-top:1px solid #ffffff1f;tex
 .en a:hover{background:var(--paper);color:#111}
 .dgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:minmax(172px,auto);gap:8px;grid-template-areas:"word signal signal colour" "word type interface colour" "tab tab challenge challenge"}
 .dt[data-k=word]{grid-area:word}.dt[data-k=signal]{grid-area:signal}.dt[data-k=colour]{grid-area:colour}.dt[data-k=type]{grid-area:type}.dt[data-k=interface]{grid-area:interface}.dt[data-k=tab]{grid-area:tab}.dt[data-k=challenge]{grid-area:challenge}
-.dt{--a:#8EA2C9;position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:.7rem;padding:14px 16px;background:var(--char);color:var(--paper);text-decoration:none;overflow:hidden;font-family:var(--mono);transition:background .25s ease,transform .3s ease,box-shadow .3s ease}
-a.dt:hover,a.dt:focus-visible{background:var(--char2);transform:translateY(-3px);box-shadow:0 14px 30px #000a}
+.dt{--a:#8EA2C9;position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:.7rem;padding:14px 16px;background:#000000;color:var(--paper);border:1px solid color-mix(in srgb,var(--a) 42%,transparent);text-decoration:none;overflow:hidden;font-family:var(--mono);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+a.dt:hover,a.dt:focus-visible{transform:translateY(-3px);border-color:var(--a);box-shadow:inset 0 0 0 1px var(--a)}
 a.dt:focus-visible{outline:2px solid var(--a);outline-offset:2px}
-.dt.blue{background:var(--slate);color:#F6F6F2}a.dt.blue:hover{background:#5b6e92}
-.dt.stone{background:var(--stone);color:#1b1b1d}a.dt.stone:hover{background:#b9b9af}
+.dt.blue{background:var(--slate);color:#F6F6F2;border-color:transparent}a.dt.blue:hover{background:#5b6e92;border-color:transparent;box-shadow:none}
 .dt.ghost{background:transparent;border:1px dashed #ffffff26;color:var(--dim);justify-content:center;align-items:center;text-align:center;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
 .dt .dtop{display:flex;justify-content:space-between;align-items:flex-start;gap:.6rem}
 .dt .lab{font:400 .68rem/1.25 var(--mono);letter-spacing:.08em;text-transform:uppercase;opacity:.9}
 .go{flex:none;width:30px;height:30px;border-radius:50%;background:#E9E7DD;color:#1b1b1d;display:grid;place-items:center;font:500 .85rem/1 var(--mono);transition:transform .3s ease,background .3s}
-.dt.stone .go{background:#1b1b1d;color:#E9E7DD}
 a.dt:hover .go{transform:translate(2px,-2px)}
 .dt .row2{display:flex;justify-content:space-between;align-items:baseline;gap:.6rem}
 .dt .big{font:500 clamp(2.1rem,3.6vw,3.2rem)/1 var(--mono);letter-spacing:-.03em}
@@ -280,7 +278,7 @@ a.dt:hover .bars i{transform:scaleY(1.04)}
 .dt .nm{font:500 clamp(1.3rem,2.4vw,2rem)/1.05 var(--mono);text-transform:uppercase;letter-spacing:-.01em;overflow-wrap:anywhere}
 .dt .ring{position:relative;width:112px;height:112px;flex:none;margin:0}
 .dt .ring svg{width:100%;height:100%;transform:rotate(-90deg)}
-.dt .ring .tr{stroke:#373737}.dt .ring .pr{stroke:var(--a);transition:stroke-dashoffset .6s ease}
+.dt .ring .tr{stroke:var(--a);opacity:.28}.dt .ring .pr{stroke:var(--a);transition:stroke-dashoffset .6s ease}
 .dt .ring b{position:absolute;inset:0;display:grid;place-items:center;font:500 1.5rem/1 var(--mono)}
 .dt .ring small{position:absolute;left:0;right:0;bottom:30%;text-align:center;font:400 .52rem/1 var(--mono);letter-spacing:.1em;opacity:.7}
 .dt.chal{flex-direction:row;align-items:center;justify-content:space-between;gap:1rem}
@@ -293,10 +291,10 @@ a.dt:hover .bars i{transform:scaleY(1.04)}
 .cdet .pg{display:flex;gap:6px;align-items:center}
 .cdet .pg a{width:9px;height:9px;border-radius:50%;border:1px solid var(--paper);padding:0;background:transparent}
 .cdet .pg a.on{background:var(--paper)}
-.dpage{background:var(--char);color:var(--paper);--a:#8EA2C9}
-.dpage .hd{padding:clamp(1.3rem,3vw,2.2rem);display:flex;flex-direction:column;gap:.9rem;background:var(--char2)}
-.dpage.blue .hd{background:var(--slate);color:#F6F6F2}
-.dpage.stone .hd{background:var(--stone);color:#1b1b1d}
+.dpage{background:#000000;color:var(--paper);--a:#8EA2C9;border:1px solid color-mix(in srgb,var(--a) 42%,transparent)}
+.dpage.blue{border-color:transparent}
+.dpage .hd{padding:clamp(1.3rem,3vw,2.2rem);display:flex;flex-direction:column;gap:.9rem;background:#000000;border-bottom:1px solid color-mix(in srgb,var(--a) 42%,transparent)}
+.dpage.blue .hd{background:var(--slate);color:#F6F6F2;border-bottom-color:transparent}
 .dpage .hd .lab{font:400 .72rem/1.2 var(--mono);letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;gap:1rem}
 .dpage .hd h1{font:500 clamp(2.2rem,7vw,5rem)/1 var(--mono);letter-spacing:-.035em;margin:0;overflow-wrap:anywhere}
 .dpage .hd h1.sm{font-size:clamp(1.6rem,4.4vw,3rem);letter-spacing:-.02em}

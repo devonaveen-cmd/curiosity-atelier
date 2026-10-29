@@ -137,7 +137,7 @@ const SLOTS = [
   { key: 'colour', label: 'Colour pairing', tone: 'char', a: '#B88593' },
   { key: 'type', label: 'Type specimen', tone: 'char', a: '#948DBA' },
   { key: 'interface', label: 'Interface study', tone: 'blue', a: '#8EA2C9' },
-  { key: 'tab', label: 'The open tab', tone: 'stone', a: '#ADADA3' },
+  { key: 'tab', label: 'The open tab', tone: 'char', a: '#C98F72' },
   { key: 'challenge', label: 'Tiny challenge', tone: 'char', a: '#8FA58C' }
 ];
 const slotData = (ed, k) => { const c = ed.capsule || {}; return { word: c.word, signal: c.aiSignal, colour: c.colour, type: c.type, interface: c.interfaceStudy, tab: c.openTab, challenge: c.challenge ? { text: c.challenge } : null }[k] || null; };
@@ -156,7 +156,7 @@ function tileHTML(ed, s, i) {
   if (s.key === 'colour') { const ci = contrastInfo(d); return wrap('', `${top}<div class="bars">${d.hexes.map((h) => `<i style="background:${colour(h)};height:${Math.round(30 + 70 * Math.sqrt(hexLum(colour(h))))}%"></i>`).join('')}</div><div><div class="den" style="margin-bottom:.5rem">${esc(d.name)}</div><div class="row2"><div class="big">${ci ? ci.ratio : d.hexes.length}</div><span class="den">/ ${ci ? ci.level : 'HUES'}</span></div></div>`); }
   if (s.key === 'type') { loadFont(d.font); const ff = fontStyle(d.font); return wrap('', `${top}<div class="aa" style="${ff}">Aa</div><div class="row2"><span class="den" style="${ff}">${esc(d.font)}</span><span class="den">/ GOOGLE FONT</span></div>`); }
   if (s.key === 'interface') return wrap('blue', `${LINE_ART}${top}<div><div class="nm">${esc(d.pattern)}</div><div class="dots" style="margin-top:.8rem" aria-hidden="true">${SLOTS.map((_, n) => `<i class="${n === 4 ? 'on' : ''}"></i>`).join('')}</div></div>`);
-  if (s.key === 'tab') return wrap('stone', `${top}<div class="nm">${esc(d.name)}</div><div class="row2"><span class="den">${esc(hostOf(d.url))}</span><span class="den">${d.verified ? '● REACHABLE' : 'UNVERIFIED'}</span></div>`);
+  if (s.key === 'tab') return wrap('', `${top}<div class="nm">${esc(d.name)}</div><div class="row2"><span class="den">${esc(hostOf(d.url))}</span><span class="den">${d.verified ? '● REACHABLE' : 'UNVERIFIED'}</span></div>`);
   const done = !!p.challenge, C = 2 * Math.PI * 46;
   return wrap('chal', `<div class="l"><div>${top}</div><div class="ttl">${esc(d.text)}</div><span class="den">TAP TO OPEN</span></div><div class="ring"><svg viewBox="0 0 112 112" aria-hidden="true"><circle class="tr" cx="56" cy="56" r="46" fill="none" stroke-width="6"/><circle class="pr" cx="56" cy="56" r="46" fill="none" stroke-width="6" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${done ? 0 : C.toFixed(1)}"/></svg><b>${done ? '1/1' : '0/1'}</b><small>DONE</small></div>`);
 }

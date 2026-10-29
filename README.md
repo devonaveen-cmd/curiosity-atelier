@@ -67,7 +67,7 @@ Fonts (all SIL OFL, bundled in `fonts/`, so the app works offline): Inter Tight 
 Older editions (made before v2) still display; they just lack the key idea, glossary and images until you generate a new edition.
 
 ## Daily capsule (personal-dashboard bento)
-Styled after your dashboard reference: charcoal tiles on a near-black canvas, slate-blue and stone accent tiles, Azeret Mono labels and big numerals, thin rules and round ↗ buttons. A stats strip along the top shows real numbers from your own progress (edition, date, sections explored, quiz answered, accuracy, bookmarks) plus an edition switcher.
+Styled after your dashboard reference, with every grey turned into pure black (`#000000`): black tiles separated by hairlines in each tile's own accent colour, two slate-blue accent tiles, Azeret Mono labels and big numerals, thin rules and round ↗ buttons. A stats strip along the top shows real numbers from your own progress (edition, date, sections explored, quiz answered, accuracy, bookmarks) plus an edition switcher.
 
 The seven slots are compact tiles, and each one is a real link to its own full page (`#/capsule/word`, `/signal`, `/colour`, `/type`, `/interface`, `/tab`, `/challenge`), so the home page stays short. On an item page you get the full content, 01 to 07 position dots, previous/next links, left/right arrow keys, and a back link that returns you to the dashboard (not the top of the page). The colour tile draws the palette as bars and shows the computed contrast ratio; the type tile shows the font in its own face when online; the challenge tile is a progress ring that fills when you finish it. A slot that failed to generate shows as a dashed placeholder instead of breaking the layout.
 
