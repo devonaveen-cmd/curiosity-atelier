@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 6,
+   "slug": "006",
+   "publishedAt": "2026-11-01T10:34:22.358Z",
+   "theme": "1 Corinthians 8:1-13 · Procrastination · Delay",
+   "failed": [],
+   "cover": "data/img/006/cover.jpg"
+  },
+  {
    "n": 5,
    "slug": "005",
    "publishedAt": "2026-10-29T14:50:19.296Z",
