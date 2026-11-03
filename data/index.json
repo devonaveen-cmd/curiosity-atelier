@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 7,
+   "slug": "007",
+   "publishedAt": "2026-11-03T10:57:19.850Z",
+   "theme": "1 Corinthians 11:17-34 · Spaced repetition · Mixing",
+   "failed": [],
+   "cover": "data/img/007/cover.jpg"
+  },
+  {
    "n": 6,
    "slug": "006",
    "publishedAt": "2026-11-01T10:34:22.358Z",

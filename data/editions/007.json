@@ -1,0 +1,951 @@
+{
+ "n": 7,
+ "slug": "007",
+ "publishedAt": "2026-11-03T10:57:19.850Z",
+ "theme": "1 Corinthians 11:17-34 · Spaced repetition · Mixing",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.5-flash",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/007/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "verisimilitude",
+   "phonetic": "",
+   "pos": "",
+   "definition": "The appearance of being real or true.",
+   "example": "By adding ambient shadows and subtle material textures, the developer achieved striking verisimilitude in the browser-based 3D model.",
+   "exercise": "Write a single sentence using 'verisimilitude' to describe the realism of mock user data in a UI prototype.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Silicon & Clay",
+   "hexes": [
+    "#1F2421",
+    "#DCE1E3",
+    "#D96B27"
+   ],
+   "note": "Deep slate (#1F2421) establishes grounding contrast against soft mist blue (#DCE1E3). A punchy terracotta (#D96B27) acts as a high-visibility focal point, balancing cold technical precision with warm human touch without straining the eye.",
+   "application": "Documentation portals or a technical dashboard layout requiring visual hierarchy for primary actions.",
+   "accessibility": "Strongest pair: #1F2421 with #DCE1E3, contrast 11.95:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "Space Grotesk",
+   "character": "Tech-forward and slightly idiosyncratic. It pairs geometric precision with unexpected proportional quirks, giving it the voice of a modern engineering journal.",
+   "bestUses": "Works brilliantly for major section headers, hero statements, and card titles. Avoid using it for dense body paragraphs or monospaced code blocks.",
+   "url": "https://fonts.google.com/specimen/Space+Grotesk",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Skeleton Screens",
+   "reasoning": "Skeleton screens replace generic loading spinners with muted structural placeholders that mirror incoming content. Designers use them to reduce perceived latency and maintain layout stability. By showing the shape of what is coming, the interface feels responsive and predictable rather than broken or stalled while waiting on network requests.",
+   "tryIt": "Sketch a simple profile card layout on paper, then draw its skeleton state underneath using light grey blocks to represent text and images.",
+   "aiGenerated": true
+  },
+  "challenge": "Sketch a loading state for a user profile card using a skeleton screen pattern, and write a single comment above your sketch using 'verisimilitude' to describe why visual placeholders feel more real than spinning icons.",
+  "aiSignal": {
+   "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
+   "url": "https://arxiv.org/abs/2611.03633v1",
+   "date": "2026-11-02T18:56:43Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Researchers evaluated whether the optimization algorithm Muon maintains its pretraining speed advantage over AdamW after language models are fine-tuned. Based on the provided summary, they discovered that once the pretraining dataset exceeds a certain size, AdamW actually produces better fine-tuned results.",
+   "whyItMatters": "This challenges the assumption that faster early optimization directly translates to higher quality downstream software models. It demonstrates that as data scale increases, fundamental trade-offs between algorithms can unexpectedly flip.",
+   "takeaway": "Always measure performance using final end-to-end outcomes rather than assuming early benchmark gains hold true across all stages."
+  },
+  "openTab": {
+   "url": "https://huggingface.co/learn",
+   "name": "Hugging Face - Learn",
+   "what": "Hugging Face - Learn is a learning platform dedicated to advancing and democratizing artificial intelligence through open source and open science.",
+   "whyBookmark": "It provides a direct way to explore AI built around an open-source and open-science approach.",
+   "verified": true,
+   "checkedAt": "2026-11-03"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Corinthians 11:17-34",
+   "title": "Scripture in its Real World: 1 Corinthians 11",
+   "hook": "When early Christians gathered to share a communal meal, social status and greed threatened to tear the group apart. Paul wrote a sharp letter to address these deeply rooted divisions.",
+   "core": "Prerequisites: Basic familiarity with New Testament letters and ancient Mediterranean social norms.\n\nIn the ancient Christian community at Corinth, gatherings included a shared meal alongside the remembrance of Jesus [S1]. However, this communal gathering was fractured by severe social friction. According to the text, when the believers assembled, they did not partake in the proper spirit of the **Lord's supper** [S1]. Instead, individuals ate their own provisions hastily, resulting in a situation where one person remained hungry while another drank too much [S1].\n\nPaul rebukes this behavior sharply, asking if they intend to despise God's assembly and shame those who lack resources [S1]. To correct this, he recounts the tradition of the **Lord's body** and blood, reminding them of the institutional narrative where Jesus shared bread and wine on the night of his betrayal [S1]. He warns that eating the bread or drinking the cup in an unworthy manner makes a person guilty concerning the body and blood of the Lord [S1].\n\nRather than framing this merely as bad manners, Paul links their careless behavior to physical consequences, noting that some among them are weak, sickly, or have died [S1]. He instructs them to examine themselves and wait for one another before eating, reserving private hunger for home consumption [S1].",
+   "context": "The **First Epistle to the Corinthians** is a New Testament letter written by Paul to address multiple pressing issues in the Corinthian congregation [S2]. These issues included internal church divisions, sexual immorality, marriage guidelines, dietary restrictions regarding food sacrificed to idols, proper worship conduct, spiritual gifts, and the resurrection [S2].",
+   "evidence": [
+    {
+     "claim": "Divisions and factions existed among the believers in Corinth when they gathered.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "During their gatherings, individuals ate their own food separately, leading to hunger for some and drunkenness for others.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul recounts that Jesus took bread and a cup on the night he was betrayed.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul connects unworthy participation in the meal to physical weakness, sickness, and death among the members.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The letter addresses various practical and theological problems in the Corinthian church, including worship and divisions.",
+     "label": "established",
+     "source": "S2"
+    }
+   ],
+   "visual": "",
+   "realWorld": "Modern communal meals and potlucks can sometimes mirror ancient social stratification, where cliques form or resources are unevenly distributed. Examining how a group handles inclusion and shared resources remains a practical challenge in modern organizations.",
+   "exercise": {
+    "prompt": "Read 1 Corinthians 11:17-34 in a translation of your choice and write down two specific problems Paul identifies in the Corinthian gatherings.",
+    "answerHint": "Check if your notes mention members eating separately without waiting for others, and the resulting inequality of hunger and excess."
+   },
+   "quiz": [
+    {
+     "q": "What specific problem occurred when the Corinthian believers gathered for their meal?",
+     "options": [
+      "They argued about the resurrection.",
+      "Each person took their own supper first, leaving some hungry and others drunk.",
+      "They refused to read the Hebrew Bible.",
+      "They completely stopped meeting together."
+     ],
+     "answer": 1,
+     "explanation": "Paul explicitly states that individuals ate their own supper first, resulting in some being hungry while others were drunken."
+    },
+    {
+     "q": "What instruction does Paul give to correct their behavior at the meal?",
+     "options": [
+      "Stop meeting as a group entirely.",
+      "Appoint a single person to distribute all food.",
+      "Wait for one another and eat at home if hungry.",
+      "Sell all personal possessions before attending."
+     ],
+     "answer": 2,
+     "explanation": "Paul concludes his correction by telling them to wait for one another and instructing those who are hungry to eat at home."
+    }
+   ],
+   "checklist": [
+    "Read the source text carefully",
+    "Identify social problems mentioned",
+    "Note Paul's requested behavioral changes"
+   ],
+   "furtherQuestions": [
+    "How did ancient Mediterranean dining customs influence early Christian gatherings?",
+    "In what ways did social class divisions manifest in early house churches?"
+   ],
+   "imagePrompt": "A rough wooden table inside an ancient stone room, holding a simple loaf of coarse bread broken in half and a clay cup filled with dark red wine, lit by soft window light.",
+   "keyIdea": "Paul sharply rebukes the Corinthian church because their selfish behavior during communal meals creates harmful divisions and mocks the memory of Jesus.",
+   "glossary": [
+    {
+     "term": "Lord's supper",
+     "definition": "A communal meal shared by early Christians to remember Jesus, which became a point of division in Corinth."
+    },
+    {
+     "term": "Lord's body",
+     "definition": "A phrase used by Paul to describe both the sacrificial physical reality of Jesus and the corporate unity of the community."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/theology.jpg",
+    "alt": "Illustration for: Scripture in its Real World: 1 Corinthians 11",
+    "prompt": "A rough wooden table inside an ancient stone room, holding a simple loaf of coarse bread broken in half and a clay cup filled with dark red wine, lit by soft window light.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Corinthians 11:17-34 (World English Bible)",
+     "url": "https://bible-api.com/1%20Corinthians%2011%3A17-34",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-03"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Corinthians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-03"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Spaced repetition",
+   "title": "The Art of Spaced Repetition",
+   "hook": "Your brain is remarkably good at forgetting what you study. Instead of cramming, you can hack your memory timing to remember things permanently with a fraction of the effort.",
+   "core": "When you try to learn a new concept as a computing student, your brain naturally lets the details fade away. To fight this, you can use **spaced repetition**, an evidence-based learning technique that usually relies on digital or physical flashcards [S1]. The core idea is simple: you review information just as you are about to forget it.\n\nIn practice, this means newly introduced and more difficult flashcards are shown more frequently, while older and less difficult flashcards are shown less frequently [S1]. This clever scheduling exploits the psychological **spacing effect**, which is the phenomenon where our brains learn more effectively when study sessions are spread out over time rather than crammed into a single block.\n\nWhile traditional studying often involves rereading notes until your eyes glaze over, spaced repetition forces active recall. When you successfully answer a tough flashcard after a long break, you signal to your brain that the information is actually useful. Over time, the intervals between reviews grow longer and longer, turning temporary data into long-term knowledge without wasting precious hours on things you already know well.",
+   "context": "Prerequisites include basic familiarity with how to study and a willingness to try active recall instead of passive reading. While ancient orators used spatial memory techniques, modern spaced repetition relies heavily on computer algorithms to track optimal review schedules.",
+   "evidence": [
+    {
+     "claim": "Spaced repetition is an evidence-based learning technique usually performed with flashcards.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Newly introduced and more difficult flashcards are shown more frequently.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Older and less difficult flashcards are shown less frequently.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Spaced repetition exploits the psychological spacing effect.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The use of spaced repetition has been proven to increase the rate of learning.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Day 1: [Card] -> Day 3: [Card] -> Day 7: [Card] -> Day 30: [Card]",
+   "realWorld": "Medical students, language learners, and programmers use spaced repetition software like Anki to memorize thousands of syntax rules, medical terms, and definitions efficiently over years of study.",
+   "exercise": {
+    "prompt": "Create five flashcards on a fundamental computing topic using a free tool like Anki or physical index cards, and review them today.",
+    "answerHint": "You have successfully completed your first review session and scheduled the cards for a future date."
+   },
+   "quiz": [
+    {
+     "q": "How are difficult flashcards treated in a spaced repetition system?",
+     "options": [
+      "Shown less frequently",
+      "Shown more frequently",
+      "Thrown away",
+      "Read only once"
+     ],
+     "answer": 1,
+     "explanation": "Newly introduced and more difficult flashcards are shown more frequently to reinforce learning."
+    },
+    {
+     "q": "What psychological phenomenon does spaced repetition exploit?",
+     "options": [
+      "The spacing effect",
+      "The priming effect",
+      "The halo effect",
+      "The placebo effect"
+     ],
+     "answer": 0,
+     "explanation": "Spaced repetition directly exploits the psychological spacing effect."
+    }
+   ],
+   "checklist": [],
+   "furtherQuestions": [
+    "How long should the intervals be between each flashcard review?",
+    "What is the best way to write atomic, highly effective flashcards?"
+   ],
+   "imagePrompt": "A neat stack of blank white index cards resting on a wooden desk next to a modern silver pen under soft warm lighting.",
+   "keyIdea": "Spaced repetition uses carefully timed intervals to exploit the spacing effect, making learning faster and memory permanent.",
+   "glossary": [
+    {
+     "term": "spaced repetition",
+     "definition": "An evidence-based learning technique where review intervals are adjusted based on difficulty."
+    },
+    {
+     "term": "spacing effect",
+     "definition": "The psychological phenomenon where learning is more effective when spread out over time."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/mindcraft.jpg",
+    "alt": "Illustration for: The Art of Spaced Repetition",
+    "prompt": "A neat stack of blank white index cards resting on a wooden desk next to a modern silver pen under soft warm lighting.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Spaced repetition",
+     "url": "https://en.wikipedia.org/wiki/Spaced_repetition",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-03"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Mixing",
+   "title": "Sculpting the Sound",
+   "hook": "You have recorded your multitrack instruments, but right now they are just fighting for space. **Audio mixing** is how you turn a messy pile of individual sounds into a clean, cohesive track [S1].",
+   "core": "Before mixing, a raw recording often sounds cluttered and exhausting. Vocals might get buried behind a loud guitar, and the low frequencies of the bass and kick drum might clash, turning into a muddy roar. Every element competes for the listener's attention at the same time.\n\nDuring **audio mixing**, a producer steps in to optimize and combine these separate tracks [S1]. First, relative levels are adjusted and balanced so that every instrument sits at the right volume [S1]. Next, processes like **equalization** and **compression** are applied to carve out frequency space and control dynamic range [S1]. Finally, in stereo and surround sound mixing, the placement of the tracks within the **stereo field** is adjusted to give each sound a distinct left-to-right position [S1].\n\nAfter mixing, the transformation is dramatic. The sound goes from a chaotic wall of noise to a polished product where every instrument is clear, distinct, and emotionally impactful [S1].",
+   "context": "Prerequisites: basic familiarity with a Digital Audio Workstation and multi-track audio files. Historically, mixing moved from physical mixing consoles with hardware knobs to software-based environments where entire albums can be shaped inside a laptop. Mixing bridges the gap between raw recording and final mastering, serving as a creative and technical craft.",
+   "evidence": [
+    {
+     "claim": "Audio mixing is the process of optimizing and combining multitrack recordings into a final mono, stereo or surround sound product.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "During mixing, relative levels of separate tracks are adjusted and balanced.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Processes such as equalization and compression are commonly applied to individual tracks, groups, and the overall mix.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "In stereo and surround sound mixing, the placement of tracks within the stereo field is adjusted and balanced.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Tracks -> Volume Balance -> Equalization -> Stereo Placement -> Final Mix",
+   "realWorld": "Every commercial song, podcast, and film soundtrack you hear has gone through audio mixing. Without it, dialogue in movies would be drowned out by sound effects, and pop tracks would lack punch and clarity.",
+   "exercise": {
+    "prompt": "Open a free audio editor like Audacity, load two different audio files on separate tracks, and use the volume gain sliders to balance them so neither overpowers the other.",
+    "answerHint": "Both sounds should be clearly audible simultaneously without the overall audio clipping into the red."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary goal of audio mixing?",
+     "options": [
+      "To optimize and combine multitrack recordings into a final product",
+      "To write the original lyrics and chord progressions",
+      "To manufacture physical vinyl records",
+      "To invent new musical instruments"
+     ],
+     "answer": 0,
+     "explanation": "Audio mixing is defined as the process of optimizing and combining multitrack recordings [S1]."
+    },
+    {
+     "q": "What is adjusted during stereo and surround sound mixing besides levels?",
+     "options": [
+      "The placement of the tracks within the stereo field",
+      "The color of the mixing console",
+      "The tempo of the original performance",
+      "The brand of microphone used"
+     ],
+     "answer": 0,
+     "explanation": "In stereo and surround sound mixing, the placement of the tracks within the stereo field are adjusted and balanced [S1]."
+    }
+   ],
+   "checklist": [
+    "Check that lead vocals are clearly audible",
+    "Ensure low frequencies do not muddy the mix",
+    "Confirm panning creates a wide stereo image"
+   ],
+   "furtherQuestions": [
+    "How does compression change the dynamic range of an instrument?",
+    "What is the difference between mixing and mastering?"
+   ],
+   "imagePrompt": "A mixing console with glowing digital faders, colorful knobs, and dual computer screens displaying audio waveforms in a dimly lit studio.",
+   "keyIdea": "Audio mixing balances, processes, and positions multitrack recordings into a clean, cohesive final product [S1].",
+   "glossary": [
+    {
+     "term": "audio mixing",
+     "definition": "The process of optimizing and combining multitrack recordings into a final mono, stereo or surround sound product [S1]."
+    },
+    {
+     "term": "equalization",
+     "definition": "A process commonly applied to tracks to adjust the balance of different frequency components [S1]."
+    },
+    {
+     "term": "compression",
+     "definition": "A process applied to control the dynamic range and volume levels of audio tracks [S1]."
+    },
+    {
+     "term": "stereo field",
+     "definition": "The perceived visual or spatial width of a sound in a left-to-right audio spectrum [S1]."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/soundroom.jpg",
+    "alt": "Illustration for: Sculpting the Sound",
+    "prompt": "A mixing console with glowing digital faders, colorful knobs, and dual computer screens displaying audio waveforms in a dimly lit studio.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Audio mixing (recorded music)",
+     "url": "https://en.wikipedia.org/wiki/Audio_mixing_(recorded_music)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-03"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Word embeddings",
+   "title": "Mapping Meaning into Numbers",
+   "hook": "Computers cannot read prose, but they can do math. Word embeddings turn human language into coordinates so machines can reason about meaning.",
+   "core": "When you write code, you work with integers and booleans. But how do you pass a word like *apple* into an equation? Traditionally, computers treated words as isolated ID numbers, which misses the fact that *apple* and *pear* share similarities. To fix this, we use a **word embedding** [S1]. This is a technique where words from a vocabulary are mapped to vectors of real numbers [S1]. Think of it as placing every word in a giant multi-dimensional map.\n\nIn this vector space, the coordinates encode the meaning of the word [S1]. If two words are used in similar contexts, the embedding process places them close together in that space [S1]. For instance, the vector math for *hotel* and *motel* will land near each other. This transformation happens via feature learning and language modeling [S1], turning text analysis from guesswork into geometry.",
+   "context": "Before tackling embeddings, you need a basic grasp of arrays and linear algebra—specifically, what a vector is (a list of numbers representing a point in space). In your first-year degree, you will encounter text analysis as a primary bridge between discrete data and continuous mathematics.",
+   "evidence": [
+    {
+     "claim": "A word embedding is a representation of a word used in text analysis.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Embeddings are typically real-valued vectors encoding word meaning.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Words closer in vector space are expected to be similar in meaning.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Embeddings map vocabulary words or phrases to vectors of real numbers.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Word embeddings are obtained using language modeling and feature learning techniques.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "word -> [0.25, -0.41, 0.88] -> vector space distance",
+   "realWorld": "Search engines use word embeddings to understand your intent. If you search for running shoes, the system knows to retrieve sneakers even if the exact keyword is absent, because the vectors sit close together.",
+   "exercise": {
+    "prompt": "Install the Python library Gensim or spaCy in a local environment, load a pre-trained small embedding model, and print the vector for the word computer.",
+    "answerHint": "You should see a printed array of floating-point numbers, such as 300 dimensions of real values."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary output of a word embedding technique?",
+     "options": [
+      "A vector of real numbers",
+      "A compiled binary file",
+      "A grammatical syntax tree",
+      "An audio waveform"
+     ],
+     "answer": 0,
+     "explanation": "Source S1 states that words are mapped to vectors of real numbers."
+    },
+    {
+     "q": "What does a shorter distance between two words in vector space imply?",
+     "options": [
+      "They are antonyms",
+      "They are similar in meaning",
+      "They have the same spelling length",
+      "They appear in different languages"
+     ],
+     "answer": 1,
+     "explanation": "Source S1 notes that words closer in the vector space are expected to be similar in meaning."
+    }
+   ],
+   "checklist": [
+    "Review basic 2D and 3D coordinate geometry",
+    "Ensure Python is installed on your machine",
+    "Install a text processing library like spaCy or Gensim"
+   ],
+   "furtherQuestions": [
+    "How do models handle words they have never seen before?",
+    "How many dimensions do production-grade embeddings usually use?"
+   ],
+   "imagePrompt": "Close up of a wooden drafting table with a grid of fine coordinates drawn on paper, small brass tokens scattered across the grid, warm overhead lighting.",
+   "keyIdea": "Word embeddings translate human language into geometric coordinates so that words with similar meanings sit close to each other in vector space.",
+   "glossary": [
+    {
+     "term": "word embedding",
+     "definition": "A real-valued vector representation of a word used to encode meaning in text analysis."
+    },
+    {
+     "term": "vector space",
+     "definition": "A mathematical space where words are positioned as coordinates based on their semantic relationships."
+    },
+    {
+     "term": "language modeling",
+     "definition": "A computational technique used to predict or represent language patterns."
+    },
+    {
+     "term": "feature learning",
+     "definition": "A set of techniques that allows a system to discover the representations needed for feature detection automatically."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/aiml.jpg",
+    "alt": "Illustration for: Mapping Meaning into Numbers",
+    "prompt": "Close up of a wooden drafting table with a grid of fine coordinates drawn on paper, small brass tokens scattered across the grid, warm overhead lighting.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Word embedding",
+     "url": "https://en.wikipedia.org/wiki/Word_embedding",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-03"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Race conditions",
+   "title": "The Race Condition",
+   "hook": "When two parts of your program try to update the same piece of data at the exact same time, the winner is decided by pure chance. This invisible timing flaw can crash servers and ruin user accounts.",
+   "core": "Imagine two workers trying to update a single tally sheet without communicating. If worker one reads the number five, adds one, and writes six, while worker two simultaneously reads five, adds one, and writes six, a total count of two is completely lost. In computer science, this silent disaster is known as a **race condition**. It occurs when a system's behavior depends entirely on the uncontrollable sequence or timing of events [S1]. When an undesirable outcome occurs from this race, it officially becomes a bug [S1].\n\nTo see this in code, consider a tiny Python script where two tasks try to increment a shared global variable simultaneously. A beginner often assumes that writing total = total + 1 happens atomically, meaning it occurs as a single, indivisible step. In reality, the computer breaks this down into three separate actions: read the value, add one to it, and write it back.\n\nHere is what that dangerous snippet looks like in Python:\n\nimport threading\n\ntotal = 0\n\ndef worker():\n    global total\n    current = total\n    total = current + 1\n\nt1 = threading.Thread(target=worker)\nt2 = threading.Thread(target=worker)\nt1.start()\nt2.start()\n\nBecause the operating system can pause either thread right between reading and writing, the final value of total might end up as one instead of two. The trade-off for speed is safety; allowing multiple paths to access shared memory freely creates chaos.",
+   "context": "Prerequisites for this lesson include a basic understanding of variables and functions in programming languages like Python or C. In the history of computing, race conditions emerged as soon as operating systems gained the ability to run multiple tasks seemingly at once through concurrency and multi-threading. Managing these silent timing errors remains a major daily battle for software engineers working on large systems such as the Linux kernel, where thousands of changesets and bug fixes are processed continuously [S2, S4].",
+   "evidence": [
+    {
+     "claim": "A race condition is the condition of a system where substantive behavior depends on the sequence or timing of uncontrollable events.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A race condition leads to unexpected or inconsistent results.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A race condition becomes a bug when one or more of the possible behaviors is undesirable.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Concurrency bugs like race conditions require constant vigilance and bug fixes in large software projects like the Linux kernel.",
+     "label": "inference",
+     "source": "S2"
+    }
+   ],
+   "visual": "Thread A: [Read 5] ------------> [Write 6]\nThread B:      [Read 5] -> [Write 6] (Overwrites Thread A's work!)",
+   "realWorld": "In large enterprise systems and cloud infrastructure like Amazon Web Services, race conditions can corrupt user databases, duplicate financial transactions, or create security vulnerabilities that malicious actors exploit. Preventing them requires strict coordination mechanisms like locks or semaphores.",
+   "exercise": {
+    "prompt": "Run the provided Python threading snippet in your terminal five times in a row. Do you always get the expected total, or does it sometimes behave unpredictably?",
+    "answerHint": "Print the value of total after both threads finish using t1.join() and t2.join() to observe fluctuating results."
+   },
+   "quiz": [
+    {
+     "q": "What officially turns a race condition into a bug?",
+     "options": [
+      "When one or more of the possible behaviors is undesirable.",
+      "When the computer runs out of memory.",
+      "When the code is written in C instead of Python.",
+      "When a developer forgets to add comments."
+     ],
+     "answer": 0,
+     "explanation": "According to the source material, a race condition becomes a bug specifically when an undesirable behavior occurs."
+    },
+    {
+     "q": "Why does a beginner often misjudge how a shared variable updates?",
+     "options": [
+      "They assume updating a variable happens in one single, indivisible step.",
+      "They think variables can only hold text strings.",
+      "They believe threads always run in alphabetical order.",
+      "They assume Python automatically deletes all bugs."
+     ],
+     "answer": 0,
+     "explanation": "Beginners often assume an operation like total = total + 1 is atomic, forgetting it involves separate read and write steps."
+    }
+   ],
+   "checklist": [
+    "Identify all shared variables across threads",
+    "Use synchronization locks for critical sections",
+    "Test code under heavy concurrent loads"
+   ],
+   "furtherQuestions": [
+    "How do programming languages use locks or mutexes to prevent threads from stepping on each other?",
+    "What is a deadlock, and how is it related to fixing race conditions?"
+   ],
+   "imagePrompt": "Two mechanical clock gears jammed against each other on a dark workshop workbench, cinematic lighting, shallow depth of field, raw industrial textures.",
+   "keyIdea": "A race condition is a hidden timing flaw where multiple parts of a program fight over shared data, causing unpredictable and buggy results.",
+   "glossary": [
+    {
+     "term": "race condition",
+     "definition": "A system state where behavior depends on the uncontrollable timing of events, leading to unexpected outcomes."
+    },
+    {
+     "term": "bug",
+     "definition": "An error, flaw or fault in software that causes it to produce an incorrect or unexpected result."
+    },
+    {
+     "term": "thread",
+     "definition": "The smallest sequence of programmed instructions that can be managed independently by a scheduler."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/systems.jpg",
+    "alt": "Illustration for: The Race Condition",
+    "prompt": "Two mechanical clock gears jammed against each other on a dark workshop workbench, cinematic lighting, shallow depth of field, raw industrial textures.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Race condition",
+     "url": "https://en.wikipedia.org/wiki/Race_condition",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-03"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] The second part of the 7.4 merge window",
+     "url": "https://lwn.net/Articles/1102739/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-03",
+     "date": "Mon, 02 Nov 2026 17:51:48 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Shutting the Door on the XCPE Botnet (Threat Intelligence)",
+     "url": "https://lwn.net/Articles/1104847/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-03",
+     "date": "Mon, 02 Nov 2026 14:29:37 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: [$] Managing the kernel CVE flood",
+     "url": "https://lwn.net/Articles/1100894/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-03",
+     "date": "Mon, 02 Nov 2026 14:28:39 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Tor Browser 16.0 released",
+     "url": "https://lwn.net/Articles/1104846/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-03",
+     "date": "Mon, 02 Nov 2026 14:28:23 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Grid systems",
+   "title": "The Invisible Architecture of the Page",
+   "hook": "Ever wonder why some pages pull your eyes effortlessly across them while others feel like a messy junk drawer? The secret is a hidden skeleton called a grid.",
+   "core": "When you design anything visual, you make a series of intentional decisions about typography, colour, hierarchy, and movement. At the heart of these choices is a **grid**, which is a structure made up of a series of intersecting straight or curved lines used to structure content [S1]. Think of it as the invisible scaffolding of a building.\n\nThe grid serves as an armature or framework on which a designer can organize graphic elements in a rational, easy-to-absorb manner [S1]. Without it, placing text and images feels like guessing where to drop furniture in an empty room. With it, your brain instantly knows where to look first, second, and third.\n\nA grid can be used to organize graphic elements in relation to a page, in relation to other graphic elements on the page, or in relation to other parts of the same graphic element or shape [S1]. This flexibility lets you build complex layouts—like a messy terminal window or a clean software dashboard—that still feel calm and structured to the human eye.",
+   "context": "Before diving in, you should understand basic screen coordinates and how pixels or characters map to a display. Historically, grids evolved from manuscript layouts and print publishing, where early typographers needed reliable ways to align lead type and illustrations across multi-page books. Today, this same spatial logic governs everything from mobile app wireframes to the CSS layout engines powering modern web browsers.",
+   "evidence": [
+    {
+     "claim": "In graphic design, a grid is a structure made up of a series of intersecting straight or curved lines used to structure content.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The grid serves as an armature or framework on which a designer can organize graphic elements in a rational, easy-to-absorb manner.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A grid can be used to organize graphic elements in relation to a page.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Grids evolved historically from print publishing to help typographers align lead type.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "+-----------------------+\n| [Col 1]   | [Col 2]   |\n|           |           |\n|           |           |\n+-----------------------+",
+   "realWorld": "Every time you open a coding IDE like VS Code, browse a terminal window with split panes, or look at a mobile weather app, you are experiencing a digital grid. It keeps buttons, text boxes, and data neatly aligned so your brain does not have to hunt for information.",
+   "exercise": {
+    "prompt": "Open a plain text editor or a blank drawing tool. Draw two vertical lines and two horizontal lines to create a simple two-column layout. Place a short title in the left column and a paragraph of text in the right column.",
+    "answerHint": "Check if your text elements line up neatly against the vertical guide lines you drew."
+   },
+   "quiz": [
+    {
+     "q": "What is a grid in graphic design?",
+     "options": [
+      "A structure made of intersecting lines used to structure content",
+      "A random collection of colourful shapes",
+      "A type of font style used in headers",
+      "A programming language for web animation"
+     ],
+     "answer": 0,
+     "explanation": "A grid is explicitly defined as an intersecting structure used to organize content rationally [S1]."
+    },
+    {
+     "q": "How does the grid function for a designer?",
+     "options": [
+      "As an audio soundtrack",
+      "As an armature or framework",
+      "As a colour palette generator",
+      "As a compression algorithm"
+     ],
+     "answer": 1,
+     "explanation": "The source explicitly states that the grid serves as an armature or framework [S1]."
+    }
+   ],
+   "checklist": [
+    "Define your outer page margins",
+    "Choose a column count that fits your content",
+    "Align all major text and image blocks to the column edges"
+   ],
+   "furtherQuestions": [
+    "How do responsive web grids adapt when a screen changes from desktop to mobile size?",
+    "When should a designer break the grid intentionally?"
+   ],
+   "imagePrompt": "Close-up of a graph notebook page with intersecting blue grid lines, a wooden ruler resting diagonally across the paper, and a sharp mechanical pencil.",
+   "keyIdea": "A grid is an invisible framework of intersecting lines that helps you organize graphic elements rationally and clearly.",
+   "glossary": [
+    {
+     "term": "grid",
+     "definition": "A structure made up of intersecting straight or curved lines used to structure content [S1]."
+    },
+    {
+     "term": "armature",
+     "definition": "A framework or supporting structure used to organize elements [S1]."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/design.jpg",
+    "alt": "Illustration for: The Invisible Architecture of the Page",
+    "prompt": "Close-up of a graph notebook page with intersecting blue grid lines, a wooden ruler resting diagonally across the paper, and a sharp mechanical pencil.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Grid (graphic design)",
+     "url": "https://en.wikipedia.org/wiki/Grid_(graphic_design)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-03"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Talbot-Lago T150-C SS",
+   "title": "Frugal Chic: Talbot-Lago T150-C SS",
+   "hook": "True taste is about recognizing proportion and craftsmanship without needing to flash a receipt. Let us look at how one rare automobile achieves timeless elegance, and how to appreciate such standards on any budget.",
+   "core": "When we examine the **Talbot-Lago T150-C SS**, we are looking at a masterclass in automotive sculpture. Designed in the late 1930s, its **teardrop** bodywork wraps tight over the mechanical components, creating an uninterrupted sweep of sheet metal that looks as though it is carved from a single block of steel. Underneath this dramatic exterior lies a rugged chassis paired with a Wilson pre-selector gearbox, which allowed drivers to select the next gear before engaging it with the clutch pedal. Safety standards of the era were virtually nonexistent by modern metrics, featuring rigid cabins, mechanical drum brakes, and no crumple zones. Owning an original today carries a crushing ownership burden involving bespoke restoration and astronomical maintenance costs.\n\nYet, you do not need a multi-million-dollar garage to experience this level of design integrity. The frugal alternative is to cultivate an eye for proportion through secondhand study, visiting free public museums, and restoring everyday items yourself. By learning to repair a vintage mechanical watch or restoring a mid-century wooden chair, you gain a tangible understanding of how materials behave and how good design solves structural problems. True appreciation comes from understanding the craft, not from performing wealth.",
+   "context": "This lesson is not source-grounded as no reference texts were available. As a first-year computing student, you are already learning how complex systems break down into logical components. Applying that same analytical eye to physical design helps you separate genuine craftsmanship from expensive marketing.",
+   "evidence": [
+    {
+     "claim": "The Talbot-Lago T150-C SS features teardrop bodywork designed in the late 1930s.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "The car uses a Wilson pre-selector gearbox.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Original models carry astronomical maintenance costs and require bespoke restoration.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Frugal alternatives involve secondhand study, museum visits, and DIY repair to build taste.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "",
+   "realWorld": "You see this principle in software design as well: clean, elegant code that solves a hard problem efficiently is always more satisfying than bloated code wrapped in expensive enterprise licenses.",
+   "exercise": {
+    "prompt": "Find a broken or worn-out household object made of wood or metal, and spend one hour cleaning, tightening, or repairing it using basic household tools.",
+    "answerHint": "The object functions better and shows signs of thoughtful care rather than quick replacement."
+   },
+   "quiz": [
+    {
+     "q": "What is a core mechanical feature mentioned for the Talbot-Lago?",
+     "options": [
+      "A continuous variable transmission",
+      "A Wilson pre-selector gearbox",
+      "An electric dual-motor setup",
+      "A front-wheel-drive transverse layout"
+     ],
+     "answer": 1,
+     "explanation": "The text notes the car uses a Wilson pre-selector gearbox."
+    },
+    {
+     "q": "What is the frugal alternative suggested for developing design taste?",
+     "options": [
+      "Renting a luxury vehicle for a weekend",
+      "Buying replica car models online",
+      "Secondhand study, museum visits, and DIY repair",
+      "Watching high-budget automotive review shows"
+     ],
+     "answer": 2,
+     "explanation": "The text emphasizes secondhand study, free museum visits, and DIY repair as accessible ways to build taste."
+    }
+   ],
+   "checklist": [
+    "Check current prices",
+    "Evaluate your actual storage and workshop space",
+    "Determine if you enjoy hands-on restoration",
+    "Consider lower-cost alternatives that offer similar design satisfaction"
+   ],
+   "furtherQuestions": [
+    "How do aerodynamic constraints influence modern industrial design compared to the 1930s?",
+    "What free digital archives can you use to study historic engineering blueprints?"
+   ],
+   "imagePrompt": "Close up of a weathered wooden workbench with classic hand tools, a brass caliper, and a disassembled mechanical clock resting on a clean linen cloth.",
+   "keyIdea": "True taste and design appreciation come from understanding craftsmanship and proportion through hands-on practice, not from spending money to perform wealth.",
+   "glossary": [
+    {
+     "term": "Talbot-Lago T150-C SS",
+     "definition": "A rare, beautifully sculpted French automobile from the late 1930s known for its dramatic styling."
+    },
+    {
+     "term": "teardrop",
+     "definition": "A curved, aerodynamic body shape that tapers smoothly toward the rear."
+    }
+   ],
+   "image": {
+    "src": "data/img/007/frugal.jpg",
+    "alt": "Illustration for: Frugal Chic: Talbot-Lago T150-C SS",
+    "prompt": "Close up of a weathered wooden workbench with classic hand tools, a brass caliper, and a disassembled mechanical clock resting on a clean linen cloth.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": false,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": []
+  }
+ },
+ "puzzle": {
+  "type": "sequence",
+  "title": "Logic day: what comes next?",
+  "prompt": "4, 9, 16, 25, 36, ?",
+  "answer": "49",
+  "explanation": "The rule: these are consecutive square numbers."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Scripture in its Real World: 1 Corinthians 11"
+   },
+   {
+    "house": "mindcraft",
+    "text": "The Art of Spaced Repetition"
+   },
+   {
+    "house": "soundroom",
+    "text": "Sculpting the Sound"
+   },
+   {
+    "house": "aiml",
+    "text": "Mapping Meaning into Numbers"
+   },
+   {
+    "house": "systems",
+    "text": "The Race Condition"
+   },
+   {
+    "house": "design",
+    "text": "The Invisible Architecture of the Page"
+   },
+   {
+    "house": "frugal",
+    "text": "Frugal Chic: Talbot-Lago T150-C SS"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Scripture in its Real World: 1 Corinthians 11",
+    "text": "When early Christians gathered to share a communal meal, social status and greed threatened to tear the group apart. Paul wrote a sharp letter to address these deeply rooted divisions. Prerequisites: Basic familiarity with New Testament letters and ancient Mediterranean social norms.",
+    "sources": [
+     "https://bible-api.com/1%20Corinthians%2011%3A17-34",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "The Art of Spaced Repetition",
+    "text": "Your brain is remarkably good at forgetting what you study. Instead of cramming, you can hack your memory timing to remember things permanently with a fraction of the effort. When you try to learn a new concept as a computing student, your brain naturally lets the details fade away.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Spaced_repetition"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Sculpting the Sound",
+    "text": "You have recorded your multitrack instruments, but right now they are just fighting for space. **Audio mixing** is how you turn a messy pile of individual sounds into a clean, cohesive track [S1]. Before mixing, a raw recording often sounds cluttered and exhausting.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Audio_mixing_(recorded_music)"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Mapping Meaning into Numbers",
+    "text": "Computers cannot read prose, but they can do math. Word embeddings turn human language into coordinates so machines can reason about meaning. When you write code, you work with integers and booleans.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Word_embedding"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "The Race Condition",
+    "text": "When two parts of your program try to update the same piece of data at the exact same time, the winner is decided by pure chance. This invisible timing flaw can crash servers and ruin user accounts. Imagine two workers trying to update a single tally sheet without communicating.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Race_condition",
+     "https://lwn.net/Articles/1102739/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Invisible Architecture of the Page",
+    "text": "Ever wonder why some pages pull your eyes effortlessly across them while others feel like a messy junk drawer? The secret is a hidden skeleton called a grid. When you design anything visual, you make a series of intentional decisions about typography, colour, hierarchy, and movement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Grid_(graphic_design)"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Frugal Chic: Talbot-Lago T150-C SS",
+    "text": "True taste is about recognizing proportion and craftsmanship without needing to flash a receipt. Let us look at how one rare automobile achieves timeless elegance, and how to appreciate such standards on any budget. When we examine the Talbot-Lago T150-C SS, we are looking at a masterclass in automotive sculpture.",
+    "sources": []
+   }
+  ],
+  "plus": [
+   "Word: verisimilitude",
+   "Puzzle: Logic day: what comes next?",
+   "AI/ML signal: Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap"
+  ]
+ }
+}
