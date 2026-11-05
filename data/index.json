@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 8,
+   "slug": "008",
+   "publishedAt": "2026-11-05T10:59:08.432Z",
+   "theme": "1 Corinthians 15:1-11 · Logical fallacies · Veena",
+   "failed": [],
+   "cover": "data/img/008/cover.jpg"
+  },
+  {
    "n": 7,
    "slug": "007",
    "publishedAt": "2026-11-03T10:57:19.850Z",
