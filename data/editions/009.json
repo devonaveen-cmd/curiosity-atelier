@@ -1,0 +1,1042 @@
+{
+ "n": 9,
+ "slug": "009",
+ "publishedAt": "2026-11-07T10:14:15.756Z",
+ "theme": "2 Corinthians 4:7-18 · Nonviolent communication · Mridangam",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.5-flash",
+   "gemini/gemini-3.1-flash-lite",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/009/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "sanguine",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Optimistic or positive, especially in an apparently difficult situation.",
+   "example": "Despite three failing integration tests an hour before launch, Maya remained sanguine about meeting the release deadline.",
+   "exercise": "Write a sentence describing your attitude toward debugging a complex syntax error using the word 'sanguine'.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Earthy Rust & Sage",
+   "hexes": [
+    "#B85B35",
+    "#8F9E8B",
+    "#F4F1EA"
+   ],
+   "note": "This palette balances the grounded energy of terracotta rust with the calming softness of muted sage. Settled against a warm off-white canvas, the high-contrast rust draws immediate attention while the sage provides a tranquil secondary tone.",
+   "application": "Ideal for a developer blog, personal documentation site, or a digital notebook interface that needs to feel warm and human rather than clinical.",
+   "accessibility": "Strongest pair: #B85B35 with #F4F1EA, contrast 4.06:1 (AA for large text only). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "Space Grotesk",
+   "character": "A modern sans-serif with subtle eccentricities rooted in fixed-width tech typefaces. It feels precise yet approachable, bridging raw code aesthetics with clean editorial design.",
+   "bestUses": "Excels in bold section headers, technical landing pages, and UI card titles. Avoid using it for dense, multi-page body text.",
+   "url": "https://fonts.google.com/specimen/Space+Grotesk",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Skeleton Screens",
+   "reasoning": "Instead of displaying a blank page or a generic spinning wheel, skeleton screens show muted layout blocks that mimic incoming content while data loads. Designers use them because they reduce perceived wait times and focus user attention on structural progress, creating a smoother transition on slow network connections.",
+   "tryIt": "Open browser developer tools on a content-heavy site, throttle your network connection to Slow 3G, refresh the page, and draw a quick pencil layout of the grey placeholder shapes you observe.",
+   "aiGenerated": true
+  },
+  "challenge": "Sketch a loading card UI on paper using a skeleton layout, then label where you would apply your primary colour accent once the data populates.",
+  "aiSignal": {
+   "title": "XStack: A Benchmark for ML Repo Migration",
+   "url": "https://arxiv.org/abs/2611.08472v1",
+   "date": "2026-11-05T18:55:54Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "benchmark",
+   "whatHappened": "Researchers introduced XStack, a benchmark designed to evaluate how machine learning code repositories are migrated between different frameworks like PyTorch and JAX. According to the summary, this task tests whole-repository execution across distinct hardware targets like GPUs and TPUs.",
+   "whyItMatters": "In software engineering, code is often tightly bound to the specific libraries and hardware backends on which it was originally created. Understanding framework migration helps clarify the practical real-world dependencies between high-level code, software libraries, and hardware infrastructure.",
+   "takeaway": "Code execution isn't hardware-agnostic; portability across frameworks and hardware is a fundamental system-level challenge in modern computing."
+  },
+  "openTab": {
+   "url": "https://distill.pub",
+   "name": "Distill — Latest articles about machine learning",
+   "what": "Distill is a website dedicated to publishing the latest articles about machine learning.",
+   "whyBookmark": "It serves as a focused resource to follow recent articles and stay updated on machine learning topics.",
+   "verified": true,
+   "checkedAt": "2026-11-07"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "2 Corinthians 4:7-18",
+   "title": "Treasure in Earthenware: Reading 2 Corinthians 4:7-18",
+   "hook": "When Paul described human fragility, he compared it to cheap pottery holding invaluable treasure. This passage contrasts physical hardship with enduring internal renewal.",
+   "core": "In *Second Corinthians*, Paul of Tarsus and Timothy address the early Christian community in Achaea, framing apostolic hardship through a vivid metaphor. They describe divine power residing inside **earthenware vessels**, ordinary clay jars that break easily under pressure. Rather than claiming personal invulnerability, the letter highlights physical vulnerability—being pressed on every side, **perplexed**, pursued, and struck down—to demonstrate that ultimate power belongs to God rather than originating from human capability.\n\nThe text sets up an explicit contrast between immediate physical reality and long-term spiritual renewal. While the outer self experiences physical wear and decay through ongoing **affliction**, the inner self undergoes daily renewal. The passage urges readers to reframe their perception of hardship by looking beyond visible, **transient** circumstances toward unseen, eternal realities. By framing current suffering as a momentary burden, the letter contrasts temporary bodily decay with an enduring weight of glory that transcends physical sight.",
+   "context": "The *Second Epistle to the Corinthians* is a New Testament letter addressed to the church in Corinth and Christians throughout Achaea in modern Greece [S2]. The letter names Paul and Timothy as co-authors [S2], while the ancient scholar Jerome noted a tradition that Titus served as the secretary who physically transcribed the text [S2]. Understanding this passage requires recognizing the ancient Mediterranean context of inexpensive clay vessels used daily for household utility.",
+   "evidence": [
+    {
+     "claim": "The Second Epistle to the Corinthians is addressed to the church in Corinth and Christians across Achaea.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Paul contrasts outward bodily decay with daily inward renewal.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Titus served as the amanuensis who transcribed the epistle.",
+     "label": "tradition",
+     "source": "S2"
+    },
+    {
+     "claim": "The text asserts that visible things are temporal while unseen things are eternal.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "[ Visible / Transient ]  --->  Decaying outer self / Light affliction\n         vs\n[ Unseen / Eternal   ]  --->  Renewed inner self / Weight of glory",
+   "realWorld": "The imagery of treasure stored in fragile clay containers remains a frequent reference in literature, pastoral counseling, and grief studies. Historians and literary scholars analyze 2 Corinthians 4 to examine how early religious movements articulated crisis communication, framed physical vulnerability, and maintained communal morale under extreme external pressures without denying human frailty.",
+   "exercise": {
+    "prompt": "Use an online Bible search tool to search the quote in 2 Corinthians 4:13 ('I believed, and therefore I spoke') and identify its original Old Testament source.",
+    "answerHint": "Search the phrase in a free text tool like BibleGateway or Bible-API to confirm it cites Psalm 116:10."
+   },
+   "quiz": [
+    {
+     "q": "Who is explicitly listed as a co-author of 2 Corinthians alongside Paul in the letter's greeting?",
+     "options": [
+      "Titus",
+      "Timothy",
+      "Jerome",
+      "Luke"
+     ],
+     "answer": 1,
+     "explanation": "According to the Second Epistle to the Corinthians, the letter is attributed to Paul the Apostle and co-author Timothy [S2]."
+    },
+    {
+     "q": "How does 2 Corinthians 4:18 categorize visible things compared to unseen things?",
+     "options": [
+      "Visible things are eternal, while unseen things are temporal.",
+      "Visible things are temporal, while unseen things are eternal.",
+      "Both visible and unseen things are temporal.",
+      "Both visible and unseen things are illusionary."
+     ],
+     "answer": 1,
+     "explanation": "2 Corinthians 4:18 explicitly states that 'the things which are seen are temporal, but the things which are not seen are eternal' [S1]."
+    }
+   ],
+   "checklist": [
+    "Identify physical metaphors used in ancient epistles",
+    "Separate direct manuscript statements from historical church traditions"
+   ],
+   "furtherQuestions": [
+    "How did secretarial practice (amanuenses) affect letter composition in ancient Greece and Rome?",
+    "What other metaphors did ancient Mediterranean writers use to describe physical human mortality?"
+   ],
+   "imagePrompt": "A cracked terra-cotta clay jar sitting on weathered gray stone beside a soft beam of natural sunlight, showing coarse clay textures and fine fractures.",
+   "keyIdea": "Paul uses the contrast between fragile clay jars and unseen eternal reality to frame human suffering as secondary to enduring spiritual renewal.",
+   "glossary": [
+    {
+     "term": "earthenware vessels",
+     "definition": "Fragile clay containers used in antiquity for everyday household storage."
+    },
+    {
+     "term": "perplexed",
+     "definition": "Baffled or uncertain about circumstances without being driven to utter despair."
+    },
+    {
+     "term": "affliction",
+     "definition": "A state of distress, hardship, or severe physical suffering."
+    },
+    {
+     "term": "transient",
+     "definition": "Lasting only for a short time; temporary or fleeting."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/theology.jpg",
+    "alt": "Illustration for: Treasure in Earthenware: Reading 2 Corinthians 4:7-18",
+    "prompt": "A cracked terra-cotta clay jar sitting on weathered gray stone beside a soft beam of natural sunlight, showing coarse clay textures and fine fractures.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "2 Corinthians 4:7-18 (World English Bible)",
+     "url": "https://bible-api.com/2%20Corinthians%204%3A7-18",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-07"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: Second Epistle to the Corinthians",
+     "url": "https://en.wikipedia.org/wiki/Second_Epistle_to_the_Corinthians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Nonviolent communication",
+   "title": "The Structure of Nonviolent Communication",
+   "hook": "Arguments often collapse into defensiveness because we mix raw facts with hidden judgments. Learning to separate what happened from how you feel changes how people respond to you.",
+   "core": "When conflict arises, standard communication often relies on evaluation, blame, or implicit demands. **Nonviolent communication** offers a structured alternative designed to increase empathic understanding between people while inviting voluntary cooperation. Instead of reacting impulsively, this model breaks honest expression down into four distinct steps.\n\nThe first step is neutral **observation**. You state the concrete actions or facts of a situation without adding evaluation, diagnosis, or judgment. Saying \"you left the lights on three times this week\" provides clear evidence, whereas saying \"you are careless\" triggers instant defensiveness.\n\nThe second step involves identifying your genuine **feelings**. This requires naming specific emotional states, such as frustration or anxiety, rather than masked statements like \"I feel that you don't care,\" which are actually thoughts about the other person.\n\nThe third step connects those emotions to underlying **fundamental needs**. Human emotional responses stem from universal needs like safety, predictability, autonomy, or connection. Recognizing these needs reframes the conflict from a personal attack into a human requirement.\n\nFinally, you make explicit **requests**. A request must be actionable, positive, and framed in concrete language rather than a vague expectation. By asking clearly for what you need right now, you replace hidden demands with an invitation for mutual understanding.",
+   "context": "Developed by clinical psychologist Marshall Rosenberg in the 1960s and 1970s, nonviolent communication draws heavy inspiration from humanistic psychology and principles of nonviolence. Rosenberg designed the framework to help individuals reframe how they express themselves and listen to others, replacing reflexive defense mechanisms with clarity. It requires no specialized software or prior psychological training, functioning as a practical framework for personal conversations, workplace negotiations, and mediation settings.",
+   "evidence": [
+    {
+     "claim": "Nonviolent Communication was developed by clinical psychologist Marshall Rosenberg in the 1960s and 1970s.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The framework consists of four components: observation, feelings, fundamental needs, and requests.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Nonviolent Communication is rooted in principles of humanistic psychology and nonviolence.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Expressing observations and needs without judgment reduces defensiveness and fosters voluntary cooperation.",
+     "label": "inference",
+     "source": "S1"
+    }
+   ],
+   "visual": "1. OBSERVATION  -> State raw, unjudged facts\n2. FEELINGS     -> Name your actual emotional state\n3. NEEDS        -> Identify underlying universal requirements\n4. REQUESTS     -> Ask for concrete, actionable steps",
+   "realWorld": "In professional settings, code reviews and team retrospectives frequently trigger interpersonal tension. Engineers using this model replace personal critiques like \"your code is messy\" with concrete observations: \"this pull request contains fifty changed files without explanatory comments.\" Framing feedback around specific needs for code maintainability and actionable requests reduces defensive pushback, keeping technical discussions focused on clear problem-solving rather than ego.",
+   "exercise": {
+    "prompt": "Write down a recent minor disagreement. Rewrite your initial thought into the four steps: an observation of bare facts, your exact emotion, the underlying need, and a positive, concrete request.",
+    "answerHint": "Check that your observation contains no loaded adjectives, your feeling is an emotion word, your need is universal, and your request is actionable."
+   },
+   "quiz": [
+    {
+     "q": "Which of the following represents a neutral observation in Nonviolent Communication?",
+     "options": [
+      "\"You always ignore my messages.\"",
+      "\"You are being lazy about this project.\"",
+      "\"You replied to my email two days after I sent it.\"",
+      "\"You clearly do not care about meeting the deadline.\""
+     ],
+     "answer": 2,
+     "explanation": "Stating \"You replied to my email two days after I sent it\" presents a measurable, concrete fact without evaluation or judgment."
+    },
+    {
+     "q": "According to Marshall Rosenberg's framework, what role do fundamental needs play?",
+     "options": [
+      "They serve as bargaining chips during formal negotiations.",
+      "They form the underlying human requirements that generate our feelings.",
+      "They are weaponized demands used to force immediate compliance.",
+      "They replace the necessity of making concrete requests."
+     ],
+     "answer": 1,
+     "explanation": "Feelings arise directly from whether fundamental human needs (like safety, autonomy, or connection) are currently met or unmet."
+    }
+   ],
+   "checklist": [
+    "Separate objective observations from evaluation or interpretation.",
+    "Identify genuine internal feelings rather than thoughts framed as emotions.",
+    "Pinpoint the underlying fundamental need behind your emotional state.",
+    "Formulate clear, actionable, positive requests rather than vague demands."
+   ],
+   "furtherQuestions": [
+    "How can you maintain nonviolent communication when the other person remains hostile?",
+    "What is the psychological difference between making a request and making a demand?"
+   ],
+   "imagePrompt": "A clean wooden desk holding an open blank notebook, a brass pen, and a polished river stone resting under soft morning daylight.",
+   "keyIdea": "Nonviolent communication resolves conflict by separating neutral observations from judgments, identifying emotional needs, and framing concrete requests for voluntary cooperation.",
+   "glossary": [
+    {
+     "term": "observation",
+     "definition": "Stating objective facts and concrete actions of a situation without adding judgment, evaluation, or diagnosis."
+    },
+    {
+     "term": "feelings",
+     "definition": "Identifying specific emotional states directly rather than masking personal thoughts or judgments about another person's behavior."
+    },
+    {
+     "term": "fundamental needs",
+     "definition": "Universal human requirements such as safety, autonomy, or connection that generate emotional responses when met or unmet."
+    },
+    {
+     "term": "requests",
+     "definition": "Clear, positive, and concrete statements asking for specific actions to meet an underlying human need."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/mindcraft.jpg",
+    "alt": "Illustration for: The Structure of Nonviolent Communication",
+    "prompt": "A clean wooden desk holding an open blank notebook, a brass pen, and a polished river stone resting under soft morning daylight.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Nonviolent Communication",
+     "url": "https://en.wikipedia.org/wiki/Nonviolent_Communication",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Mridangam",
+   "title": "Mridangam: Acoustics of the Classical Barrel Drum",
+   "hook": "A single drum can generate both resonant low-frequency thuds and sharp harmonic treble tones. Understanding the mridangam reveals how multi-headed instruments create complete rhythmic foundations.",
+   "core": "In audio production and sound synthesis, studying classical percussion reveals distinct ways to shape rhythm and frequency. The **mridangam** is an ancient double-headed drum from the Indian subcontinent that serves as the central rhythmic instrument in **Carnatic music**, the classical music tradition of south India. Unlike a standard Western snare drum, its wooden barrel body produces a deep bass tone on one side and a precise, pitched treble stroke on the other.\n\nA modern producer might record or sample this drum to blend intricate percussive textures into contemporary beats. Before processing, an unedited microphone capture sounds resonant, warm, and rich in natural overtones. After subtle equalization and dynamic compression in digital audio software, the attack becomes sharp and defined, cutting cleanly through a dense mix without overpowering bass synths.\n\nBy examining how these wooden instruments generate harmonic tones, engineers learn how to balance low-frequency decay against high-frequency transients. Related instruments show similar acoustic principles, such as the **pakhawaj** used in *dhrupad* music or the **kendang** in Maritime Southeast Asia. Listening to these instruments expands your mental library beyond standard electronic drum packs.",
+   "context": "Originating as a traditional royal instrument in the south Indian state of Tamil Nadu, the mridangam has long been central to regional classical music. In ensemble settings, it provides the fundamental rhythmic framework, guiding soloist timing and melodic flow. For beginners in audio engineering, understanding the instrument requires no prior Indian classical training, only an appreciation for how multi-headed percussive bodies project distinct pitch profiles and acoustic resonances.",
+   "evidence": [
+    {
+     "claim": "The mridangam is an ancient percussion instrument originating from the Indian subcontinent and used in Carnatic music.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The mridangam originated as a traditional royal instrument in Tamil Nadu.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The pakhawaj is a modified version of the mridangam used in dhrupad.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The kendang is a related instrument played in Maritime Southeast Asia.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Equalization and compression in digital audio software sharpen drum attack transients.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[Treble Head: High Pitch] ===( Wooden Barrel Body )=== [Bass Head: Low Pitch]",
+   "realWorld": "In modern scoring and global fusion production, producers layer sampled mridangam patterns underneath cinematic orchestral arrangements or modern electronic beats. Its dual acoustic signature allows engineers to pan high-pitched accent strikes across the stereo field while leaving the deep bass centered, providing rhythmic drive without cluttering the vocal range.",
+   "exercise": {
+    "prompt": "Import an acoustic drum recording into a free audio editor. Duplicate the track, apply a high-pass filter at 400 Hz to the first track, and apply a low-pass filter at 150 Hz to the second track.",
+    "answerHint": "Mute each track individually to verify that one outputs crisp high-frequency taps while the other produces a deep, isolated low-end thud."
+   },
+   "quiz": [
+    {
+     "q": "What primary role does the mridangam perform in a Carnatic music ensemble?",
+     "options": [
+      "Primary rhythmic accompaniment",
+      "Lead solo woodwind instrument",
+      "Background chordal pad",
+      "High-pitched drone support"
+     ],
+     "answer": 0,
+     "explanation": "According to source S1, the mridangam serves as the primary rhythmic accompaniment in Carnatic music ensembles."
+    },
+    {
+     "q": "Which instrument is identified as a modified version of the mridangam used in dhrupad?",
+     "options": [
+      "Kendang",
+      "Pakhawaj",
+      "Tabla",
+      "Dholak"
+     ],
+     "answer": 1,
+     "explanation": "Source S1 states that in dhrupad, a modified version called the pakhawaj is the primary percussion instrument."
+    }
+   ],
+   "checklist": [
+    "Identify distinct high and low frequency zones on multi-headed drums",
+    "Use filtering to separate treble transients from low bass resonance",
+    "Balance pan settings for high accents while keeping low frequencies centered"
+   ],
+   "furtherQuestions": [
+    "How does physical shell geometry influence drum head overtone series?",
+    "How can traditional rhythmic meters be programmed into modern digital sequencers?"
+   ],
+   "imagePrompt": "A carved double-headed wooden drum resting on a woven silk cloth, showing detailed leather lacing, natural wood grain, and textured drumhead surfaces under soft directional lighting.",
+   "keyIdea": "The mridangam is a foundational south Indian classical drum whose double-headed structure produces both deep bass and distinct treble tones.",
+   "glossary": [
+    {
+     "term": "mridangam",
+     "definition": "An ancient double-headed percussion instrument originating from the Indian subcontinent."
+    },
+    {
+     "term": "Carnatic music",
+     "definition": "The traditional classical music system originating in south India."
+    },
+    {
+     "term": "pakhawaj",
+     "definition": "A modified percussion instrument used primarily in dhrupad music."
+    },
+    {
+     "term": "kendang",
+     "definition": "A related percussion instrument played across Maritime Southeast Asia."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/soundroom.jpg",
+    "alt": "Illustration for: Mridangam: Acoustics of the Classical Barrel Drum",
+    "prompt": "A carved double-headed wooden drum resting on a woven silk cloth, showing detailed leather lacing, natural wood grain, and textured drumhead surfaces under soft directional lighting.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Mridangam",
+     "url": "https://en.wikipedia.org/wiki/Mridangam",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Retrieval-augmented generation",
+   "title": "Retrieval-Augmented Generation",
+   "hook": "Instead of forcing an AI model to memorize every fact in existence, engineers hand it a search engine so it can look up answers on demand.",
+   "core": "When you ask a standard **large language model** a question, it relies entirely on static parameters established during its training phase. If your query requires proprietary data, rapid updates, or niche domain knowledge, the network often fails or generates inaccurate details. A technique known as **retrieval-augmented generation** solves this limitation by turning the generation process into an open-book exam.\n\nInstead of relying solely on internal weights, a system using retrieval-augmented generation first passes your input query to an **external data source**. The system searches this repository for relevant **authoritative sources** or specific text chunks. Once the relevant snippets are retrieved, they are combined with your original query and passed into the language model.\n\nThe model then produces a response anchored directly in the freshly provided context. This workflow enables software developers to connect AI systems to private company files or live knowledge bases without performing costly computational retraining. By separating raw reasoning capabilities from factual storage, engineers create traceable, scalable applications ready for production environments.",
+   "context": "Retrieval-augmented generation was first proposed in 2020 as a research technique. In practical software engineering, it builds on basic database searching concepts taught in early computer science coursework, such as indexing, query lookup, and string matching. Rather than modifying the underlying neural network parameters, developers write code in Python using database connectors that retrieve pertinent text snippets before calling an model API. This bridges fundamental database operations with modern machine learning workflows.",
+   "evidence": [
+    {
+     "claim": "RAG enables large language models to retrieve and incorporate new information from external data sources.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The retrieval-augmented generation technique was first proposed in 2020.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "RAG allows LLMs to access domain-specific or updated information not available in pre-existing training data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Basic database retrieval operations can be written in Python to feed context into an API call.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[User Query] --> [Search External Database] --> [Retrieved Text Snippets + Query] --> [Large Language Model] --> [Grounded Answer]",
+   "realWorld": "In enterprise software, companies use retrieval-augmented generation to build internal search tools and customer support bots. Instead of manually updating a multi-billion parameter model whenever internal policies change, engineers simply update a standard text database. When a user asks about refund policies or technical specifications, the application fetches the latest policy document and feeds it to the language model, delivering accurate answers instantly.",
+   "exercise": {
+    "prompt": "Create a file named knowledge.txt with three sentences about your favorite topic. Write a short Python script that takes a user query string, searches knowledge.txt for matching lines using standard string matching, and prints a final prompt containing the retrieved lines.",
+    "answerHint": "Verify that inputting a word present in knowledge.txt prints the correct sentence formatted inside your final prompt string."
+   },
+   "quiz": [
+    {
+     "q": "Why is retrieval-augmented generation useful when working with proprietary company data?",
+     "options": [
+      "It retrains the underlying model neural network weights in real time.",
+      "It allows the model to access external documents without requiring model retraining.",
+      "It reduces the size of the language model so it runs locally on mobile hardware.",
+      "It translates natural language queries directly into compiled machine code."
+     ],
+     "answer": 1,
+     "explanation": "RAG supplements model responses by fetching external documents, enabling access to proprietary or updated data without modifying training weights."
+    },
+    {
+     "q": "In what year was the retrieval-augmented generation technique first proposed?",
+     "options": [
+      "2015",
+      "2018",
+      "2020",
+      "2023"
+     ],
+     "answer": 2,
+     "explanation": "According to source S1, the technique was first proposed in 2020."
+    }
+   ],
+   "checklist": [
+    "Identify if query data changes frequently",
+    "Determine if data is private or domain-specific",
+    "Set up an external retrieval source before model invocation"
+   ],
+   "furtherQuestions": [
+    "How do engineers select the most relevant text chunks from thousands of database documents?",
+    "What metrics are used to measure whether retrieved snippets actually improved model accuracy?"
+   ],
+   "imagePrompt": "An open hardcover notebook resting on a dark walnut desk beside a glass magnifying glass, bathed in soft warm morning sunlight through a nearby window.",
+   "keyIdea": "Retrieval-augmented generation allows language models to answer queries using updated external documents without requiring expensive model retraining.",
+   "glossary": [
+    {
+     "term": "large language model",
+     "definition": "An AI model trained on vast text data to generate human-like language based on learned statistical patterns."
+    },
+    {
+     "term": "retrieval-augmented generation",
+     "definition": "A technique where an AI model fetches external documents to inform its generated responses."
+    },
+    {
+     "term": "external data source",
+     "definition": "An outside database or document repository separate from an AI model's built-in training data."
+    },
+    {
+     "term": "authoritative sources",
+     "definition": "Verified, trusted documents or data used to provide accurate facts for a query."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/aiml.jpg",
+    "alt": "Illustration for: Retrieval-Augmented Generation",
+    "prompt": "An open hardcover notebook resting on a dark walnut desk beside a glass magnifying glass, bathed in soft warm morning sunlight through a nearby window.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Retrieval-augmented generation",
+     "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Big O notation",
+   "title": "Understanding Big O Notation",
+   "hook": "Code that runs in milliseconds on your laptop can stall for hours in production if its growth curve is unchecked.",
+   "core": "When your program handles ten items, almost any code runs instantly. But what happens when that input grows to ten million? We use **Big O notation** to describe how the execution time or memory space of an algorithm scales as the input size grows. It does not measure exact seconds; instead, it tracks the mathematical curve of growth.\n\nConsider finding a specific number in a list of size *n*. If you inspect every element one by one in a **linear search**, you might get lucky on the first try or check every single item. In the worst case, your loop performs *n* checks. We call this *O(n)*, meaning running time scales proportionally with input size. Doubling the list length doubles the maximum steps.\n\nA common beginner mistake is placing a search inside another loop without noticing. This **nested loop** structure compares every item in a list against every other item. For a list of *n* items, the inner work runs *n* times *n*, leading to *O(n²)* **time complexity**. If *n* is ten thousand, *O(n)* takes ten thousand operations, while *O(n²)* requires one hundred million operations.\n\nUnderstanding these trade-offs keeps you from building hidden performance traps into your applications. Choosing the right algorithm structure often matters far more than micro-optimising individual lines of code.",
+   "context": "Before analyzing code performance mathematically, developers relied on manual timings, which varied wildly between hardware setups. The standard notation we use today comes from the work of German mathematicians Paul Bachmann and Edmund Landau, who developed Bachmann–Landau notation to describe function approximations [S1]. The letter *O* stands for *Ordnung*, meaning the order of approximation [S1]. In modern computer science, this mathematical framework provides a universal language to discuss algorithm trade-offs without worrying about CPU clock speeds or compiler optimizations.",
+   "evidence": [
+    {
+     "claim": "Big O notation was created as part of Bachmann–Landau notation by Paul Bachmann and Edmund Landau.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The letter O in Big O notation stands for Ordnung, meaning order of approximation.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Linear search inspects items sequentially, leading to linear O(n) growth.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Nested loops iterating over the same n items produce quadratic O(n²) scaling.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Operations\n   ^\nn² |       /  (Nested loop)\n   |      /\n n |     /   (Linear search)\n   |    /\n 1 |___/____ (Constant lookup)\n   +-------------> Input size (n)",
+   "realWorld": "In database engineering, selecting an index changes a slow query that performs a full table scan taking linear time into a fast lookup operating in logarithmic time. Similarly, standard library sorting functions in Python and C use algorithms like Timsort or Quicksort to avoid quadratic slowdowns when ordering millions of user records or sensor logs.",
+   "exercise": {
+    "prompt": "Write a short Python script that generates a list of numbers from 1 to 10,000. Time how long it takes to find the number 9,999 using a simple loop versus using Python's built-in set lookup.",
+    "answerHint": "Measure execution using the time module. The set lookup completes almost instantaneously in constant O(1) time, while the loop takes measurable linear time."
+   },
+   "quiz": [
+    {
+     "q": "What does the letter O stand for in Big O notation according to its historical origin?",
+     "options": [
+      "Output",
+      "Ordnung",
+      "Operation",
+      "Overflow"
+     ],
+     "answer": 1,
+     "explanation": "As invented by Paul Bachmann and Edmund Landau, the letter O stands for the German word Ordnung, which means the order of approximation [S1]."
+    },
+    {
+     "q": "If an algorithm runs a nested loop where both loops iterate n times over the input, what is its time complexity?",
+     "options": [
+      "O(1)",
+      "O(n)",
+      "O(n²)",
+      "O(2n)"
+     ],
+     "answer": 2,
+     "explanation": "Multiplying an outer loop of n steps by an inner loop of n steps results in n * n operations, which yields quadratic time complexity O(n²)."
+    }
+   ],
+   "checklist": [
+    "Check if loops are nested unintentionally inside data processing functions.",
+    "Verify performance behavior with large input sizes during testing.",
+    "Choose data structures like hash sets when frequent lookups are required."
+   ],
+   "furtherQuestions": [
+    "How does space complexity differ from time complexity when measuring code efficiency?",
+    "What is the practical difference between average-case and worst-case Big O analysis?"
+   ],
+   "imagePrompt": "A classic brass mechanical balance scale sitting on a clean wooden workbench beside neatly stacked leather-bound books and a rusted iron measuring ruler in warm natural light.",
+   "keyIdea": "Big O notation measures how code execution time scales with growing input size, revealing performance bottlenecks before systems run in production.",
+   "glossary": [
+    {
+     "term": "Big O notation",
+     "definition": "A mathematical notation describing how an algorithm's resource requirements scale relative to the input size."
+    },
+    {
+     "term": "linear search",
+     "definition": "An algorithm that checks each element in a list sequentially until it finds the target item."
+    },
+    {
+     "term": "nested loop",
+     "definition": "A loop placed entirely inside the body of another loop, repeating inner work for every outer iteration."
+    },
+    {
+     "term": "time complexity",
+     "definition": "A theoretical measurement of how the execution time of an algorithm grows as input size increases."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/systems.jpg",
+    "alt": "Illustration for: Understanding Big O Notation",
+    "prompt": "A classic brass mechanical balance scale sitting on a clean wooden workbench beside neatly stacked leather-bound books and a rusted iron measuring ruler in warm natural light.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Big O notation",
+     "url": "https://en.wikipedia.org/wiki/Big_O_notation",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: Asahi Linux 7.3 progress report",
+     "url": "https://lwn.net/Articles/1105936/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-07",
+     "date": "Sat, 07 Nov 2026 09:49:38 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Amutable Foundations: A Technical Overview",
+     "url": "https://lwn.net/Articles/1105934/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-07",
+     "date": "Sat, 07 Nov 2026 09:32:56 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: Videos from XDC 2026 are available",
+     "url": "https://lwn.net/Articles/1105913/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-07",
+     "date": "Fri, 06 Nov 2026 20:25:22 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: [$] Locking down hibernation for the winter",
+     "url": "https://lwn.net/Articles/1103190/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-07",
+     "date": "Fri, 06 Nov 2026 18:51:28 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Skeuomorphism",
+   "title": "The Art of Familiarity: Skeuomorphism",
+   "hook": "Ever wonder why your digital calendar looks like a physical notebook? You are looking at a design bridge between the past and the present.",
+   "core": "A **skeuomorph** is a design element in a new object that copies the appearance of a functional component from an older, original version, even when that component is no longer needed. As defined in S1, these design cues are ornamental; they serve no pragmatic purpose in the digital space, yet they act as a psychological anchor. By mimicking physical textures or structures, designers help users bridge the gap between the familiar world of paper, wood, and metal and the abstract world of computing.\n\nThink of the way early mobile software used leather textures for note-taking apps or stitched bindings for calendars. These choices are not accidental. They rely on visual literacy—the ability to interpret visual information—to signal how an object should behave. If a button on your screen looks like a raised, plastic physical switch, your brain immediately understands that it can be pressed. The ornamentation provides a shortcut to understanding interaction. However, as users become more comfortable with digital interfaces, these physical imitations often fade, leading to cleaner, more abstract designs that prioritize function over mimicry.",
+   "context": "To understand skeuomorphism, you need basic visual literacy: the ability to recognize how color, shadow, and texture create depth. Historically, this approach was essential when personal computing was new, as it helped non-technical users navigate virtual desktops. It requires no advanced coding, just an eye for how physical materials like paper or glass behave in light. Skeuomorphism is a strategic decision in interface design, balancing the comfort of the known with the efficiency of the new.",
+   "evidence": [
+    {
+     "claim": "A skeuomorph is a derivative object that retains ornamental design cues from structures that were necessary in the original.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Skeuomorphs are used to make something new feel familiar to aid understanding.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Skeuomorphs employ elements that serve no pragmatic purpose in the new system except for identification.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The use of imitation rivets on pottery is a historical example of skeuomorphism.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Designers choose these elements to reduce the cognitive load for new users.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "+-----------+ \n| [=]  CAL  | <- Binding detail (ornamental)\n|-----------| \n| 12  13  14| \n| 15  16  17| \n+-----------+",
+   "realWorld": "You see this daily in icons. The 'save' icon is a floppy disk—an object most students have never used, yet it remains a universal symbol for saving data. Digital trash cans and magnifying glasses for 'search' are further examples. These icons are skeuomorphic remnants that persist because they provide a visual shorthand that everyone recognizes, regardless of their age or technical background.",
+   "exercise": {
+    "prompt": "Take a plain square button on a piece of paper. Use a pencil to add a drop shadow to the bottom and right edge to make it look like it is popping off the page.",
+    "answerHint": "If the button looks like it has depth and could be pressed, you have successfully applied a skeuomorphic visual cue."
+   },
+   "quiz": [
+    {
+     "q": "Why do designers use skeuomorphism in software?",
+     "options": [
+      "To make the software run faster on older hardware",
+      "To make new technology feel familiar and easier to use",
+      "To hide the complexity of the underlying code",
+      "To ensure the software matches the color of the screen"
+     ],
+     "answer": 1,
+     "explanation": "Skeuomorphs provide visual cues that link new digital experiences to familiar physical objects, reducing user confusion."
+    },
+    {
+     "q": "In the context of skeuomorphism, what is a 'pragmatic purpose'?",
+     "options": [
+      "The aesthetic beauty of the design",
+      "The historical accuracy of the object",
+      "The actual functional utility of the element",
+      "The cost of the materials used"
+     ],
+     "answer": 2,
+     "explanation": "A pragmatic purpose refers to the functional utility; skeuomorphs often lack this because they are ornamental copies of functional parts from other items."
+    }
+   ],
+   "checklist": [
+    "Identify one digital icon that represents a physical object.",
+    "Consider if the physical object is still in common use.",
+    "Determine if the icon's shape helps explain its function."
+   ],
+   "furtherQuestions": [
+    "Why did design trends move toward 'flat design' instead of skeuomorphism?",
+    "Can skeuomorphism ever become a barrier to good design?"
+   ],
+   "imagePrompt": "A close-up of a vintage leather-bound notebook lying next to a modern smartphone screen displaying a digital calendar app with similar stitched-leather interface textures.",
+   "keyIdea": "Skeuomorphism uses familiar physical traits to make new digital tools feel intuitive and approachable for the user.",
+   "glossary": [
+    {
+     "term": "skeuomorph",
+     "definition": "A design element that copies the appearance of a functional component from an older, original version."
+    },
+    {
+     "term": "visual literacy",
+     "definition": "The ability to interpret, negotiate, and make meaning from information presented in the form of an image."
+    },
+    {
+     "term": "ornamental",
+     "definition": "Serving as decoration rather than having a functional, practical use."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/design.jpg",
+    "alt": "Illustration for: The Art of Familiarity: Skeuomorphism",
+    "prompt": "A close-up of a vintage leather-bound notebook lying next to a modern smartphone screen displaying a digital calendar app with similar stitched-leather interface textures.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Skeuomorph",
+     "url": "https://en.wikipedia.org/wiki/Skeuomorph",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Interior lighting",
+   "title": "Lighting Rooms",
+   "hook": "Good lighting isn't about buying expensive fixtures; it is about the deliberate use of light to shape a space. You can build a warm, functional room using low-cost techniques and secondhand finds.",
+   "core": "**Lighting** is the deliberate use of light to achieve practical or aesthetic effects [S1]. It includes both artificial light sources like lamps and natural illumination by capturing daylight [S1]. When you understand how light interacts with a room, you stop relying on costly designer labels and start focusing on how a space actually feels.\n\nWell-made lighting is sturdy, repairable, and distributes light evenly without harsh glares. Instead of buying trendy new fixtures to perform wealth, look for solid metal or glass pieces at thrift stores that just need a simple rewiring or a new bulb. **Daylighting**—using natural window light during the day—is the ultimate frugal alternative because it saves energy and improves your mood without costing a cent [S1].\n\nProper lighting can enhance task performance, improve the appearance of an area, and have positive psychological effects on occupants [S1]. To achieve this on a budget, mix multiple low-intensity light sources rather than relying on one blinding overhead bulb. Check current prices for basic wiring supplies if you decide to restore a vintage lamp yourself.",
+   "context": "Before electricity, interior illumination relied on candles and oil lamps, making light a precious commodity. Today, lighting is a major component of energy consumption in buildings [S1]. Understanding the basics helps you balance energy savings with aesthetic comfort.",
+   "evidence": [
+    {
+     "claim": "Lighting is the deliberate use of light to achieve practical or aesthetic effects.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Lighting includes artificial light sources and natural illumination by capturing daylight.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Daylighting can save energy in place of using artificial lighting.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Artificial lighting represents a major component of energy consumption in buildings.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Proper lighting can enhance task performance, improve appearance, or have positive psychological effects.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "",
+   "realWorld": "Interior designers and architects map out daylighting paths in buildings to reduce electricity use, while second-hand markets brim with older lamps that can be easily repaired with basic tools.",
+   "exercise": {
+    "prompt": "Walk through your living space and identify the primary light sources. Note where daylight enters during the morning versus the afternoon.",
+    "answerHint": "You should find at least one spot where natural daylight could replace an artificial light source."
+   },
+   "quiz": [
+    {
+     "q": "What is daylighting?",
+     "options": [
+      "Using natural illumination by capturing daylight as a main light source",
+      "Turning off all lights at night",
+      "A brand of expensive lightbulbs",
+      "Painting walls white to reflect heat"
+     ],
+     "answer": 0,
+     "explanation": "Daylighting refers to capturing natural daylight to illuminate a space."
+    },
+    {
+     "q": "Which of the following is a benefit of proper lighting mentioned in the text?",
+     "options": [
+      "Lowering property taxes",
+      "Enhancing task performance",
+      "Eliminating the need for furniture",
+      "Cooling down a room"
+     ],
+     "answer": 1,
+     "explanation": "Proper lighting can enhance task performance, improve appearance, and have positive psychological effects."
+    }
+   ],
+   "checklist": [
+    "Check current prices for replacement cords and plugs",
+    "Inspect secondhand lamps for sturdy construction",
+    "Verify that the bulb wattage matches the fixture limit",
+    "Test natural daylight angles before buying extra lamps"
+   ],
+   "furtherQuestions": [
+    "How do different bulb color temperatures affect human mood?",
+    "What safety precautions should you take when rewiring an old lamp?"
+   ],
+   "imagePrompt": "A close-up shot of a simple vintage brass desk lamp sitting on a wooden table near a window, soft natural light filtering through sheer curtains.",
+   "keyIdea": "Lighting is the deliberate use of artificial and natural light to improve a space, which you can achieve affordably through daylighting and secondhand finds.",
+   "glossary": [
+    {
+     "term": "Lighting",
+     "definition": "The deliberate use of light to achieve practical or aesthetic effects."
+    },
+    {
+     "term": "Daylighting",
+     "definition": "The use of natural illumination by capturing daylight."
+    }
+   ],
+   "image": {
+    "src": "data/img/009/frugal.jpg",
+    "alt": "Illustration for: Lighting Rooms",
+    "prompt": "A close-up shot of a simple vintage brass desk lamp sitting on a wooden table near a window, soft natural light filtering through sheer curtains.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Lighting",
+     "url": "https://en.wikipedia.org/wiki/Lighting",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-07"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "latin",
+  "title": "Logic day: mini sudoku",
+  "prompt": "Fill the 4x4 grid so every row and every column contains 1, 2, 3 and 4 exactly once.",
+  "grid": [
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    4,
+    0,
+    2,
+    3
+   ],
+   [
+    0,
+    2,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    3,
+    0
+   ]
+  ],
+  "solution": [
+   [
+    2,
+    3,
+    4,
+    1
+   ],
+   [
+    4,
+    1,
+    2,
+    3
+   ],
+   [
+    3,
+    2,
+    1,
+    4
+   ],
+   [
+    1,
+    4,
+    3,
+    2
+   ]
+  ],
+  "explanation": "Start with the row or column that has the most numbers filled in."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Treasure in Earthenware: Reading 2 Corinthians 4:7-18"
+   },
+   {
+    "house": "mindcraft",
+    "text": "The Structure of Nonviolent Communication"
+   },
+   {
+    "house": "soundroom",
+    "text": "Mridangam: Acoustics of the Classical Barrel Drum"
+   },
+   {
+    "house": "aiml",
+    "text": "Retrieval-Augmented Generation"
+   },
+   {
+    "house": "systems",
+    "text": "Understanding Big O Notation"
+   },
+   {
+    "house": "design",
+    "text": "The Art of Familiarity: Skeuomorphism"
+   },
+   {
+    "house": "frugal",
+    "text": "Lighting Rooms"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Treasure in Earthenware: Reading 2 Corinthians 4:7-18",
+    "text": "When Paul described human fragility, he compared it to cheap pottery holding invaluable treasure. This passage contrasts physical hardship with enduring internal renewal. In *Second Corinthians*, Paul of Tarsus and Timothy address the early Christian community in Achaea, framing apostolic hardship through a vivid metaphor.",
+    "sources": [
+     "https://bible-api.com/2%20Corinthians%204%3A7-18",
+     "https://en.wikipedia.org/wiki/Second_Epistle_to_the_Corinthians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "The Structure of Nonviolent Communication",
+    "text": "Arguments often collapse into defensiveness because we mix raw facts with hidden judgments. Learning to separate what happened from how you feel changes how people respond to you. When conflict arises, standard communication often relies on evaluation, blame, or implicit demands.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nonviolent_Communication"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Mridangam: Acoustics of the Classical Barrel Drum",
+    "text": "A single drum can generate both resonant low-frequency thuds and sharp harmonic treble tones. Understanding the mridangam reveals how multi-headed instruments create complete rhythmic foundations. In audio production and sound synthesis, studying classical percussion reveals distinct ways to shape rhythm and frequency.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mridangam"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Retrieval-Augmented Generation",
+    "text": "Instead of forcing an AI model to memorize every fact in existence, engineers hand it a search engine so it can look up answers on demand. When you ask a standard large language model a question, it relies entirely on static parameters established during its training phase.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "Understanding Big O Notation",
+    "text": "Code that runs in milliseconds on your laptop can stall for hours in production if its growth curve is unchecked. When your program handles ten items, almost any code runs instantly.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Big_O_notation",
+     "https://lwn.net/Articles/1105936/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Art of Familiarity: Skeuomorphism",
+    "text": "Ever wonder why your digital calendar looks like a physical notebook? You are looking at a design bridge between the past and the present. A skeuomorph is a design element in a new object that copies the appearance of a functional component from an older, original version, even when that component is no longer needed.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Skeuomorph"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Lighting Rooms",
+    "text": "Good lighting isn't about buying expensive fixtures; it is about the deliberate use of light to shape a space. You can build a warm, functional room using low-cost techniques and secondhand finds. Lighting is the deliberate use of light to achieve practical or aesthetic effects [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lighting"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: sanguine",
+   "Puzzle: Logic day: mini sudoku",
+   "AI/ML signal: XStack: A Benchmark for ML Repo Migration"
+  ]
+ }
+}

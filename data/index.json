@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 9,
+   "slug": "009",
+   "publishedAt": "2026-11-07T10:14:15.756Z",
+   "theme": "2 Corinthians 4:7-18 · Nonviolent communication · Mridangam",
+   "failed": [],
+   "cover": "data/img/009/cover.jpg"
+  },
+  {
    "n": 8,
    "slug": "008",
    "publishedAt": "2026-11-05T10:59:08.432Z",
