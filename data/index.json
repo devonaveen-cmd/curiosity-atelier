@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 10,
+   "slug": "010",
+   "publishedAt": "2026-11-09T11:37:46.115Z",
+   "theme": "2 Corinthians 12:1-10 · Dunning-Kruger effect · Gregorian chant",
+   "failed": [],
+   "cover": "data/img/010/cover.jpg"
+  },
+  {
    "n": 9,
    "slug": "009",
    "publishedAt": "2026-11-07T10:14:15.756Z",
