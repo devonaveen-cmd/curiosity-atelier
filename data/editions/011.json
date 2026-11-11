@@ -1,0 +1,986 @@
+{
+ "n": 11,
+ "slug": "011",
+ "publishedAt": "2026-11-11T11:05:25.281Z",
+ "theme": "Galatians 2:11-21 · Cognitive bias · Compression",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.8-flash",
+   "gemini/gemini-3.7-flash",
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/011/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "fastidious",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Giving rigorous, meticulous attention to small details; extremely hard to please because standards are exceptionally high.",
+   "example": "A compiler is a fastidious reader: omit a single semicolon, and it refuses to negotiate.",
+   "exercise": "Use 'fastidious' in a single sentence describing someone organizing their codebase or directory tree.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Draftsman Studio",
+   "hexes": [
+    "#202426",
+    "#3A7D74",
+    "#F4F3EE"
+   ],
+   "note": "The deep charcoal provides rigid structure, while soft parchment white eliminates harsh display glare. Between them, an earthy pine-teal introduces restrained focus, giving interfaces an orderly, deliberate rhythm without straining the eyes during prolonged sessions.",
+   "application": "Documentation sidebars, technical blogs, and developer dashboard UI where clarity and sustained reading comfort matter.",
+   "accessibility": "Strongest pair: #202426 with #F4F3EE, contrast 14.09:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "IBM Plex Mono",
+   "character": "Crisp, engineered, and rhythmic. It carries the industrious authority of vintage hardware terminals, softened by engineered terminals that stay readable across varying screen resolutions.",
+   "bestUses": "Superb for code snippets, config files, status dashboards, and tabular metrics; avoid using it for dense editorial essays or long narrative body copy.",
+   "url": "https://fonts.google.com/specimen/IBM+Plex+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Empty States",
+   "reasoning": "When a screen holds no user records, such as an empty inbox or an initialized project directory, a blank page feels like a crash. Thoughtful empty states remove uncertainty. They confirm the software is operating properly, explain why there is no information present yet, and point to the single most useful action to populate it.",
+   "tryIt": "Sketch an empty state card for a brand-new code snippet repository. Include an illustration or glyph, one sentence explaining that no snippets exist yet, and a primary button labeled 'Save Your First Snippet'.",
+   "aiGenerated": true
+  },
+  "challenge": "Audit one command-line tool or app you used today and identify where it was not fastidious enough with its error messages; rewrite that error in one clear sentence.",
+  "aiSignal": {
+   "title": "TorchCurves: Differentiable Parametric Curves",
+   "url": "https://arxiv.org/abs/2611.14516v1",
+   "date": "2026-11-10T18:58:52Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Researchers created TorchCurves, a PyTorch library that turns parametric mathematical curves like B-splines into trainable components for neural networks. The summary notes that it maps scalar inputs to curve coordinates while supporting automatic differentiation through both inputs and coefficients.",
+   "whyItMatters": "The snippet illustrates how deep learning frameworks can optimize classical mathematical objects directly via gradient descent. While full details are limited by the truncated summary, this approach demonstrates how domain-specific math can be packaged into modular, reusable software layers.",
+   "takeaway": "Any mathematical operation whose inputs and parameters are differentiable can be plugged directly into a neural network and learned automatically."
+  },
+  "openTab": {
+   "url": "https://musiclab.chromeexperiments.com",
+   "name": "Chrome Music Lab",
+   "what": "Chrome Music Lab is a Chrome Experiments project hosted online.",
+   "whyBookmark": "Bookmark this page to easily visit and explore the Chrome Music Lab web experiment.",
+   "verified": true,
+   "checkedAt": "2026-11-11"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "Galatians 2:11-21",
+   "title": "Confrontation at Antioch",
+   "hook": "When early leaders disagreed over who could share a meal, the confrontation reshaped the social boundaries of early Christianity. In *Galatians*, Paul recounts publicly challenging Peter over food, customs, and community identity.",
+   "core": "In Antioch, **table fellowship** became a public battleground over identity and inclusion. According to Paul in his letter, Peter originally ate freely alongside Gentile believers. However, when certain people arrived from James, Peter separated himself out of fear of those advocating **circumcision**. This shift influenced others, including Barnabas, prompting Paul to publicly challenge Peter for failing to align with the truth of the message.\n\nPaul argued that enforcing ancestral customs created a false barrier. He declared that a person is not justified by the **works of the law**, but through faith in Jesus Christ. To rebuild boundary markers that had been set aside would turn believers into law-breakers rather than faithful servants.\n\nUltimately, Paul framed this dispute around life in Christ rather than external compliance. He stated that through the law he died to the law so that he might live to God, viewing righteous standing not as an achievement of legal observance, but as an experience of being crucified with Christ and sustained by grace.",
+   "context": "The *Epistle to the Galatians* was composed in Koine Greek by Paul the Apostle to early Christian communities in Galatia [S2]. Scholars debate whether the recipients were located in the Roman province of Galatia in southern Anatolia or in the central Anatolian highlands settled by Celtic Gauls in the third century BC [S2, S3]. In the ancient city of Antioch, shared meals between Jewish and Gentile believers brought practical questions of ritual law and social belonging into sharp conflict [S1].",
+   "evidence": [
+    {
+     "claim": "Paul publicly confronted Peter at Antioch for separating himself from Gentile meals after people arrived from James.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Scholars debate whether Galatia refers to the southern Roman province or the northern ethnic Celtic region in central Anatolia.",
+     "label": "debate",
+     "source": "S2"
+    },
+    {
+     "claim": "Peter withdrew from table fellowship out of social fear regarding the circumcision group.",
+     "label": "inference",
+     "source": "S1"
+    },
+    {
+     "claim": "The Galatians were named after Gauls from Thrace who settled central Anatolia in the third century BC.",
+     "label": "established",
+     "source": "S3"
+    }
+   ],
+   "visual": "[Shared Table: Jews & Gentiles] ---> [Arrival from James] ---> [Peter Withdraws] ---> [Paul's Public Challenge]",
+   "realWorld": "Tensions over communal boundaries and dining practices still echo in modern community governance and institutional inclusion disputes. Just as early leaders debated whether belonging required adopting historical group customs, modern organizations frequently encounter friction when integrating diverse subcultures into a shared social framework.",
+   "exercise": {
+    "prompt": "Compare Galatians 2:11-21 across two translations (such as the World English Bible and another public domain text) to see how translators render 'works of the law' and 'justified'.",
+    "answerHint": "Note differences in phrasing, particularly whether the text says 'faith in Christ' or 'faith of Christ,' and how Peter's actions are described."
+   },
+   "quiz": [
+    {
+     "q": "Why did Paul confront Peter at Antioch according to Galatians 2?",
+     "options": [
+      "Peter refused to travel to Jerusalem to meet with the apostles.",
+      "Peter stopped eating with Gentiles after certain people arrived from James.",
+      "Peter demanded monetary tithes from the Antioch assembly.",
+      "Peter circulated an unauthorized letter to the Galatian churches."
+     ],
+     "answer": 1,
+     "explanation": "Paul states in Galatians 2:12 that Peter drew back and separated himself from eating with Gentiles when visitors from James arrived."
+    },
+    {
+     "q": "What geographical debate exists regarding the destination of the Epistle to the Galatians?",
+     "options": [
+      "Whether it was sent to Roman Greece or southern Italy.",
+      "Whether it addressed Alexandria or northern Macedonia.",
+      "Whether it went to the Roman province or the ethnic Celtic territory in Anatolia.",
+      "Whether Galatia referred to an island in the Aegean Sea."
+     ],
+     "answer": 2,
+     "explanation": "Scholars debate whether the letter was sent to the Roman province of Galatia in southern Anatolia or the region of ethnic Celtic Gauls in central Anatolia."
+    }
+   ],
+   "checklist": [
+    "Identify the historical actors named in the passage",
+    "Distinguish narrative reporting from theological deductions",
+    "Separate source-supported claims from traditional interpretations"
+   ],
+   "furtherQuestions": [
+    "How did other early Christian leaders resolve disputes over food regulations and Gentile converts?",
+    "What specific table practices caused the cultural divide between Jewish and Gentile believers in Antioch?"
+   ],
+   "imagePrompt": "An ancient terracotta dining bowl and an unglazed clay oil lamp resting on a worn limestone table beside a coarse linen cloth in warm sunlight.",
+   "keyIdea": "Paul confronted Peter in Antioch over table fellowship, arguing that imposing ancestral laws on Gentiles undermines justification through faith in Christ.",
+   "glossary": [
+    {
+     "term": "table fellowship",
+     "definition": "The practice of sharing meals, which symbolized social unity and communal acceptance among early believers."
+    },
+    {
+     "term": "circumcision",
+     "definition": "The physical covenant rite of traditional Jewish identity, advocated by some early believers as necessary for Gentile converts."
+    },
+    {
+     "term": "works of the law",
+     "definition": "Observances and ritual practices prescribed by the Mosaic law that marked Jewish identity and boundary lines."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/theology.jpg",
+    "alt": "Illustration for: Confrontation at Antioch",
+    "prompt": "An ancient terracotta dining bowl and an unglazed clay oil lamp resting on a worn limestone table beside a coarse linen cloth in warm sunlight.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Galatians 2:11-21 (World English Bible)",
+     "url": "https://bible-api.com/Galatians%202%3A11-21",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-11"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: Epistle to the Galatians",
+     "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    },
+    {
+     "id": "S3",
+     "title": "Wikipedia: Galatia",
+     "url": "https://en.wikipedia.org/wiki/Galatia",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Cognitive bias",
+   "title": "Understanding Cognitive Bias",
+   "hook": "Your brain frequently swaps objective reality for a mental shortcut, leading to predictable errors in judgment. Learning to spot these shortcuts is the first step toward clearer thinking.",
+   "core": "Every day, your brain processes vast amounts of sensory information. To keep you from stalling under the weight of endless calculations, it relies on mental shortcuts to interpret incoming data. While these shortcuts are often efficient, they regularly cause a **cognitive bias**, which is a systematic pattern of deviation from objective rationality in your judgment.\n\nWhen a cognitive bias occurs, you do not respond directly to raw facts. Instead, you construct a personal **subjective reality** based on your internal perceptions. This internal version of the world dictates your behavior, even when it completely ignores the actual evidence in front of you.\n\nBecause these patterns are systematic, the resulting errors are not random mistakes; they happen in predictable ways. This reliance on subjective perception can lead to **perceptual distortion**, inaccurate judgments, illogical interpretations, or outright **irrationality**. Recognizing that your mind actively builds a customized version of reality helps you pause before trusting every quick conclusion you draw.",
+   "context": "Psychologists Daniel Kahneman and Amos Tversky popularized the study of cognitive biases in the 1970s by demonstrating how humans make decisions under uncertainty. In computing and software engineering, understanding these mental patterns is essential. Programmers often fall prey to biases when estimating project timelines, debugging code, or evaluating user feedback. Recognizing that your brain naturally seeks mental shortcuts requires no prior psychology experience, but it serves as a foundational skill for debugging both code and human decision-making processes.",
+   "evidence": [
+    {
+     "claim": "A cognitive bias is a systematic pattern of deviation from norm or rationality in judgment.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "An individual's construction of subjective reality dictates their behavior rather than objective input.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Cognitive biases can lead to perceptual distortion, inaccurate judgment, and illogical interpretation.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Daniel Kahneman and Amos Tversky introduced cognitive bias research in the 1970s.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[Objective Input] ---> (Mental Shortcuts) ---> [Subjective Reality] ---> [Predictable Bias]",
+   "realWorld": "In software development, cognitive bias frequently appears as confirmation bias during debugging. A developer forms a quick hypothesis about a bug and only checks logs that support their theory, ignoring error messages that point elsewhere. Similarly, during code reviews, engineers might rate code higher simply because a respected colleague wrote it, letting social context distort their technical evaluation.",
+   "exercise": {
+    "prompt": "Write down one strong belief or decision you made this week. List two pieces of evidence that support it, and intentionally write down two pieces of counter-evidence.",
+    "answerHint": "Check whether considering counter-evidence alters your confidence or reveals an initial bias in your thinking."
+   },
+   "quiz": [
+    {
+     "q": "According to the concept of cognitive bias, what directly dictates an individual's behavior?",
+     "options": [
+      "Raw objective inputs from the environment",
+      "Their constructed subjective reality",
+      "Random neurological impulses",
+      "Purely logical mathematical calculations"
+     ],
+     "answer": 1,
+     "explanation": "S1 states that an individual's construction of reality, rather than objective input, dictates their behavior."
+    },
+    {
+     "q": "Why are cognitive biases described as systematic errors?",
+     "options": [
+      "They follow predictable patterns rather than occurring randomly",
+      "They only happen when using complex computer systems",
+      "They are intentionally created by educational institutions",
+      "They occur in every animal species in identical ways"
+     ],
+     "answer": 0,
+     "explanation": "Cognitive biases represent systematic deviations, meaning they create predictable, recurring patterns of deviation from rationality."
+    }
+   ],
+   "checklist": [
+    "Identify subjective assumptions before starting a project",
+    "Actively search for disconfirming evidence",
+    "Pause when making quick emotional decisions"
+   ],
+   "furtherQuestions": [
+    "How do algorithmic biases in machine learning differ from human cognitive biases?",
+    "What specific communication habits can teams use to reduce confirmation bias during technical reviews?"
+   ],
+   "imagePrompt": "A clean wooden desk featuring a magnifying glass focusing on a bent metal ruler next to a blank open notebook and a classic pencil.",
+   "keyIdea": "A cognitive bias is a systematic deviation from objective logic caused by the brain relying on subjective perception.",
+   "glossary": [
+    {
+     "term": "cognitive bias",
+     "definition": "A systematic pattern of deviation from rationality or objective judgment."
+    },
+    {
+     "term": "subjective reality",
+     "definition": "An individual's personal construction of the world based on their unique perceptions."
+    },
+    {
+     "term": "perceptual distortion",
+     "definition": "An inaccurate or altered interpretation of sensory information or facts."
+    },
+    {
+     "term": "irrationality",
+     "definition": "Thinking, speaking, or acting in a way that lacks logical reason or valid evidence."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/mindcraft.jpg",
+    "alt": "Illustration for: Understanding Cognitive Bias",
+    "prompt": "A clean wooden desk featuring a magnifying glass focusing on a bent metal ruler next to a blank open notebook and a classic pencil.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Cognitive bias",
+     "url": "https://en.wikipedia.org/wiki/Cognitive_bias",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Compression",
+   "title": "Dynamic Range Compression",
+   "hook": "Learn how sound engineers tame unpredictable volume swings to create polished, consistent audio that fits comfortably in your ears.",
+   "core": "When a vocalist whispers in a verse and shouts in the chorus, the volume difference can easily overwhelm a recording system. This spread between the quietest and loudest parts of an **audio signal** is known as **dynamic range**. In sound engineering, **dynamic range compression** solves this imbalance by turning down loud sections or boosting quiet ones to narrow that gap.\n\nProducers rely on compression to make audio tracks sound balanced and cohesive. Without it, a subtle whisper might get lost behind a rhythm section, while a sudden snare strike could distort the mix. By controlling sudden **peaks**, compression lets every element sit cleanly at an audible level without constantly forcing the listener to adjust their volume dial.\n\nBefore compression, an audio track sounds wild and unpredictable. Soft details vanish beneath louder instruments, and sudden loud hits pop out harshly. After compression, the performance sounds smoothed out, punchy, and consistent. The fine textures of quiet notes become clearly audible, while loud spikes are gently tamed into a unified sound.",
+   "context": "Dynamic range control originated in early radio broadcasting and vinyl cutting, where extreme volume spikes could cause transmitter distortion or needle skipping. Today, dynamic range compression is used across sound recording, reproduction, broadcasting, live sound reinforcement, and instrument amplifiers [S1]. For computing students, compression is an essential signal processing concept that transforms raw, erratic sound waves into stable, predictable data suitable for modern digital streaming.",
+   "evidence": [
+    {
+     "claim": "Dynamic range compression reduces the volume of loud sounds or amplifies quiet sounds.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Compression is commonly used in sound recording, broadcasting, live sound reinforcement, and instrument amplifiers.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Early broadcast engineers introduced dynamic control to prevent physical cutting equipment and radio transmitters from overloading.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Uncompressed voice recordings often sound uneven on modern digital playback devices.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "Uncompressed:  [Soft] ---- /\\ ---- [Soft] ---- /\\/\\/\\\n                            |                     |\nCompressor:               [Tame]                [Tame]\n                            v                     v\nCompressed:    [Soft] ---- |--| ---- [Soft] ---- |---|",
+   "realWorld": "Compression operates quietly in everyday technology. Podcast editors use it so spoken words remain clear over highway noise, television stations compress broadcasts so commercials match show volumes, and voice communication apps like Discord apply real-time dynamic control so a friend's sudden shout does not hurt your ears.",
+   "exercise": {
+    "prompt": "Open Audacity or any free audio editor. Record yourself whispering a short sentence followed immediately by a loud clap. Select your recording, apply the default Compressor effect, and listen to the result.",
+    "answerHint": "Compare the visual waveform before and after: the clap peak should look visually shorter while the whisper sounds much closer in volume to the clap."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary function of dynamic range compression?",
+     "options": [
+      "To pitch-shift vocal performances",
+      "To reduce the gap between loud and quiet sounds",
+      "To automatically remove background noise",
+      "To synthesize stereo space from mono tracks"
+     ],
+     "answer": 1,
+     "explanation": "Dynamic range compression reduces an audio signal's dynamic range by attenuating loud sounds or amplifying quiet sounds."
+    },
+    {
+     "q": "Which of the following is a standard environment where dynamic range compression is applied?",
+     "options": [
+      "Offline database indexing",
+      "Live sound reinforcement and broadcasting",
+      "Analog tape demagnetization",
+      "Purely graphic vector rendering"
+     ],
+     "answer": 1,
+     "explanation": "Compression is heavily utilized in live sound reinforcement, sound recording, reproduction, broadcasting, and instrument amplifiers."
+    }
+   ],
+   "checklist": [
+    "Check that quiet vocal details are audible without raising the main volume.",
+    "Ensure sudden dynamic spikes do not cause digital clipping.",
+    "Listen closely to prevent over-compression, which can make audio sound flat."
+   ],
+   "furtherQuestions": [
+    "What is the operational difference between an audio compressor and a limiter?",
+    "How do threshold, ratio, attack, and release controls change a compressor's behavior?"
+   ],
+   "imagePrompt": "A vintage hardware audio compressor unit resting on a dark wooden studio desk, featuring glowing orange VU meters, brushed aluminum knobs, and soft warm lighting.",
+   "keyIdea": "Dynamic range compression narrows the volume gap between quiet and loud sounds, creating a balanced and intelligible audio recording.",
+   "glossary": [
+    {
+     "term": "audio signal",
+     "definition": "An electrical current or digital data stream that represents sound waves."
+    },
+    {
+     "term": "dynamic range",
+     "definition": "The difference between the softest and loudest parts of an audio signal."
+    },
+    {
+     "term": "dynamic range compression",
+     "definition": "A signal processing operation that reduces loud sounds or amplifies quiet ones."
+    },
+    {
+     "term": "peaks",
+     "definition": "The highest volume spikes or max amplitude points in an audio waveform."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/soundroom.jpg",
+    "alt": "Illustration for: Dynamic Range Compression",
+    "prompt": "A vintage hardware audio compressor unit resting on a dark wooden studio desk, featuring glowing orange VU meters, brushed aluminum knobs, and soft warm lighting.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Dynamic range compression",
+     "url": "https://en.wikipedia.org/wiki/Dynamic_range_compression",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Train, validation and test sets",
+   "title": "Train, Validation, and Test Sets",
+   "hook": "Memorizing practice questions before an exam makes you feel smart until the test paper arrives with completely new problems. Machine learning models face the exact same trap when they fit too closely to their initial training data.",
+   "core": "To build a model that predicts outcomes accurately on new information, engineers split their dataset into three distinct partitions: a **training set**, a **validation set**, and a **test set**. Each partition serves a specific purpose in the model lifecycle.\n\nThe **training set** is the material your model directly learns from. During training, an algorithm adjusts its internal parameters to find patterns in these examples. However, if a model learns this specific data too well, it risks **overfitting**, essentially memorizing noise rather than general rules.\n\nTo prevent this, you evaluate the model on a separate **validation set** while tuning settings like learning speed or model complexity. Because the model never directly learns from the validation set, its score on these samples reveals whether adjustments are actually improving general performance or just memorizing the training data.\n\nFinally, once all tuning is finished, you evaluate the model exactly once on the **test set**. This provides an unbiased measure of how the system will perform on real, unseen data in production. Treating these datasets like strict compartments prevents self-deception in machine learning design.",
+   "context": "Prerequisites for this concept include basic Python data structures like arrays or tables, and a general understanding of functions. In professional software environments, data scientists often load data using libraries like pandas and split datasets using tools like scikit-learn. Keeping these datasets separated from the start of a project prevents data leakage, a common bug where future or evaluation information accidentally contaminates the training phase.",
+   "evidence": [
+    {
+     "claim": "Machine learning algorithms construct mathematical models from input data to make predictions.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Data used to build a model is commonly divided into training, validation, and testing sets.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Evaluating a model on a separate test set provides an unbiased estimate of its final performance.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Full Dataset [====================]\n  |-- Training Set   [============] (70%)\n  |-- Validation Set [====]       (15%)\n  `-- Test Set       [====]       (15%)",
+   "realWorld": "When building an automated spam filter, engineers train the system on historical emails from past months. They adjust filter sensitivity using recent emails in the validation set. Before deploying the filter to live inbox traffic, they calculate its accuracy on a held-out test set to ensure it will not misclassify legitimate user messages.",
+   "exercise": {
+    "prompt": "Open a Python environment (like Google Colab or a local terminal). Create a list of 100 numbers from 1 to 100. Write a script to randomly split this list into three parts: 70% for training, 15% for validation, and 15% for testing.",
+    "answerHint": "Check that the length of your training list is 70, validation is 15, test is 15, and that no number appears in more than one list."
+   },
+   "quiz": [
+    {
+     "q": "Why should you never train model parameters directly on the test set?",
+     "options": [
+      "It increases computation time significantly.",
+      "It ruins the test set's ability to provide an unbiased check of real-world performance.",
+      "It automatically causes the training loss to drop to zero.",
+      "Python libraries will throw a syntax error."
+     ],
+     "answer": 1,
+     "explanation": "The test set must remain completely unseen during training to give an honest, unbiased evaluation of how the model handles new data."
+    },
+    {
+     "q": "What is the main purpose of using a validation set during model development?",
+     "options": [
+      "To double the amount of data available for parameter training.",
+      "To store the final model weights after deployment.",
+      "To tune settings and detect overfitting before final testing.",
+      "To clean missing values from the raw input file."
+     ],
+     "answer": 2,
+     "explanation": "The validation set helps evaluate model adjustments and detect overfitting without compromising the final test set."
+    }
+   ],
+   "checklist": [
+    "Shuffle data before splitting to avoid bias.",
+    "Keep the test set isolated until final evaluation.",
+    "Verify dataset partitions do not overlap."
+   ],
+   "furtherQuestions": [
+    "How do techniques like k-fold cross-validation alter the need for a fixed validation set?",
+    "What happens if temporal data, like stock prices, is randomly split instead of time-split?"
+   ],
+   "imagePrompt": "A tidy wooden workshop bench with three distinct labeled clear glass jars holding colored sorting marbles on a textured linen tablecloth.",
+   "keyIdea": "Dividing data into training, validation, and test sets prevents overfitting and ensures an accurate, unbiased measurement of model performance.",
+   "glossary": [
+    {
+     "term": "training set",
+     "definition": "The portion of a dataset used directly by an algorithm to learn underlying patterns and adjust model parameters."
+    },
+    {
+     "term": "validation set",
+     "definition": "A dataset partition used to evaluate model performance and tune hyperparameters without directly updating internal model weights."
+    },
+    {
+     "term": "test set",
+     "definition": "A final, untouched dataset used exclusively to provide an unbiased evaluation of a completed model's real-world accuracy."
+    },
+    {
+     "term": "overfitting",
+     "definition": "A flaw where a model memorizes specific training noise and details instead of learning transferable general patterns."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/aiml.jpg",
+    "alt": "Illustration for: Train, Validation, and Test Sets",
+    "prompt": "A tidy wooden workshop bench with three distinct labeled clear glass jars holding colored sorting marbles on a textured linen tablecloth.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Training, validation, and test data sets",
+     "url": "https://en.wikipedia.org/wiki/Training%2C_validation%2C_and_test_data_sets",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Pointers",
+   "title": "Pointers: Navigating Memory Addresses",
+   "hook": "Instead of copying massive chunks of data around memory, software relies on small indirect references. Understanding pointers reveals how programs manage memory efficiently and interact directly with hardware.",
+   "core": "A **pointer** is a variable that stores a **memory address** rather than a raw value like an integer or character [S1]. To understand why this structure exists, imagine passing a giant book to a friend versus handing them a sticky note with a page number; fetching the text stored at that referenced location is known as **dereferencing** the pointer [S1].\n\nConsider a tiny C snippet where a pointer `ptr` holds the address of `x`: `int x = 42; int *ptr = &x;`. A common bug a beginner makes is attempting to dereference an uninitialized pointer (a **null pointer** or garbage address), which causes the program to crash instantly with a segmentation fault.\n\nPointers provide immense memory efficiency and allow dynamic data structures like linked lists to grow without reallocating massive blocks of contiguous memory. However, the trade-off is architectural complexity: you trade simple memory management for manual tracking of dynamic allocations, manual bounds checking, and potential memory leaks. In system architectures, pointers can even reference memory-mapped hardware directly [S1].",
+   "context": "Before compiler abstractions and managed memory runtimes, early computers required direct manipulation of hardware memory cells. Modern operating systems and low-level software written in systems languages like C still rely heavily on pointers for high-performance memory management and kernel drivers. Prerequisites: a basic understanding of variables and memory slots.",
+   "evidence": [
+    {
+     "claim": "A pointer is a variable that stores the memory address of another value or computer hardware location.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Obtaining the value stored at a pointer's target address is called dereferencing.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A pointer can be compared to a page number in a book index referencing a specific page.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Dereferencing invalid or uninitialized pointers typically leads to runtime memory errors.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Address: 0x100 [ Value: 42 (variable x) ]\n                     ^\n                     |\nAddress: 0x200 [ Value: 0x100 (pointer ptr) ]",
+   "realWorld": "Operating system kernels, database storage engines, and high-performance graphics engines rely on pointers to pass memory buffers without copying megabytes of data per frame. Network drivers also use pointers to read incoming data packets directly from hardware buffers.",
+   "exercise": {
+    "prompt": "Write a short C program that declares an integer variable `count = 10`, creates a pointer pointing to `count`, and alters `count` to `20` using only the pointer dereference operator. Compile and run it using gcc.",
+    "answerHint": "Print the value of `count` after the pointer assignment; if your output displays 20, your dereference assignment worked correctly."
+   },
+   "quiz": [
+    {
+     "q": "What does dereferencing a pointer mean?",
+     "options": [
+      "Deleting the pointer variable from physical memory",
+      "Obtaining the value stored at the memory address held by the pointer",
+      "Converting a memory address into a floating-point number",
+      "Copying the pointer address to a secondary storage drive"
+     ],
+     "answer": 1,
+     "explanation": "Dereferencing means following the memory address stored inside a pointer variable to read or write the value located at that memory position [S1]."
+    },
+    {
+     "q": "Which major trade-off comes with using manual pointers in low-level programming?",
+     "options": [
+      "High performance and memory control balanced against risks of memory leaks and invalid accesses",
+      "Higher memory overhead combined with fully automated garbage collection",
+      "Complete elimination of CPU cycles during arithmetic execution",
+      "Guaranteed memory safety with automatic runtime boundary checking"
+     ],
+     "answer": 0,
+     "explanation": "Direct pointer manipulation offers maximum speed and precise memory control, but removes safety rails, requiring programmers to manually prevent crashes and memory leaks."
+    }
+   ],
+   "checklist": [
+    "Verify your pointer is properly initialized before dereferencing it.",
+    "Ensure dynamically allocated memory blocks are explicitly freed when no longer needed."
+   ],
+   "furtherQuestions": [
+    "How do managed languages like Python or Java handle object references internally without exposing raw hardware addresses?",
+    "What is the operational difference between allocating pointers on the stack versus the heap?"
+   ],
+   "imagePrompt": "A close-up overhead shot of a vintage wooden library index drawer containing handwritten catalog cards next to a polished metal key on a dark table.",
+   "keyIdea": "A pointer stores a memory address rather than raw data, enabling programs to reference shared memory structures efficiently without copying large blocks of data.",
+   "glossary": [
+    {
+     "term": "pointer",
+     "definition": "A variable that stores the memory address of another variable or memory location."
+    },
+    {
+     "term": "memory address",
+     "definition": "A unique numerical location identifier pointing to a specific byte location in computer memory."
+    },
+    {
+     "term": "dereferencing",
+     "definition": "The action of accessing or retrieving the value located at the address stored by a pointer."
+    },
+    {
+     "term": "null pointer",
+     "definition": "A pointer variable that does not point to any valid memory location."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/systems.jpg",
+    "alt": "Illustration for: Pointers: Navigating Memory Addresses",
+    "prompt": "A close-up overhead shot of a vintage wooden library index drawer containing handwritten catalog cards next to a polished metal key on a dark table.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Pointer (computer programming)",
+     "url": "https://en.wikipedia.org/wiki/Pointer_(computer_programming)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: Three new stable kernels for Tuesday",
+     "url": "https://lwn.net/Articles/1106569/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-11",
+     "date": "Tue, 10 Nov 2026 19:06:06 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: [$] Synaptics patent claims stop work on DisplayLink drivers",
+     "url": "https://lwn.net/Articles/1102549/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-11",
+     "date": "Tue, 10 Nov 2026 15:38:10 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: Firefox 160 released",
+     "url": "https://lwn.net/Articles/1106542/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-11",
+     "date": "Tue, 10 Nov 2026 15:37:42 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Security updates for Tuesday",
+     "url": "https://lwn.net/Articles/1106522/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-11",
+     "date": "Tue, 10 Nov 2026 14:03:54 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Bauhaus",
+   "title": "The Bauhaus Design System",
+   "hook": "Good design is not an accident of taste; it is a system of deliberate decisions about function, form, and clarity.",
+   "core": "When you look at a digital interface or a printed page, you are navigating a visual structure. The **Bauhaus** school, operating in Germany from 1919 to 1933, revolutionized this by treating design as a rational system rather than purely decorative art [S1]. At its core, the Bauhaus approach attempted to unify individual artistic vision with the practical demands of mass production, placing a heavy emphasis on **function** [S1].\n\nTo understand visual literacy through this lens, we look at how choices shape what a viewer notices first. **Typography**—the style and appearance of printed matter—is chosen not just to be pretty, but to guide the eye. By altering **hierarchy**, the arrangement of elements in order of importance, a designer tells you what to read first, second, and last.\n\nForm follows function was the guiding maxim. This meant stripping away excess ornamentation until only the structural elements remained. Using strict geometric **grids**, designers could align text and images to create predictable, harmonious layouts that reduced cognitive load for the user.",
+   "context": "The Staatliches Bauhaus was founded by Walter Gropius in Weimar, Germany, during a period of intense industrial and social upheaval following the First World War. It brought together fine artists, craftspeople, and architects under one roof. No advanced computing prerequisites are needed, but an interest in how screens and pages are structured will make this instantly useful.",
+   "evidence": [
+    {
+     "claim": "The Staatliches Bauhaus was a German art school operational from 1919 to 1933.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The school combined crafts and the fine arts.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The school became famous for its approach to design unifying individual artistic vision with mass production.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The Bauhaus emphasized function in its design approach.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Bauhaus principles directly influenced modern digital interface design and typography.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "+-----------------------+\n| [PRIMARY TITLE]       |\n|                       |  <-- Clear hierarchy\n| Subtitle text here    |\n|                       |\n|  +-------+  +-------+ |\n|  | Box A |  | Box B | |  <-- Strict grid\n|  +-------+  +-------+ |\n+-----------------------+",
+   "realWorld": "You encounter Bauhaus-inspired design every time you open a well-organized mobile app, read a clean modern website, or look at a standard highway road sign. These interfaces rely on clear grids and stark typography to communicate crucial information instantly without visual clutter.",
+   "exercise": {
+    "prompt": "Open a blank document or free vector tool. Create a simple layout using only one font family, one accent colour, and a strict grid of two text boxes and one square image placeholder.",
+    "answerHint": "Check if your eyes immediately know where to look first, and verify that all edges align cleanly to an imaginary grid."
+   },
+   "quiz": [
+    {
+     "q": "What was a primary focus of the design approach taught at the Bauhaus?",
+     "options": [
+      "Maximizing ornate decorative details",
+      "Unifying artistic vision with mass production and emphasis on function",
+      "Exclusively painting historical landscapes by hand",
+      "Rejecting all forms of industrial technology"
+     ],
+     "answer": 1,
+     "explanation": "The school became famous for unifying individual artistic vision with mass production and function."
+    },
+    {
+     "q": "What does visual hierarchy help achieve on a page or screen?",
+     "options": [
+      "It hides important text from the viewer",
+      "It makes every single word look identical in importance",
+      "It guides the viewer's eye on what to read first, second, and last",
+      "It randomly scrambles content for artistic surprise"
+     ],
+     "answer": 2,
+     "explanation": "Hierarchy arranges elements by importance to guide the viewer through the content logically."
+    }
+   ],
+   "checklist": [
+    "Define a clear primary focal point for your layout",
+    "Limit your typefaces to one or two complementary families",
+    "Align all interface elements to a consistent grid"
+   ],
+   "furtherQuestions": [
+    "How did the closure of the Bauhaus by the Nazi regime in 1933 spread its ideas globally?",
+    "In what ways do modern digital design systems differ from original Bauhaus workshops?"
+   ],
+   "imagePrompt": "A minimalist still life of raw geometric wooden blocks and metal tubes on a neutral concrete surface, casting sharp morning shadows.",
+   "keyIdea": "The Bauhaus transformed design by uniting artistic craft with mass production, proving that form must follow function through systematic choices in typography, hierarchy, and grids.",
+   "glossary": [
+    {
+     "term": "Bauhaus",
+     "definition": "A German art school operational from 1919 to 1933 that combined crafts, fine arts, and mass production."
+    },
+    {
+     "term": "function",
+     "definition": "The intended purpose or utility of a designed object or space, prioritized over mere decoration."
+    },
+    {
+     "term": "typography",
+     "definition": "The style and appearance of printed or displayed matter."
+    },
+    {
+     "term": "hierarchy",
+     "definition": "The arrangement of elements in order of importance."
+    },
+    {
+     "term": "grids",
+     "definition": "A structure made of intersecting lines used to align elements neatly on a page or screen."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/design.jpg",
+    "alt": "Illustration for: The Bauhaus Design System",
+    "prompt": "A minimalist still life of raw geometric wooden blocks and metal tubes on a neutral concrete surface, casting sharp morning shadows.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Bauhaus",
+     "url": "https://en.wikipedia.org/wiki/Bauhaus",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Capsule wardrobe",
+   "title": "The Capsule Wardrobe",
+   "hook": "You do not need a mountain of clothes to look put-together. A tiny, well-chosen collection saves your time and your wallet.",
+   "core": "A **capsule wardrobe** is a minimalist collection of clothes that can be put together in different ways to cover a variety of outfits and occasions [S1]. The aim is to have an outfit suitable for any occasion without owning excessive items of clothing [S1]. This is usually achieved by buying what are considered to be key or **staple** items in coordinating colours [S1]. Instead of chasing fast-moving trends, you focus on versatility. When every piece matches every other piece, getting dressed becomes effortless.\n\nWhat makes a capsule wardrobe beautiful is visual harmony and clean lines. When clothes fit well and share a cohesive colour palette, the overall effect is deliberate and calm. Well-made items matter here because you will wear them repeatedly. Look for sturdy seams, natural fabrics like cotton or wool, and reinforcing stitches at stress points.\n\nThe frugal alternative skips the retail store entirely. Secondhand shopping, learning basic clothing repair like mending a dropped hem, and simple do-it-yourself tailoring let you build taste without spending to perform it. If an item needs a button, sew it back on rather than tossing the garment.\n\nBefore adding anything new, run it through a simple filter. Check current prices online if you are buying new, but strongly consider vintage or thrift options first. Ask yourself if the piece coordinates with at least three existing items in your closet.",
+   "context": "Building a capsule wardrobe requires understanding your daily routine and climate. Prerequisites include basic self-awareness about what you actually wear versus what you wish you wore. Historically, the concept gained traction in fashion media and television series across Britain and America [S1], shifting focus away from constant consumption toward intentional curation.",
+   "evidence": [
+    {
+     "claim": "A capsule wardrobe is a minimalist collection of clothes combined to cover various occasions.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The aim is to have an outfit for any occasion without owning excessive items.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Capsule wardrobes are usually achieved by buying key or staple items in coordinating colours.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The concept has been the subject of popular television series and appears widely in British and American fashion media.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": " Closet Space \n [ Full Rack ] -> [ Sorted Staples ] -> [ Capsule ] \n  (Overwhelmed)       (Coordinated)       (Minimal)",
+   "realWorld": "You see this approach in professional settings where individuals adopt a uniform style of dress to eliminate decision fatigue each morning, saving both mental energy and financial resources.",
+   "exercise": {
+    "prompt": "Go through your current closet and pull out ten items you wear most often. Check if at least seven of them can be paired together into distinct outfits.",
+    "answerHint": "Count how many unique combinations you can make using just those ten pieces."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary goal of a capsule wardrobe?",
+     "options": [
+      "To own excessive clothes for every niche trend",
+      "To have outfits for any occasion without excessive items",
+      "To spend as much money as possible on designer brands",
+      "To only wear clothes made of synthetic fibres"
+     ],
+     "answer": 1,
+     "explanation": "The core aim is covering various occasions without owning excessive items of clothing [S1]."
+    },
+    {
+     "q": "How is a capsule wardrobe usually achieved according to the text?",
+     "options": [
+      "By buying key or staple items in coordinating colours",
+      "By throwing away your entire wardrobe every month",
+      "By buying only neon-coloured garments",
+      "By following daily runway fashion shows"
+     ],
+     "answer": 0,
+     "explanation": "It is usually achieved by buying key or staple items in coordinating colours [S1]."
+    }
+   ],
+   "checklist": [
+    "Does it coordinate with at least three existing items?",
+    "Is the fabric durable and well-made?",
+    "Is it a staple piece rather than a fleeting trend?",
+    "Check current prices before making a retail purchase."
+   ],
+   "furtherQuestions": [
+    "How do you adapt a capsule wardrobe for changing seasons?",
+    "What is the best way to handle items that no longer fit?"
+   ],
+   "imagePrompt": "A neatly arranged wooden clothing rack displaying a small selection of neutral-toned shirts, trousers, and a jacket against a plain white wall.",
+   "keyIdea": "A capsule wardrobe uses a minimalist collection of coordinating staple items to cover every occasion without excess.",
+   "glossary": [
+    {
+     "term": "capsule wardrobe",
+     "definition": "A minimalist collection of clothes that can be put together in different ways to cover various occasions."
+    },
+    {
+     "term": "staple",
+     "definition": "A foundational, reliable clothing item that is worn frequently and never goes out of style."
+    }
+   ],
+   "image": {
+    "src": "data/img/011/frugal.jpg",
+    "alt": "Illustration for: The Capsule Wardrobe",
+    "prompt": "A neatly arranged wooden clothing rack displaying a small selection of neutral-toned shirts, trousers, and a jacket against a plain white wall.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Capsule wardrobe",
+     "url": "https://en.wikipedia.org/wiki/Capsule_wardrobe",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-11"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "cipher",
+  "title": "Language day: crack the cipher",
+  "prompt": "Each letter was moved 3 places forward in the alphabet. Decode: VDQJXLQH",
+  "answer": "sanguine",
+  "explanation": "Shift every letter back by 3. The word is \"sanguine\"."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Confrontation at Antioch"
+   },
+   {
+    "house": "mindcraft",
+    "text": "Understanding Cognitive Bias"
+   },
+   {
+    "house": "soundroom",
+    "text": "Dynamic Range Compression"
+   },
+   {
+    "house": "aiml",
+    "text": "Train, Validation, and Test Sets"
+   },
+   {
+    "house": "systems",
+    "text": "Pointers: Navigating Memory Addresses"
+   },
+   {
+    "house": "design",
+    "text": "The Bauhaus Design System"
+   },
+   {
+    "house": "frugal",
+    "text": "The Capsule Wardrobe"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Confrontation at Antioch",
+    "text": "When early leaders disagreed over who could share a meal, the confrontation reshaped the social boundaries of early Christianity. In *Galatians*, Paul recounts publicly challenging Peter over food, customs, and community identity. In Antioch, table fellowship became a public battleground over identity and inclusion.",
+    "sources": [
+     "https://bible-api.com/Galatians%202%3A11-21",
+     "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "Understanding Cognitive Bias",
+    "text": "Your brain frequently swaps objective reality for a mental shortcut, leading to predictable errors in judgment. Learning to spot these shortcuts is the first step toward clearer thinking. Every day, your brain processes vast amounts of sensory information.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cognitive_bias"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Dynamic Range Compression",
+    "text": "Learn how sound engineers tame unpredictable volume swings to create polished, consistent audio that fits comfortably in your ears. When a vocalist whispers in a verse and shouts in the chorus, the volume difference can easily overwhelm a recording system.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Dynamic_range_compression"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Train, Validation, and Test Sets",
+    "text": "Memorizing practice questions before an exam makes you feel smart until the test paper arrives with completely new problems. Machine learning models face the exact same trap when they fit too closely to their initial training data. To build a model that predicts outcomes accurately on new information, engineers split their dataset into three distinct partitions: a training set, a validation set, and a test set.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Training%2C_validation%2C_and_test_data_sets"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "Pointers: Navigating Memory Addresses",
+    "text": "Instead of copying massive chunks of data around memory, software relies on small indirect references. Understanding pointers reveals how programs manage memory efficiently and interact directly with hardware. A pointer is a variable that stores a memory address rather than a raw value like an integer or character [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pointer_(computer_programming)",
+     "https://lwn.net/Articles/1106569/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Bauhaus Design System",
+    "text": "Good design is not an accident of taste; it is a system of deliberate decisions about function, form, and clarity. When you look at a digital interface or a printed page, you are navigating a visual structure.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bauhaus"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "The Capsule Wardrobe",
+    "text": "You do not need a mountain of clothes to look put-together. A tiny, well-chosen collection saves your time and your wallet. A capsule wardrobe is a minimalist collection of clothes that can be put together in different ways to cover a variety of outfits and occasions [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Capsule_wardrobe"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: fastidious",
+   "Puzzle: Language day: crack the cipher",
+   "AI/ML signal: TorchCurves: Differentiable Parametric Curves"
+  ]
+ }
+}

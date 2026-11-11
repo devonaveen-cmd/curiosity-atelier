@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 11,
+   "slug": "011",
+   "publishedAt": "2026-11-11T11:05:25.281Z",
+   "theme": "Galatians 2:11-21 · Cognitive bias · Compression",
+   "failed": [],
+   "cover": "data/img/011/cover.jpg"
+  },
+  {
    "n": 10,
    "slug": "010",
    "publishedAt": "2026-11-09T11:37:46.115Z",
