@@ -1,0 +1,1039 @@
+{
+ "n": 12,
+ "slug": "012",
+ "publishedAt": "2026-11-13T11:06:25.144Z",
+ "theme": "Galatians 3:23-29 · Active listening · Equalization",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.5-flash",
+   "gemini/gemini-3.5-flash-lite",
+   "gemini/gemini-3.1-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/012/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "ineffable",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Too extreme, intense, or subtle to be expressed or described in words.",
+   "example": "Fixing a multi-threading bug after days of tracing memory leaks brings an ineffable sense of relief.",
+   "exercise": "Write a sentence using 'ineffable' to describe the sensation of viewing a complex system diagram that suddenly makes complete sense.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Midnight Terminal",
+   "hexes": [
+    "#0D1117",
+    "#1F6FEB",
+    "#8B949E"
+   ],
+   "note": "A deliberate dark mode trio. Deep charcoal anchors the layout without harsh black contrast, vibrant electric blue directs focus to primary actions, and muted slate gray handles secondary metadata cleanly without competing for visual hierarchy.",
+   "application": "Technical dashboards, developer tools, and dark-mode code documentation platforms.",
+   "accessibility": "Strongest pair: #0D1117 with #8B949E, contrast 6.15:1 (AA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "JetBrains Mono",
+   "character": "Precise, utilitarian, and clean, with exaggerated ligatures and generous internal space that make dense technical text easy to parse.",
+   "bestUses": "Ideal for code editors, terminal interfaces, and tabular data displays. Avoid using it for long-form editorial prose or marketing headings.",
+   "url": "https://fonts.google.com/specimen/JetBrains+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Skeleton Screens",
+   "reasoning": "Instead of static spinners or blank screens, skeleton screens present low-contrast wireframe shapes that mimic incoming content. This reduces perceived load time by instantly reassuring users that the layout is rendering, maintaining structural context, and eliminating aggressive layout shifts once asynchronous API calls complete.",
+   "tryIt": "Open browser Developer Tools, set network throttling to Slow 3G, refresh a media dashboard, and sketch the key placeholder shapes used during loading.",
+   "aiGenerated": true
+  },
+  "challenge": "Style a tiny terminal status line using the Midnight Terminal hex codes and write a short comment describing the ineffable feeling of a green build.",
+  "aiSignal": {
+   "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+   "url": "https://arxiv.org/abs/2611.17314v1",
+   "date": "2026-11-12T18:57:49Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Researchers investigated what internal properties enable neural networks to learn new tasks rapidly after undergoing meta-learning across related functions. Although the provided summary cuts off before revealing full conclusions, the paper analyzes parameter structures to explain this fast adaptation.",
+   "whyItMatters": "Traditional neural networks require vast amounts of data and compute to learn new tasks from scratch. Understanding how specific parameter structures facilitate rapid learning helps computer scientists design far more efficient AI systems.",
+   "takeaway": "Meta-learning helps neural networks 'learn how to learn' from prior tasks, enabling them to adapt quickly to new problems without needing massive retraining."
+  },
+  "openTab": {
+   "url": "https://ocw.mit.edu",
+   "name": "MIT OpenCourseWare | Free Online Course Materials",
+   "what": "MIT OpenCourseWare is a web-based publication offering free access to virtually all MIT course content. It operates as a permanent MIT activity that is open and available to anyone in the world.",
+   "whyBookmark": "It gives you a permanent, free doorway to real MIT course materials whenever you need to explore or study a subject.",
+   "verified": true,
+   "checkedAt": "2026-11-13"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "Galatians 3:23-29",
+   "title": "Scripture in its Real World: Galatians 3",
+   "hook": "Letters written thousands of years ago carry specific historical baggage. Let us look closely at what Paul wrote to the early communities in Galatia.",
+   "core": "When studying ancient texts, understanding the mechanics of the writing matters just as much as the reading itself. In the text of **Galatians**, the author uses the imagery of a **tutor** to describe the function of the law before the arrival of faith [S1]. This educational guide kept people in custody until a new phase of understanding was revealed [S1]. Once that phase arrived, the old pedagogical arrangement ceased [S1].\n\nFurthermore, the text emphasizes unity across distinct social divides. It explicitly removes traditional barriers, stating there is neither Jew nor Greek, neither slave nor free man, neither male nor female [S1]. Everyone who undergoes **baptism** into Christ is described as having put on Christ, becoming part of a single unified group [S1].\n\nFinally, the passage connects these early believers directly to the lineage of **Abraham**, making them heirs according to a specific historical promise [S1]. This text serves as a primary example of early Christian identity formation, written originally in **Koine Greek** [S2].",
+   "context": "Prerequisites include a basic familiarity with early Christian history and the structure of the New Testament. The text under study is the ninth book of the New Testament and the fourth of the Pauline epistles in traditional arrangement [S2]. Scholars debate whether the destination was the Roman province of Galatia in southern Anatolia or the broader region defined by Celtic ethnic groups in central Anatolia [S2].",
+   "evidence": [
+    {
+     "claim": "The Epistle to the Galatians is the ninth book of the New Testament and the fourth of the Pauline epistles.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "The letter was originally written in Koine Greek.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Scholars suggest the letter was sent to either the Roman province of Galatia or the region of ethnic Galatians in central Anatolia.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "The text states that the law acted as a tutor to bring people to Christ before faith came.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "",
+   "realWorld": "Historical documents like ancient letters require careful source tracking and contextual analysis, much like studying early source code repositories or version control histories in computer science to understand why architectural decisions were made.",
+   "exercise": {
+    "prompt": "Read through the provided text in S1 and list every demographic category that the author states is dissolved in Christ.",
+    "answerHint": "Check for three specific pairs of contrasting social categories."
+   },
+   "quiz": [
+    {
+     "q": "What language was Galatians originally written in?",
+     "options": [
+      "Latin",
+      "Hebrew",
+      "Koine Greek",
+      "Aramaic"
+     ],
+     "answer": 2,
+     "explanation": "Source S2 explicitly states that the letter was originally written in Koine Greek."
+    },
+    {
+     "q": "According to the text, what function did the law serve before faith came?",
+     "options": [
+      "A permanent ruler",
+      "A tutor",
+      "A merchant",
+      "A scribe"
+     ],
+     "answer": 1,
+     "explanation": "Source S1 states that the law has become our tutor to bring us to Christ."
+    }
+   ],
+   "checklist": [],
+   "furtherQuestions": [
+    "How do regional variations in southern versus central Anatolia change our view of the letter's audience?",
+    "What precise historical role did a tutor play in the ancient Greco-Roman world?"
+   ],
+   "imagePrompt": "An open ancient parchment manuscript written in Greek characters resting on a dark wooden table next to a small metal oil lamp.",
+   "keyIdea": "Paul's letter to the Galatians uses the metaphor of a tutor to explain a transition in religious law and social unity.",
+   "glossary": [
+    {
+     "term": "Galatians",
+     "definition": "An ethnic group of Celtic people in central Anatolia or inhabitants of the Roman province."
+    },
+    {
+     "term": "tutor",
+     "definition": "A guide or guardian figure mentioned in the text as having custody under the law."
+    },
+    {
+     "term": "baptism",
+     "definition": "A ritual act described in the text as putting on Christ."
+    },
+    {
+     "term": "Abraham",
+     "definition": "An ancestral figure whose offspring and heirs include those who are in Christ."
+    },
+    {
+     "term": "Koine Greek",
+     "definition": "The original language in which the epistle was written."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/theology.jpg",
+    "alt": "Illustration for: Scripture in its Real World: Galatians 3",
+    "prompt": "An open ancient parchment manuscript written in Greek characters resting on a dark wooden table next to a small metal oil lamp.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Galatians 3:23-29 (World English Bible)",
+     "url": "https://bible-api.com/Galatians%203%3A23-29",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-13"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: Epistle to the Galatians",
+     "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Active listening",
+   "title": "The Mechanism of Active Listening",
+   "hook": "Most conversational failures stem from listening to respond rather than listening to understand. Mastering intentional engagement transforms talking into a precise tool for building clarity and trust.",
+   "core": "Most people enter conversations preparing their next reply rather than processing what is being said. **Active listening** is the intentional practice of engaging fully with a speaker to ensure their message is understood as intended. Instead of remaining passive, the listener works to eliminate misunderstandings through focused attention and explicit feedback.\n\nAt its core, this discipline requires managing your internal **cognitive capacity** so that personal distractions do not override incoming information. When you listen actively, you provide continuous **confirmation** to the speaker that their main points are arriving intact. This real-time feedback loop clarifies subtle perceptions and systematically reduces misunderstandings between both parties.\n\nTo put this into practice, a listener relies heavily on **paraphrasing** key concepts back to the speaker before offering a counter-argument or fresh opinion. By summarizing the speaker's thoughts in your own words, you force your brain to process information deeply while signaling that the underlying message was received clearly.",
+   "context": "Before applying active listening, a practitioner needs basic self-awareness regarding their own conversational habits. In technical environments like code reviews, system architecture discussions, or product management, misinterpreting a simple prompt or bug report leads to wasted development cycles. Active listening acts like a verification protocol in computing, ensuring that data is correctly transferred and acknowledged before execution begins.",
+   "evidence": [
+    {
+     "claim": "Active listening promotes trust and reduces misunderstandings between individuals.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Speakers receive confirmation that their point is coming across when active listening occurs.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The goal of active listening is to eliminate misunderstandings and establish clear communication.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paraphrasing forces deep cognitive processing of a speaker's message.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "Speaker ---> [ Message ] ---> Listener\n  ^                              |\n  |--- [ Paraphrased Feedback ] -|",
+   "realWorld": "In technical project management, active listening prevents scope creep and faulty assumptions. During a sprint planning session, an engineer listens to a manager's request and summarizes it back: *So we need the database to update asynchronously, not synchronously?* The manager confirms or corrects the point immediately, saving days of writing incorrect code.",
+   "exercise": {
+    "prompt": "During your next conversation today, wait until the speaker finishes a complete thought. Before stating your opinion, restate their main point in your own words using the phrase, *What I hear you saying is...*",
+    "answerHint": "Check if the speaker confirms your summary with a nod or agreement. If they clarify a detail, your active check caught a misunderstanding early."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary goal of active listening?",
+     "options": [
+      "To memorize every spoken word verbatim",
+      "To eliminate misunderstandings and establish clear communication",
+      "To win arguments by spotting logical fallacies early",
+      "To shorten conversation times by interrupting frequently"
+     ],
+     "answer": 1,
+     "explanation": "According to research, active listening aims to eliminate misunderstandings and establish clear communication of thoughts and ideas."
+    },
+    {
+     "q": "How does active listening directly benefit the speaker?",
+     "options": [
+      "It guarantees the listener will agree with their conclusion",
+      "It allows them to talk without organizing their thoughts",
+      "It provides confirmation that their point is being understood",
+      "It forces them to adopt a slower speaking cadence"
+     ],
+     "answer": 2,
+     "explanation": "Active listening provides explicit feedback so speakers receive confirmation that their points are coming across clearly."
+    }
+   ],
+   "checklist": [
+    "Pause for two seconds after the speaker stops talking.",
+    "Paraphrase the core point before sharing your response.",
+    "Note internal distractions and redirect focus back to the speaker."
+   ],
+   "furtherQuestions": [
+    "How can active listening principles be applied effectively in text-based asynchronous communication?",
+    "What strategies maintain active listening when a speaker's opinion directly contradicts your own?"
+   ],
+   "imagePrompt": "A wooden desk with a ceramic coffee mug, an open blank notebook, a sharpened graphite pencil, and warm sunlight streaming across the textured oak surface.",
+   "keyIdea": "Active listening ensures clear communication and trust by intentionally engaging with a speaker and confirming that their message is correctly understood.",
+   "glossary": [
+    {
+     "term": "active listening",
+     "definition": "The intentional practice of engaging fully with a speaker to ensure clear mutual understanding."
+    },
+    {
+     "term": "cognitive capacity",
+     "definition": "The limited mental resources available for processing information and maintaining focus."
+    },
+    {
+     "term": "confirmation",
+     "definition": "Explicit feedback given to a speaker indicating that their message was accurately received."
+    },
+    {
+     "term": "paraphrasing",
+     "definition": "Restating a speaker's ideas in your own words to verify mutual comprehension."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/mindcraft.jpg",
+    "alt": "Illustration for: The Mechanism of Active Listening",
+    "prompt": "A wooden desk with a ceramic coffee mug, an open blank notebook, a sharpened graphite pencil, and warm sunlight streaming across the textured oak surface.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Active listening",
+     "url": "https://en.wikipedia.org/wiki/Active_listening",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Equalization",
+   "title": "Equalization: Sculpting Sound Frequencies",
+   "hook": "When a song sounds muffled or harsh, producers do not re-record it; they reshape its frequency balance. Mastering equalization is the secret to clarity in any mix.",
+   "core": "Sound is composed of many frequencies playing simultaneously, from deep rumbles to high sizzles. **Equalization**, or EQ, is the process of adjusting the volume of specific **frequency bands** within an audio signal S1. Think of it as a collection of dedicated volume knobs for different pitch ranges. If a vocal track sounds boomy, turning down its lower end removes unwanted room noise.\n\nBefore applying EQ, a dense song can sound cluttered, as if several instruments are fighting for the exact same sonic space. After EQ is applied, each instrument sits comfortably in its own range, making the overall mix clear and balanced. Producers use an **equalizer** to carve out dedicated space so instruments do not clash S1. For example, cutting certain low frequencies on a guitar stops it from muddying the bass drum, letting both instruments shine through clearly.",
+   "context": "Originally developed to correct signal losses in early telephone lines and cinema sound systems, equalization evolved into a fundamental creative tool for music production. Human hearing spans from roughly twenty to twenty thousand Hertz. Modern digital audio workstations display EQ as an interactive graph, allowing you to visually shape sound curves in real time.",
+   "evidence": [
+    {
+     "claim": "Equalization is the process of adjusting the volume of different frequency bands within an audio signal.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The circuit or equipment used to achieve equalization is called an equalizer.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Equalization was initially used to compensate for frequency degradation in telephone lines.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "The human ear can typically perceive frequencies between 20 Hz and 20,000 Hz.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": " Lows     Mids    Highs\n[ -4dB ] [ 0dB ] [ +3dB ]\n   \\______/'''''\\______/",
+   "realWorld": "Equalization appears everywhere outside recording studios. Your car audio controls feature bass and treble knobs, which are simple two-band equalizers. Modern video conferencing software uses automatic EQ to filter out low-frequency background hums like air conditioners.",
+   "exercise": {
+    "prompt": "Open any music player with a built-in graphic equalizer. Play a vocal track and drag the 100 Hz slider all the way down, then all the way up.",
+    "answerHint": "Lowering 100 Hz thins out the vocal body, while boosting it makes the voice sound heavy and booming."
+   },
+   "quiz": [
+    {
+     "q": "What is the core function of audio equalization?",
+     "options": [
+      "Adjusting the volume of specific frequency bands in an audio signal.",
+      "Adding artificial reverberation to make a room sound larger.",
+      "Automatically changing the tempo of a recorded song.",
+      "Converting analog voice signals directly into digital MIDI notes."
+     ],
+     "answer": 0,
+     "explanation": "Equalization modifies the relative volume levels of distinct frequency ranges within a sound."
+    },
+    {
+     "q": "Why do sound engineers use EQ when mixing multiple instruments?",
+     "options": [
+      "To change the key signature of individual tracks automatically.",
+      "To prevent overlapping frequencies from cluttering the mix.",
+      "To increase the overall playback speed of the master file.",
+      "To eliminate the need for pitch correction on vocals."
+     ],
+     "answer": 1,
+     "explanation": "Carving out unique frequency spaces prevents instruments from masking each other, ensuring each remains distinct."
+    }
+   ],
+   "checklist": [
+    "Identify overlapping low frequencies between bass and kick drum",
+    "Cut unnecessary low end on non-bass instruments to preserve clarity",
+    "Make subtle volume adjustments rather than extreme cuts or boosts"
+   ],
+   "furtherQuestions": [
+    "What is the difference between a graphic equalizer and a parametric equalizer?",
+    "How does human frequency perception change at different volume levels?"
+   ],
+   "imagePrompt": "A close-up photograph of tactile wooden dials and smooth metallic sliders on a vintage studio mixing console, bathed in warm ambient lighting.",
+   "keyIdea": "Equalization adjusts specific frequency bands to balance, clarify, and separate instruments in an audio recording.",
+   "glossary": [
+    {
+     "term": "Equalization",
+     "definition": "The process of adjusting volume levels across specific frequency ranges within an audio signal."
+    },
+    {
+     "term": "frequency bands",
+     "definition": "Specific ranges of audio frequencies grouped together for independent volume adjustments."
+    },
+    {
+     "term": "equalizer",
+     "definition": "A hardware circuit or software tool designed to perform equalization on audio signals."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/soundroom.jpg",
+    "alt": "Illustration for: Equalization: Sculpting Sound Frequencies",
+    "prompt": "A close-up photograph of tactile wooden dials and smooth metallic sliders on a vintage studio mixing console, bathed in warm ambient lighting.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Audio equalization",
+     "url": "https://en.wikipedia.org/wiki/Audio_equalization",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Overfitting",
+   "title": "Overfitting: When Models Memorize Instead of Learn",
+   "hook": "A model that scores perfect marks on practice tests can easily fail the final exam. Understanding overfitting keeps you from shipping software that breaks the moment real users arrive.",
+   "core": "In machine learning, **overfitting** occurs when a mathematical model fits a specific set of training data too closely or exactly. Instead of capturing the true underlying pattern, the model unknowingly extracts **residual variation**—the random noise and quirks unique to that training set—and treats it as structural truth.\n\nImagine plotting experimental measurements on a graph and drawing a curve through them. If you use a high-degree **polynomial**, your model gains more parameters than can be justified by the data. A highly flexible model can curve and wiggle to touch every single data point perfectly. While its training error drops to zero, its performance on new, unseen data collapses. The model has memorized specific noise rather than discovering general rules.\n\nIn software engineering practice, we detect this phenomenon by splitting data into separate training and validation sets. If training accuracy continually improves while validation accuracy plateaus or worsens, your model is overfitted. Engineers resolve this by simplifying model architecture, gathering additional training data, or applying regularization techniques to penalize excessive parameter complexity.",
+   "context": "Before building complex statistical models, first-year computing students study basic functions and curve fitting. In traditional software engineering, algorithms follow explicit step-by-step rules written by humans. In machine learning, software derives rules from data. This introduces a structural risk: when a model has more parameters than can be justified by the available data, it easily loses predictive reliability. Recognizing this boundary bridges foundational discrete mathematics with practical machine learning development in standard Python environments.",
+   "evidence": [
+    {
+     "claim": "Overfitting occurs when a mathematical model corresponds too closely or exactly to a particular dataset.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "An overfitted model contains more parameters than can be justified by the available data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The essence of overfitting is unknowingly extracting residual variation as underlying model structure.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "In polynomial functions, parameters represent the degree of the polynomial.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Engineers monitor train-validation divergence in developer dashboards to catch overfitting before deployment.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Data Points:  *      *      *      *\nIdeal Fit:   ---------- (Captures Trend)\nOverfit:     /\\_  /\\_  /\\_ (Memorizes Noise)",
+   "realWorld": "In real-world software engineering, overfitting manifests when a spam filter catches every sample email in lab tests but lets obvious junk through in production. Automated trading algorithms often overfit historical stock trends, performing brilliantly in backtests but failing under live market conditions. Machine learning engineers routinely monitor validation loss curves in developer dashboards to catch overfitting early before deploying code to live servers.",
+   "exercise": {
+    "prompt": "Open a free Google Colab notebook. Use Python and scikit-learn to fit a polynomial regression model of degree 15 to 10 noisy data points. Compare its training evaluation score against a degree 2 polynomial model.",
+    "answerHint": "The degree 15 model will show near-zero training error but exhibit extreme, erratic oscillations between data points when plotted."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary cause of overfitting during model training?",
+     "options": [
+      "The model treats random residual variation as true underlying structure.",
+      "The model has too few parameters to learn from the dataset.",
+      "The training dataset contains too many rows for the algorithm to process.",
+      "The computer runs out of memory while calculating loss values."
+     ],
+     "answer": 0,
+     "explanation": "Overfitting occurs when a flexible model unknowingly extracts noise and residual variation as if it represented real pattern structure."
+    },
+    {
+     "q": "How does increasing the degree of a polynomial model affect overfitting risk?",
+     "options": [
+      "It decreases parameters, reducing the risk of overfitting.",
+      "It increases parameters, making the model prone to fitting noise.",
+      "It has no impact on parameter count or model flexibility.",
+      "It guarantees higher predictive accuracy on unseen data."
+     ],
+     "answer": 1,
+     "explanation": "In polynomial models, the parameters represent the degree. Higher degrees add parameters, allowing the model to fit data too exactly."
+    }
+   ],
+   "checklist": [
+    "Split your dataset into separate training and validation sets.",
+    "Compare training metrics against validation metrics.",
+    "Simplify model parameters if validation performance degrades."
+   ],
+   "furtherQuestions": [
+    "How do L1 and L2 regularization methods penalize complex model parameters?",
+    "What cross-validation strategies help detect overfitting on small datasets?"
+   ],
+   "imagePrompt": "A dark wooden table featuring smooth river pebbles of different sizes, a vintage brass caliper, a magnifying glass, and a graphite pencil on coarse burlap fabric.",
+   "keyIdea": "Overfitting happens when a model memorizes random noise in training data instead of learning general patterns, causing it to fail on new observations.",
+   "glossary": [
+    {
+     "term": "overfitting",
+     "definition": "A modeling failure where an algorithm fits training data too closely and fails to reliably predict new observations."
+    },
+    {
+     "term": "residual variation",
+     "definition": "The unexplained noise or random fluctuations left over after fitting a model to data."
+    },
+    {
+     "term": "polynomial",
+     "definition": "A mathematical function composed of variables and coefficients involving sum operations and non-negative integer exponents."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/aiml.jpg",
+    "alt": "Illustration for: Overfitting: When Models Memorize Instead of Learn",
+    "prompt": "A dark wooden table featuring smooth river pebbles of different sizes, a vintage brass caliper, a magnifying glass, and a graphite pencil on coarse burlap fabric.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Overfitting",
+     "url": "https://en.wikipedia.org/wiki/Overfitting",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Linked lists",
+   "title": "The Systems Forge: Linked Lists",
+   "hook": "Arrays force your data to live in a single contiguous block of memory, but what happens when you need to grow dynamically without reallocating everything? Enter the linked list, where flexibility comes at the cost of direct access [S1].",
+   "core": "In computer science, a **linked list** is a linear collection of data elements whose order is not given by their physical placement in memory [S1]. Instead of relying on adjacent memory slots like an array, a linked list consists of a collection of **nodes** which together represent a sequence [S1]. In its most basic form, each node contains data and a reference to the next node in the sequence [S1].\n\nThis structure allows for efficient insertion or removal of elements from any position in the sequence during iteration [S1]. If you want to insert a new element, you simply create a new node and redirect a few pointers, avoiding the heavy memory-shifting required by arrays. More complex variants add additional links, allowing more efficient insertion or removal of nodes at arbitrary positions [S1].\n\nHowever, this flexibility introduces a major trade-off. A drawback of linked lists is that data access time is linear with respect to the number of nodes in the list [S1]. Because nodes are serially linked, accessing any node requires that the prior node be accessed beforehand, meaning faster access such as random access is not possible [S1]. Furthermore, arrays have better cache locality compared to linked lists [S1].",
+   "context": "Before exploring linked lists, you should be comfortable with basic pointers, memory references, and simple control flow loops in a language like C or Python. While arrays are the default choice for storing sequential data due to hardware caching benefits, low-level systems programming frequently encounters scenarios where items are constantly allocated and freed at arbitrary locations. This is where linked lists shine.",
+   "evidence": [
+    {
+     "claim": "A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Each node in a basic linked list contains data and a reference to the next node.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Linked lists allow for efficient insertion or removal of elements from any position during iteration.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Data access time in a linked list is linear with respect to the number of nodes.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Arrays have better cache locality compared to linked lists.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "[Node 1: Data | Next] -> [Node 2: Data | Next] -> [Node 3: Data | NULL]",
+   "realWorld": "Linked lists appear extensively in low-level operating systems, memory allocators, and kernel subsystems where blocks of memory must be tracked, added, or removed dynamically without copying large chunks of data around.",
+   "exercise": {
+    "prompt": "Write a tiny Python class representing a single node with a value and a pointer to the next node, and manually link two nodes together.",
+    "answerHint": "Print the value of the second node by accessing it through the first node's next pointer."
+   },
+   "quiz": [
+    {
+     "q": "What does each node contain in a basic linked list?",
+     "options": [
+      "Data and a reference to the next node",
+      "An index number and a memory address",
+      "Only contiguous byte arrays",
+      "A direct random-access pointer"
+     ],
+     "answer": 0,
+     "explanation": "In its most basic form, each node contains data and a reference to the next node in the sequence."
+    },
+    {
+     "q": "Why is random access not possible in a basic linked list?",
+     "options": [
+      "Because nodes are stored in random memory locations",
+      "Because accessing any node requires that the prior node be accessed beforehand",
+      "Because programming languages restrict pointer math",
+      "Because arrays are always faster"
+     ],
+     "answer": 1,
+     "explanation": "Because nodes are serially linked, accessing any node requires that the prior node be accessed beforehand."
+    }
+   ],
+   "checklist": [
+    "Understand pointer mechanics",
+    "Trace node traversal manually",
+    "Identify memory trade-offs"
+   ],
+   "furtherQuestions": [
+    "How does a doubly linked list differ from a singly linked list?",
+    "When should you choose an array over a linked list in practice?"
+   ],
+   "imagePrompt": "Close up of a chain of old brass paperclips linked together on a dark wooden workbench, dramatic side lighting casting long shadows.",
+   "keyIdea": "Linked lists trade away instant random access and cache efficiency for flexible, pointer-based insertions and deletions.",
+   "glossary": [
+    {
+     "term": "linked list",
+     "definition": "A linear collection of data elements whose order is not given by their physical placement in memory."
+    },
+    {
+     "term": "nodes",
+     "definition": "The individual building blocks of a linked list that hold data and references to other elements."
+    },
+    {
+     "term": "linear",
+     "definition": "Scaling in direct proportion to the number of elements in the collection."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/systems.jpg",
+    "alt": "Illustration for: The Systems Forge: Linked Lists",
+    "prompt": "Close up of a chain of old brass paperclips linked together on a dark wooden workbench, dramatic side lighting casting long shadows.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Linked list",
+     "url": "https://en.wikipedia.org/wiki/Linked_list",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: Rust 1.100.0 released",
+     "url": "https://lwn.net/Articles/1107187/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-13",
+     "date": "Thu, 12 Nov 2026 19:09:19 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+     "url": "https://lwn.net/Articles/1107173/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-13",
+     "date": "Thu, 12 Nov 2026 16:26:09 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: Introducing Polo: a Wayland MATE compositor",
+     "url": "https://lwn.net/Articles/1107152/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-13",
+     "date": "Thu, 12 Nov 2026 14:32:49 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: [$] C++26 contract confusion",
+     "url": "https://lwn.net/Articles/1105400/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-13",
+     "date": "Thu, 12 Nov 2026 14:29:04 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Swiss style",
+   "title": "The Swiss Style: Order and Clarity",
+   "hook": "Good design is not decoration; it is a system of clear decisions. Discover how the Swiss style turned typography and grids into a universal language.",
+   "core": "Welcome to **The Design Observatory**. Visual literacy begins when you treat a page not as a blank canvas to fill, but as a system of relationships. The **Swiss style**—sometimes called the International Typographic Style—emerged in the 1950s and 1960s as a reaction against clutter [S1]. At its heart are a few strict rules: prioritize readable type, use mathematical **grids** to anchor every element, and let negative space breathe.\n\nImagine looking at a poster. Without a grid, text floats randomly. With a grid, the headline locks to a column edge, the body text aligns with a baseline, and an image snaps to a specific coordinate. This alignment creates **hierarchy**, guiding the eye instantly from what matters most to the supporting details.\n\nTypefaces like **sans-serif** fonts play a massive role here. Because they lack decorative feet on the letters, they look clean and modern at any size. Color is used sparingly, often paired with asymmetric layouts to create dynamic tension rather than static boredom. Every placement is a conscious choice, not an accident.",
+   "context": "The Swiss style was forged in the 1950s and 1960s, drawing deep influence from the **Bauhaus** school, Russian Constructivism, and classical modernism [S1]. While pioneered by Swiss graphic artists, its principles quickly spread worldwide [S1] because they solved a universal communication problem: how to make complex information instantly legible across different languages and cultures. Prerequisites for studying this style include a basic familiarity with digital layout tools and an eye for alignment.",
+   "evidence": [
+    {
+     "claim": "Swiss style is a trend in graphic design formed in the 1950s-1960s.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It was influenced by the International Typographic Style, Russian Constructivism, and the Bauhaus school.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The style is associated with Swiss graphic artists, but its principles spread globally.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Mathematical grids provide structural order and alignment for visual elements.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Sans-serif typefaces are chosen for their clean, undecorated readability.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "+-----------------------+\n| TITLE                 |\n|                       |\n| [Image]    Subtitle   |\n|            Body text  |\n|            aligned    |\n+-----------------------+",
+   "realWorld": "You encounter the Swiss style every day in modern user interfaces, corporate identity systems, airport signage, and transit maps. Whenever you see a clean, highly readable website using a strict column layout and bold sans-serif headings, you are looking at the legacy of this movement.",
+   "exercise": {
+    "prompt": "Open a free design tool like Figma or Google Docs. Create a simple event poster using only one sans-serif font, strict left-alignment, and plenty of empty white space.",
+    "answerHint": "Check if your eyes can instantly scan the most important piece of information without hunting across the page."
+   },
+   "quiz": [
+    {
+     "q": "Which decades saw the formation of the Swiss style?",
+     "options": [
+      "1920s-1930s",
+      "1950s-1960s",
+      "1970s-1980s",
+      "1990s-2000s"
+     ],
+     "answer": 1,
+     "explanation": "The Swiss style formed in the 1950s-1960s under various modernist influences [S1]."
+    },
+    {
+     "q": "Which design movement heavily influenced the Swiss style alongside the Bauhaus?",
+     "options": [
+      "Art Nouveau",
+      "Russian Constructivism",
+      "Pop Art",
+      "Cyberpunk"
+     ],
+     "answer": 1,
+     "explanation": "Russian Constructivism is explicitly noted as a major influence on the Swiss style [S1]."
+    }
+   ],
+   "checklist": [
+    "Remove all decorative elements that do not serve readability",
+    "Align every text block to a visible or invisible grid line",
+    "Limit your font choices to a single font family with varied weights"
+   ],
+   "furtherQuestions": [
+    "How does breaking a grid purposefully create visual tension in a design?",
+    "In what ways did digital screen design inherit the rules of the print-based Swiss style?"
+   ],
+   "imagePrompt": "A close-up photograph of a black metal printing press type drawer next to a clean white sheet of paper with a precise black grid drawn in pencil.",
+   "keyIdea": "The Swiss style uses mathematical grids, sans-serif typography, and strict hierarchy to turn graphic design into a system of clear, functional decisions.",
+   "glossary": [
+    {
+     "term": "Swiss style",
+     "definition": "A graphic design trend formed in the 1950s-1960s emphasizing clarity, grids, and typography."
+    },
+    {
+     "term": "grids",
+     "definition": "Intersecting horizontal and vertical lines used to structure content and align elements mathematically."
+    },
+    {
+     "term": "hierarchy",
+     "definition": "The arrangement of elements in a way that implies importance, guiding the viewer's eye."
+    },
+    {
+     "term": "sans-serif",
+     "definition": "Typefaces without the small projecting features called serifs at the end of strokes."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/design.jpg",
+    "alt": "Illustration for: The Swiss Style: Order and Clarity",
+    "prompt": "A close-up photograph of a black metal printing press type drawer next to a clean white sheet of paper with a precise black grid drawn in pencil.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Swiss Style (design)",
+     "url": "https://en.wikipedia.org/wiki/Swiss_Style_(design)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Goodyear welted shoes",
+   "title": "The Goodyear Welt: Foundations of Longevity",
+   "hook": "A shoe that can be repaired for decades is cheaper than a cheap shoe replaced every year. Understanding the Goodyear welt is your first step toward building a permanent wardrobe.",
+   "core": "A **Goodyear welt** is a strip of material, typically leather, that runs along the perimeter of a shoe outsole. This strip acts as a bridge, stitching the upper part of the shoe to the insole and the outsole separately. This construction is what makes a shoe beautiful and functional; because the stitching is exposed on the outside, a cobbler can easily remove the worn-out sole and stitch on a new one without damaging the upper leather.\n\nMost modern, inexpensive shoes are glued together. Once the adhesive fails or the sole wears thin, the entire shoe must be discarded. In contrast, a welted shoe is modular. It is designed to be maintained, not replaced. This creates a distinct aesthetic: a solid, structured silhouette that ages gracefully as the leather develops a patina. While the initial investment is higher, the cost-per-wear drops significantly over time. For the frugal student, the best strategy is buying high-quality secondhand pairs. Look for uppers with minimal creasing and soles that still have life, or find a pair that needs a simple heel block replacement. By prioritizing repairable construction, you stop participating in the cycle of disposable fashion.",
+   "context": "The technology stems from the industrial innovation of the 19th century. In 1862, Auguste Destouy invented a machine with a curved needle to stitch shoes, a process refined by Daniel Mills and Charles Goodyear Jr. (S1). This innovation moved shoemaking from purely manual labor to a mechanized process that maintained high structural integrity. You do not need to be a cobbler to appreciate this, but you should understand that a welt is a mechanical choice, not just a style. It requires a break-in period, as the leather and cork filler inside the shoe must mold to your foot shape over time.",
+   "evidence": [
+    {
+     "claim": "A Goodyear welt is a strip of material running along the perimeter of a shoe outsole.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The basic principle of the Goodyear welt machine was invented in 1862 by Auguste Destouy.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Daniel Mills and Charles Goodyear Jr. improved the stitching machine design in 1869.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Goodyear welted shoes are more durable than glued footwear.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Upper --- Welt --- Outsole",
+   "realWorld": "You will spot welted shoes in professional settings and among those who value longevity. Look for a visible line of stitching running around the edge of the sole where it meets the leather upper. If you see this stitching, the shoe is likely resolable. If the sole appears to be fused directly to the upper with no visible thread, it is likely a glued construction, which cannot be repaired once the sole wears through.",
+   "exercise": {
+    "prompt": "Find a pair of dress shoes in your closet or at a thrift store. Examine the edge where the sole meets the side of the shoe. Can you see a line of thread going all the way around?",
+    "answerHint": "If you see thread, it is likely a welted construction. If you only see smooth rubber or leather meeting the upper, it is likely glued."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary benefit of a Goodyear welt?",
+     "options": [
+      "It makes the shoe waterproof",
+      "It allows the sole to be replaced",
+      "It makes the shoe lighter",
+      "It allows for faster manufacturing"
+     ],
+     "answer": 1,
+     "explanation": "The welt allows a cobbler to remove the outsole and stitch on a new one without damaging the rest of the shoe."
+    },
+    {
+     "q": "Who is credited with the 1862 invention of the curved needle machine used for stitching?",
+     "options": [
+      "William J. Dudley",
+      "Charles Goodyear Jr.",
+      "Auguste Destouy",
+      "Daniel Mills"
+     ],
+     "answer": 2,
+     "explanation": "S1 identifies Auguste Destouy as the inventor of the machine with a curved needle."
+    }
+   ],
+   "checklist": [
+    "Check current prices for reputable secondhand brands",
+    "Inspect the leather upper for deep cracks",
+    "Ensure the sole stitching is intact",
+    "Verify the shoe size matches your actual foot measurement",
+    "Check current prices for professional resoling services"
+   ],
+   "furtherQuestions": [
+    "How does the cork filler inside a welted shoe affect comfort over time?",
+    "What are the differences between leather soles and rubber soles regarding maintenance?"
+   ],
+   "imagePrompt": "A close-up, high-angle shot of a brown leather shoe edge showing visible, thick stitching along the welt, resting on a rustic wooden floor with soft natural window light.",
+   "keyIdea": "Goodyear welted shoes are a modular investment that allows for repeated repair, offering better long-term value than disposable glued footwear.",
+   "glossary": [
+    {
+     "term": "Goodyear welt",
+     "definition": "A strip of material running along the perimeter of a shoe outsole that connects the upper to the sole."
+    },
+    {
+     "term": "outsole",
+     "definition": "The bottom part of a shoe that comes into direct contact with the ground."
+    },
+    {
+     "term": "insole",
+     "definition": "The interior bottom of a shoe that sits directly under the foot."
+    }
+   ],
+   "image": {
+    "src": "data/img/012/frugal.jpg",
+    "alt": "Illustration for: The Goodyear Welt: Foundations of Longevity",
+    "prompt": "A close-up, high-angle shot of a brown leather shoe edge showing visible, thick stitching along the welt, resting on a rustic wooden floor with soft natural window light.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Goodyear welt",
+     "url": "https://en.wikipedia.org/wiki/Goodyear_welt",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-13"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "latin",
+  "title": "Logic day: mini sudoku",
+  "prompt": "Fill the 4x4 grid so every row and every column contains 1, 2, 3 and 4 exactly once.",
+  "grid": [
+   [
+    0,
+    3,
+    1,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    2,
+    0,
+    3
+   ],
+   [
+    2,
+    1,
+    3,
+    0
+   ]
+  ],
+  "solution": [
+   [
+    4,
+    3,
+    1,
+    2
+   ],
+   [
+    3,
+    4,
+    2,
+    1
+   ],
+   [
+    1,
+    2,
+    4,
+    3
+   ],
+   [
+    2,
+    1,
+    3,
+    4
+   ]
+  ],
+  "explanation": "Start with the row or column that has the most numbers filled in."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Scripture in its Real World: Galatians 3"
+   },
+   {
+    "house": "mindcraft",
+    "text": "The Mechanism of Active Listening"
+   },
+   {
+    "house": "soundroom",
+    "text": "Equalization: Sculpting Sound Frequencies"
+   },
+   {
+    "house": "aiml",
+    "text": "Overfitting: When Models Memorize Instead of Learn"
+   },
+   {
+    "house": "systems",
+    "text": "The Systems Forge: Linked Lists"
+   },
+   {
+    "house": "design",
+    "text": "The Swiss Style: Order and Clarity"
+   },
+   {
+    "house": "frugal",
+    "text": "The Goodyear Welt: Foundations of Longevity"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Scripture in its Real World: Galatians 3",
+    "text": "Letters written thousands of years ago carry specific historical baggage. Let us look closely at what Paul wrote to the early communities in Galatia. When studying ancient texts, understanding the mechanics of the writing matters just as much as the reading itself.",
+    "sources": [
+     "https://bible-api.com/Galatians%203%3A23-29",
+     "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "The Mechanism of Active Listening",
+    "text": "Most conversational failures stem from listening to respond rather than listening to understand. Mastering intentional engagement transforms talking into a precise tool for building clarity and trust. Most people enter conversations preparing their next reply rather than processing what is being said.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Active_listening"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Equalization: Sculpting Sound Frequencies",
+    "text": "When a song sounds muffled or harsh, producers do not re-record it; they reshape its frequency balance. Mastering equalization is the secret to clarity in any mix. Sound is composed of many frequencies playing simultaneously, from deep rumbles to high sizzles.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Audio_equalization"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Overfitting: When Models Memorize Instead of Learn",
+    "text": "A model that scores perfect marks on practice tests can easily fail the final exam. Understanding overfitting keeps you from shipping software that breaks the moment real users arrive. In machine learning, overfitting occurs when a mathematical model fits a specific set of training data too closely or exactly.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Overfitting"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "The Systems Forge: Linked Lists",
+    "text": "Arrays force your data to live in a single contiguous block of memory, but what happens when you need to grow dynamically without reallocating everything? Enter the linked list, where flexibility comes at the cost of direct access [S1]. In computer science, a linked list is a linear collection of data elements whose order is not given by their physical placement in memory [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Linked_list",
+     "https://lwn.net/Articles/1107187/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Swiss Style: Order and Clarity",
+    "text": "Good design is not decoration; it is a system of clear decisions. Discover how the Swiss style turned typography and grids into a universal language. Welcome to The Design Observatory.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Swiss_Style_(design)"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "The Goodyear Welt: Foundations of Longevity",
+    "text": "A shoe that can be repaired for decades is cheaper than a cheap shoe replaced every year. Understanding the Goodyear welt is your first step toward building a permanent wardrobe. A Goodyear welt is a strip of material, typically leather, that runs along the perimeter of a shoe outsole.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Goodyear_welt"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: ineffable",
+   "Puzzle: Logic day: mini sudoku",
+   "AI/ML signal: Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces"
+  ]
+ }
+}

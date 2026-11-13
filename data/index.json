@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 12,
+   "slug": "012",
+   "publishedAt": "2026-11-13T11:06:25.144Z",
+   "theme": "Galatians 3:23-29 · Active listening · Equalization",
+   "failed": [],
+   "cover": "data/img/012/cover.jpg"
+  },
+  {
    "n": 11,
    "slug": "011",
    "publishedAt": "2026-11-11T11:05:25.281Z",
