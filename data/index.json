@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 13,
+   "slug": "013",
+   "publishedAt": "2026-11-15T11:02:48.064Z",
+   "theme": "Galatians 5:1-15 · Working memory · Reverb",
+   "failed": [],
+   "cover": "data/img/013/cover.jpg"
+  },
+  {
    "n": 12,
    "slug": "012",
    "publishedAt": "2026-11-13T11:06:25.144Z",

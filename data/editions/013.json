@@ -1,0 +1,986 @@
+{
+ "n": 13,
+ "slug": "013",
+ "publishedAt": "2026-11-15T11:02:48.064Z",
+ "theme": "Galatians 5:1-15 · Working memory · Reverb",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.5-flash"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/013/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "propitious",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Indicating a good chance of success; favorable or auspicious.",
+   "example": "The quiet morning hours provided a propitious window to debug the memory leak before the team sync.",
+   "exercise": "Write a sentence using the word to describe a propitious moment for deploying code to production.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Dawn Terminal",
+   "hexes": [
+    "#1E1E24",
+    "#F7F7F9",
+    "#4A90E2"
+   ],
+   "note": "Deep slate provides a grounded high-contrast backdrop for crisp, off-white text, while electric blue delivers clear focus. Together, they create a sharp, modern developer workspace feel without harsh pure-black eye strain.",
+   "application": "Dark-mode IDE themes, command-line interfaces, or developer documentation.",
+   "accessibility": "Strongest pair: #1E1E24 with #F7F7F9, contrast 15.50:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "JetBrains Mono",
+   "character": "Clean, precise, and purposefully engineered for code reading with visual distinction between easily confused characters.",
+   "bestUses": "Works exceptionally well for code blocks, data tables, and terminal displays; avoid using it for long-form editorial paragraphs.",
+   "url": "https://fonts.google.com/specimen/JetBrains+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Command Palette",
+   "reasoning": "Designers use command palettes to give power users keyboard-driven access to features without cluttering the primary UI. It reduces navigational friction by transforming complex visual menus into a direct fuzzy-search input, letting users execute actions instantly without taking their hands off the keyboard.",
+   "tryIt": "Open VS Code or Figma, hit Cmd/Ctrl+K (or Cmd/Ctrl+P), and type five actions you usually click through menus to find.",
+   "aiGenerated": true
+  },
+  "challenge": "Use your code editor's command palette to find and run a command you have never used before, then note how it altered your workflow.",
+  "aiSignal": {
+   "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+   "url": "https://arxiv.org/abs/2611.17332v1",
+   "date": "2026-11-12T18:59:52Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Based on the brief paper snippet, researchers introduced ArchSpace to systematically track and analyze structural design choices in large language models. The summary highlights that industry teams rarely publish why failed ideas were abandoned, while academic teams are often constrained by limited compute.",
+   "whyItMatters": "Understanding architecture design is crucial because it directly dictates real-world computing costs, memory efficiency, and training speed. Without open documentation of past architectural failures, developers and researchers waste valuable resources repeating redundant experiments.",
+   "takeaway": "Engineering is defined by trade-offs between speed, cost, and complexity, so understanding why a design failed is just as valuable as knowing why it worked."
+  },
+  "openTab": {
+   "url": "https://www.khanacademy.org",
+   "name": "Khan Academy",
+   "what": "Khan Academy is a free learning website located at khanacademy.org.",
+   "whyBookmark": "Save this link to easily access the Khan Academy online learning platform.",
+   "verified": true,
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "Galatians 5:1-15",
+   "title": "Freedom and Responsibility in Galatians 5:1-15",
+   "hook": "In Galatians 5:1-15, Paul addresses early Christian communities divided over ritual obligations. He argues that genuine spiritual freedom is neither rigid rule-following nor lawless self-indulgence, but mutual service rooted in love.",
+   "core": "In his letter to the early Christian churches in Galatia, Paul responds to teachers urging non-Jewish converts to undergo **circumcision** and follow the Mosaic law to secure their standing before God. Writing in **Koine Greek**, Paul frames this demand as a **yoke of bondage** that undermines the fundamental message of grace. He warns that choosing ritual legalism as a requirement alienates believers from Christ, shifting their reliance from faith to human performance.\n\nPaul argues that spiritual standing is not achieved through physical rituals. Instead, true Christian living consists of *faith working through love*. He uses the image of yeast working through dough to show how even a small insistence on legal requirement can corrupt an entire community's understanding of freedom.\n\nHowever, Paul quickly clarifies that freedom is not a license for self-indulgence or the **flesh**. Rather than using liberty for personal gain or tearing each other apart through conflict, believers are called to serve one another. He summarizes the entire ethical obligation of the law in a single commandment: loving one's neighbor as oneself. In this framework, genuine freedom leads directly to mutual care rather than anarchy or legalistic control.",
+   "context": "Paul wrote the *Epistle to the Galatians* to early Christian congregations located in Anatolia (modern-day Turkey). Scholars debate whether these recipients lived in the Roman province of Galatia in southern Anatolia or an ethnic region of Celtic Galatians in central Anatolia. The letter responds to internal conflict caused by competing teachers who insisted that Gentile converts follow traditional Jewish customs. Understanding this historical tension between legal requirement and freedom helps readers interpret Paul's intense, personal tone throughout the passage.",
+   "evidence": [
+    {
+     "claim": "Galatians was originally written in Koine Greek to Christian communities in Galatia.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "The name Galatia refers either to a Roman province in southern Anatolia or an ethnic region of Celtic people in central Anatolia.",
+     "label": "debate",
+     "source": "S2"
+    },
+    {
+     "claim": "Paul asserts that the whole law is fulfilled in the statement: 'You shall love your neighbor as yourself.'",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul argues that receiving circumcision makes a person a debtor to do the whole law.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "  Legalistic Obligation (Yoke) <---> Self-Indulgence (Flesh)\n                                 \\\n                                  v\n                     Freedom Working Through Love\n                   (\"Love neighbor as yourself\")",
+   "realWorld": "The debate in Galatians 5 prefigures modern discussions about rule-based systems versus principles-based ethics. In software engineering and governance, strictly enforcing rigid rules often creates unforeseen friction, while total lack of structure leads to chaotic self-interest. Paul's resolution—guided freedom bounded by mutual service—mirrors how open-source projects establish shared standards without micro-managing contributors.",
+   "exercise": {
+    "prompt": "Compare Galatians 5:1-15 in a modern translation with an interlinear Greek-English Bible tool (such as Bible Hub) to examine how the Greek phrase for 'faith working through love' is rendered.",
+    "answerHint": "Look up Galatians 5:6 in the interlinear tool to see how the words pistis (faith) and agape (love) interact with the verb energoumēnē (working or operating)."
+   },
+   "quiz": [
+    {
+     "q": "According to Galatians 5:14, how is the whole law fulfilled?",
+     "options": [
+      "By submitting to circumcision according to traditional custom.",
+      "By meticulously obeying every ritual commandment.",
+      "By loving one's neighbor as oneself.",
+      "By separating Gentile converts from Jewish believers."
+     ],
+     "answer": 2,
+     "explanation": "In Galatians 5:14, Paul explicitly states that the entire law is fulfilled in a single command: 'You shall love your neighbor as yourself.'"
+    },
+    {
+     "q": "What geographical or demographic debate exists regarding the destination of Galatians?",
+     "options": [
+      "Whether it was addressed to Rome or to Corinth.",
+      "Whether Galatia refers to a Roman province in southern Anatolia or a Celtic ethnic region in central Anatolia.",
+      "Whether the letter was originally composed in Latin or Koine Greek.",
+      "Whether the recipients were primarily living in Greece or Italy."
+     ],
+     "answer": 1,
+     "explanation": "Scholars debate whether the recipient churches were located in the official Roman province of Galatia (southern Anatolia) or the northern central region settled by ethnic Celtic Galatians."
+    }
+   ],
+   "checklist": [
+    "Identify textual evidence in Galatians 5 versus later interpretation",
+    "Locate key terms like circumcison and flesh in their biblical context",
+    "Recognize historical debates over recipient geography in Anatolia"
+   ],
+   "furtherQuestions": [
+    "How does Paul's treatment of the Mosaic law in Galatians compare with his argument in Romans?",
+    "What archaeological evidence exists for Celtic culture in central Anatolia during the Hellenistic and Roman periods?"
+   ],
+   "imagePrompt": "A worn leather-bound ancient book resting open on a rustic wooden table alongside a brass hand-scale, natural morning light filtering across smooth stone floors.",
+   "keyIdea": "Paul argues that Christian freedom is preserved not through legalistic ritual or unchecked self-indulgence, but through active faith expressing itself in loving service to others.",
+   "glossary": [
+    {
+     "term": "circumcision",
+     "definition": "Surgical removal of the foreskin, required under Mosaic law as a sign of the covenant."
+    },
+    {
+     "term": "Koine Greek",
+     "definition": "The common Greek dialect spoken across the Hellenistic Mediterranean region in antiquity."
+    },
+    {
+     "term": "yoke of bondage",
+     "definition": "A metaphor describing heavy legalistic obligations that restrict spiritual freedom."
+    },
+    {
+     "term": "flesh",
+     "definition": "In Pauline theology, human nature oriented toward selfish desires rather than spiritual purpose."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/theology.jpg",
+    "alt": "Illustration for: Freedom and Responsibility in Galatians 5:1-15",
+    "prompt": "A worn leather-bound ancient book resting open on a rustic wooden table alongside a brass hand-scale, natural morning light filtering across smooth stone floors.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Galatians 5:1-15 (World English Bible)",
+     "url": "https://bible-api.com/Galatians%205%3A1-15",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-15"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: Epistle to the Galatians",
+     "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Working memory",
+   "title": "Holding the Scratchpad of the Mind",
+   "hook": "When you mentally solve a multi-step problem, your brain relies on a temporary workspace. Understanding working memory helps you manage mental overload without falling for productivity myths.",
+   "core": "Imagine mentally calculating a restaurant tip while remembering your friend's order. To do this, your brain relies on **working memory**, a cognitive system with limited capacity that holds and manipulates information temporarily. Rather than acting as a static vault, working memory serves as an active workspace essential for complex operations like **reasoning**, planning, and guiding decision-making and behavior.\n\nMany people use the term synonymously with **short-term memory**, but cognitive psychologists often make a clear distinction between the two. While short-term memory refers strictly to holding information briefly without changing it, working memory actively processes, rearranges, and transforms that stored data.\n\nBecause working memory capacity is strictly bounded, attempting to process too many variables at once creates heavy **cognitive load**. When you reach this limit, your brain drops information, leading to mistakes. Recognizing this constraint allows you to use external tools, such as writing down key steps or sketching diagrams, to keep your mental workspace clear for critical thinking.",
+   "context": "Working memory is a theoretical concept central to modern cognitive psychology, neuropsychology, and neuroscience. Before researchers established this distinction, memory was often viewed as a simple passive storage box. The shift toward understanding memory as an active processing hub revolutionized how scientists study human intelligence, problem-solving, and executive function. In practical settings, understanding your working memory capacity is a prerequisite for managing complex intellectual tasks, such as writing software, learning a foreign language, or analyzing complicated financial data without becoming overwhelmed.",
+   "evidence": [
+    {
+     "claim": "Working memory is a cognitive system with a limited capacity that holds information temporarily.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Working memory allows for the active manipulation of stored information, whereas short-term memory only refers to short-term storage.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Working memory is important for reasoning and the guidance of decision-making and behavior.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Working memory is a theoretical concept central to cognitive psychology, neuropsychology, and neuroscience.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Input Data -> [ Short-Term Memory ] -> Passive Holding\nInput Data -> [ Working Memory ]   -> Active Manipulation -> Reasoning & Decisions",
+   "realWorld": "When you write code and try to track three variable values simultaneously in your head, you rely on working memory. If an unexpected notification disrupts your focus, that fragile mental state collapses because working memory is strictly temporary. Software engineers mitigate this bottleneck by using scratchpad notes, step-by-step logs, or visual debuggers to externalize data state.",
+   "exercise": {
+    "prompt": "Read the following list of five numbers once: 4, 9, 2, 7, 5. Cover the numbers, then try to write them down in reverse order from memory without first writing them forward.",
+    "answerHint": "The correct reversed sequence is 5, 7, 2, 9, 4. Success requires both holding and manipulating the sequence in working memory."
+   },
+   "quiz": [
+    {
+     "q": "What primarily distinguishes working memory from basic short-term memory?",
+     "options": [
+      "Working memory lasts for days rather than seconds",
+      "Working memory allows for the active manipulation of stored information",
+      "Working memory has an unlimited storage capacity",
+      "Working memory only processes visual images"
+     ],
+     "answer": 1,
+     "explanation": "Short-term memory refers strictly to temporary storage, whereas working memory involves actively manipulating that stored information."
+    },
+    {
+     "q": "Why is working memory central to complex cognitive tasks?",
+     "options": [
+      "It holds and processes temporary information to guide reasoning and decision-making",
+      "It permanently stores learned facts for instant retrieval",
+      "It automates physical reflexes to increase reaction speed",
+      "It eliminates the need to take notes during problem solving"
+     ],
+     "answer": 0,
+     "explanation": "Working memory provides the limited-capacity workspace required to hold and manipulate data for reasoning, decision-making, and behavior."
+    }
+   ],
+   "checklist": [
+    "Offload complex variables onto paper to preserve mental workspace.",
+    "Break multi-step instructions into clear individual actions.",
+    "Minimize notification distractions during tasks requiring heavy data manipulation."
+   ],
+   "furtherQuestions": [
+    "How do external tools like flowcharts or scratchpads offset working memory limitations?",
+    "What is the theoretical relationship between working memory capacity and fluid intelligence?"
+   ],
+   "imagePrompt": "An open paper notebook resting on a dark wooden desk beside a graphite pencil, a brass magnifying glass, and a plain ceramic mug.",
+   "keyIdea": "Working memory is a temporary mental workspace that actively manipulates information for reasoning and decision-making, limited by strict cognitive capacity constraints.",
+   "glossary": [
+    {
+     "term": "working memory",
+     "definition": "A cognitive system with limited capacity that temporarily holds and manipulates information for complex tasks."
+    },
+    {
+     "term": "reasoning",
+     "definition": "The cognitive process of drawing logical conclusions, solving problems, and forming judgments."
+    },
+    {
+     "term": "short-term memory",
+     "definition": "The temporary storage of information over a brief period without active manipulation."
+    },
+    {
+     "term": "cognitive load",
+     "definition": "The total amount of mental effort and workspace capacity being used in working memory."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/mindcraft.jpg",
+    "alt": "Illustration for: Holding the Scratchpad of the Mind",
+    "prompt": "An open paper notebook resting on a dark wooden desk beside a graphite pencil, a brass magnifying glass, and a plain ceramic mug.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Working memory",
+     "url": "https://en.wikipedia.org/wiki/Working_memory",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Reverb",
+   "title": "Understanding Reverb",
+   "hook": "When you clap in an empty cathedral, the sound lingers long after your hands meet. That lingering tail is **reverberation**, a fundamental property of sound in physical spaces that producers use to place dry audio into rich, realistic environments.",
+   "core": "In acoustics, **reverberation** (or reverb) is the persistence of sound after its original source stops [S1]. Sound waves travel outward, bounce off surfaces like walls, floors, and furniture, and create a cluster of rapid **reflections** [S1]. These reflections build up and then gradually lose energy as surfaces absorb them, decaying to silence [S1].\n\nWithout reverb, a recorded voice or instrument sounds completely **dry**, unnaturally close, and detached from physical reality. Producers use reverb to give recordings a sense of place, depth, and glue, making separate elements sound like they were performed together in the same room.\n\nBefore applying reverb, a vocal track recorded in a soundproof booth sounds sharp, isolated, and flat—as if the singer is whispering directly into your eardrum. After applying reverb, the sound expands outward. It gains a soft trailing tail, creating the illusion that the singer is standing inside a cozy tiled bathroom, a wooden hall, or a massive stone cathedral. The core tone stays intact, but it acquires spatial atmosphere and warmth.",
+   "context": "Before digital signal processing, sound engineers achieved reverb by playing recorded tracks through loudspeakers inside dedicated acoustic echo chambers—specially constructed empty rooms with hard, reflective tiled walls—and recording the resulting reflections with a microphone. Later, mechanical solutions like spring and plate reverbs used vibrating metal to simulate spatial decay in smaller studio spaces. Today, software plugins let producers emulate anything from classic physical hardware to massive synthetic spaces using simple algorithms or impulse responses on standard computers.",
+   "evidence": [
+    {
+     "claim": "Reverberation is the persistence of sound after the original source stops.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Reverberation is created by sound reflecting off surfaces and decaying as objects and air absorb the energy.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Early recording studios relied on physical echo chambers and vibrating metal plates to create artificial reverb.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Dry recordings without spatial reflections sound unnaturally close to the listener.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "[Source] ---> (Direct Sound) ---------> [Ear/Mic]\n   |                                       ^\n   +---> [Wall] ---> (Reflection) ---------+\n   +---> [Floor] --> (Reflection) ---------+",
+   "realWorld": "Beyond music production, reverb plays a critical role in game audio design and architecture. Video game engines calculate real-time reverb to signal whether your character is walking through a narrow concrete pipe or a cavernous hall. Concert hall architects carefully select building materials and wall angles to tune reverb times, ensuring orchestral music sounds lush without blurring fast musical passages.",
+   "exercise": {
+    "prompt": "Open any free audio editor (such as Audacity) or web synthesizer. Record a short two-second spoken phrase or handclap. Duplicate the track, apply a built-in hall reverb effect to the second track, and listen to them individually.",
+    "answerHint": "The original track will sound immediate and dry, while the processed track will leave a lingering tail that decays smoothly after the sound stops."
+   },
+   "quiz": [
+    {
+     "q": "What physical phenomenon creates natural reverberation in a room?",
+     "options": [
+      "Rapid acoustic reflections off surrounding surfaces decaying over time.",
+      "Direct sound waves canceling each other out through phase inversion.",
+      "Low-frequency electrical interference from audio cables.",
+      "The Doppler shift caused by a moving listener."
+     ],
+     "answer": 0,
+     "explanation": "Sound waves bounce off walls and objects, creating multiple overlapping reflections that decay as surfaces absorb energy [S1]."
+    },
+    {
+     "q": "Why do audio producers apply reverb to a dry vocal recording?",
+     "options": [
+      "To fix pitch tuning mistakes automatically.",
+      "To give the sound depth, warmth, and a realistic sense of space.",
+      "To eliminate background noise captured by the microphone.",
+      "To double the tempo of the audio track."
+     ],
+     "answer": 1,
+     "explanation": "Dry recordings lack natural room acoustics; reverb adds spatial context so the recording feels like it exists in a real room."
+    }
+   ],
+   "checklist": [
+    "Check whether room surfaces are reflective or sound-absorbing.",
+    "Adjust decay time so the reverb tail does not clutter the mix.",
+    "Balance dry and wet audio levels to maintain speech clarity."
+   ],
+   "furtherQuestions": [
+    "How does convolution reverb use real-world room recordings to model acoustic spaces?",
+    "What is the acoustic difference between a distinct delay effect and continuous reverb?"
+   ],
+   "imagePrompt": "A close-up photograph of an vintage metallic spring reverb unit resting on a dark wooden studio desk, bathed in warm directional sunlight focusing on steel spring coils.",
+   "keyIdea": "Reverb is the decaying tail of sound reflections that turns isolated audio into a believable spatial experience.",
+   "glossary": [
+    {
+     "term": "reverberation",
+     "definition": "The persistence of sound after it is produced, caused by decaying acoustic reflections."
+    },
+    {
+     "term": "reflections",
+     "definition": "Sound waves that bounce off physical surfaces back into an acoustic space."
+    },
+    {
+     "term": "dry",
+     "definition": "An audio signal or recording that contains no spatial effects or echoes."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/soundroom.jpg",
+    "alt": "Illustration for: Understanding Reverb",
+    "prompt": "A close-up photograph of an vintage metallic spring reverb unit resting on a dark wooden studio desk, bathed in warm directional sunlight focusing on steel spring coils.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Reverberation",
+     "url": "https://en.wikipedia.org/wiki/Reverberation",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Gradient descent",
+   "title": "Gradient Descent: How Machines Learn by Walking Downhill",
+   "hook": "Imagine finding your way down a foggy mountain when you can only see the steepness of the ground right under your boots. That blind, step-by-step descent is exactly how machine learning models tune their parameters to minimize error.",
+   "core": "To train a machine learning model, you first measure how wrong its predictions are using a **loss function**. The goal of training is to adjust the model's internal weights to push this error as low as possible. In mathematics, **gradient descent** is a first-order iterative algorithm designed to minimize a differentiable function by taking steps proportional to the negative of its **gradient**.\n\nThink of the gradient as a vector pointing in the direction of steepest increase. If you take a step in the opposite direction—the negative gradient—you move toward the lowest point on the surface. The size of that step is controlled by a value called the **learning rate**. If your step size is too large, you risk overshooting the bottom entirely; if it is too small, the training process will crawl along at an agonizing pace.\n\nIn software, this process runs inside a simple loop. During each iteration, the system calculates the predictions, computes the steepness of the current error surface using calculus, and updates the weights slightly. Step by step, the error drops until the algorithm reaches a stable minimum.",
+   "context": "Before diving into deep learning frameworks, you need basic calculus—specifically how derivatives measure the rate of change of a function. Mathematically, gradient descent is classified as a first-order optimization method because it relies on the first derivative of the function to find the direction of travel. In production pipelines using tools like PyTorch or TensorFlow, gradient descent forms the engine inside modern optimizers such as Adam or SGD. Understanding this fundamental mechanism bridges theoretical mathematics with practical script execution in your coursework.",
+   "evidence": [
+    {
+     "claim": "Gradient descent is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Gradient descent is a method for unconstrained mathematical optimization.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Gradient descent updates parameters iteratively using steps proportional to the negative gradient.",
+     "label": "inference",
+     "source": "S1"
+    },
+    {
+     "claim": "Calculus derivatives are a fundamental prerequisite for calculating gradient direction.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "High Error  \\\n            \\\n             \\  <- Take steps downhill\n              \\\n               * Lowest Error (Minimum)",
+   "realWorld": "When you run training scripts in PyTorch or Scikit-learn, you rarely write derivative math manually. Instead, automatic differentiation engines calculate gradients behind the scenes. Optimizers use these gradients to update millions of weights in vision and language models, keeping error metrics low during automated training runs.",
+   "exercise": {
+    "prompt": "Open Python in Google Colab or your terminal. Define a function f(x) = x**2 and its derivative df(x) = 2*x. Starting at x = 10, write a 10-iteration loop updating x = x - 0.1 * df(x) and print x at each step.",
+    "answerHint": "The printed value of x should decrease with each iteration, steadily approaching 0."
+   },
+   "quiz": [
+    {
+     "q": "Why is gradient descent classified as a 'first-order' optimization algorithm?",
+     "options": [
+      "It is the first algorithm created in machine learning history.",
+      "It relies on the first derivative of a function to determine direction.",
+      "It completes the entire optimization process in a single step.",
+      "It can only optimize functions with a single variable."
+     ],
+     "answer": 1,
+     "explanation": "Gradient descent is a first-order algorithm because it utilizes the first derivative (the gradient) of the function to identify the direction of steepest descent."
+    },
+    {
+     "q": "What happens during gradient descent optimization if the learning rate is set too high?",
+     "options": [
+      "The model updates its parameters too slowly to reach the target.",
+      "The gradient automatically drops to zero.",
+      "The algorithm may overshoot the minimum and fail to converge.",
+      "The loss function converts into an unconstrained matrix."
+     ],
+     "answer": 2,
+     "explanation": "Taking steps that are too large can cause the algorithm to leap across the valley past the lowest error point, leading to unstable oscillations or divergence."
+    }
+   ],
+   "checklist": [
+    "Confirm the loss function is differentiable",
+    "Set an appropriate learning rate step size",
+    "Monitor loss per iteration to check for convergence"
+   ],
+   "furtherQuestions": [
+    "What happens when gradient descent gets stuck in a local minimum instead of a global minimum?",
+    "How does Stochastic Gradient Descent (SGD) differ from batch gradient descent when handling massive datasets?"
+   ],
+   "imagePrompt": "A weathered brass compass and a topographic contour map resting on a dark wooden desk beside an open notebook with handwritten math equations.",
+   "keyIdea": "Gradient descent minimizes model error by repeatedly taking small steps in the direction of steepest downward slope.",
+   "glossary": [
+    {
+     "term": "loss function",
+     "definition": "A mathematical formula measuring the difference between a model's prediction and the actual target value."
+    },
+    {
+     "term": "gradient descent",
+     "definition": "An iterative optimization algorithm that minimizes a function by moving toward its steepest rate of decrease."
+    },
+    {
+     "term": "gradient",
+     "definition": "A vector of partial derivatives indicating the direction of steepest increase of a multivariate function."
+    },
+    {
+     "term": "learning rate",
+     "definition": "A hyperparameter determining the size of the step taken toward the minimum during optimization."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/aiml.jpg",
+    "alt": "Illustration for: Gradient Descent: How Machines Learn by Walking Downhill",
+    "prompt": "A weathered brass compass and a topographic contour map resting on a dark wooden desk beside an open notebook with handwritten math equations.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Gradient descent",
+     "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Process scheduling",
+   "title": "Process Scheduling: Sharing the CPU",
+   "hook": "A computer often has far fewer processor cores than active programs. Process scheduling is the underlying mechanic that decides which task gets execution time and when.",
+   "core": "In computing, **scheduling** is the action of assigning system resources to perform tasks S1. While resources can include network links or expansion cards, the classic operating system problem is assigning CPU time to competing **processes** or **threads** S1. Without a scheduler, a single task could monopolize the processor forever, preventing other programs from making progress.\n\nTo share execution time fairly, schedulers use algorithms like **round-robin scheduling** or priority queues. In a simple round-robin scheme, each task receives a short slice of CPU time, called a quantum. If a task does not complete during its slice, it returns to the back of the queue, allowing the next waiting task to run.\n\nA common beginner bug is writing an **infinite loop** without yielding control or waiting for I/O operations. In cooperative multitasking, this completely freezes the system. In modern preemptive multitasking, the operating system forcibly interrupts the task, but the rogue loop still consumes maximum CPU cycles. Schedulers must balance **throughput**, which measures total work completed over time, against **latency**, which measures how quickly a system responds to user input.",
+   "context": "Prerequisites include basic familiarity with operating system concepts like processes and functions. Modern operating systems rely on preemptive multitasking, where the kernel periodically interrupts running processes using a hardware timer. Early operating systems used cooperative multitasking, relying on applications to voluntarily give up control. Today, process scheduling coordinates execution across multi-core processors, network links, and hardware expansion cards to keep systems responsive under heavy computational workloads S1.",
+   "evidence": [
+    {
+     "claim": "Scheduling is the action of assigning resources such as processors, network links, or expansion cards to perform tasks.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Tasks managed by schedulers include threads, processes, or data flows.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Build tools use operating system scheduling to execute parallel compilation tasks across CPU cores.",
+     "label": "inference",
+     "source": "S2"
+    },
+    {
+     "claim": "Preemptive multitasking uses hardware timer interrupts to regain execution control from running tasks.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Task Queue: [Task A] -> [Task B] -> [Task C]\n  |\n  v\nExecute Task A for Time Quantum\n  |\n  +--> Finished? ---> Terminate Task A\n  +--> Unfinished? -> Re-queue Task A at back",
+   "realWorld": "Operating system kernels like Linux manage thousands of active threads across CPU cores. Web servers like NGINX manage incoming network requests by dispatching work across available worker threads and network links S1, S4. System build tools like Buildroot rely on host kernel scheduling to execute parallel build tasks across multiple CPU cores efficiently S2.",
+   "exercise": {
+    "prompt": "Run top or htop in a Linux terminal, or open Task Manager on Windows. Observe the process list, locate the CPU percentage column, and sort processes by CPU utilization.",
+    "answerHint": "Look for processes fluctuating near top CPU usage and observe how the OS context-switches execution across active threads."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary function of process scheduling in an operating system?",
+     "options": [
+      "Assigning system resources like processors to perform tasks",
+      "Encrypting executable binaries before execution",
+      "Translating source code into assembly language",
+      "Permanently saving RAM contents to disk storage"
+     ],
+     "answer": 0,
+     "explanation": "As S1 defines, scheduling is the action of assigning resources to perform tasks such as threads or processes."
+    },
+    {
+     "q": "Why does a preemptive scheduler periodically interrupt running tasks?",
+     "options": [
+      "To compile missing application code",
+      "To prevent a single task from monopolizing the CPU",
+      "To clear non-volatile hard drive storage",
+      "To reformat active network links"
+     ],
+     "answer": 1,
+     "explanation": "Preemptive schedulers use hardware interrupts to pause running tasks, ensuring fair CPU distribution and maintaining system responsiveness."
+    }
+   ],
+   "checklist": [
+    "Identify whether tasks are CPU-bound or I/O-bound.",
+    "Measure latency versus throughput requirements for your system.",
+    "Avoid unintended tight loops that consume 100% of a core."
+   ],
+   "furtherQuestions": [
+    "How do real-time schedulers differ from general-purpose OS schedulers?",
+    "What happens during a CPU context switch at the hardware register level?"
+   ],
+   "imagePrompt": "A close-up photograph of a vintage physical time-clock punching machine sitting on a worn wooden workbench beside organized mechanical gear components, shot in soft natural light.",
+   "keyIdea": "Process scheduling manages system resources by allocating CPU execution time across competing processes and threads to balance throughput and responsiveness.",
+   "glossary": [
+    {
+     "term": "scheduling",
+     "definition": "The action of assigning system resources to perform tasks like processes or threads."
+    },
+    {
+     "term": "processes",
+     "definition": "Independent executing programs with their own dedicated memory spaces allocated by the operating system."
+    },
+    {
+     "term": "threads",
+     "definition": "The smallest sequences of programmed instructions that can be managed independently by a scheduler."
+    },
+    {
+     "term": "throughput",
+     "definition": "The total amount of computational work completed by a system within a given time frame."
+    },
+    {
+     "term": "latency",
+     "definition": "The time delay between requesting an action and receiving a response from the system."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/systems.jpg",
+    "alt": "Illustration for: Process Scheduling: Sharing the CPU",
+    "prompt": "A close-up photograph of a vintage physical time-clock punching machine sitting on a worn wooden workbench beside organized mechanical gear components, shot in soft natural light.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Scheduling (computing)",
+     "url": "https://en.wikipedia.org/wiki/Scheduling_(computing)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] 25 years of Buildroot",
+     "url": "https://lwn.net/Articles/1103395/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-15",
+     "date": "Fri, 13 Nov 2026 16:35:03 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Announcing XRAID: declustered parity RAID for zoned XFS",
+     "url": "https://lwn.net/Articles/1107473/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-15",
+     "date": "Fri, 13 Nov 2026 14:39:47 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: Security updates for Friday",
+     "url": "https://lwn.net/Articles/1107472/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-15",
+     "date": "Fri, 13 Nov 2026 14:25:42 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Rust 1.100.0 released",
+     "url": "https://lwn.net/Articles/1107187/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-15",
+     "date": "Thu, 12 Nov 2026 19:09:19 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Visual hierarchy",
+   "title": "The Grammar of Seeing",
+   "hook": "Before a user reads a single word on your screen, their brain has already ranked every element on the page. Visual hierarchy is the subtle art of controlling that quick, subconscious calculation.",
+   "core": "When you glance at a website, map, or poster, your eye does not scan the page randomly. It follows an order dictated by visual weight. This structural arrangement is known as **visual hierarchy**, a foundational concept rooted in **Gestalt psychology**. In human perception, certain elements naturally stand out more than others in a pattern, creating a clear order of importance.\n\nThe primary engine driving this order is **contrast**. The human mind notices elements with the highest contrast against their immediate surroundings before anything else. You can build contrast through variations in **scale**, heavy typography, bright colour, or strategic isolation. For example, a single massive headline surrounded by generous white space immediately becomes the primary **focal point**, drawing the eye instantly before it moves down to smaller body text.\n\nMastering visual literacy means treating layouts not as decorative assemblies, but as deliberate systems of decisions. By controlling grid placement, movement, and visual intensity, you direct how a user reads, understands, and prioritizes information across digital and physical mediums.",
+   "context": "Visual hierarchy emerged as a formal discipline when graphic designers synthesized Gestalt perceptual psychology with mid-twentieth-century typography and cartography. Early mapmakers used line thickness and symbol size to show city importance, while modernist grid designers used scaled type to organize dense print media. For computing students, understanding visual hierarchy is an essential prerequisite before coding user interfaces. CSS properties like font size, weight, margin, and colour are simply code implementations of these perceptual design decisions.",
+   "evidence": [
+    {
+     "claim": "Visual hierarchy describes how elements in a visual field stand out to create a perceived order of importance.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Visual order of importance is created by visual contrast between forms in a field of perception.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Objects with the highest contrast to their surroundings are recognized first by the human mind.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Early cartographers used line weight and symbol size to visually prioritize geographic data.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "+----------------------------------+\n| [ HUGE HEADLINE: focal point ]   |\n|                                  |\n| Subtitle with medium contrast    |\n|                                  |\n| Body text line one...            |\n| Body text line two...            |\n+----------------------------------+",
+   "realWorld": "Look at a typical news website or mobile banking app. The account balance or major headline is rendered in heavy, large typography, capturing your attention instantly. Secondary details like transaction timestamps or author bylines appear in muted grey with smaller font sizes. Cartographers use the same principle on maps, making highways bold and red while rural roads remain thin and pale grey.",
+   "exercise": {
+    "prompt": "Open any text editor. Type a headline, a subtitle, and a paragraph using the same font size and weight. Next, double the font size of the headline, make it bold, and change the subtitle to a light grey. Observe how the reading order shifts.",
+    "answerHint": "The modified version should guide your eye to the headline first without active effort, proving that scale and contrast dictate visual weight."
+   },
+   "quiz": [
+    {
+     "q": "According to Gestalt psychology in design, what primary mechanism creates visual hierarchy?",
+     "options": [
+      "Visual contrast between forms in a perceptual field",
+      "The total number of distinct colours used in a layout",
+      "Applying identical margins across all page elements",
+      "Random distribution of elements across a rigid grid"
+     ],
+     "answer": 0,
+     "explanation": "Visual hierarchy relies on visual contrast between forms, allowing elements with higher contrast to be recognized first."
+    },
+    {
+     "q": "What happens to a layout when all text elements share the exact same size, weight, and colour?",
+     "options": [
+      "The layout achieves a strong visual hierarchy",
+      "No single element acts as a focal point, flattening the hierarchy",
+      "The user instinctively reads the central body text first",
+      "The overall visual contrast ratio reaches its maximum value"
+     ],
+     "answer": 1,
+     "explanation": "Without contrast in scale or colour, no single element stands out, resulting in a flat layout with no clear visual hierarchy."
+    }
+   ],
+   "checklist": [
+    "Identify the primary focal point of the page.",
+    "Ensure critical call-to-action elements have high contrast.",
+    "Use scale and weight to separate primary titles from body text."
+   ],
+   "furtherQuestions": [
+    "How do grid systems assist in maintaining visual hierarchy across multi-page layouts?",
+    "In what ways does dark mode alter contrast rules and visual weight in digital interfaces?"
+   ],
+   "imagePrompt": "A high-angle photograph of a wooden workbench with neatly arranged drafting tools: one large polished brass compass positioned next to small wooden pencils.",
+   "keyIdea": "Visual hierarchy uses contrast, scale, and positioning to direct human attention through a visual layout in order of importance.",
+   "glossary": [
+    {
+     "term": "visual hierarchy",
+     "definition": "The structural arrangement of visual elements to create a perceived order of importance within a design."
+    },
+    {
+     "term": "Gestalt psychology",
+     "definition": "A psychological framework explaining how humans perceive visual patterns and organize isolated elements into unified wholes."
+    },
+    {
+     "term": "contrast",
+     "definition": "The noticeable difference between visual elements, such as light and dark values or large and small forms."
+    },
+    {
+     "term": "scale",
+     "definition": "The relative size of an element compared to other elements within a visual layout."
+    },
+    {
+     "term": "focal point",
+     "definition": "The specific visual element that commands high contrast and captures immediate visual attention."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/design.jpg",
+    "alt": "Illustration for: The Grammar of Seeing",
+    "prompt": "A high-angle photograph of a wooden workbench with neatly arranged drafting tools: one large polished brass compass positioned next to small wooden pencils.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Visual hierarchy",
+     "url": "https://en.wikipedia.org/wiki/Visual_hierarchy",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Bespoke tailoring",
+   "title": "The Mechanics of Fit",
+   "hook": "You do not need a massive wardrobe budget to wear clothing that fits impeccably. Understanding custom garment construction lets you spot quality craftsmanship and recreate custom fit on a frugal budget.",
+   "core": "True elegance comes from understanding structure rather than consuming luxury labels. At its peak, **bespoke tailoring** represents clothing crafted entirely from scratch for a single body, created without relying on a pre-existing pattern. An artisan takes precise measurements, drafts an original paper pattern, and constructs the garment through multiple fittings. This process allows complete control over drape, proportion, and balance. In contrast, **made-to-measure** garments start from a standard factory pattern that is adjusted to approximate your dimensions.\n\nWhat makes bespoke work beautiful is not expensive branding, but architectural harmony: seams that align with natural movement, chest canvas that moulds to the torso over time, and shoulders shaped specifically for your posture. The construction is functional art.\n\nDeveloping an eye for this craftsmanship does not require ordering custom suits. The frugal alternative lies in training your eye to recognize quality construction in thrifted or secondhand garments, then applying targeted local **alterations**. By purchasing structured vintage pieces and having a local tailor adjust the waist, sleeve length, or trouser hem, you achieve a personal fit similar to custom work. Learning basic garment care and minor hand-sewing repair allows you to maintain these garments indefinitely. You learn to appreciate the physics of fit without overspending.",
+   "context": "Historically, custom clothing was the standard before industrial mass production introduced off-the-rack sizing. Today, high-end bespoke houses preserve traditional **drafting** techniques, but the core mechanics—understanding human anatomy and structural pattern drafting—remain accessible to anyone studying design principles. For a computing student, evaluating clothing fit mirrors code refactoring: you analyze structural flaws, isolate where the garment pulls or sags, and make precise adjustments rather than discarding the entire system.",
+   "evidence": [
+    {
+     "claim": "Bespoke garments are created without using a pre-existing pattern.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Made-to-measure clothing relies on altering a standard-sized pattern.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Altering secondhand clothing provides a custom fit at a fraction of bespoke expense.",
+     "label": "inference",
+     "source": null
+    },
+    {
+     "claim": "Mass production replaced custom drafting as the primary method of clothing manufacturing.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[ Standard Pattern ] -> Factory Cut -> Adjusted Sizing = Made-to-Measure\n\n[ Body Measurements ] -> Original Draft -> Custom Fittings = Bespoke",
+   "realWorld": "Outside luxury ateliers, bespoke principles live in thrift stores and local alter-shops. When buying a secondhand jacket, smart shoppers check current prices for local seamstress services before buying. They focus on shoulder fit—which is difficult to resize—and rely on simple adjustments for sleeves or waists to convert inexpensive vintage clothing into perfectly fitted garments.",
+   "exercise": {
+    "prompt": "Find one garment in your wardrobe that fits poorly. Identify whether the issue is structural (like shoulder width) or adjustable (like sleeve length or waist room), and note down what modification would fix it.",
+    "answerHint": "Adjustable areas usually involve single seams that can be taken in or let out, whereas shoulders and armholes require rebuilding the entire garment frame."
+   },
+   "quiz": [
+    {
+     "q": "What fundamentally distinguishes bespoke tailoring from made-to-measure garments?",
+     "options": [
+      "Bespoke uses no pre-existing pattern, while made-to-measure alters a standard pattern.",
+      "Bespoke is always sewn by machine, while made-to-measure is made by hand.",
+      "Made-to-measure requires individual pattern drafting from scratch.",
+      "Bespoke only applies to formal evening wear."
+     ],
+     "answer": 0,
+     "explanation": "According to source S1, bespoke tailoring creates clothing completely from scratch without a pre-existing pattern, whereas made-to-measure alters a standard-sized pattern."
+    },
+    {
+     "q": "What is the most cost-effective strategy to achieve a custom fit on a limited budget?",
+     "options": [
+      "Buying off-the-rack clothes two sizes larger than needed.",
+      "Buying well-constructed secondhand garments and hiring a local tailor for targeted seam alterations.",
+      "Only purchasing garments made from pure synthetic fabrics.",
+      "Ordering made-to-measure suits directly from luxury fashion brands."
+     ],
+     "answer": 1,
+     "explanation": "Purchasing durable secondhand garments that fit in the frame and paying for targeted local alterations yields a high-quality, custom fit without bespoke costs."
+    }
+   ],
+   "checklist": [
+    "Does the garment fit correctly across the shoulders and collar?",
+    "Is the fabric composed of durable, natural materials worth preserving?",
+    "Are the necessary adjustments limited to simple seam alterations?",
+    "Have you checked current prices for local tailoring repairs before purchasing?"
+   ],
+   "furtherQuestions": [
+    "How can you inspect interior garment construction like canvas chest pieces without cutting open the lining?",
+    "What basic hand stitches are most useful for carrying out DIY garment repair at home?"
+   ],
+   "imagePrompt": "A wooden workbench featuring a tailor's cloth tape measure, chalk marks on dark wool fabric, silver sewing shears, and spools of silk thread under soft directional light.",
+   "keyIdea": "True style comes from understanding structural fit and altering secondhand quality garments rather than paying for luxury performance.",
+   "glossary": [
+    {
+     "term": "bespoke tailoring",
+     "definition": "Clothing custom-made from an original pattern drafted specifically for an individual buyer."
+    },
+    {
+     "term": "made-to-measure",
+     "definition": "Clothing produced by modifying a standard pre-existing pattern to fit individual customer measurements."
+    },
+    {
+     "term": "alterations",
+     "definition": "Modifications made to an existing garment's seams to improve its overall fit on a body."
+    }
+   ],
+   "image": {
+    "src": "data/img/013/frugal.jpg",
+    "alt": "Illustration for: The Mechanics of Fit",
+    "prompt": "A wooden workbench featuring a tailor's cloth tape measure, chalk marks on dark wool fabric, silver sewing shears, and spools of silk thread under soft directional light.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Bespoke tailoring",
+     "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-15"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "sequence",
+  "title": "Logic day: what comes next?",
+  "prompt": "16, 25, 36, 49, 64, ?",
+  "answer": "81",
+  "explanation": "The rule: these are consecutive square numbers."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Freedom and Responsibility in Galatians 5:1-15"
+   },
+   {
+    "house": "mindcraft",
+    "text": "Holding the Scratchpad of the Mind"
+   },
+   {
+    "house": "soundroom",
+    "text": "Understanding Reverb"
+   },
+   {
+    "house": "aiml",
+    "text": "Gradient Descent: How Machines Learn by Walking Downhill"
+   },
+   {
+    "house": "systems",
+    "text": "Process Scheduling: Sharing the CPU"
+   },
+   {
+    "house": "design",
+    "text": "The Grammar of Seeing"
+   },
+   {
+    "house": "frugal",
+    "text": "The Mechanics of Fit"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Freedom and Responsibility in Galatians 5:1-15",
+    "text": "In Galatians 5:1-15, Paul addresses early Christian communities divided over ritual obligations. He argues that genuine spiritual freedom is neither rigid rule-following nor lawless self-indulgence, but mutual service rooted in love. In his letter to the early Christian churches in Galatia, Paul responds to teachers urging non-Jewish converts to undergo circumcision and follow the Mosaic law to secure their standing before God.",
+    "sources": [
+     "https://bible-api.com/Galatians%205%3A1-15",
+     "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "Holding the Scratchpad of the Mind",
+    "text": "When you mentally solve a multi-step problem, your brain relies on a temporary workspace. Understanding working memory helps you manage mental overload without falling for productivity myths. Imagine mentally calculating a restaurant tip while remembering your friend's order.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Working_memory"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Understanding Reverb",
+    "text": "When you clap in an empty cathedral, the sound lingers long after your hands meet. That lingering tail is **reverberation**, a fundamental property of sound in physical spaces that producers use to place dry audio into rich, realistic environments. In acoustics, reverberation (or reverb) is the persistence of sound after its original source stops [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Reverberation"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Gradient Descent: How Machines Learn by Walking Downhill",
+    "text": "Imagine finding your way down a foggy mountain when you can only see the steepness of the ground right under your boots. That blind, step-by-step descent is exactly how machine learning models tune their parameters to minimize error. To train a machine learning model, you first measure how wrong its predictions are using a loss function.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gradient_descent"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "Process Scheduling: Sharing the CPU",
+    "text": "A computer often has far fewer processor cores than active programs. Process scheduling is the underlying mechanic that decides which task gets execution time and when. In computing, scheduling is the action of assigning system resources to perform tasks S1.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Scheduling_(computing)",
+     "https://lwn.net/Articles/1103395/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Grammar of Seeing",
+    "text": "Before a user reads a single word on your screen, their brain has already ranked every element on the page. Visual hierarchy is the subtle art of controlling that quick, subconscious calculation. When you glance at a website, map, or poster, your eye does not scan the page randomly.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Visual_hierarchy"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "The Mechanics of Fit",
+    "text": "You do not need a massive wardrobe budget to wear clothing that fits impeccably. Understanding custom garment construction lets you spot quality craftsmanship and recreate custom fit on a frugal budget. True elegance comes from understanding structure rather than consuming luxury labels.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bespoke_tailoring"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: propitious",
+   "Puzzle: Logic day: what comes next?",
+   "AI/ML signal: ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research"
+  ]
+ }
+}
