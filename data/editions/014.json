@@ -1,0 +1,964 @@
+{
+ "n": 14,
+ "slug": "014",
+ "publishedAt": "2026-11-17T11:54:44.085Z",
+ "theme": "1 Thessalonians 1:1-10 · Confirmation bias · Chord progressions",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.1-flash-lite",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/014/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "recalcitrant",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Stubbornly refusing to obey rules or cooperate, often showing a defiant resistance to authority.",
+   "example": "The recalcitrant legacy database refused to export the data in the requested JSON format.",
+   "exercise": "Write one sentence describing a recalcitrant piece of hardware or software you have encountered.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Deep Terminal",
+   "hexes": [
+    "#0D1117",
+    "#58A6FF",
+    "#238636"
+   ],
+   "note": "This palette mimics the high-contrast aesthetic of a modern code editor. The charcoal background reduces eye strain during long coding sessions, while the vibrant blue and forest green provide clear visual hierarchy for syntax highlighting and primary calls-to-action.",
+   "application": "Use this for your personal developer portfolio or a dark-mode dashboard interface.",
+   "accessibility": "Strongest pair: #0D1117 with #58A6FF, contrast 7.49:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "Fira Code",
+   "character": "It feels precise, technical, and highly legible. Because it is a monospaced font with built-in programming ligatures, it makes complex code symbols look cleaner and more intentional.",
+   "bestUses": "Perfect for code editors and terminal windows; avoid using it for long-form prose or marketing headers where readability for non-technical users is the priority.",
+   "url": "https://fonts.google.com/specimen/Fira+Code",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Empty State",
+   "reasoning": "Designers use empty states to transform a blank, intimidating screen into an opportunity for guidance. Instead of showing nothing when a user has no data, these screens explain what the feature does, why it is currently empty, and provide a clear 'call to action' button to help the user get started.",
+   "tryIt": "Open an app you use, navigate to a section with no content, and sketch a better version of that screen that encourages the user to perform their first action.",
+   "aiGenerated": true
+  },
+  "challenge": "Find a piece of recalcitrant code that keeps throwing an error, apply the 'Empty State' logic to your error message so it actually helps you debug, and document the fix.",
+  "aiSignal": {
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "date": "Fri, 13 Nov 2026 14:05:22 GMT",
+   "feed": "Hugging Face Blog",
+   "kind": "product",
+   "whatHappened": "llama.cpp has reached version 1.0.0, establishing a stronger foundation for the local AI ecosystem. This tool allows developers to run large language models directly on local hardware efficiently.",
+   "whyItMatters": "Running models locally gives you full control without relying on costly cloud APIs. It lowers the barrier of entry for students wanting to experiment with machine learning on their own computers.",
+   "takeaway": "You do not need massive cloud infrastructure to build with modern AI; understanding how to run and manage models locally is an increasingly vital practical skill."
+  },
+  "openTab": {
+   "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+   "name": "Introduction to Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+   "what": "A free online introductory resource on web accessibility provided by the W3C Web Accessibility Initiative, the international standards organization.",
+   "whyBookmark": "You should bookmark it to learn foundational standards for making the web usable for everyone, straight from the organization that writes the rules.",
+   "verified": true,
+   "checkedAt": "2026-11-17"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Thessalonians 1:1-10",
+   "title": "Scripture in Context: 1 Thessalonians 1",
+   "hook": "When a first-century traveling teacher writes a quick check-in letter to a young community in Greece, what does he actually say? Let us look at the text without the stained-glass filters.",
+   "core": "**1 Thessalonians** is a short letter written by **Paul** the Apostle, along with Silvanus and Timothy, addressed to the assembly of the Thessalonians [S1, S2]. The text opens with greetings of grace and peace from God the Father and the Lord Jesus Christ [S1].\n\nThe authors express constant gratitude in their prayers, remembering the community's work of faith, labor of love, and perseverance of hope [S1]. They note that their message came to the city not merely in words, but in power, the Holy Spirit, and deep assurance [S1]. The recipients accepted the message amid much affliction while experiencing the joy of the Holy Spirit, turning away from idols to serve a living and true God [S1].\n\nBecause of this response, the community became an example to believers throughout Macedonia and Achaia, with their faith spreading widely [S1]. Finally, the text describes waiting for God's Son from heaven, Jesus, who raises the dead and delivers people from coming wrath [S1].",
+   "context": "Prerequisites: basic familiarity with ancient Mediterranean geography and the New Testament. Historically, this letter is attributed to Paul and sent to the church located in Thessalonica, a major urban center in modern-day Greece [S2]. Understanding this text requires reading it as real correspondence sent to a specific, living community facing local pressure and affliction rather than as an abstract theological textbook.",
+   "evidence": [
+    {
+     "claim": "The letter is addressed to the assembly of the Thessalonians by Paul, Silvanus, and Timothy.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The epistle is a Pauline epistle attributed to Paul the Apostle and addressed to the church in Thessalonica, in modern-day Greece.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "The recipients turned to God from idols to serve a living and true God and to wait for His Son from heaven.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The Thessalonians became an example to believers in Macedonia and Achaia.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "",
+   "realWorld": "Examining historical letters helps us understand how ancient urban communities formed resilient social networks and supported each other through cultural friction and public pressure, a dynamic visible in modern grassroots organizations today.",
+   "exercise": {
+    "prompt": "Read through 1 Thessalonians 1 in a modern digital Bible translation and highlight every mention of the word faith or hope.",
+    "answerHint": "You should find faith mentioned in verse 3 and verse 8, and hope mentioned in verse 3."
+   },
+   "quiz": [
+    {
+     "q": "Who are listed as the senders of the letter in 1 Thessalonians 1:1?",
+     "options": [
+      "Paul, Silvanus, and Timothy",
+      "Peter, James, and John",
+      "Barnabas and Mark",
+      "Only Paul"
+     ],
+     "answer": 0,
+     "explanation": "Verse 1 explicitly names Paul, Silvanus, and Timothy as the senders."
+    },
+    {
+     "q": "According to the text, what did the recipients turn away from?",
+     "options": [
+      "Idols",
+      "Farming",
+      "Roman law",
+      "Their families"
+     ],
+     "answer": 0,
+     "explanation": "Verse 9 states that they turned to God from idols."
+    }
+   ],
+   "checklist": [
+    "Read 1 Thessalonians 1 slowly",
+    "Note the three senders in verse 1",
+    "Identify the geographical regions mentioned"
+   ],
+   "furtherQuestions": [
+    "How did early Christian letters travel across the ancient world?",
+    "What specific kinds of affliction were new believers facing in Macedonian cities?"
+   ],
+   "imagePrompt": "An open ancient parchment manuscript resting on a weathered wooden table next to an unlit clay oil lamp under soft natural window light.",
+   "keyIdea": "1 Thessalonians 1 records a foundational letter praising a young Greek community for turning from idols to live out faith, love, and hope.",
+   "glossary": [
+    {
+     "term": "1 Thessalonians",
+     "definition": "A Pauline epistle of the New Testament addressed to the church in Thessalonica."
+    },
+    {
+     "term": "Paul",
+     "definition": "An apostle credited alongside Silvanus and Timothy as the sender of the letter."
+    },
+    {
+     "term": "Thessalonians",
+     "definition": "The members of the religious assembly or church located in Thessalonica."
+    },
+    {
+     "term": "Macedonia",
+     "definition": "A geographic region where believers heard the message and received the example of the Thessalonian church."
+    },
+    {
+     "term": "Achaia",
+     "definition": "A neighboring region where the faith of the Thessalonians also became known."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/theology.jpg",
+    "alt": "Illustration for: Scripture in Context: 1 Thessalonians 1",
+    "prompt": "An open ancient parchment manuscript resting on a weathered wooden table next to an unlit clay oil lamp under soft natural window light.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Thessalonians 1:1-10 (World English Bible)",
+     "url": "https://bible-api.com/1%20Thessalonians%201%3A1-10",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-17"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Thessalonians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Thessalonians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    },
+    {
+     "id": "S3",
+     "title": "Wikipedia: Thessaloniki",
+     "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Confirmation bias",
+   "title": "The Trap of What We Want to Believe",
+   "hook": "Your brain loves to be right so much that it actively hides facts from you. Let's look at the mechanics behind that blind spot.",
+   "core": "**Confirmation bias** is the human tendency to search for, interpret, favor, and recall information that matches what we already believe [S1]. When faced with a mountain of data, your mind naturally hunts for the specific pieces that agree with your current stance while letting contrary details slip away [S1].\n\nThis mental shortcut happens automatically [S1]. If you deeply care about a topic or really want a specific outcome, the effect grows even stronger [S1]. Instead of testing an idea from all angles, people often run one-sided checks that only look for green lights [S1].\n\nCommunication and decision-making suffer when this habit goes unchecked. You might read an ambiguous news report and instantly decide it proves your point, completely missing alternative explanations [S1]. Recognizing this pattern is the first step toward clearer thinking.",
+   "context": "Prerequisites: basic self-awareness and an open mind. This psychological phenomenon explains why smart people can disagree so sharply on simple facts, rooted in how our automatic mental habits process everyday data [S1].",
+   "evidence": [
+    {
+     "claim": "Confirmation bias is the tendency to search for, interpret, favor and recall information supporting prior beliefs.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The effect is strongest for desired outcomes, emotionally charged issues and deeply entrenched beliefs.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "People tend to test ideas in a one-sided way by searching mainly for supporting evidence.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Selective exposure research shows people differ in how strongly they defend their attitudes against contrary information.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Prior Belief ---> One-Sided Search ---> Ignoring Contrary Facts ---> Stronger Belief",
+   "realWorld": "In software engineering or debugging, confirmation bias shows up when you fixate on a favorite hypothesis for a bug and ignore logs that point to a completely different part of the codebase.",
+   "exercise": {
+    "prompt": "Pick a topic you feel strongly about. Spend five minutes writing down the three strongest arguments against your view, using only free search tools.",
+    "answerHint": "If you felt physical resistance or dismissed the counter-arguments instantly, the bias was at work."
+   },
+   "quiz": [
+    {
+     "q": "What is confirmation bias?",
+     "options": [
+      "The tendency to favor information confirming prior beliefs",
+      "A formal method for testing software bugs",
+      "An emotional intelligence scoring metric",
+      "A deliberate strategy to win arguments"
+     ],
+     "answer": 0,
+     "explanation": "Confirmation bias is specifically the tendency to search for, interpret, favor, and recall information supporting what you already think [S1]."
+    },
+    {
+     "q": "When is the effect of confirmation bias strongest?",
+     "options": [
+      "During math calculations",
+      "When dealing with trivial, boring facts",
+      "For desired outcomes and emotionally charged issues",
+      "When reading fiction books"
+     ],
+     "answer": 2,
+     "explanation": "The source explicitly states the effect is strongest for desired outcomes, emotionally charged issues, and deeply entrenched beliefs [S1]."
+    }
+   ],
+   "checklist": [
+    "Look for data that contradicts your initial hypothesis",
+    "Ask yourself what evidence would prove you wrong",
+    "Pause when evaluating ambiguous news reports"
+   ],
+   "furtherQuestions": [
+    "How can teams design decision-making processes to resist confirmation bias?",
+    "Does technology amplify selective exposure in daily news consumption?"
+   ],
+   "imagePrompt": "A single wooden chess piece standing alone on a well-lit table, surrounded by scattered puzzle pieces facing away from it.",
+   "keyIdea": "Confirmation bias is the automatic habit of hunting for evidence that supports your existing views while ignoring contradictory facts.",
+   "glossary": [
+    {
+     "term": "Confirmation bias",
+     "definition": "The tendency to search for, interpret, favor and recall information that supports prior beliefs."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/mindcraft.jpg",
+    "alt": "Illustration for: The Trap of What We Want to Believe",
+    "prompt": "A single wooden chess piece standing alone on a well-lit table, surrounded by scattered puzzle pieces facing away from it.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Confirmation bias",
+     "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Chord progressions",
+   "title": "Chord Progressions: The Skeleton of Song",
+   "hook": "If melody is the voice of a song, a chord progression is the skeleton that holds it upright. Let us look at how stacking notes gives music its emotional gravity.",
+   "core": "At its heart, music relies on a **chord progression**, which is a succession of chords played one after another [S1]. Think of it as a journey through different emotional rooms. Before a progression is applied, playing a single chord by itself can feel static, like standing in an empty hallway with nowhere to go.\n\nWhen a producer links these chords together, the sound transforms completely. It acquires momentum, tension, and release, creating a bed of **harmony** upon which melodies and rhythms can safely rest [S1]. Without this underlying movement, a track can easily feel aimless and flat.\n\nIn Western musical tradition, these sequences form the defining structural feature of genres ranging from classical pieces to modern pop, blues, and jazz [S1]. By choosing specific combinations, a producer dictates whether a section of a song feels triumphant, melancholic, or unresolved.",
+   "context": "Prerequisites include a basic understanding of what a musical note is. Historically, chord progressions became the bedrock of Western composition during the common practice era of classical music and remain just as vital in twenty-first-century digital production [S1].",
+   "evidence": [
+    {
+     "claim": "A chord progression is a succession of chords.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Chord progressions are the foundation of harmony in Western musical tradition.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Chord progressions are the defining feature on which melody and rhythm are built in blues and jazz.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Chord progressions span from the common practice era to the 21st century.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Chord 1 (Home) --> Chord 2 (Tension) --> Chord 3 (Journey) --> Chord 4 (Resolution)",
+   "realWorld": "Virtually every pop song on the radio relies on a repeating four-chord progression to anchor its verses and choruses, allowing vocalists to sing memorable melodies over the top.",
+   "exercise": {
+    "prompt": "Open a free online virtual piano or DAW, and play three different three-note chords in a row.",
+    "answerHint": "Listen to whether the final chord feels like a satisfying ending or leaves you hanging."
+   },
+   "quiz": [
+    {
+     "q": "What best defines a chord progression?",
+     "options": [
+      "A succession of chords",
+      "A single loud note",
+      "A drum beat",
+      "A vocal microphone"
+     ],
+     "answer": 0,
+     "explanation": "A chord progression is literally a succession of chords played in an intended order."
+    },
+    {
+     "q": "According to the lesson, what is built on top of chord progressions in genres like jazz and blues?",
+     "options": [
+      "Only guitar amplifiers",
+      "Melody and rhythm",
+      "Sheet metal",
+      "Microphone stands"
+     ],
+     "answer": 1,
+     "explanation": "Chord progressions serve as the defining feature on which melody and rhythm are built [S1]."
+    }
+   ],
+   "checklist": [
+    "Select a software instrument or keyboard",
+    "Determine your starting root note",
+    "Build three simple triads",
+    "Loop them to test the flow"
+   ],
+   "furtherQuestions": [
+    "How do chord inversions change the weight of a progression?",
+    "What makes certain chord transitions sound tense while others sound resolved?"
+   ],
+   "imagePrompt": "Close up of wooden piano keys illuminated by warm desk lamp light in a quiet room, focusing on texture and grain.",
+   "keyIdea": "A chord progression is a intentional succession of chords that provides the foundational harmony and emotional direction for a piece of music.",
+   "glossary": [
+    {
+     "term": "chord progression",
+     "definition": "A succession of chords played in a specific order."
+    },
+    {
+     "term": "harmony",
+     "definition": "The combination of simultaneously sounded musical notes to produce chords."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/soundroom.jpg",
+    "alt": "Illustration for: Chord Progressions: The Skeleton of Song",
+    "prompt": "Close up of wooden piano keys illuminated by warm desk lamp light in a quiet room, focusing on texture and grain.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Chord progression",
+     "url": "https://en.wikipedia.org/wiki/Chord_progression",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Linear regression",
+   "title": "Linear Regression",
+   "hook": "You already guess trends by drawing a line through a scatter of points. Linear regression is simply how we teach a computer to do that exact same trick.",
+   "core": "When you want to estimate how one measurement changes based on another, you use **linear regression** [S1]. Imagine you are tracking study hours and exam scores. If you plot each student as a dot on a graph, the dots will form a loose upward trend. Linear regression draws a single straight line through those dots that gets as close to all of them as possible.\n\nIn statistics, this model estimates the relationship between a scalar response, which is the value you want to predict, and one or more explanatory variables, which are the inputs you use to make the prediction [S1]. When your model uses exactly one input variable, it is called a simple linear regression [S1]. When it uses two or more input variables, it becomes a multiple linear regression [S1].\n\nTo find this best-fit line, the algorithm calculates the difference between your actual data points and the predictions made by the line. It then adjusts the line to minimize those errors. Once you have the line, you can plug in a new input and read off the expected output. It is the foundation of predictive modeling, turning a messy cloud of observations into a clear rule you can code.",
+   "context": "Prerequisites include basic algebra, specifically the equation of a straight line, and basic familiarity with reading scatter plots. In your first-year computing coursework, this is often your first bridge from pure programming into machine learning, connecting basic data structures to statistical modeling.",
+   "evidence": [
+    {
+     "claim": "Linear regression estimates the relationship between a scalar response and explanatory variables related via a linear combination.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A linear model with exactly one explanatory variable is a simple linear regression.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A model with two or more explanatory variables is a multiple linear regression.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Linear regression helps bridge online degree theory with real engineering practice.",
+     "label": "inference",
+     "source": null
+    },
+    {
+     "claim": "Basic algebra is a prerequisite for understanding linear regression.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "y\n ^       .\n |     .  /\n |   .   /\n | .    /\n +---------> x",
+   "realWorld": "Software engineers use linear regression constantly to forecast server load, estimate database query times based on data size, or predict user churn based on app activity. It is fast, interpretable, and often the first model deployed before trying complex neural networks.",
+   "exercise": {
+    "prompt": "Open a Python notebook in Google Colab, import the pandas and scikit-learn libraries, and fit a simple linear regression model on a small dataset of house sizes versus prices.",
+    "answerHint": "Check that your model outputs a predicted price for a house size you provide, and verify the slope and intercept coefficients."
+   },
+   "quiz": [
+    {
+     "q": "What do we call a linear regression model with exactly one explanatory variable?",
+     "options": [
+      "Simple linear regression",
+      "Multiple linear regression",
+      "Scalar regression",
+      "Vector regression"
+     ],
+     "answer": 0,
+     "explanation": "A model with one explanatory variable is defined as a simple linear regression according to the source material."
+    },
+    {
+     "q": "What does a linear regression model estimate?",
+     "options": [
+      "The exact future without error",
+      "The relationship between a scalar response and explanatory variables",
+      "The sorting order of a database table",
+      "The memory allocation of a Python script"
+     ],
+     "answer": 1,
+     "explanation": "The model estimates the relationship between a scalar response and one or more explanatory variables."
+    }
+   ],
+   "checklist": [
+    "Install Python and pandas",
+    "Prepare input data in a two-column format",
+    "Fit the model using scikit-learn"
+   ],
+   "furtherQuestions": [
+    "How do we measure how well the line actually fits the data?",
+    "What happens to our model if our input variables are heavily correlated with each other?"
+   ],
+   "imagePrompt": "A single piece of chalk resting on a dark slate blackboard next to a faint hand-drawn diagonal line slicing through scattered chalk dots.",
+   "keyIdea": "Linear regression draws a mathematically optimal straight line through data points to predict unknown values from known inputs.",
+   "glossary": [
+    {
+     "term": "linear regression",
+     "definition": "A model that estimates the relationship between a scalar response and one or more explanatory variables."
+    },
+    {
+     "term": "scalar response",
+     "definition": "The single numerical value or outcome you are trying to predict."
+    },
+    {
+     "term": "explanatory variables",
+     "definition": "The input variables used to explain or predict changes in the response variable."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/aiml.jpg",
+    "alt": "Illustration for: Linear Regression",
+    "prompt": "A single piece of chalk resting on a dark slate blackboard next to a faint hand-drawn diagonal line slicing through scattered chalk dots.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Linear regression",
+     "url": "https://en.wikipedia.org/wiki/Linear_regression",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Virtual memory",
+   "title": "The Illusion of Space: Virtual Memory",
+   "hook": "When your computer runs many large programs at once without crashing, it relies on a clever illusion. This mechanism lets limited hardware punch far above its weight class.",
+   "core": "As a first-year computing student, you might wonder how multiple heavy programs fit into your computer at the same time. The answer is **virtual memory**, a memory management technique that creates the illusion to users of a very large main memory [S1]. Instead of handing a program direct physical access to your hardware RAM, the operating system gives it an idealized abstraction of storage resources [S1]. Think of it like a theater where the stage manager moves props on and off the main stage as different scenes require them, keeping only what is needed right now in view.\n\nHere is a tiny Python snippet that shows how we talk about memory addresses in code:\n\nmy_variable = 42\nprint(id(my_variable))\n\nThe number printed by *id()* is a virtual memory address, not a physical hardware slot. A common beginner bug is assuming that printing this address tells you where the data physically sits inside your computer chip, which leads to confusion when pointers or references behave strangely across different program runs.\n\nThe main trade-off of this structure is performance. Translating virtual addresses to physical ones requires extra work from the processor. If your physical RAM fills up, the system must swap data back and forth to slower disk storage, causing a noticeable slowdown known as thrashing.",
+   "context": "Prerequisites include a basic grasp of what hardware RAM is and how a central processing unit executes code. Historically, early computers had very restricted physical memory capacities, forcing programmers to manually shuffle data in and out of storage. Modern operating systems automate this entirely through memory management hardware, allowing programs to run safely in isolated sandboxes.",
+   "evidence": [
+    {
+     "claim": "Virtual memory is enabled by a memory management technique that provides an idealized abstraction of storage resources.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Virtual memory creates the illusion to users of a very large main memory.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Printing a variable memory address in Python reveals a virtual address rather than a physical hardware slot.",
+     "label": "inference",
+     "source": null
+    },
+    {
+     "claim": "Early computers had restricted physical memory capacities.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "+---------------+       +------------------+\n| Virtual Space | ----> | Physical RAM     | \n| (App views)   |       | (Actual hardware)|\n+---------------+       +------------------+",
+   "realWorld": "Operating systems like Linux and Windows rely on virtual memory to isolate applications from one another. If a web browser crashes due to a bad memory access, its virtual sandbox prevents it from corrupting the operating system or other running programs.",
+   "exercise": {
+    "prompt": "Write a short Python script that creates three different variables, prints their memory addresses using the id() function, and observe whether the numbers are close together or wildly different.",
+    "answerHint": "Run the script multiple times and notice that the addresses change entirely between runs, proving they are virtual abstractions."
+   },
+   "quiz": [
+    {
+     "q": "What primary illusion does virtual memory provide to users and programs?",
+     "options": [
+      "A very large main memory",
+      "An infinite power supply",
+      "A faster processor clock speed",
+      "A completely silent cooling fan"
+     ],
+     "answer": 0,
+     "explanation": "Virtual memory creates the illusion of a very large main memory by abstracting available storage resources."
+    },
+    {
+     "q": "What is a major trade-off when relying heavily on virtual memory swapping?",
+     "options": [
+      "Decreased software security",
+      "Slower system performance due to disk access",
+      "Permanent damage to the CPU",
+      "Inability to write Python scripts"
+     ],
+     "answer": 1,
+     "explanation": "Swapping data between physical RAM and slower disk storage creates performance bottlenecks."
+    }
+   ],
+   "checklist": [],
+   "furtherQuestions": [
+    "How does the operating system decide which chunks of memory to move to the disk?",
+    "What is a page fault, and what happens at the hardware level when one occurs?"
+   ],
+   "imagePrompt": "Close up of old wooden library catalog drawers with small paper labels, organized in neat rows inside a dimly lit archive room.",
+   "keyIdea": "Virtual memory provides an idealized abstraction of storage, giving programs the illusion of a massive, dedicated RAM space.",
+   "glossary": [
+    {
+     "term": "virtual memory",
+     "definition": "A memory management technique that provides an idealized abstraction of storage resources available on a machine."
+    },
+    {
+     "term": "memory management",
+     "definition": "The subsystem or technique responsible for controlling and coordinating computer memory."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/systems.jpg",
+    "alt": "Illustration for: The Illusion of Space: Virtual Memory",
+    "prompt": "Close up of old wooden library catalog drawers with small paper labels, organized in neat rows inside a dimly lit archive room.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Virtual memory",
+     "url": "https://en.wikipedia.org/wiki/Virtual_memory",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] A new generation of futexes",
+     "url": "https://lwn.net/Articles/1102988/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-17",
+     "date": "Mon, 16 Nov 2026 15:06:04 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Manjaro Project e.V. non-profit organization created",
+     "url": "https://lwn.net/Articles/1107814/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-17",
+     "date": "Mon, 16 Nov 2026 14:52:12 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: Security updates for Monday",
+     "url": "https://lwn.net/Articles/1107811/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-17",
+     "date": "Mon, 16 Nov 2026 14:17:41 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Kernel prepatch 7.4-rc3",
+     "url": "https://lwn.net/Articles/1107606/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-17",
+     "date": "Mon, 16 Nov 2026 09:07:45 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Colour theory",
+   "title": "The Grammar of Colour",
+   "hook": "Colour is not just decoration; it is a system of decisions that shapes how humans read and feel information.",
+   "core": "When you design an interface or a document, you are making choices about visual hierarchy, typography, and **colour**. In visual literacy, **colour theory** acts as your underlying rulebook, dividing into artistic traditions and objective sciences [S1]. Traditional color theory focuses on how pigments mix, how colors contrast with one another, and how harmonies or color schemes create emotional resonance. Meanwhile, color science handles the functional side of reproduction across chemistry, astronomy, and digital screens [S1]. As a first-year computing student, understanding this duality helps you realize that a button's hue isn't just an artistic preference; it is a signal that guides user attention.\n\nTo make this concrete, imagine a login page. If your background is loud and your text lacks contrast, your visual hierarchy collapses. You apply colour theory by picking a dominant hue for the background, a contrasting shade for text, and a vibrant accent for the primary action button. This is why artists and scientists have intertwined their methods historically—artistic intuition tells us what feels balanced, while color science ensures it actually renders correctly on different monitors.",
+   "context": "Prerequisites include basic familiarity with digital screens and user interfaces. Historically, colour theory grew from a mix of artistic observation and early scientific inquiry into optics. Today, it bridges the gap between creative design and technical implementation in software development.",
+   "evidence": [
+    {
+     "claim": "Traditional color theory describes the behavior of colors in color mixing, contrast, harmony, schemes, and symbolism.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Color science is more objective and has functional applications in chemistry, astronomy, and color reproduction.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Traditional color theory tends to be more subjective and have artistic applications.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Color theory and color science have intertwined throughout history to aid each other's evolutions.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Understanding color theory helps computing students design clearer software user interfaces.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "[ Background: Light Grey ]\n  |--> [ Text: Dark Charcoal ] (High Contrast)\n  |--> [ Button: Bright Blue ] (Accent / Focus)",
+   "realWorld": "Every modern application, website, and operating system uses colour theory to direct your eyes to important buttons, error states, and navigational menus without requiring you to read extra instructions.",
+   "exercise": {
+    "prompt": "Open any basic text or UI editor and create a simple form with two text fields and one submit button. Restrict your palette to a neutral background, dark text, and one bright accent colour for the submit button.",
+    "answerHint": "Check if your eyes are immediately drawn to the submit button first among all interactive elements."
+   },
+   "quiz": [
+    {
+     "q": "What is a primary focus of traditional color theory?",
+     "options": [
+      "Astrophysical data collection",
+      "Color mixing, contrast effects, and harmony",
+      "Chemical manufacturing processes",
+      "Hardware chip fabrication"
+     ],
+     "answer": 1,
+     "explanation": "Traditional color theory specifically describes color mixing, contrast effects, color harmony, color schemes, and symbolism."
+    },
+    {
+     "q": "How does color science generally differ from traditional color theory?",
+     "options": [
+      "It is strictly subjective",
+      "It has no historical connection to art",
+      "It tends to be more objective with functional applications",
+      "It ignores digital screens completely"
+     ],
+     "answer": 2,
+     "explanation": "Color science tends to be more objective and has functional applications like color reproduction and chemistry."
+    }
+   ],
+   "checklist": [
+    "Define your dominant background colour",
+    "Ensure high contrast between text and background",
+    "Select a single accent colour for key actions"
+   ],
+   "furtherQuestions": [
+    "How do digital screens render colours differently than physical paint mixing?",
+    "What accessibility standards govern minimum contrast ratios for text?"
+   ],
+   "imagePrompt": "Close-up of overlapping translucent colored glass panes casting vibrant geometric shadows on a white wooden tabletop under bright daylight.",
+   "keyIdea": "Colour theory is a structured system combining subjective artistic harmony with objective functional science to guide human attention.",
+   "glossary": [
+    {
+     "term": "colour",
+     "definition": "A visual property derived from the spectrum of light interacting with the human eye."
+    },
+    {
+     "term": "colour theory",
+     "definition": "A historical body of knowledge describing color mixing, contrast, harmony, schemes, and symbolism."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/design.jpg",
+    "alt": "Illustration for: The Grammar of Colour",
+    "prompt": "Close-up of overlapping translucent colored glass panes casting vibrant geometric shadows on a white wooden tabletop under bright daylight.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Color theory",
+     "url": "https://en.wikipedia.org/wiki/Color_theory",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Leather",
+   "title": "Frugal Chic: Leather",
+   "hook": "Leather is built to outlast trends, but you do not need to empty your savings to own quality goods. Let us look at what makes it endure.",
+   "core": "At its heart, **leather** is a strong, flexible, and durable material made by treating animal skins and hides [S1]. This chemical treatment, known as **tanning**, stops the material from decaying over time [S1]. The most common sources for these hides include cattle, sheep, goats, and pigs, though you can also find hides from horses, buffalo, ostriches, and aquatic animals [S1].\n\nWhen you are shopping on a budget, developing taste means learning to spot genuine craftsmanship without paying for luxury branding. Well-made leather features tight, even stitching, solid hardware, and edges that are cleanly finished rather than wrapped in cheap plastic coatings. Instead of buying brand new items at retail markup, look for the frugal alternatives. **Secondhand** markets, thrift stores, and estate sales are treasure troves for broken-in items that just need a little conditioning. \n\nBefore discarding a scuffed jacket or a worn bag, consider **repair**. Simple fixes like conditioning dry spots, replacing a worn zipper, or using specialized leather glue can extend an item's life for decades. DIY maintenance is not only deeply satisfying; it turns a cheap find into a signature piece that fits your life.",
+   "context": "Prerequisites: none. Historically, humanity has transformed animal hides into durable gear for thousands of years out of sheer necessity. Before synthetic plastics dominated manufacturing, leather was prized because it protected against weather, wear, and tear. Understanding this history helps you see modern leather goods not as status symbols, but as utilitarian tools designed to serve you for a very long time.",
+   "evidence": [
+    {
+     "claim": "Leather is obtained from the tanning or chemical treatment of animal skins and hides to prevent decay.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Leather is a strong, flexible and durable material.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Common leathers come from cattle, sheep, goats, equine animals, buffalo, pigs, hogs, ostriches, and aquatic animals.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Secondhand markets and repair offer a frugal alternative to buying expensive new leather goods.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "",
+   "realWorld": "You will encounter leather everywhere in daily life, from the soles of dress shoes and motorcycle jackets to vintage camera straps and furniture upholstery. Recognizing quality helps you navigate thrift stores and flea markets with confidence.",
+   "exercise": {
+    "prompt": "Find a leather item in your home or a local thrift store, inspect its seams, and gently press your thumb against the surface to observe how the grain wrinkles and responds.",
+    "answerHint": "Real leather typically shows natural grain variation and fine wrinkles under pressure, unlike uniform synthetic plastics."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary chemical process used to prevent animal skins and hides from decaying?",
+     "options": [
+      "Tanning",
+      "Weaving",
+      "Forging",
+      "Curing with salt only"
+     ],
+     "answer": 0,
+     "explanation": "Leather is obtained from tanning, which chemically treats hides to prevent decay [S1]."
+    },
+    {
+     "q": "Which of the following animals is listed as a common source for leather?",
+     "options": [
+      "Kittens",
+      "Ostriches",
+      "Eagles",
+      "Frogs"
+     ],
+     "answer": 1,
+     "explanation": "Ostriches are explicitly noted as a common source for leather alongside cattle, sheep, and goats [S1]."
+    }
+   ],
+   "checklist": [
+    "Inspect stitching for loose or uneven threads",
+    "Check current prices before buying new",
+    "Look for dry cracking that requires deep conditioning",
+    "Verify whether the hardware is solid metal or plated plastic"
+   ],
+   "furtherQuestions": [
+    "How do vegetable-tanned leathers age differently compared to chrome-tanned leathers?",
+    "What is the best type of oil or conditioner to restore dried-out vintage leather?"
+   ],
+   "imagePrompt": "Close up flat lay of a weathered brown leather book cover and a simple metal stitching awl on a wooden workbench, warm natural lighting.",
+   "keyIdea": "True style with leather comes from understanding its durable nature and choosing repaired or secondhand pieces over expensive retail items.",
+   "glossary": [
+    {
+     "term": "leather",
+     "definition": "A strong, flexible and durable material obtained from the tanning of animal skins and hides."
+    },
+    {
+     "term": "tanning",
+     "definition": "The chemical treatment of animal skins and hides to prevent decay."
+    },
+    {
+     "term": "secondhand",
+     "definition": "Items previously owned by someone else, often found at thrift stores or online marketplaces."
+    },
+    {
+     "term": "repair",
+     "definition": "Fixing damage on an existing item to extend its usable lifespan instead of replacing it."
+    }
+   ],
+   "image": {
+    "src": "data/img/014/frugal.jpg",
+    "alt": "Illustration for: Frugal Chic: Leather",
+    "prompt": "Close up flat lay of a weathered brown leather book cover and a simple metal stitching awl on a wooden workbench, warm natural lighting.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Leather",
+     "url": "https://en.wikipedia.org/wiki/Leather",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-17"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "cipher",
+  "title": "Language day: crack the cipher",
+  "prompt": "Each letter was moved 4 places forward in the alphabet. Decode: PEGSRMG",
+  "answer": "laconic",
+  "explanation": "Shift every letter back by 4. The word is \"laconic\"."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Scripture in Context: 1 Thessalonians 1"
+   },
+   {
+    "house": "mindcraft",
+    "text": "The Trap of What We Want to Believe"
+   },
+   {
+    "house": "soundroom",
+    "text": "Chord Progressions: The Skeleton of Song"
+   },
+   {
+    "house": "aiml",
+    "text": "Linear Regression"
+   },
+   {
+    "house": "systems",
+    "text": "The Illusion of Space: Virtual Memory"
+   },
+   {
+    "house": "design",
+    "text": "The Grammar of Colour"
+   },
+   {
+    "house": "frugal",
+    "text": "Frugal Chic: Leather"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Scripture in Context: 1 Thessalonians 1",
+    "text": "When a first-century traveling teacher writes a quick check-in letter to a young community in Greece, what does he actually say? Let us look at the text without the stained-glass filters. 1 Thessalonians is a short letter written by Paul the Apostle, along with Silvanus and Timothy, addressed to the assembly of the Thessalonians [S1, S2].",
+    "sources": [
+     "https://bible-api.com/1%20Thessalonians%201%3A1-10",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Thessalonians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "The Trap of What We Want to Believe",
+    "text": "Your brain loves to be right so much that it actively hides facts from you. Let's look at the mechanics behind that blind spot. Confirmation bias is the human tendency to search for, interpret, favor, and recall information that matches what we already believe [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Confirmation_bias"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Chord Progressions: The Skeleton of Song",
+    "text": "If melody is the voice of a song, a chord progression is the skeleton that holds it upright. Let us look at how stacking notes gives music its emotional gravity. At its heart, music relies on a chord progression, which is a succession of chords played one after another [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chord_progression"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Linear Regression",
+    "text": "You already guess trends by drawing a line through a scatter of points. Linear regression is simply how we teach a computer to do that exact same trick. When you want to estimate how one measurement changes based on another, you use linear regression [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Linear_regression"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "The Illusion of Space: Virtual Memory",
+    "text": "When your computer runs many large programs at once without crashing, it relies on a clever illusion. This mechanism lets limited hardware punch far above its weight class. As a first-year computing student, you might wonder how multiple heavy programs fit into your computer at the same time.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Virtual_memory",
+     "https://lwn.net/Articles/1102988/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Grammar of Colour",
+    "text": "Colour is not just decoration; it is a system of decisions that shapes how humans read and feel information. When you design an interface or a document, you are making choices about visual hierarchy, typography, and colour.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Color_theory"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Frugal Chic: Leather",
+    "text": "Leather is built to outlast trends, but you do not need to empty your savings to own quality goods. Let us look at what makes it endure. At its heart, leather is a strong, flexible, and durable material made by treating animal skins and hides [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Leather"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: recalcitrant",
+   "Puzzle: Language day: crack the cipher",
+   "AI/ML signal: llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+  ]
+ }
+}

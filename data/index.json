@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 14,
+   "slug": "014",
+   "publishedAt": "2026-11-17T11:54:44.085Z",
+   "theme": "1 Thessalonians 1:1-10 · Confirmation bias · Chord progressions",
+   "failed": [],
+   "cover": "data/img/014/cover.jpg"
+  },
+  {
    "n": 13,
    "slug": "013",
    "publishedAt": "2026-11-15T11:02:48.064Z",
