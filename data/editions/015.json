@@ -1,0 +1,1042 @@
+{
+ "n": 15,
+ "slug": "015",
+ "publishedAt": "2026-11-19T11:51:19.402Z",
+ "theme": "1 Thessalonians 2:1-12 · Emotional intelligence · Microphones",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash",
+   "gemini/gemini-3.5-flash",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/015/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "taciturn",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Reserved, uncommunicative, or habitually saying very little.",
+   "example": "The senior sysadmin was notoriously taciturn, preferring to communicate through precise log files rather than long meetings.",
+   "exercise": "Write a sentence using 'taciturn' to describe a minimalist command-line tool that gives minimal console output.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Terminal Silence",
+   "hexes": [
+    "#1E222A",
+    "#4C566A",
+    "#D8DEE9"
+   ],
+   "note": "Deep obsidian charcoal creates a grounded base, while cool slate grey provides subtle visual structure. Soft chalk white offers clear readable contrast without harshness, evoking quiet late-night terminal screens and distraction-free editors.",
+   "application": "Ideal for a dark-mode developer dashboard, code block highlights, or a low-distraction documentation reader.",
+   "accessibility": "Strongest pair: #1E222A with #D8DEE9, contrast 11.80:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "JetBrains Mono",
+   "character": "Precise, pragmatic, and highly readable. Its enlarged punctuation marks and distinct character shapes give technical text a clean, intentional feel.",
+   "bestUses": "Works exceptionally well in text editors, terminal interfaces, and code snippets. Avoid using it for long-form narrative body text or warm marketing pages.",
+   "url": "https://fonts.google.com/specimen/JetBrains+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Command Palette",
+   "reasoning": "Designers use command palettes to give power users instant, keyboard-driven access to deep application features. Triggered by a quick shortcut like Cmd+K, it hides complex navigation trees behind a simple search field. This pattern maintains a uncluttered canvas while drastically speeding up repetitive workflows.",
+   "tryIt": "Press Cmd+Shift+P or Ctrl+Shift+P in VS Code or your browser. Find three routine tasks you usually click to perform, and practice triggering them exclusively via keyboard search.",
+   "aiGenerated": true
+  },
+  "challenge": "Write a three-line terminal status summary for a 'taciturn' background service, using the Terminal Silence color hexes to highlight errors, warnings, and success states.",
+  "aiSignal": {
+   "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+   "url": "https://arxiv.org/abs/2611.24932v1",
+   "date": "2026-11-18T18:55:07Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Based on the short summary available, researchers proposed a framework explaining what makes a human reviewer useful when collaborating with AI models on complex decisions. They argue that a reviewer's true value stems from metacognitive calibration—how accurately their personal confidence matches their actual correctness—rather than their speed or tenure.",
+   "whyItMatters": "As software engineering shifts toward building human-in-the-loop AI systems, knowing how humans effectively complement automated systems is a critical design problem. This framework suggests system designers should evaluate reviewer self-awareness rather than raw activity or throughput.",
+   "takeaway": "When reviewing automated system outputs, your primary value comes from accurately knowing what you do and do not know, not just working fast."
+  },
+  "openTab": {
+   "url": "https://roadmap.sh",
+   "name": "Developer Roadmaps - roadmap.sh",
+   "what": "roadmap.sh is a community-driven platform featuring developer roadmaps, articles, and guides.",
+   "whyBookmark": "It provides structured visual paths and resources to help you navigate your learning and grow your developer career.",
+   "verified": true,
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Thessalonians 2:1-12",
+   "title": "Integrity and Affection in Thessalonica",
+   "hook": "How did an early Christian leader defend his character when facing public hostility? In *1 Thessalonians*, Paul reveals the personal sacrifices and maternal gentleness behind his ministry.",
+   "core": "In *1 Thessalonians*, Paul defends his motives and conduct during his ministry in Thessalonica, Greece. He reminds the believers that despite being shamefully treated at Philippi, he and his companions grew bold to preach the **Good News** amidst conflict. Paul asserts that his **exhortation** did not stem from error, uncleanness, or deception. He deliberately avoided **flattery**, greed, or seeking praise from people, even though as **apostles** of Christ they could have asserted authority.\n\nInstead of demanding status, Paul uses vivid metaphors to describe their pastoral care. He depicts their gentle conduct as resembling a nursing mother cherishing her children, sharing not just the message of God but their very lives. Furthermore, Paul recalls their hard manual work, laboring night and day so as not to burden the community financially. He also frames his leadership through the image of a father, exhorting, comforting, and imploring every believer to walk worthily of God.",
+   "context": "The *First Epistle to the Thessalonians* is a New Testament letter written by Paul the Apostle to the early Christian congregation in Thessalonica, located in modern-day Greece. To read ancient epistles accurately, one must understand how letter writing served as a vital tool to maintain relationships and defend personal integrity across geographical distances. Thessalonica was a prominent urban trade hub in Roman Macedonia. Paul highlights prior mistreatment in Philippi before his arrival, demonstrating the physical risks early religious teachers encountered.",
+   "evidence": [
+    {
+     "claim": "Paul states he was shamefully treated at Philippi before preaching in Thessalonica.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The epistle is addressed to the church in Thessalonica in modern-day Greece.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Paul worked night and day so as not to be a financial burden to the Thessalonians.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul used both maternal and paternal metaphors to describe his pastoral approach.",
+     "label": "inference",
+     "source": "S1"
+    },
+    {
+     "claim": "Traveling teachers in the Greco-Roman world were often suspected of philosophical charlatanism or financial greed.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Mother's Care <---> Manual Labor <---> Father's Counsel\n(Imparting life)   (Night & day work)  (Imploring worthy walk)",
+   "realWorld": "Analyzing Paul's defense provides a template for historical-critical reading of ancient letters. Historians evaluate how ancient figures constructed personal credibility (*ethos*) when navigating public suspicion. By observing how Paul balanced manual self-support with emotional warmth, readers gain insight into how early movement leaders managed public reputation and group cohesion under pressure.",
+   "exercise": {
+    "prompt": "Read 1 Thessalonians 2:1-12 alongside an online summary of ancient Greco-Roman letter writing. Note three places where Paul explicitly appeals to his readers' own memories of his conduct.",
+    "answerHint": "Look for repeated phrases such as 'as you know' or 'you remember' in verses 1, 2, 5, 9, and 11."
+   },
+   "quiz": [
+    {
+     "q": "Why did Paul work night and day while preaching in Thessalonica?",
+     "options": [
+      "To earn profits for sending money back to Jerusalem",
+      "To avoid being a financial burden to the local believers",
+      "To pay off legal fines incurred after leaving Philippi",
+      "To secure funds to build a local church building"
+     ],
+     "answer": 1,
+     "explanation": "In verse 9, Paul reminds the Thessalonians of his hard labor night and day so that he would not burden any of them while preaching."
+    },
+    {
+     "q": "Where is the city of Thessalonica located today?",
+     "options": [
+      "Modern-day Turkey",
+      "Modern-day Italy",
+      "Modern-day Greece",
+      "Modern-day Egypt"
+     ],
+     "answer": 2,
+     "explanation": "According to source S2, Thessalonica is located in modern-day Greece."
+    }
+   ],
+   "checklist": [
+    "Identify the sender, recipients, and location of the epistle.",
+    "Distinguish textual claims from historical background context.",
+    "Identify the leadership metaphors used in the passage."
+   ],
+   "furtherQuestions": [
+    "How does Paul's insistence on working night and day compare with his practices in other early churches?",
+    "What social or religious factors in Roman Macedonia created the conflict Paul mentions experiencing?"
+   ],
+   "imagePrompt": "An open leather manuscript on a weathered wooden tabletop beside an unlit antique clay oil lamp, a reed pen, and folded coarse linen under soft morning light.",
+   "keyIdea": "Paul defends his integrity in Thessalonica by highlighting his manual labor, gentle care, and focus on pleasing God rather than seeking human praise.",
+   "glossary": [
+    {
+     "term": "Good News",
+     "definition": "The core Christian message regarding salvation and the divine kingdom brought through Jesus Christ."
+    },
+    {
+     "term": "exhortation",
+     "definition": "An earnest address intended to advise, encourage, or urge people toward right conduct."
+    },
+    {
+     "term": "flattery",
+     "definition": "Insincere praise intended to manipulate others or gain personal advantage."
+    },
+    {
+     "term": "apostles",
+     "definition": "Commissioned messengers and early church leaders sent out to proclaim Christian teachings."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/theology.jpg",
+    "alt": "Illustration for: Integrity and Affection in Thessalonica",
+    "prompt": "An open leather manuscript on a weathered wooden tabletop beside an unlit antique clay oil lamp, a reed pen, and folded coarse linen under soft morning light.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Thessalonians 2:1-12 (World English Bible)",
+     "url": "https://bible-api.com/1%20Thessalonians%202%3A1-12",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-19"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Thessalonians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Thessalonians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Emotional intelligence",
+   "title": "Navigating Emotional Intelligence",
+   "hook": "Raw intelligence helps you solve complex problems, but how you handle internal signals determines how effectively you apply that intelligence in real-world environments.",
+   "core": "**Emotional intelligence** is the capacity to perceive, understand, use, and manage internal emotional states alongside those of others. Rather than treating feelings as unwanted noise in your logical processing, real psychological framework views them as raw data. When you experience frustration during a debugging session or anxiety before a code review, that feeling carries information about your environment, priorities, and boundaries.\n\nA core component of this skill is **emotional recognition**, which involves identifying subtle shifts in your physiological state before they escalate into reactive behavior. Once recognized, applying **emotional literacy** enables you to move beyond broad labels like \"bad\" or \"stressed\" to precise terms like \"overwhelmed by scope\" or \"defensive about critique.\" This process, known in cognitive psychology as **affect labeling**, creates psychological distance between the observer and the emotion.\n\nBy understanding these signals, you can deliberately guide your thinking and behavior to adapt to changing environments. Instead of allowing a spike of anger to dictate an immediate reply, you use that emotional information to pause, reframe the problem, and choose a constructive response. Developing this feedback loop transforms emotions from unpredictable interruptions into practical inputs for clear communication and personal discipline.",
+   "context": "Before entering team projects or workplace environments, many technical learners assume technical competency is the sole predictor of success. However, early career developers frequently encounter friction not from code errors, but from unmanaged communication stress and defensive reactions during peer reviews. Prerequisites for building emotional intelligence involve basic self-observation and a willingness to inspect subjective experiences objectively. Treating your emotional responses with the same systematic curiosity you apply to software debugging provides a practical foundation for long-term professional growth and daily well-being.",
+   "evidence": [
+    {
+     "claim": "Emotional intelligence involves perceiving, using, understanding, and managing emotions in oneself and others.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "High emotional intelligence includes emotional literacy and using emotional information to guide thinking and behavior.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Labeling specific emotions helps individuals adjust their emotional state to adapt to dynamic environments.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Translating physiological states into precise verbal labels reduces immediate emotional reactivity.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "[ Internal Trigger ] -> [ Physical Sensing ] -> [ Affect Labeling ] -> [ Intentional Response ]",
+   "realWorld": "In open-source software projects and technical teams, developers constantly receive blunt pull request feedback. A developer with low emotional awareness might interpret a critical comment as a personal attack, leading to defensive arguments. Conversely, a developer applying emotional intelligence recognizes their initial flash of annoyance, labels it as pride, and channels that energy into evaluating the technical merit of the critique rationally.",
+   "exercise": {
+    "prompt": "Set a timer for ten minutes while working. When it rings, write down your immediate body sensation (such as tight shoulders or shallow breathing) and map it to a specific emotion word (such as impatient, overwhelmed, or focused).",
+    "answerHint": "Verify that your written entry uses a specific emotion term rather than a generic label like 'fine' or 'bad'."
+   },
+   "quiz": [
+    {
+     "q": "What does emotional literacy primarily allow a person to do?",
+     "options": [
+      "Eliminate negative emotions entirely through willpower.",
+      "Discern between and label precise emotional states accurately.",
+      "Predict the exact emotional reactions of strangers.",
+      "Guarantee a higher intelligence quotient in standardized testing."
+     ],
+     "answer": 1,
+     "explanation": "Emotional literacy involves recognizing and accurately labeling distinct feelings to better understand and manage them."
+    },
+    {
+     "q": "How does emotional intelligence treat emotional signals during decision-making?",
+     "options": [
+      "As useless noise that must be completely ignored.",
+      "As permanent facts that should dictate every immediate action.",
+      "As practical information that can guide thinking and behavior.",
+      "As signs of logical weakness in technical environments."
+     ],
+     "answer": 2,
+     "explanation": "Emotional intelligence uses emotional information as valuable data to guide constructive thinking and adaptive behavior."
+    }
+   ],
+   "checklist": [
+    "Pause briefly when feeling a sudden spike in physical tension.",
+    "Replace broad terms like 'stressed' with specific emotional labels.",
+    "Separate the immediate feeling from your choice of action."
+   ],
+   "furtherQuestions": [
+    "How do cognitive reframing techniques interact with real-time emotional regulation?",
+    "What role does psychological safety play in team-level emotional intelligence?"
+   ],
+   "imagePrompt": "A wooden desk featuring a blank notebook, a brass hourglass, a ceramic mug, and a single smooth river stone under natural window light.",
+   "keyIdea": "Emotional intelligence is the ability to recognize, label, and use emotional information systematically to guide clear thinking and intentional behavior.",
+   "glossary": [
+    {
+     "term": "emotional intelligence",
+     "definition": "The ability to perceive, understand, manage, and use emotions effectively to guide behavior."
+    },
+    {
+     "term": "emotional recognition",
+     "definition": "The process of identifying and noticing emotional states within oneself and in other people."
+    },
+    {
+     "term": "emotional literacy",
+     "definition": "The capacity to accurately identify and label specific feelings with clear, nuanced vocabulary."
+    },
+    {
+     "term": "affect labeling",
+     "definition": "Putting internal emotional experiences into specific words to create distance and lower immediate reactivity."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/mindcraft.jpg",
+    "alt": "Illustration for: Navigating Emotional Intelligence",
+    "prompt": "A wooden desk featuring a blank notebook, a brass hourglass, a ceramic mug, and a single smooth river stone under natural window light.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Emotional intelligence",
+     "url": "https://en.wikipedia.org/wiki/Emotional_intelligence",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Microphones",
+   "title": "Microphones: Translating Pressure into Power",
+   "hook": "Before a computer can process a song, physical ripples in the air must become electrical waves. Microphones make that essential translation happen.",
+   "core": "At its core, a microphone is a **transducer**, a device that converts physical sound into an **electrical signal**. When a musician sings or plucks a string, they create mechanical **sound waves**—ripples of pressure traveling through the air. Before hitting a microphone, this sound is purely acoustic energy that fades quickly into the surrounding room.\n\nInside the microphone capsule, those air pressure changes move a sensitive membrane. This motion generates a matching electrical **voltage** that mirrors the original acoustic wave. After conversion, the sound exists as an electrical current ready to be amplified, stored, or processed inside digital software.\n\nProducers select microphones based on how accurately or warmly they capture this energy. Before recording, an acoustic guitar sounds airy and scattered across space; after passing through a microphone into speakers, that same performance sounds focused, direct, and controllable.\n\nTo test this yourself, record your voice using your phone microphone, then play it back through headphones. You will hear how physical air movement was captured, saved, and regenerated as sound.",
+   "context": "Microphones transformed sound from a temporary experience into a permanent medium. Early recording required performers to shout into giant horns to physically carve grooves into wax cylinders. The arrival of electrical microphones allowed quiet, intimate vocal techniques like crooning to exist. Today, microphones appear everywhere from professional recording studios to consumer electronics like mobile phones, hearing aids, and laptop webcams. Understanding how microphones translate sound helps programmers and audio engineers manipulate digital signals effectively.",
+   "evidence": [
+    {
+     "claim": "A microphone converts sound energy into an electrical signal.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Microphones are used in telecommunication, sound recording, and broadcasting.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Consumer electronics like mobile devices and hearing aids rely on microphones.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Early acoustic recording required performers to physically vibrate wax discs through large acoustic horns.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[Sound Waves in Air] ---> [Microphone Membrane] ---> [Electrical Voltage]",
+   "realWorld": "Microphones are built into modern smartphones, smart home assistants, and gaming headsets. In computing, webcams use miniature microphones to feed audio drivers, converting physical speech into digital packets for voice calls. Every time you speak to a digital assistant or join an online meeting, a micro-transducer is converting your voice into electricity.",
+   "exercise": {
+    "prompt": "Open a built-in voice recorder app on your laptop or phone. Record yourself clapping once while standing three feet away, then clap once directly next to the microphone.",
+    "answerHint": "Notice how the distant clap sounds reverberant and quiet, while the close clap produces a loud, high-voltage spike in the waveform."
+   },
+   "quiz": [
+    {
+     "q": "What is the fundamental job of a microphone?",
+     "options": [
+      "To amplify quiet sounds directly into room air",
+      "To convert mechanical sound waves into an electrical signal",
+      "To convert digital files into audible sound",
+      "To filter out background noise automatically"
+     ],
+     "answer": 1,
+     "explanation": "Microphones act as transducers that convert acoustic sound waves into an electrical signal."
+    },
+    {
+     "q": "Which device category relies on microphones according to established sources?",
+     "options": [
+      "Hearing aids and mobile devices",
+      "Passive acoustic guitars",
+      "Unpowered headphones",
+      "Optical fiber cables"
+     ],
+     "answer": 0,
+     "explanation": "Official sources confirm microphones are widely used in consumer electronics, including hearing aids and mobile devices."
+    }
+   ],
+   "checklist": [
+    "Check if your microphone requires external power.",
+    "Position the microphone at an appropriate distance from the sound source.",
+    "Monitor audio levels to prevent digital distortion."
+   ],
+   "furtherQuestions": [
+    "How do different microphone designs, such as dynamic and condenser types, capture sound differently?",
+    "How does an analog audio signal from a microphone get converted into binary data for computers?"
+   ],
+   "imagePrompt": "A metallic vintage microphone sitting on a dark wooden table next to a brass coil and isolated audio cables under warm studio lighting.",
+   "keyIdea": "Microphones are transducers that turn physical sound waves in the air into electrical signals that computers and audio equipment can process.",
+   "glossary": [
+    {
+     "term": "transducer",
+     "definition": "A device that converts energy from one physical form into another."
+    },
+    {
+     "term": "electrical signal",
+     "definition": "An electric voltage or current that carries information like sound."
+    },
+    {
+     "term": "sound waves",
+     "definition": "Ripples of pressure that travel through air or other media."
+    },
+    {
+     "term": "voltage",
+     "definition": "Electrical potential difference that pushes electric current through a circuit."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/soundroom.jpg",
+    "alt": "Illustration for: Microphones: Translating Pressure into Power",
+    "prompt": "A metallic vintage microphone sitting on a dark wooden table next to a brass coil and isolated audio cables under warm studio lighting.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Microphone",
+     "url": "https://en.wikipedia.org/wiki/Microphone",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Cross-validation",
+   "title": "Testing Twice: Cross-Validation",
+   "hook": "If you train a machine learning model on all your data, you are essentially letting a student memorize the exam questions before the test. **Cross-validation** stops this self-deception.",
+   "core": "Imagine you are building a system to predict apartment prices. You gather data on one hundred apartments, but if you train your algorithm on all of them and then test it on those exact same apartments, your score will look artificially great. Your model has not learned patterns; it has memorized answers. This trap is called overfitting.\n\nTo fix this, engineers use **cross-validation**, a family of techniques where you split your available data into different portions [S1]. On one iteration, you train your predictive model on a large slice of the data and test its accuracy on the remaining unseen slice. Then, you rotate the slices, repeating the process so every piece of data gets a turn in both the training group and the testing group [S1].\n\nThis resampling approach gives you a much truer estimate of how well your model will perform when it encounters brand new data in the real world [S1]. It also helps you assess the stability of your model parameters [S1]. Instead of trusting a single lucky random split, you average your performance scores across multiple rounds, giving you a reliable measure of predictive power.",
+   "context": "Before tackling this, you need a basic grasp of what a predictive model is and how training data works in machine learning. In your first-year computing degree, you will often hear this called out-of-sample testing or rotation estimation [S1]. It bridges the gap between raw academic datasets and messy production software engineering.",
+   "evidence": [
+    {
+     "claim": "Cross-validation is sometimes called rotation estimation or out-of-sample testing.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It includes resampling and sample splitting methods that use different portions of data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It is often used when the goal is prediction to estimate practical performance accuracy.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It can be used to assess the quality of a fitted model and parameter stability.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Overfitting happens when a model memorizes training examples instead of learning general patterns.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Split Data: [Test][Train][Train][Train] -> Rotate: [Train][Test][Train][Train]",
+   "realWorld": "Software engineers building recommendation engines or fraud detection tools cannot risk deploying a model that only works on historical test sets. They use cross-validation pipelines in automated testing frameworks to ensure algorithms remain robust against fresh user behavior.",
+   "exercise": {
+    "prompt": "Write a short Python script using scikit-learn's KFold function to split a small dataset of ten numbers into five training and testing folds.",
+    "answerHint": "Iterate through the split object and print the indices for each train and test array to verify they rotate correctly."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary goal of cross-validation?",
+     "options": [
+      "To assess how results of a statistical analysis will generalize to an independent dataset",
+      "To make the training phase run twice as fast",
+      "To permanently delete outlier rows from a database",
+      "To increase the size of a small dataset by generating fake numbers"
+     ],
+     "answer": 0,
+     "explanation": "Cross-validation is specifically designed to evaluate how a model generalizes to independent, unseen data."
+    },
+    {
+     "q": "How do resampling methods operate during cross-validation iterations?",
+     "options": [
+      "They use the exact same portion of data for both training and testing simultaneously",
+      "They use different portions of the data to test and train a model on different iterations",
+      "They throw away ninety percent of the data permanently",
+      "They rely exclusively on human intuition rather than mathematical splits"
+     ],
+     "answer": 1,
+     "explanation": "Cross-validation utilizes different portions of data across different iterations to test and train the model."
+    }
+   ],
+   "checklist": [
+    "Confirm your dataset is shuffled before splitting",
+    "Check that your evaluation metric matches your project goal",
+    "Ensure no data leakage occurs between training and test folds"
+   ],
+   "furtherQuestions": [
+    "How many folds should I use for cross-validation in a large production dataset?",
+    "What is the difference between standard cross-validation and stratified cross-validation for imbalanced classes?"
+   ],
+   "imagePrompt": "A neatly organized wooden workbench with three identical ceramic bowls, a small handful of colored glass beads being sorted into different bowls under soft natural window light.",
+   "keyIdea": "Cross-validation rotates data between training and testing subsets to reliably estimate how a predictive model will perform on unseen real-world data.",
+   "glossary": [
+    {
+     "term": "cross-validation",
+     "definition": "A model validation technique using different portions of data to test and train a model across multiple iterations."
+    },
+    {
+     "term": "resampling",
+     "definition": "A statistical method involving repeated sample splitting to test model accuracy."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/aiml.jpg",
+    "alt": "Illustration for: Testing Twice: Cross-Validation",
+    "prompt": "A neatly organized wooden workbench with three identical ceramic bowls, a small handful of colored glass beads being sorted into different bowls under soft natural window light.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Cross-validation (statistics)",
+     "url": "https://en.wikipedia.org/wiki/Cross-validation_(statistics)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Hash tables",
+   "title": "The Systems Forge: Hash Tables",
+   "hook": "Imagine trying to find a word in a dictionary where the pages are blank and completely out of order. A hash table solves this chaos by turning any piece of information into an instant, direct address.",
+   "core": "When you write software, you often need to store items so you can look them up instantly. If you use a simple list, you have to scan through every single item until you find the right one, which takes too long as your data grows. A **hash table** is a data structure designed to solve this by implementing an **associative array**—an abstract data type that maps **keys** to values [S1].\n\nTo make this work, a hash table uses a **hash function** to compute an index, also known as a **hash code**, into an array of buckets or slots [S1]. During a lookup, the key is passed through this function, and the resulting hash indicates exactly where the corresponding value is stored [S1]. A map implemented this way is frequently called a **hash map** [S1].\n\nA common beginner bug is assuming that a hash function always returns unique values for every unique key. When two different keys produce the same hash code, a collision occurs, and your program must handle it gracefully or risk overwriting data.\n\nThe main trade-off is memory versus speed. Hash tables give you very fast lookups, but they require extra memory overhead to maintain the underlying array and manage collisions.",
+   "context": "Before looking at hash tables, you should be comfortable with basic arrays and loops in your programming language of choice. While arrays require you to know numeric positions, hash tables let you use descriptive labels like names or IDs. They appear everywhere in modern computing, from routing tables in networking to symbol tables in compilers, ensuring that large volumes of data can be retrieved without scanning linear lists.",
+   "evidence": [
+    {
+     "claim": "A hash table is a data structure that implements an associative array, mapping keys to values.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "An associative array is also called a dictionary or simply map.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A hash table uses a hash function to compute an index or hash code into an array of buckets or slots.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A map implemented by a hash table is called a hash map.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "Key --> [Hash Function] --> Hash Code --> [Array Bucket] --> Stored Value",
+   "realWorld": "Hash tables power the internal dictionaries and symbol lookups in programming languages like Python, JavaScript, and Julia. They allow compilers and interpreters to find variable names and function definitions instantly while executing code.",
+   "exercise": {
+    "prompt": "Write a short Python script using a dictionary (hash map) to count how many times each word appears in a sentence.",
+    "answerHint": "Print the dictionary to verify that each unique word maps to its correct count."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary purpose of a hash function in a hash table?",
+     "options": [
+      "To encrypt the data for secure transmission",
+      "To compute an index into an array of buckets",
+      "To sort the keys in alphabetical order automatically",
+      "To compress the size of the values stored"
+     ],
+     "answer": 1,
+     "explanation": "A hash function computes an index or hash code into an array of buckets where the value is stored."
+    },
+    {
+     "q": "What is an associative array also commonly called according to the text?",
+     "options": [
+      "A linked list or queue",
+      "A binary search tree",
+      "A dictionary or map",
+      "A sequential stream"
+     ],
+     "answer": 2,
+     "explanation": "An associative array is also called a dictionary or simply map."
+    }
+   ],
+   "checklist": [
+    "Choose descriptive keys that do not change over time.",
+    "Ensure your programming language's built-in hash map handles collisions automatically.",
+    "Check memory usage if you are storing millions of tiny items."
+   ],
+   "furtherQuestions": [
+    "How do programming languages handle hash collisions under the hood?",
+    "What makes a good hash function versus a bad one?"
+   ],
+   "imagePrompt": "Close up of an old wooden sorting tray with many small compartments filled with varying metal tokens and smooth river stones under warm directional light.",
+   "keyIdea": "A hash table uses a mathematical function to turn keys into direct array indices, trading a bit of memory for instant lookups.",
+   "glossary": [
+    {
+     "term": "hash table",
+     "definition": "A data structure that implements an associative array to map keys to values using a hash function."
+    },
+    {
+     "term": "associative array",
+     "definition": "An abstract data type that maps keys to values."
+    },
+    {
+     "term": "hash function",
+     "definition": "A function used to compute an index or hash code into an array of buckets."
+    },
+    {
+     "term": "hash map",
+     "definition": "A map implemented by a hash table."
+    },
+    {
+     "term": "keys",
+     "definition": "Identifiers used to look up corresponding values in an associative array."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/systems.jpg",
+    "alt": "Illustration for: The Systems Forge: Hash Tables",
+    "prompt": "Close up of an old wooden sorting tray with many small compartments filled with varying metal tokens and smooth river stones under warm directional light.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Hash table",
+     "url": "https://en.wikipedia.org/wiki/Hash_table",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: [$] LWN.net Weekly Edition for November 19, 2026",
+     "url": "https://lwn.net/Articles/1107147/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-19",
+     "date": "Thu, 19 Nov 2026 01:05:03 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: NGINX2Root: Remote Code Execution vulnerabilities in nginx",
+     "url": "https://lwn.net/Articles/1108362/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-19",
+     "date": "Wed, 18 Nov 2026 16:13:34 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: [$] Julia 1.13 brings REPL improvements and more",
+     "url": "https://lwn.net/Articles/1108153/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-19",
+     "date": "Wed, 18 Nov 2026 15:56:18 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Security updates for Wednesday",
+     "url": "https://lwn.net/Articles/1108354/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-19",
+     "date": "Wed, 18 Nov 2026 14:17:35 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Typography",
+   "title": "The Architecture of Letters",
+   "hook": "Typography is not just about picking pretty fonts. It is a systematic engineering problem that guides the human eye through raw text.",
+   "core": "**Typography** is the art and technique of arranging type to make written language legible and readable when displayed [S1]. Think of it as the layout planning of human communication.\n\nThe arrangement of type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters [S1]. Every single one of these choices is a deliberate variable that changes how a human brain processes a sentence.\n\nWhen you adjust the distance between two letters, or widen the white space between lines, you are controlling cognitive friction. If the text is too cramped, the reader gives up. If it is too loose, the brain loses the thread of the thought.\n\nType design is a closely related craft, sometimes considered part of typography; most typographers do not design typefaces, and some type designers do not consider themselves typographers [S1]. Typography also may be used as an ornamental and decorative device, unrelated to the communication of information [S1].",
+   "context": "Prerequisites: You must be able to view digital text on a screen and notice how different websites feel. Historically, typography began with metal movable type where every single letter was a physical block carved by hand, requiring meticulous spacing to prevent ink from bleeding.",
+   "evidence": [
+    {
+     "claim": "Typography is the art and technique of arranging type to make written language legible and readable when displayed.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The arrangement of type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Type design is a closely related craft, sometimes considered part of typography.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Most typographers do not design typefaces, and some type designers do not consider themselves typographers.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Typography also may be used as an ornamental and decorative device, unrelated to the communication of information.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "NORMAL TEXT: The quick brown fox\n[Line spacing increased]\nThe quick brown fox\n[Letter spacing increased]\nT h e   q u i c k   b r o w n",
+   "realWorld": "Every time you open a smartphone app, read an error message in a terminal, or look at a street sign, someone has made deliberate typographic choices to keep you from getting confused.",
+   "exercise": {
+    "prompt": "Open a simple text editor or word processor. Write a single sentence. Double the space between the letters of the words, then export or screenshot it.",
+    "answerHint": "Check if the words still read as cohesive units or if they feel broken apart."
+   },
+   "quiz": [
+    {
+     "q": "What does typography primarily aim to make written language?",
+     "options": [
+      "Colorful and loud",
+      "Legible and readable",
+      "Complex and encrypted",
+      "Cost-effective to print"
+     ],
+     "answer": 1,
+     "explanation": "Typography is defined as the art and technique of arranging type to make written language legible and readable."
+    },
+    {
+     "q": "Which of the following is part of the arrangement of type according to the text?",
+     "options": [
+      "Paper weight and texture",
+      "Point sizes and line spacing",
+      "Ink chemical composition",
+      "Binding methods"
+     ],
+     "answer": 1,
+     "explanation": "The text explicitly states that arranging type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters."
+    }
+   ],
+   "checklist": [
+    "Check line spacing for readability",
+    "Ensure letter spacing is consistent",
+    "Select a clear typeface for body text"
+   ],
+   "furtherQuestions": [
+    "How do screen resolutions change the way we design typefaces?",
+    "What is the difference between a typeface and a font?"
+   ],
+   "imagePrompt": "Close-up macro shot of metal printing blocks lined up in a wooden tray, showing raw industrial textures and metallic edges under soft studio light.",
+   "keyIdea": "Typography is a system of deliberate spatial decisions that transforms raw letters into clear, readable human communication.",
+   "glossary": [
+    {
+     "term": "Typography",
+     "definition": "The art and technique of arranging type to make written language legible and readable when displayed."
+    },
+    {
+     "term": "Typefaces",
+     "definition": "A set of one or more fonts each comprising glyphs that share common design features."
+    },
+    {
+     "term": "Type design",
+     "definition": "A closely related craft concerned with creating the actual styles of letters, numbers, and symbols."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/design.jpg",
+    "alt": "Illustration for: The Architecture of Letters",
+    "prompt": "Close-up macro shot of metal printing blocks lined up in a wooden tray, showing raw industrial textures and metallic edges under soft studio light.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Typography",
+     "url": "https://en.wikipedia.org/wiki/Typography",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Upcycling",
+   "title": "Upcycling",
+   "hook": "Develop your taste without spending a fortune to perform it. Turn what others throw away into something genuinely useful and beautiful.",
+   "core": "**Upcycling**, also known as creative reuse, is the process of transforming by-products, waste materials, useless, or unwanted products into new materials or products perceived to be of greater quality, such as artistic value or environmental value [S1].\n\nWhen we look at what makes an upcycled object beautiful, we look for intention. It is not just about gluing trash together; it is about respecting the raw material. A well-made upcycled piece respects structural integrity. If you turn an old wooden pallet into a shelf, the joints must be secure and the wood properly sanded so it does not splinter.\n\nThe frugal alternative to buying new is embracing secondhand items, learning basic **repair**, and doing things yourself. Instead of purchasing a brand-new desk organizer, you can clean empty tin cans and wrap them in leftover yarn. This approach saves money and builds genuine crafting competence.\n\nTaste is developed through constraint. When you cannot simply buy your way out of a problem, you have to think like an engineer and a designer at the same time. You learn to spot potential where others see only garbage.",
+   "context": "Before you start upcycling, you need a few prerequisites: patience, a safe workspace, and basic hand tools like scissors, sandpaper, and wood glue. Historically, creative reuse was born out of economic necessity during times of material scarcity, but today it has evolved into a deliberate aesthetic choice for people who value originality over mass-produced uniformity [background].",
+   "evidence": [
+    {
+     "claim": "Upcycling is also known as creative reuse.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Upcycling transforms waste materials into products perceived to be of greater quality.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Greater quality in upcycling can include artistic or environmental value.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Creative reuse was historically driven by economic necessity.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Waste Material -> Intentional Design -> Transformed Object of Greater Value",
+   "realWorld": "You see upcycling in local artisan markets where old bicycle chains become bracelets, shipping containers become cafes, and discarded circuit boards turn into wall clocks. It is a quiet rebellion against disposable culture.",
+   "exercise": {
+    "prompt": "Find one discarded glass jar or tin can in your home and transform it into a desk pen holder using leftover string or paper.",
+    "answerHint": "Check if the object is stable, clean, and holds your pens without tipping over."
+   },
+   "quiz": [
+    {
+     "q": "What is another name for upcycling?",
+     "options": [
+      "Creative reuse",
+      "Mass manufacturing",
+      "Planned obsolescence",
+      "Industrial mining"
+     ],
+     "answer": 0,
+     "explanation": "Upcycling is also known as creative reuse, transforming waste into items of greater value."
+    },
+    {
+     "q": "What kind of value can upcycling add to a product?",
+     "options": [
+      "Only financial value",
+      "Artistic or environmental value",
+      "No value at all",
+      "Only digital value"
+     ],
+     "answer": 1,
+     "explanation": "The process transforms products into items perceived to have greater artistic or environmental value."
+    }
+   ],
+   "checklist": [
+    "Check current prices for any new materials needed",
+    "Evaluate if the item has structural integrity before repairing",
+    "Ensure you have the right tools for safe modification",
+    "Ask if you actually need the item or just like the project"
+   ],
+   "furtherQuestions": [
+    "How do you scale upcycling from a hobby to a small business?",
+    "At what point does fixing an old item cost more time and money than buying a durable replacement?"
+   ],
+   "imagePrompt": "A close-up still life of rustic wooden workshop tools resting on a worn workbench beside a stack of weathered reclaimed boards and a spool of natural twine.",
+   "keyIdea": "Upcycling transforms unwanted waste materials into new products of greater artistic or environmental value through creative reuse.",
+   "glossary": [
+    {
+     "term": "Upcycling",
+     "definition": "The process of transforming waste or unwanted products into new materials or products of greater quality."
+    },
+    {
+     "term": "repair",
+     "definition": "Fixing something that is broken or damaged to restore it to a good condition."
+    }
+   ],
+   "image": {
+    "src": "data/img/015/frugal.jpg",
+    "alt": "Illustration for: Upcycling",
+    "prompt": "A close-up still life of rustic wooden workshop tools resting on a worn workbench beside a stack of weathered reclaimed boards and a spool of natural twine.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Upcycling",
+     "url": "https://en.wikipedia.org/wiki/Upcycling",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-19"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "latin",
+  "title": "Logic day: mini sudoku",
+  "prompt": "Fill the 4x4 grid so every row and every column contains 1, 2, 3 and 4 exactly once.",
+  "grid": [
+   [
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    1,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    4,
+    1,
+    2
+   ]
+  ],
+  "solution": [
+   [
+    4,
+    3,
+    2,
+    1
+   ],
+   [
+    2,
+    1,
+    4,
+    3
+   ],
+   [
+    1,
+    2,
+    3,
+    4
+   ],
+   [
+    3,
+    4,
+    1,
+    2
+   ]
+  ],
+  "explanation": "Start with the row or column that has the most numbers filled in."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Integrity and Affection in Thessalonica"
+   },
+   {
+    "house": "mindcraft",
+    "text": "Navigating Emotional Intelligence"
+   },
+   {
+    "house": "soundroom",
+    "text": "Microphones: Translating Pressure into Power"
+   },
+   {
+    "house": "aiml",
+    "text": "Testing Twice: Cross-Validation"
+   },
+   {
+    "house": "systems",
+    "text": "The Systems Forge: Hash Tables"
+   },
+   {
+    "house": "design",
+    "text": "The Architecture of Letters"
+   },
+   {
+    "house": "frugal",
+    "text": "Upcycling"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Integrity and Affection in Thessalonica",
+    "text": "How did an early Christian leader defend his character when facing public hostility? In *1 Thessalonians*, Paul reveals the personal sacrifices and maternal gentleness behind his ministry. In *1 Thessalonians*, Paul defends his motives and conduct during his ministry in Thessalonica, Greece.",
+    "sources": [
+     "https://bible-api.com/1%20Thessalonians%202%3A1-12",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Thessalonians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "Navigating Emotional Intelligence",
+    "text": "Raw intelligence helps you solve complex problems, but how you handle internal signals determines how effectively you apply that intelligence in real-world environments. Emotional intelligence is the capacity to perceive, understand, use, and manage internal emotional states alongside those of others.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Emotional_intelligence"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "Microphones: Translating Pressure into Power",
+    "text": "Before a computer can process a song, physical ripples in the air must become electrical waves. Microphones make that essential translation happen. At its core, a microphone is a transducer, a device that converts physical sound into an electrical signal.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Microphone"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Testing Twice: Cross-Validation",
+    "text": "If you train a machine learning model on all your data, you are essentially letting a student memorize the exam questions before the test. **Cross-validation** stops this self-deception. Imagine you are building a system to predict apartment prices.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cross-validation_(statistics)"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "The Systems Forge: Hash Tables",
+    "text": "Imagine trying to find a word in a dictionary where the pages are blank and completely out of order. A hash table solves this chaos by turning any piece of information into an instant, direct address. When you write software, you often need to store items so you can look them up instantly.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hash_table",
+     "https://lwn.net/Articles/1107147/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Architecture of Letters",
+    "text": "Typography is not just about picking pretty fonts. It is a systematic engineering problem that guides the human eye through raw text. Typography is the art and technique of arranging type to make written language legible and readable when displayed [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Typography"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Upcycling",
+    "text": "Develop your taste without spending a fortune to perform it. Turn what others throw away into something genuinely useful and beautiful. Upcycling, also known as creative reuse, is the process of transforming by-products, waste materials, useless, or unwanted products into new materials or products perceived to be of greater quality, such as artistic value or environmental value [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Upcycling"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: taciturn",
+   "Puzzle: Logic day: mini sudoku",
+   "AI/ML signal: Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems"
+  ]
+ }
+}
