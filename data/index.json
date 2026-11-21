@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 16,
+   "slug": "016",
+   "publishedAt": "2026-11-21T11:09:53.611Z",
+   "theme": "1 Thessalonians 4:13-18 · Procrastination · Delay",
+   "failed": [],
+   "cover": "data/img/016/cover.jpg"
+  },
+  {
    "n": 15,
    "slug": "015",
    "publishedAt": "2026-11-19T11:51:19.402Z",
