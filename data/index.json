@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 17,
+   "slug": "017",
+   "publishedAt": "2026-11-23T12:40:40.794Z",
+   "theme": "Acts 17:16-34, Paul in Athens · Spaced repetition · Mixing",
+   "failed": [],
+   "cover": "data/img/017/cover.jpg"
+  },
+  {
    "n": 16,
    "slug": "016",
    "publishedAt": "2026-11-21T11:09:53.611Z",
