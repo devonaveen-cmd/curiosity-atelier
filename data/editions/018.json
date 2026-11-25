@@ -1,0 +1,1049 @@
+{
+ "n": 18,
+ "slug": "018",
+ "publishedAt": "2026-11-25T12:57:25.220Z",
+ "theme": "1 Corinthians 1:10-17 · Logical fallacies · Veena",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.6-flash"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/018/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "candid",
+   "phonetic": "",
+   "pos": "",
+   "definition": "Truthful, straightforward, and unposed; free from bias or pretense.",
+   "example": "During the post-mortem, the lead developer gave a candid assessment of why the database migration failed.",
+   "exercise": "Write a candid one-sentence critique of a piece of software you used today.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Slate & Sky",
+   "hexes": [
+    "#1E293B",
+    "#F8FAFC",
+    "#0EA5E9"
+   ],
+   "note": "Deep slate provides a grounded, readable anchor, while soft off-white offers a calm background that reduces eye strain. The vivid sky blue acts as a precise focal point, drawing immediate attention without overwhelming the calm backdrop.",
+   "application": "Technical documentation sites, developer portals, or data-dense dashboards.",
+   "accessibility": "Strongest pair: #1E293B with #F8FAFC, contrast 13.98:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "JetBrains Mono",
+   "character": "Crisp, utilitarian, and distinctly technical. Its tall lowercase letters and open apertures make reading dense code effortless.",
+   "bestUses": "Ideal for code editors, terminal interfaces, and data tables. Avoid using it for long-form editorial prose or warm branding.",
+   "url": "https://fonts.google.com/specimen/JetBrains+Mono",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Skeleton Screens",
+   "reasoning": "Designers use skeleton screens to create the illusion of immediate responsiveness while data loads. By rendering low-fidelity placeholders that mirror the layout of incoming content, they reduce perceived wait times and keep users visually grounded, making the app feel significantly faster than a blank page or spinner would.",
+   "tryIt": "Sketch a 3-frame visual transition showing a profile card moving from its gray skeleton state to its fully loaded data state.",
+   "aiGenerated": true
+  },
+  "challenge": "Sketch an empty state UI card using the Slate & Sky palette, then write a candid one-sentence note explaining why your call-to-action button is placed where it is.",
+  "aiSignal": {
+   "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+   "url": "https://arxiv.org/abs/2611.33111v1",
+   "date": "2026-11-24T18:41:59Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "According to the paper summary, speculative decoding speeds up language model serving by letting a lightweight 'draft' model propose text tokens that a larger 'target' model verifies in parallel. The authors study 'draft calibration' to align the probability distributions of both models so that the target model accepts candidate tokens more frequently.",
+   "whyItMatters": "Running massive models is computationally expensive, making real-time inference speed a major systems engineering challenge. Based on the provided text, narrowing the gap between the draft and target models' predictions allows systems to serve output much faster without altering the final response quality.",
+   "takeaway": "A fundamental pattern in computer science is using a cheap, fast approximator paired with a verification step to speed up expensive operations."
+  },
+  "openTab": {
+   "url": "https://visualgo.net",
+   "name": "visualising data structures and algorithms through animation - VisuAlgo",
+   "what": "VisuAlgo is a site that visualizes data structures and algorithms through animations. It was created by Associate Professor Steven Halim and students from the National University of Singapore School of Computing to offer step-by-step visualizations ranging from simple sorting to more complex topics.",
+   "whyBookmark": "It is a great self-study resource that helps you better understand foundational algorithms and data structures on your own and at your own pace.",
+   "verified": true,
+   "checkedAt": "2026-11-25"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Corinthians 1:10-17",
+   "title": "Factionalism in Ancient Corinth",
+   "hook": "When reading ancient letters, understanding the specific friction that prompted them changes everything. In *1 Corinthians*, Paul confronts a divided community split into rival loyalty factions.",
+   "core": "In his letter known as *1 Corinthians*, Paul of Tarsus addresses severe **factionalism** within the early Christian community in Corinth. Reports brought by members of **Chloe's household** revealed that believers were splitting into competing groups, each claiming allegiance to different leaders. Some declared loyalty to Paul, others to **Apollos**, others to **Cephas** (Peter), and some claimed a superior stance by declaring allegiance strictly to Christ.\n\nPaul counters this internal friction not by asserting his own dominance, but by deflecting attention away from human personalities. He asks rhetorical questions about whether Christ is divided or if Paul himself was crucified for them. To prevent anyone from claiming special status based on who performed their **baptism**, Paul notes that he personally baptized very few individuals there—citing only Crispus, Gaius, and the household of Stephanas. His stated primary mission was not performing rites, but proclaiming the gospel without relying on persuasive intellectual rhetoric, ensuring the focus remained on the cross.",
+   "context": "Ancient Corinth was a prominent Greek city-state situated on the narrow **Isthmus of Corinth**, linking the Peloponnese to mainland Greece between Athens and Sparta. Modern excavations conducted since 1896 by the American School of Classical Studies at Athens and the Greek Ministry of Culture have uncovered major portions of the ancient ruins. Paul wrote *1 Corinthians* to address concrete structural and ethical problems reported in this urban assembly, ranging from church divisions and legal disputes to ethical dilemmas surrounding idol food, spiritual gifts, and teachings on the resurrection.",
+   "evidence": [
+    {
+     "claim": "Chloe's household reported contentions and divisions among the Corinthian believers.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Corinthian church members aligned themselves with rival figures including Paul, Apollos, Cephas, and Christ.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul personally baptized Crispus, Gaius, and the household of Stephanas in Corinth.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Ancient Corinth was located on an isthmus between the Peloponnese peninsula and mainland Greece.",
+     "label": "established",
+     "source": "S3"
+    },
+    {
+     "claim": "Paul wrote the letter primarily to resolve personal rivalries over rhetoric and leadership styles.",
+     "label": "debate",
+     "source": null
+    }
+   ],
+   "visual": "Corinthian Loyalty Claims:\n[Believers in Corinth]\n   ├── 'I follow Paul'\n   ├── 'I follow Apollos'\n   ├── 'I follow Cephas'\n   └── 'I follow Christ'",
+   "realWorld": "Recognizing leadership rivalries and tribalism in ancient texts helps historians and literary analysts map how early movements struggled with identity. Modern organizational dynamics often echo these same patterns when subgroups form around charismatic figures rather than shared foundational goals.",
+   "exercise": {
+    "prompt": "Read 1 Corinthians 1:10-17 in a free online Bible interface and list all four distinct leadership claims made by the Corinthians, along with the three individuals or households Paul explicitly remembers baptizing.",
+    "answerHint": "Check your list against verse 12 for the four factions (Paul, Apollos, Cephas, Christ) and verses 14-16 for the baptized individuals (Crispus, Gaius, Stephanas's household)."
+   },
+   "quiz": [
+    {
+     "q": "Who reported the internal divisions in the Corinthian church to Paul?",
+     "options": [
+      "Crispus",
+      "Apollos",
+      "Chloe's household",
+      "Gaius"
+     ],
+     "answer": 2,
+     "explanation": "In 1 Corinthians 1:11, Paul explicitly states that the report of contentions came from 'those who are from Chloe’s household.'"
+    },
+    {
+     "q": "Where was ancient Corinth geographically situated?",
+     "options": [
+      "On the Isthmus of Corinth between the Peloponnese and mainland Greece",
+      "On the island of Crete in the southern Aegean Sea",
+      "Directly inside the city walls of ancient Athens",
+      "Along the northern coast of Asia Minor"
+     ],
+     "answer": 0,
+     "explanation": "Ancient Corinth was a city-state on the Isthmus of Corinth, the narrow stretch of land joining the Peloponnese peninsula to mainland Greece."
+    }
+   ],
+   "checklist": [
+    "Identify the specific audience and geography of the letter.",
+    "Distinguish explicit textual facts from modern theological interpretation.",
+    "Note key leadership figures mentioned in the text."
+   ],
+   "furtherQuestions": [
+    "How do archaeological finds in Corinth illuminate the daily life of first-century residents?",
+    "What other specific church issues does Paul address later in 1 Corinthians?"
+   ],
+   "imagePrompt": "A detailed close-up shot of weathered ancient stone ruins and olive branches sitting beside a worn parchment scroll on a textured wooden table outdoors in Mediterranean sunlight.",
+   "keyIdea": "Paul addressed factionalism in Corinth by rejecting personal devotion to human leaders and refocusing the community on their central shared message.",
+   "glossary": [
+    {
+     "term": "factionalism",
+     "definition": "The splitting of a group into contentious subgroups or rival factions."
+    },
+    {
+     "term": "Chloe's household",
+     "definition": "The family or servants associated with Chloe who reported the Corinthian church divisions to Paul."
+    },
+    {
+     "term": "Apollos",
+     "definition": "An early Christian teacher whom some Corinthian believers claimed to follow."
+    },
+    {
+     "term": "Cephas",
+     "definition": "The Aramaic name for the Apostle Peter, cited in the letter as a faction leader."
+    },
+    {
+     "term": "baptism",
+     "definition": "A Christian initiation rite involving ceremonial washing or immersion in water."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/theology.jpg",
+    "alt": "Illustration for: Factionalism in Ancient Corinth",
+    "prompt": "A detailed close-up shot of weathered ancient stone ruins and olive branches sitting beside a worn parchment scroll on a textured wooden table outdoors in Mediterranean sunlight.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Corinthians 1:10-17 (World English Bible)",
+     "url": "https://bible-api.com/1%20Corinthians%201%3A10-17",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-25"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Corinthians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    },
+    {
+     "id": "S3",
+     "title": "Wikipedia: Ancient Corinth",
+     "url": "https://en.wikipedia.org/wiki/Ancient_Corinth",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Logical fallacies",
+   "title": "Spotting Broken Logic: An Introduction to Logical Fallacies",
+   "hook": "We evaluate arguments every day in code reviews and debates, but persuasive language can easily mask faulty reasoning.",
+   "core": "A **logical fallacy** is an error in reasoning that makes an **argument** invalid, even if it sounds convincing on the surface. When an argument contains a fallacy, its **conclusion** does not logically follow from its **premises**, regardless of whether the final claim happens to be true.\n\nUnderstanding fallacies helps you separate emotional persuasion from solid mechanics. In programming and daily communication, people frequently fall into patterns like appealing to authority, attacking the person instead of the argument, or assuming that because one event followed another, the first caused the second. Recognizing these flaws stops you from building complex decisions on broken assumptions.\n\nMastering logic is not about winning debates or catching others in traps. Instead, it serves as a personal diagnostic tool. By auditing your own reasoning before speaking or writing, you reduce cognitive blind spots, improve your emotional regulation during disagreements, and build clearer, more defensible ideas.",
+   "context": "The formal study of fallacies entered Western intellectual tradition through Aristotle's work *De Sophisticis Elenchis*, which categorized deceptive arguments. Before analyzing complex fallacies, you need a basic grasp of arguments—specifically how premises lead to conclusions. In modern practice, identifying fallacies is crucial for clear writing, structured problem-solving, and evaluating claims in technical discussions without relying on emotional bias.",
+   "evidence": [
+    {
+     "claim": "A fallacy is an error in reasoning that creates an invalid argument despite appearing well-reasoned.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The formal study of fallacies was introduced in Western tradition by Aristotle's De Sophisticis Elenchis.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Auditing personal arguments reduces cognitive blind spots in technical communication.",
+     "label": "inference",
+     "source": null
+    },
+    {
+     "claim": "Logical flaws frequently appear in everyday technical and personal arguments.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Premise A + Premise B -> Valid Conclusion\nPremise A + Logical Fallacy -> Faulty Conclusion",
+   "realWorld": "When a teammate argues that a new software tool must be adopted because a famous tech leader uses it, they are committing a logical fallacy. Recognizing this allows you to redirect the team's focus back to measurable performance metrics rather than status.",
+   "exercise": {
+    "prompt": "Read a short opinion article or tech forum post today. Identify one main argument, write down its premise and conclusion, and determine if the conclusion strictly follows from the premise.",
+    "answerHint": "If the conclusion relies on emotional appeals, personal authority, or unproven assumptions rather than direct evidence from the premise, you have spotted a flaw in reasoning."
+   },
+   "quiz": [
+    {
+     "q": "What defines a logical fallacy?",
+     "options": [
+      "A deliberate lie told to deceive an audience",
+      "An error in reasoning that invalidates an argument",
+      "A factual error regarding a historical date or metric",
+      "An emotional disagreement between two speakers"
+     ],
+     "answer": 1,
+     "explanation": "A logical fallacy is specifically an error in the structure or reasoning of an argument, making it logically invalid."
+    },
+    {
+     "q": "Which text introduced the formal study of fallacies to Western intellectual tradition?",
+     "options": [
+      "Plato's Republic",
+      "Aristotle's De Sophisticis Elenchis",
+      "Euclid's Elements",
+      "Marcus Aurelius's Meditations"
+     ],
+     "answer": 1,
+     "explanation": "Aristotle's *De Sophisticis Elenchis* introduced the formal study and classification of fallacies in Western thought."
+    }
+   ],
+   "checklist": [
+    "Identify the main premise and conclusion of the argument.",
+    "Check whether the conclusion logically follows from the evidence provided.",
+    "Ensure emotional bias or personal attacks are not replacing sound evidence."
+   ],
+   "furtherQuestions": [
+    "How do informal fallacies differ from formal structural fallacies in logic?",
+    "What cognitive biases make human thinking particularly vulnerable to logical fallacies?"
+   ],
+   "imagePrompt": "A clean wooden desk with a magnifying glass resting on top of an open weathered notebook next to a vintage brass compass.",
+   "keyIdea": "A logical fallacy is a structural error in reasoning that renders an argument invalid, serving as a diagnostic tool to refine personal thinking.",
+   "glossary": [
+    {
+     "term": "logical fallacy",
+     "definition": "An error in reasoning that invalidates an argument despite appearing well-reasoned."
+    },
+    {
+     "term": "argument",
+     "definition": "A series of statements where premises are offered to support a final conclusion."
+    },
+    {
+     "term": "conclusion",
+     "definition": "The main claim or statement that an argument attempts to prove."
+    },
+    {
+     "term": "premises",
+     "definition": "The foundational statements or evidence offered to support an argument's conclusion."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/mindcraft.jpg",
+    "alt": "Illustration for: Spotting Broken Logic: An Introduction to Logical Fallacies",
+    "prompt": "A clean wooden desk with a magnifying glass resting on top of an open weathered notebook next to a vintage brass compass.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Fallacy",
+     "url": "https://en.wikipedia.org/wiki/Fallacy",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Veena",
+   "title": "The Veena: Plucked Resonance and Microtonal Control",
+   "hook": "The veena is an ancient Indian chordophone capable of bending pitches with delicate string tension to mirror the expressive nuance of the human voice.",
+   "core": "The **veena** is an ancient family of Indian **chordophones**—instruments that produce sound through vibrating strings. In Indian classical music, it serves as both a primary solo instrument and an acoustic standard. Unlike a modern steel-string guitar with low frets, many veena designs feature raised frets set in wax or un-fretted necks altogether. This open clearance allows a player to pull a string sideways across a fret, smoothly bending the pitch across microtonal intervals called *gamakas*.\n\nWhen recording a veena, a audio producer captures a resonant wooden body paired with long, metallic sustain. Unprocessed, the dry acoustic signal features sharp initial pluck transients followed by complex sympathetic resonances from drone strings. In a mix, producers often apply a dynamic **compressor** to control those sudden pluck spikes while keeping the warm, lingering decay intact. Adding a subtle **convolution reverb** modeled on a stone room recreates traditional acoustic spaces, transforming a dry close-mic studio recording into an expansive lead performance.",
+   "context": "Historical texts document the veena evolving across centuries from ancient arched harps into distinct regional lutes and zithers [S1]. Prominent regional designs include the South Indian Saraswati veena and the North Indian Rudra veena [S1]. In classical performance, the instrument is central to formal modal systems (*ragas*). Understanding its physical construction helps modern audio engineers record its high fret clearance and expressive pitch bends accurately.",
+   "evidence": [
+    {
+     "claim": "The veena is a chordophone instrument originating from the Indian subcontinent.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Ancient musical instruments evolved into variations such as lutes, zithers, and arched harps.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Regional designs include the Rudra veena, Saraswati veena, and Vichitra veena.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Pulling a string sideways over raised frets creates smooth microtonal pitch bends.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Dynamic compression tames sharp pick transients while preserving instrument decay.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Fretboard Surface\n|---[ Fret ]---|\n     \\  String pulled sideways\n      \\---------> Higher Pitch (Microtonal Bend)",
+   "realWorld": "In modern film scoring and world fusion production, creators often mix live veena recordings with synth pads. Audio engineers balance the sharp attack of the plucked string against smooth pitch automation, allowing traditional Indian microtonal ornaments to integrate cleanly into contemporary electronic beats.",
+   "exercise": {
+    "prompt": "Open any free digital audio workstation or browser synthesizer. Choose a plucked string sound. Play a note, then use your pitch-bend wheel to smoothly glide the pitch up by a half-step mid-sustain to emulate a string pull.",
+    "answerHint": "Listen for whether the pitch glides continuously like a voice, rather than stepping instantly to a new note."
+   },
+   "quiz": [
+    {
+     "q": "According to the provided source, into which instrument category does the veena fall?",
+     "options": [
+      "Membranophone",
+      "Chordophone",
+      "Aerophone",
+      "Idiophone"
+     ],
+     "answer": 1,
+     "explanation": "Source S1 explicitly identifies the veena as a chordophone instrument from the Indian subcontinent."
+    },
+    {
+     "q": "Why would a mixing engineer apply dynamic compression to a dry veena recording?",
+     "options": [
+      "To pitch-shift the fundamental note up an octave",
+      "To tame sharp initial pluck transients while retaining sustain",
+      "To automatically generate secondary drone harmonies",
+      "To remove all room acoustic reflections completely"
+     ],
+     "answer": 1,
+     "explanation": "Compression reduces the amplitude of initial loud transients (the pluck attack) so the quieter, sustained resonance of the string remains clear."
+    }
+   ],
+   "checklist": [
+    "Identify initial pluck transients before adding dynamic processing.",
+    "Set compressor attack times carefully so string attacks are controlled without sounding dull.",
+    "Use convolution reverb to place dry acoustic recordings into natural spatial contexts."
+   ],
+   "furtherQuestions": [
+    "How do drone strings physically resonate in sympathy with the primary playing strings on a veena?",
+    "What acoustic differences distinguish a fretted lute design like the Saraswati veena from un-fretted zither variations?"
+   ],
+   "imagePrompt": "A detailed close-up shot of thick brass instrument strings resting over dark carved wood, bathed in soft directional studio light highlighting polished metallic textures.",
+   "keyIdea": "The veena produces fluid microtonal bends through string deflection, requiring production choices that balance sharp initial plucks with long acoustic sustain.",
+   "glossary": [
+    {
+     "term": "veena",
+     "definition": "Any of several traditional chordophone instruments originating from the Indian subcontinent."
+    },
+    {
+     "term": "chordophones",
+     "definition": "Musical instruments that generate sound primarily through the vibration of stretched strings."
+    },
+    {
+     "term": "compressor",
+     "definition": "An audio processing tool that reduces the dynamic difference between loud and soft sounds."
+    },
+    {
+     "term": "convolution reverb",
+     "definition": "An effect that uses recorded impulse responses to simulate real acoustic environments."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/soundroom.jpg",
+    "alt": "Illustration for: The Veena: Plucked Resonance and Microtonal Control",
+    "prompt": "A detailed close-up shot of thick brass instrument strings resting over dark carved wood, bathed in soft directional studio light highlighting polished metallic textures.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Veena",
+     "url": "https://en.wikipedia.org/wiki/Veena",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Transformers",
+   "title": "Understanding the Transformer Architecture",
+   "hook": "Modern AI models process whole pages of text instantaneously rather than reading word by word. The transformer architecture makes this parallel understanding possible.",
+   "core": "When processing language or audio, computers cannot work directly with raw words or waveforms. Instead, a transformer converts input data into a sequence of numbers called **tokens**, which are then transformed into mathematical vectors by an **embedding layer**.\n\nEarlier models processed input sequentially, one step at a time. A transformer handles all tokens at once using a mechanism called **multi-head attention**. This parallel process compares every unmasked token against every other token in the context window. By doing so, it amplifies important relationships and diminishes irrelevant ones, allowing the network to understand context instantly across the whole sequence.\n\nBecause this self-attention mechanism treats inputs as an unordered set, it is naturally permutation-invariant. To fix this, transformers inject **positional encodings** into the vectors. Adding positional information ensures that token order changes the final output, giving the model a precise sense of sequence structure.",
+   "context": "Before learning transformers, a computing student usually encounters basic linear algebra, vectors, and sequential processing. Earlier sequential models struggled with long texts because computing each step depended on completing the previous one. The transformer architecture replaced sequential steps with parallel attention, making training vastly more efficient on modern computing hardware. Today, software engineers interact with transformer models using Python libraries like Hugging Face or PyTorch, loading pretrained parameters from online repositories to build applications.",
+   "evidence": [
+    {
+     "claim": "Transformers convert input data into numerical tokens and then into vectors via an embedding layer.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Multi-head attention contextualizes tokens in parallel within a context window by amplifying key signals and diminishing minor ones.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Positional encodings or learned positional embeddings inject sequence order because self-attention alone is permutation-invariant.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Sequential neural networks were computationally slower to train on long sequences than parallel transformer architectures.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[ Input Data ] -> [ Tokens ] -> [ Embedding Layer ]\n                                        |\n                                        v\n [ Output Vector ] <- [ Multi-Head Attention ] + [ Positional Encodings ]",
+   "realWorld": "In real engineering practice, transformers form the backbone of modern search engines, translation tools, and automated code assistants. Developers rarely write transformer layers from scratch. Instead, they write short Python scripts to import pretrained weights, tokenize incoming user prompts into integer arrays, and pass those arrays into pipeline objects that return text predictions or vector embeddings.",
+   "exercise": {
+    "prompt": "Open a free Google Colab notebook, run `pip install transformers`, and execute a Python snippet using `AutoTokenizer` from `transformers` to tokenize the string 'Hello world'. Print the resulting input IDs.",
+    "answerHint": "Your output should be a dictionary containing an `input_ids` list of integers representing the tokenized string."
+   },
+   "quiz": [
+    {
+     "q": "Why do transformer architectures require positional encodings?",
+     "options": [
+      "Because self-attention is permutation-invariant and does not inherently track sequence order.",
+      "Because embedding layers cannot create numerical vectors without explicit sequence indexes.",
+      "Because multi-head attention only operates on single isolated tokens.",
+      "Because unmasked tokens prevent parallel processing unless ordered."
+     ],
+     "answer": 0,
+     "explanation": "Self-attention evaluates all tokens simultaneously without regard to order; positional encodings inject position information so sequence order affects the output."
+    },
+    {
+     "q": "What is the primary function of the multi-head attention mechanism in a transformer layer?",
+     "options": [
+      "To convert audio signals directly into raw database keys without mathematical vectors.",
+      "To contextualize tokens by amplifying key signals and diminishing less important ones across a context window.",
+      "To force neural networks to process text strictly one word at a time.",
+      "To remove positional embeddings before generating final predictions."
+     ],
+     "answer": 1,
+     "explanation": "Multi-head attention compares tokens within the context window in parallel, amplifying key connections and diminishing irrelevant ones."
+    }
+   ],
+   "checklist": [
+    "Verify Python environment has the transformers package installed.",
+    "Check context window size limits for your chosen model.",
+    "Confirm input text is properly tokenized before passing it to model layers."
+   ],
+   "furtherQuestions": [
+    "How does masked self-attention differ from unmasked self-attention in autoregressive language models?",
+    "What causes memory usage to scale quadratically as the transformer context window grows?"
+   ],
+   "imagePrompt": "A sturdy oak desk holding a mechanical brass clockwork mechanism, with split light beams passing through polished glass prisms onto dark slate tiles.",
+   "keyIdea": "Transformers process sequence tokens in parallel using multi-head attention to capture context and positional encodings to preserve order.",
+   "glossary": [
+    {
+     "term": "tokens",
+     "definition": "Numerical representations of discrete units of input data such as text, audio, or images."
+    },
+    {
+     "term": "embedding layer",
+     "definition": "A neural network layer that maps discrete tokens into continuous vector spaces."
+    },
+    {
+     "term": "multi-head attention",
+     "definition": "A parallel mechanism that contextualizes tokens by comparing them across multiple attention heads."
+    },
+    {
+     "term": "positional encodings",
+     "definition": "Information injected into token vectors so the model can account for item order in a sequence."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/aiml.jpg",
+    "alt": "Illustration for: Understanding the Transformer Architecture",
+    "prompt": "A sturdy oak desk holding a mechanical brass clockwork mechanism, with split light beams passing through polished glass prisms onto dark slate tiles.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Transformer (deep learning)",
+     "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Git",
+   "title": "The Architecture of Git",
+   "hook": "Understanding version control is not about memorising syntax commands; it is about grasping how code history is saved as immutable data snapshots. When you understand the underlying structure, tracking down software bugs becomes systematic.",
+   "core": "Instead of treating file changes as a list of line edits, a modern **version control** system treats your code as a series of complete **snapshot** points. Every time you commit, you freeze the state of your entire **repository**.\n\nUnder the hood, objects are indexed by cryptographic hashes of their content. A simplified representation in Python shows how content addressing works:\n\nimport hashlib\ndef store_blob(data):\n    return hashlib.sha1(data).hexdigest()\n\nIf two files have identical contents, they share the same hash and storage, eliminating duplicate data. The trade-off is storage performance: tree structures and object lookups require disk reads that trade speed for content integrity.\n\nA classic beginner bug occurs when you edit a file, run *git commit*, and expect your changes to save, forgetting to stage them first with *git add*. The staging area acts as a draft board where you select precisely which modifications enter the next commit.\n\nHere is a quick debugging challenge: if *git status* shows modified files in red under untracked or unstaged sections, running *git commit -m \"update\"* will produce an empty or incomplete commit. You must explicitly stage changes before committing them.",
+   "context": "Prerequisites for understanding version control include basic command-line navigation and file system concepts. Linus Torvalds created Git to manage source code development for the Linux kernel, addressing the scale and speed requirements of thousands of global contributors (S1). Rather than relying on a central authority server, Git operates as a distributed system where every developer holds a complete copy of project history locally (S1).",
+   "evidence": [
+    {
+     "claim": "Git is a distributed version control software system capable of managing versions of source code or data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Git was originally created by Linus Torvalds for version control in Linux kernel development.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Content-addressable storage models compress duplicate object data using unique cryptographic hashes.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "git-lfs provides specialized large file storage updates within Linux distribution security ecosystems.",
+     "label": "established",
+     "source": "S3"
+    }
+   ],
+   "visual": "  [Working Directory]  --> (git add) -->  [Staging Area]  --> (git commit) -->  [Repository]",
+   "realWorld": "Beyond individual projects, distributed version control underpins collaborative open-source ecosystems. Systems like the Linux kernel rely on Git to merge thousands of concurrent contributions securely (S1). Large enterprise platforms and Linux distributions maintain specialized tools, such as *git-lfs* for large file tracking, alongside standard code versioning workflows (S3).",
+   "exercise": {
+    "prompt": "Initialize a test folder with 'git init', create a file named 'app.txt', run 'git status', stage it with 'git add app.txt', and run 'git status' again.",
+    "answerHint": "Observe how 'app.txt' transitions from untracked red text to staged green text ready for commit."
+   },
+   "quiz": [
+    {
+     "q": "Why was Git originally created by Linus Torvalds?",
+     "options": [
+      "To manage source code versioning for Linux kernel development.",
+      "To serve web content for the Firefox browser engine.",
+      "To generate automated C code performance benchmarks.",
+      "To act as a package manager for Arch Linux."
+     ],
+     "answer": 0,
+     "explanation": "Git was created by Linus Torvalds specifically for managing version control during Linux kernel development (S1)."
+    },
+    {
+     "q": "Which beginner mistake causes modified files to be left out of a commit?",
+     "options": [
+      "Forgetting to compute the SHA-1 hash manually.",
+      "Failing to stage modified files with 'git add' prior to committing.",
+      "Deleting the local file system cache.",
+      "Running git commands inside a Python script."
+     ],
+     "answer": 1,
+     "explanation": "Git requires changes in the working directory to be explicitly added to the staging area before 'git commit' records them into repository history."
+    }
+   ],
+   "checklist": [
+    "Run git status before committing to verify staged changes",
+    "Stage only files relevant to the specific logical update",
+    "Keep commit scope small and focused on single task"
+   ],
+   "furtherQuestions": [
+    "How does Git resolve conflicts when two branches modify the exact same line of code?",
+    "What is the structural difference between a commit object, a tree object, and a blob object?"
+   ],
+   "imagePrompt": "A close-up photograph of layered transparent architectural drafting sheets stacked on a dark wooden workbench, lit by warm side lighting, highlighting overlapping technical drawings.",
+   "keyIdea": "Git models project history as a directed graph of immutable content snapshots rather than a sequence of file diffs.",
+   "glossary": [
+    {
+     "term": "version control",
+     "definition": "A system that tracks and manages changes to software source code or data over time."
+    },
+    {
+     "term": "snapshot",
+     "definition": "A recorded state of a file system or repository at a specific point in time."
+    },
+    {
+     "term": "repository",
+     "definition": "A storage location containing all project files and the complete history of their changes."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/systems.jpg",
+    "alt": "Illustration for: The Architecture of Git",
+    "prompt": "A close-up photograph of layered transparent architectural drafting sheets stacked on a dark wooden workbench, lit by warm side lighting, highlighting overlapping technical drawings.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Git",
+     "url": "https://en.wikipedia.org/wiki/Git",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: Firefox 161.0 released",
+     "url": "https://lwn.net/Articles/1109478/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-25",
+     "date": "Tue, 24 Nov 2026 16:18:02 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Security updates for Tuesday",
+     "url": "https://lwn.net/Articles/1109472/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-25",
+     "date": "Tue, 24 Nov 2026 14:03:12 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: CachyOS November 2026 release",
+     "url": "https://lwn.net/Articles/1109269/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-25",
+     "date": "Mon, 23 Nov 2026 14:21:41 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Security updates for Monday",
+     "url": "https://lwn.net/Articles/1109268/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-25",
+     "date": "Mon, 23 Nov 2026 14:10:48 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Kerning",
+   "title": "Kerning and the Art of Optical Spacing",
+   "hook": "Typography is more than selecting fonts; it is a system of spatial decisions. Understanding how letters fit together reveals how subtle adjustments guide a reader's eye.",
+   "core": "When typography feels balanced, your eye glides effortlessly across a page. This rhythm relies on subtle spatial decisions, most notably **kerning**, which is the process of adjusting the space between two specific characters in a font.\n\nIt is easy to confuse kerning with **tracking**, but they solve different problems. Tracking adjusts spacing uniformly across an entire range of characters, such as opening up a whole paragraph for readability. Kerning operates strictly on individual character pairs. Because letters have varied geometry—think of a straight vertical line like *I* compared to a sloped edge like *V* or a curve like *O*—equal mathematical spacing between them creates uneven visual gaps.\n\nThe goal of kerning is **visual consistency**. A pair like *AV* requires negative spacing to tuck the letterforms together, while two straight vertical letters like *HI* need more room so they do not feel crammed. Designers manage kerning by evaluating the volume of empty space between letter shapes rather than measuring the distance between their outer edges. Every letter pair presents a unique spatial puzzle that changes how text feels to a reader.",
+   "context": "Prerequisites for understanding kerning include a basic visual awareness of letter geometry. Before digital layout software offered automated tables, metal typesetters carved notches into physical lead type blocks so overlapping letters could physically sit closer together. Today, layout engines handle common character pairs automatically using embedded font data, but headlines, logos, and large display text still require a designer's trained eye to adjust manual spacing.",
+   "evidence": [
+    {
+     "claim": "Kerning is the process of adjusting the space between two specific characters in a font.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Kerning differs from tracking, which adjusts spacing uniformly over a range of characters.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Letter combinations with diagonal edges produce larger perceived gaps than vertical pairs when mathematically spaced.",
+     "label": "inference",
+     "source": "S1"
+    },
+    {
+     "claim": "Historical metal type blocks sometimes required physical modification to decrease space between specific letter pairs.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Mathematical Spacing (Uneven Volume):\n| A |   | V |     | H |   | I |\n  Large open gap       Balanced gap\n\nKerned Spacing (Balanced Volume):\n| A  V |          | H |   | I |\n  Tucked together     Unchanged gap",
+   "realWorld": "Look closely at modern brand logos, street signs, and movie poster titles. Massive headline text makes unkerned letter pairs painfully obvious: an unkerned *AV* or *WA* pair creates an accidental visual hole that interrupts reading flow. UI designers pay special attention to kerning in large dashboard metrics and call-to-action buttons to ensure numbers and bold labels look polished.",
+   "exercise": {
+    "prompt": "Open a vector graphics editor or free online typography tool. Type the uppercase letter pair AV in a bold sans-serif font, then adjust the character spacing between them until the space between the letters visually matches the space inside the letter shapes.",
+    "answerHint": "Look at the negative space formed between the right leg of A and the left leg of V. It should form a balanced shape rather than a wide gap."
+   },
+   "quiz": [
+    {
+     "q": "What distinguishes kerning from tracking?",
+     "options": [
+      "Kerning affects specific character pairs, while tracking adjusts spacing uniformly across a range of text.",
+      "Kerning changes font weight, while tracking changes line height.",
+      "Kerning applies only to numbers, while tracking applies only to uppercase letters.",
+      "Kerning affects an entire paragraph, while tracking targets single letters."
+     ],
+     "answer": 0,
+     "explanation": "Kerning is the adjustment of space between two specific characters, whereas tracking applies uniform spacing across a broader range of characters."
+    },
+    {
+     "q": "Why does an unkerned letter pair like AV often look spaced too far apart?",
+     "options": [
+      "Both letters have rounded edges that repel each other visually.",
+      "The diagonal strokes leave a large triangular gap of empty space between them.",
+      "Layout engines double the margin around capital letters automatically.",
+      "Serif fonts add extra padding around straight vertical lines."
+     ],
+     "answer": 1,
+     "explanation": "Sloped strokes create open wedge-shaped gaps of white space, requiring manual tightening to achieve visual balance."
+    }
+   ],
+   "checklist": [
+    "Inspect headline letter pairs containing diagonal strokes like A, V, W, and Y.",
+    "Evaluate text spacing by focusing on visual volume rather than measured pixel distance.",
+    "Adjust tracking for large blocks of body text before fine-tuning specific kerning pairs."
+   ],
+   "furtherQuestions": [
+    "How do digital font files store predefined kerning pairs for automatic rendering?",
+    "In what situations should a designer adjust tracking before fine-tuning individual kerning?"
+   ],
+   "imagePrompt": "A high-contrast macro photograph of vintage metal printing type blocks arranged neatly inside a worn wooden typesetter drawer, lit by soft side sunlight.",
+   "keyIdea": "Kerning adjusts the space between specific character pairs to create consistent visual volume rather than equal mathematical distance.",
+   "glossary": [
+    {
+     "term": "kerning",
+     "definition": "The process of adjusting space between two specific characters in a font."
+    },
+    {
+     "term": "tracking",
+     "definition": "Uniform spacing adjustment applied over a range of characters."
+    },
+    {
+     "term": "visual consistency",
+     "definition": "Equal optical balance achieved by managing perceived space rather than mathematical distance."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/design.jpg",
+    "alt": "Illustration for: Kerning and the Art of Optical Spacing",
+    "prompt": "A high-contrast macro photograph of vintage metal printing type blocks arranged neatly inside a worn wooden typesetter drawer, lit by soft side sunlight.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Kerning",
+     "url": "https://en.wikipedia.org/wiki/Kerning",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Citroën DS",
+   "title": "Citroën DS: Engineering Elegance and Frugal Chic",
+   "hook": "The Citroën DS proved that radical engineering and aerodynamic form could redefine luxury without relying on ostentatious ornament.",
+   "core": "The Citroën DS, produced between 1955 and 1975, represents a landmark in automotive **design intent**. Rather than relying on heavy chrome trim or oversized engines, French designers and engineers prioritized aerodynamic efficiency and mechanical innovation. The vehicle features a **front mid-engined** layout paired with **front-wheel drive**, placing the engine behind the front axle line to achieve balanced weight distribution while pulling the chassis cleanly down the road.\n\nWhat truly distinguished the DS was its advanced **hydropneumatic suspension** system. Driven by an engine-powered pump, this fluid-and-gas network self-leveled the vehicle's ride height and delivered unmatched shock absorption over irregular surfaces. The central hydraulic circuit extended beyond the suspension to power the steering, front disc brakes, and clutchless transmission shift mechanism, consolidating complex control functions into a single pressure-fed system. Safety innovations included directional headlights that turned alongside the steering wheel and a progressive body shell engineered to absorb impact energy.\n\nFor the modern enthusiast seeking classic style without extravagant spending, the DS offers a lesson in cultivating taste through mechanical understanding. Cultivating appreciation through technical manuals, DIY maintenance, or vintage scale models allows one to enjoy historic design without excessive financial performance. If considering a physical vehicle, check current prices carefully, as maintaining intricate hydraulic lines requires methodical patience and hands-on diligence.",
+   "context": "Introduced at the 1955 Paris Motor Show, the Citroën DS stunned onlookers with its futuristic shape sculpted by Flaminio Bertoni and André Lefèbvre. Produced across three distinct series until 1975, it was offered in fastback sedan, estate wagon, and convertible body styles. The DS redefined executive travel across postwar Europe, proving that functional problem-solving could match the prestige of traditional luxury brands. Studying its development illuminates how sophisticated design emerges from integrated engineering rather than superficial decoration.",
+   "evidence": [
+    {
+     "claim": "The Citroën DS was manufactured and marketed by Citroën from 1955 to 1975.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The DS featured a front mid-engined, front-wheel drive layout across three series.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The vehicle was offered in fastback/sedan, wagon/estate, and convertible body configurations.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The hydropneumatic suspension system used a central hydraulic circuit to power suspension and braking features.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[Front Axle] --- (Engine) --- [Passenger Cabin] --- [Rear Axle]\n     |                |\n Front-Wheel    Front Mid-Engined\n   Drive           Position",
+   "realWorld": "The legacy of the DS lives on in modern adaptive air suspensions and teardrop aerodynamic styling used to maximize efficiency. Beyond engineering, cultural critics have analyzed its sculptural body lines as milestones of industrial design. Today, dedicated owners preserve these vehicles on modest budgets by rebuilding hydraulic valves themselves using community-authored technical guides.",
+   "exercise": {
+    "prompt": "Using paper and a pencil, sketch two simplified car side profiles: one showing a standard front engine placed directly over the front axle, and one showing a front mid-engined placement with the engine behind the front axle line.",
+    "answerHint": "Verify that your second drawing clearly shows the entire engine block located between the front wheel center point and the interior dashboard line."
+   },
+   "quiz": [
+    {
+     "q": "Which drivetrain layout did the Citroën DS utilize to optimize weight distribution?",
+     "options": [
+      "Front mid-engined, front-wheel drive",
+      "Rear-engined, rear-wheel drive",
+      "Front-engined, rear-wheel drive",
+      "Mid-engined, all-wheel drive"
+     ],
+     "answer": 0,
+     "explanation": "The Citroën DS combined a front mid-engined layout—placing the engine behind the front axle—with front-wheel drive."
+    },
+    {
+     "q": "Across what years was the single-generation Citroën DS manufactured?",
+     "options": [
+      "1945 to 1965",
+      "1955 to 1975",
+      "1965 to 1985",
+      "1950 to 1970"
+     ],
+     "answer": 1,
+     "explanation": "The Citroën DS was produced continuously from 1955 to 1975 across three series."
+    }
+   ],
+   "checklist": [
+    "Inspect hydraulic spheres and fluid lines for leaks, corrosion, or pressure loss.",
+    "Check current prices for specialized high-pressure hydraulic replacement components.",
+    "Examine structural chassis mounting points and floor pans for rust damage.",
+    "Confirm availability of local specialist knowledge or detailed service manuals for DIY work."
+   ],
+   "furtherQuestions": [
+    "How did the aerodynamic principles of the Citroën DS influence modern fuel-efficient body design?",
+    "What are the key differences in maintenance complexity between hydropneumatic and standard coil-spring suspensions?"
+   ],
+   "imagePrompt": "A vintage metal hydraulic suspension sphere resting on a worn wooden workbench alongside steel wrenches, clean cotton rags, and an open yellowed automotive technical manual.",
+   "keyIdea": "True automotive elegance springs from integrated mechanical innovation and aerodynamic efficiency rather than superficial luxury ornamentation.",
+   "glossary": [
+    {
+     "term": "design intent",
+     "definition": "The fundamental purpose and engineering philosophy guiding how an object is built and functions."
+    },
+    {
+     "term": "front mid-engined",
+     "definition": "An engine placement located behind the front axle line but ahead of the passenger cabin."
+    },
+    {
+     "term": "front-wheel drive",
+     "definition": "A system where engine power is delivered exclusively to the front wheels of a vehicle."
+    },
+    {
+     "term": "hydropneumatic suspension",
+     "definition": "A suspension system using pressurized fluid and gas to deliver self-leveling ride height and shock absorption."
+    }
+   ],
+   "image": {
+    "src": "data/img/018/frugal.jpg",
+    "alt": "Illustration for: Citroën DS: Engineering Elegance and Frugal Chic",
+    "prompt": "A vintage metal hydraulic suspension sphere resting on a worn wooden workbench alongside steel wrenches, clean cotton rags, and an open yellowed automotive technical manual.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Citroën DS",
+     "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_DS",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-25"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "latin",
+  "title": "Logic day: mini sudoku",
+  "prompt": "Fill the 4x4 grid so every row and every column contains 1, 2, 3 and 4 exactly once.",
+  "grid": [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    4,
+    0
+   ],
+   [
+    4,
+    0,
+    1,
+    2
+   ]
+  ],
+  "solution": [
+   [
+    3,
+    4,
+    2,
+    1
+   ],
+   [
+    2,
+    1,
+    3,
+    4
+   ],
+   [
+    1,
+    2,
+    4,
+    3
+   ],
+   [
+    4,
+    3,
+    1,
+    2
+   ]
+  ],
+  "explanation": "Start with the row or column that has the most numbers filled in."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Factionalism in Ancient Corinth"
+   },
+   {
+    "house": "mindcraft",
+    "text": "Spotting Broken Logic: An Introduction to Logical Fallacies"
+   },
+   {
+    "house": "soundroom",
+    "text": "The Veena: Plucked Resonance and Microtonal Control"
+   },
+   {
+    "house": "aiml",
+    "text": "Understanding the Transformer Architecture"
+   },
+   {
+    "house": "systems",
+    "text": "The Architecture of Git"
+   },
+   {
+    "house": "design",
+    "text": "Kerning and the Art of Optical Spacing"
+   },
+   {
+    "house": "frugal",
+    "text": "Citroën DS: Engineering Elegance and Frugal Chic"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Factionalism in Ancient Corinth",
+    "text": "When reading ancient letters, understanding the specific friction that prompted them changes everything. In *1 Corinthians*, Paul confronts a divided community split into rival loyalty factions. In his letter known as *1 Corinthians*, Paul of Tarsus addresses severe factionalism within the early Christian community in Corinth.",
+    "sources": [
+     "https://bible-api.com/1%20Corinthians%201%3A10-17",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "Spotting Broken Logic: An Introduction to Logical Fallacies",
+    "text": "We evaluate arguments every day in code reviews and debates, but persuasive language can easily mask faulty reasoning. A logical fallacy is an error in reasoning that makes an argument invalid, even if it sounds convincing on the surface.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Fallacy"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "The Veena: Plucked Resonance and Microtonal Control",
+    "text": "The veena is an ancient Indian chordophone capable of bending pitches with delicate string tension to mirror the expressive nuance of the human voice. The veena is an ancient family of Indian chordophones—instruments that produce sound through vibrating strings.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Veena"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Understanding the Transformer Architecture",
+    "text": "Modern AI models process whole pages of text instantaneously rather than reading word by word. The transformer architecture makes this parallel understanding possible. When processing language or audio, computers cannot work directly with raw words or waveforms.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "The Architecture of Git",
+    "text": "Understanding version control is not about memorising syntax commands; it is about grasping how code history is saved as immutable data snapshots. When you understand the underlying structure, tracking down software bugs becomes systematic. Instead of treating file changes as a list of line edits, a modern version control system treats your code as a series of complete snapshot points.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Git",
+     "https://lwn.net/Articles/1109478/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "Kerning and the Art of Optical Spacing",
+    "text": "Typography is more than selecting fonts; it is a system of spatial decisions. Understanding how letters fit together reveals how subtle adjustments guide a reader's eye. When typography feels balanced, your eye glides effortlessly across a page.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kerning"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Citroën DS: Engineering Elegance and Frugal Chic",
+    "text": "The Citroën DS proved that radical engineering and aerodynamic form could redefine luxury without relying on ostentatious ornament. The Citroën DS, produced between 1955 and 1975, represents a landmark in automotive design intent.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Citro%C3%ABn_DS"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: candid",
+   "Puzzle: Logic day: mini sudoku",
+   "AI/ML signal: Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions"
+  ]
+ }
+}
