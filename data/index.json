@@ -1,6 +1,14 @@
 {
  "editions": [
   {
+   "n": 19,
+   "slug": "019",
+   "publishedAt": "2026-11-27T12:27:41.882Z",
+   "theme": "1 Corinthians 8:1-13 · Nonviolent communication · Mridangam",
+   "failed": [],
+   "cover": "data/img/019/cover.jpg"
+  },
+  {
    "n": 18,
    "slug": "018",
    "publishedAt": "2026-11-25T12:57:25.220Z",

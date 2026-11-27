@@ -1,0 +1,977 @@
+{
+ "n": 19,
+ "slug": "019",
+ "publishedAt": "2026-11-27T12:27:41.882Z",
+ "theme": "1 Corinthians 8:1-13 · Nonviolent communication · Mridangam",
+ "generator": {
+  "providers": [
+   "gemini/gemini-3.5-flash",
+   "gemini/gemini-3.5-flash-lite"
+  ],
+  "failed": []
+ },
+ "cover": {
+  "src": "data/img/019/cover.jpg",
+  "alt": "Cover illustration",
+  "prompt": "Smooth stones, a jade massage tool and a polished spiral shell resting on dark blue handmade paper in near darkness. Style: dark moody still-life photograph, soft directional light, deep black shadows, rich cobalt blue paper texture, film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+  "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+  "aiGenerated": true
+ },
+ "capsule": {
+  "word": {
+   "word": "nuance",
+   "phonetic": "",
+   "pos": "",
+   "definition": "A subtle difference in meaning, tone, opinion, or detail that is easy to miss if you only look at the surface.",
+   "example": "While both functions produce the correct output, the nuance lies in how they handle memory allocation under heavy load.",
+   "exercise": "Write a sentence using the word 'nuance' to describe a subtle bug you found while debugging.",
+   "dictionary": false,
+   "aiGenerated": true
+  },
+  "colour": {
+   "name": "Muted Terminal",
+   "hexes": [
+    "#1E1E2E",
+    "#A6ADC8",
+    "#89B4FA"
+   ],
+   "note": "The deep obsidian base grounds the composition, while the soft grey-blue delivers legible content without high-contrast fatigue. The crisp slate blue accent highlights interactive elements precisely, creating a calm, focused environment for reading complex data.",
+   "application": "Dark-mode developer documentation dashboards and code editors.",
+   "accessibility": "Strongest pair: #1E1E2E with #89B4FA, contrast 7.79:1 (AAA). Computed by code.",
+   "aiGenerated": true
+  },
+  "type": {
+   "font": "Fira Code",
+   "character": "Precise, modern, and pragmatic with distinct monospaced letterforms and programming ligatures that render multi-character operators cleanly.",
+   "bestUses": "Excellent for code editors, terminal windows, and inline code blocks in technical documentation; poor for long-form narrative body text.",
+   "url": "https://fonts.google.com/specimen/Fira+Code",
+   "note": "Google Fonts families are open-licensed; confirm on the specimen page.",
+   "aiGenerated": true
+  },
+  "interfaceStudy": {
+   "pattern": "Skeleton Screens",
+   "reasoning": "Skeleton screens show a visual layout preview while content loads, reducing perceived wait times. Unlike traditional spinner animations, they reassure users that progress is happening and prevent layout shifts by pre-allocating visual space. This structure makes applications feel faster and more responsive, even when network requests take several seconds.",
+   "tryIt": "Open a data-heavy web app in your browser, switch network settings in developer tools to 'Fast 3G', and refresh to sketch the loading wireframe boxes.",
+   "aiGenerated": true
+  },
+  "challenge": "Identify a UI component in your favourite app where a subtle nuance in layout or copy prevents a common user mistake.",
+  "aiSignal": {
+   "title": "Can image generation help visual reasoning? An empirical study",
+   "url": "https://arxiv.org/abs/2611.34935v1",
+   "date": "2026-11-25T18:59:31Z",
+   "feed": "arXiv cs.LG (newest)",
+   "kind": "research",
+   "whatHappened": "Based on the brief summary provided, researchers tested whether generating helper images could improve how multimodal AI models answer visual questions. Surprisingly, adding these generated visual helpers actually decreased mean accuracy by 3.7 percentage points across nine out of ten tasks.",
+   "whyItMatters": "This finding illustrates why software and AI designers cannot rely purely on intuitive assumptions about how complex systems process information. Although the short paper description lacks full technical context, it highlights how extra processing steps can introduce noise rather than clarity.",
+   "takeaway": "Always test your intuitive design ideas with controlled experiments, because adding multi-step processing can sometimes degrade performance instead of improving it."
+  },
+  "openTab": {
+   "url": "https://www.nand2tetris.org",
+   "name": "https://www.nand2tetris.org",
+   "what": "Nand2Tetris is a website that provides a complete hardware and software project journey, guiding you from building basic logic gates all the way up to running a modern tetris game.",
+   "whyBookmark": "It gives you a hands-on understanding of how computers actually work from the ground up, making abstract computing concepts tangible for a first-year student.",
+   "verified": true,
+   "checkedAt": "2026-11-27"
+  }
+ },
+ "houses": {
+  "theology": {
+   "house": "theology",
+   "houseName": "Scripture in its real world",
+   "topic": "1 Corinthians 8:1-13",
+   "title": "Knowledge, Love, and Idol Meat in Ancient Corinth",
+   "hook": "When personal freedom clashes with community wellbeing, how should an early believer act? In *1 Corinthians*, Paul addresses whether Christians can eat meat previously offered to pagan deities.",
+   "core": "In his letter to the believers in Corinth, the apostle Paul addresses a practical debate: whether Christians may consume **food sacrificed to idols**. Some members of the community possessed detailed knowledge—the understanding that non-Christian gods have no real existence and that there is only one God, the Father, and one Lord, Jesus Christ. Because idols represent nothing real to them, these knowledgeable believers felt free to eat meat sold in markets or served in local temples without moral hesitation.\n\nHowever, Paul warns that relying strictly on personal rights can turn individual liberty into a **stumbling block** for others. Believers who recently left pagan worship might still connect the meat with former religious habits. If they see a fellow believer eating in an idol's temple, their own fragile **conscience** could be wounded or defiled, leading them back into spiritual harm.\n\nFor Paul, love takes precedence over absolute rights. While knowledge can puff a person up with pride, active love builds up the community. Paul concludes that if eating meat causes another member of the faith community to fall into sin, he will voluntarily abstain from meat entirely. Personal freedom, in Paul's view, must always be limited by responsibility toward the weaker members of the group.",
+   "context": "The *First Epistle to the Corinthians* was written by Paul to the Christian assembly in Corinth, a bustling urban center in the Roman Empire. The letter addresses several internal disputes, including church divisions, moral conduct, marriage, public worship, spiritual gifts, and eating meat offered to pagan deities. In antiquity, meat sold in markets often originated from civic temple sacrifices. For early Christians navigating life in a polytheistic city, deciding whether to participate in meals linked to idol temples was a practical daily concern.",
+   "evidence": [
+    {
+     "claim": "Paul wrote First Corinthians to address disputes in Corinth, including food sacrificed to idols.",
+     "label": "established",
+     "source": "S2"
+    },
+    {
+     "claim": "Paul asserts that there is only one God, the Father, and one Lord, Jesus Christ.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul states that knowledge puffs up, but love builds up.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Paul promises never to eat meat again if doing so causes a brother to stumble.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Corinthian believers with knowledge intentionally ate in temples to demonstrate their intellectual superiority.",
+     "label": "inference",
+     "source": null
+    }
+   ],
+   "visual": "Knowledge (Rights) ----> Liberty to eat idol meat\n                       |\n                       v\nLove (Responsibility) --> Voluntary restriction for others",
+   "realWorld": "Modern ethics and policy debates frequently weigh individual liberty against potential harm to vulnerable members of a community. Whether evaluating public health measures, digital privacy practices, or workplace standards, leaders often face Paul's central question: when should personal rights be voluntarily restricted for the common good?",
+   "exercise": {
+    "prompt": "Read 1 Corinthians 8:1-13 in two different English translations using a free online tool like Bible Gateway. Compare how the phrase 'knowledge puffs up' is rendered in both.",
+    "answerHint": "Look for variations such as 'arrogant', 'proud', or 'makes one conceited' in translations like the NIV or ESV compared to the WEB."
+   },
+   "quiz": [
+    {
+     "q": "According to 1 Corinthians 8, what effect does knowledge have compared to love?",
+     "options": [
+      "Knowledge builds up, while love puffs up.",
+      "Knowledge puffs up, while love builds up.",
+      "Knowledge creates laws, while love creates division.",
+      "Knowledge saves believers, while love forgives idols."
+     ],
+     "answer": 1,
+     "explanation": "Paul explicitly states in 1 Corinthians 8:1 that knowledge puffs up, but love builds up."
+    },
+    {
+     "q": "What action does Paul state he will take if food causes a brother to stumble?",
+     "options": [
+      "He will force the brother to gain more knowledge.",
+      "He will eat meat only inside private homes.",
+      "He will eat no meat forever more.",
+      "He will leave the Corinthian church."
+     ],
+     "answer": 2,
+     "explanation": "In 1 Corinthians 8:13, Paul concludes that if food causes his brother to stumble, he will eat no meat forever."
+    }
+   ],
+   "checklist": [
+    "Distinguish between established textual claims and later theological commentary.",
+    "Identify how ancient cultural contexts shape ethical arguments.",
+    "Evaluate how individual actions impact community members."
+   ],
+   "furtherQuestions": [
+    "How does Paul's discussion of Christian freedom in 1 Corinthians 8 compare to his argument in Romans 14?",
+    "What historical evidence exists regarding temple dining rooms in ancient Roman Corinth?"
+   ],
+   "imagePrompt": "An ancient weathered stone table in a Greco-Roman courtyard holding an unglazed clay bowl with carved olive wood fruit and a simple linen cloth.",
+   "keyIdea": "Paul argues that personal knowledge and rights must yield to love when individual freedom risks causing harm to vulnerable community members.",
+   "glossary": [
+    {
+     "term": "food sacrificed to idols",
+     "definition": "Meat previously offered as part of pagan temple rituals or offerings."
+    },
+    {
+     "term": "stumbling block",
+     "definition": "An obstacle or action that causes another person to sin or suffer harm."
+    },
+    {
+     "term": "conscience",
+     "definition": "An inner moral sense regarding whether an action is right or wrong."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/theology.jpg",
+    "alt": "Illustration for: Knowledge, Love, and Idol Meat in Ancient Corinth",
+    "prompt": "An ancient weathered stone table in a Greco-Roman courtyard holding an unglazed clay bowl with carved olive wood fruit and a simple linen cloth.. Style: macro still-life photograph, aged paper, dried botanicals and clay, deep oxblood red and warm ochre backdrop, soft side light, shallow depth of field, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "1 Corinthians 8:1-13 (World English Bible)",
+     "url": "https://bible-api.com/1%20Corinthians%208%3A1-13",
+     "kind": "scripture",
+     "retrievedAt": "2026-11-27"
+    },
+    {
+     "id": "S2",
+     "title": "Wikipedia: First Epistle to the Corinthians",
+     "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    }
+   ]
+  },
+  "mindcraft": {
+   "house": "mindcraft",
+   "houseName": "IQ, EQ and the art of living well",
+   "topic": "Nonviolent communication",
+   "title": "De-escalating Conflict with Nonviolent Communication",
+   "hook": "When conversations break down into defensive arguments, we often react to perceived attacks rather than underlying problems. Learning to separate raw observations from subjective judgments helps you express what you need without triggering immediate defensiveness.",
+   "core": "Clinical psychologist Marshall Rosenberg introduced **Nonviolent Communication** to help people express themselves without invoking judgment or defensiveness. At its core, the framework rests on four clear steps that transform how you process conflict and articulate your experience to others.\n\nThe first component is **observation**, where you state concrete facts about a situation without adding evaluation or blame. Next come **feelings**, where you identify your authentic emotional state rather than projecting motives onto someone else. Following this, you connect those emotions to fundamental **needs**, recognizing the human requirements like safety or clarity that are driving your reaction. Finally, you make explicit **requests**, asking for clear, actionable steps that can meet those needs through voluntary cooperation.\n\nBy shifting your focus from criticizing behavior to clarifying mutual needs, you build **empathic understanding** and reduce tension in daily interactions. This deliberate structure prevents automatic defensive reactions and opens space for constructive dialogue.",
+   "context": "Developed by clinical psychologist Marshall Rosenberg, Nonviolent Communication draws from humanistic psychology and the principles of nonviolence. Rather than treating communication as a tactical win-lose debate, the model assumes that human beings share universal core requirements and that conflict arises when these requirements go unexpressed or misunderstood. Before using this method effectively, a practitioner must develop basic emotional self-awareness to distinguish immediate emotional reactions from neutral, observable events in everyday life.",
+   "evidence": [
+    {
+     "claim": "Nonviolent Communication was developed by clinical psychologist Marshall Rosenberg based on humanistic psychology.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The four main components of Nonviolent Communication are observation, feelings, fundamental needs, and requests.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Expressing observations without judgment encourages voluntary cooperation in everyday interactions.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Structuring feedback into explicit requests reduces emotional defensiveness in high-stress workplaces.",
+     "label": "inference",
+     "source": "S1"
+    }
+   ],
+   "visual": " Observation  --> State factual triggers without judgment\n   Feelings    --> Identify internal emotional responses\n    Needs      --> Connect emotions to core requirements\n   Requests    --> Ask for concrete, actionable steps",
+   "realWorld": "In software development teams, code reviews often create friction when feedback feels like personal criticism. A developer trained in Nonviolent Communication might replace an evaluative comment like *this code is sloppy* with a structured alternative: noting a missing error handler, sharing a need for system stability, and asking for a unit test to be added.",
+   "exercise": {
+    "prompt": "Think of a minor annoyance from this week. Write down a four-sentence statement following the framework: one sentence observing the neutral fact, one stating your feeling, one identifying your need, and one clear request.",
+    "answerHint": "Check that your observation contains no evaluative words (like always, lazy, or bad) and your request asks for a specific, positive action."
+   },
+   "quiz": [
+    {
+     "q": "What are the four core components of Nonviolent Communication?",
+     "options": [
+      "Observation, feelings, fundamental needs, and requests",
+      "Diagnosis, emotional control, negotiation, and agreement",
+      "Fact-checking, argument, persuasion, and compromise",
+      "Listening, evaluation, feedback, and enforcement"
+     ],
+     "answer": 0,
+     "explanation": "Rosenberg's model foregrounds four specific components: observation, feelings, fundamental needs, and requests."
+    },
+    {
+     "q": "How does an effective observation differ from a typical reaction in this framework?",
+     "options": [
+      "It includes a detailed moral evaluation of the other person's behavior.",
+      "It states observable facts without adding judgment or evaluation.",
+      "It focuses on predicting how the other person will behave in the future.",
+      "It demands an immediate apology before continuing the conversation."
+     ],
+     "answer": 1,
+     "explanation": "An observation requires expressing concrete facts about an event without mixing in personal judgments or evaluations."
+    }
+   ],
+   "checklist": [
+    "Identify evaluative language in your draft thoughts.",
+    "Name your emotion using direct feeling words.",
+    "Formulate a request that asks for concrete action rather than passive agreement."
+   ],
+   "furtherQuestions": [
+    "How can someone practice Nonviolent Communication when another person refuses to engage constructively?",
+    "What is the psychological distinction between a genuine universal need and a specific personal preference?"
+   ],
+   "imagePrompt": "A smooth wooden desk with an open blank notebook, a brass fountain pen, and a ceramic cup resting beside soft window light.",
+   "keyIdea": "Expressing neutral observations and personal needs without judgment fosters voluntary cooperation and reduces interpersonal conflict.",
+   "glossary": [
+    {
+     "term": "Nonviolent Communication",
+     "definition": "A communication process focused on empathic understanding and judgment-free expression of needs."
+    },
+    {
+     "term": "observation",
+     "definition": "The act of stating concrete facts about an event without adding evaluation or personal judgment."
+    },
+    {
+     "term": "feelings",
+     "definition": "Authentic emotional states experienced in response to an event, distinct from thoughts or blame."
+    },
+    {
+     "term": "requests",
+     "definition": "Clear, actionable asks for specific behaviors that help meet fundamental human needs."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/mindcraft.jpg",
+    "alt": "Illustration for: De-escalating Conflict with Nonviolent Communication",
+    "prompt": "A smooth wooden desk with an open blank notebook, a brass fountain pen, and a ceramic cup resting beside soft window light.. Style: calm editorial still-life photograph, muted dusty blue backdrop, soft diffuse light, one natural object, minimal composition, subtle film grain. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Nonviolent Communication",
+     "url": "https://en.wikipedia.org/wiki/Nonviolent_Communication",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    }
+   ]
+  },
+  "soundroom": {
+   "house": "soundroom",
+   "houseName": "Music from the inside",
+   "topic": "Mridangam",
+   "title": "The Mridangam: Engine of Carnatic Rhythm",
+   "hook": "The **mridangam** is a double-sided acoustic drum that forms the rhythmic heartbeat of South Indian classical performance. Understanding its sonic layering reveals how dynamic acoustic percussion achieves complex, speech-like tonal variety.",
+   "core": "In *Carnatic music*, South Indian classical performance relies on the **mridangam** as its primary rhythmic accompaniment. Unlike standard snare drums that produce an unpitched noise burst, this double-headed barrel drum produces clear harmonic pitches alongside deep, woody bass tones. The drum heads are tuned precisely to match the soloist's tonic note. The left head produces low-frequency resonant thumps, while the right head, coated with a black permanent paste of iron dust and rice flour, generates high pitched, bell-like **overtones** when struck with specific finger techniques.\n\nFor audio engineers and producers, capturing the mridangam presents a unique challenge in **transient control** and frequency distribution. Microphoning requires two distinct capsules to isolate the treble overtones from the low-end resonant decay without introducing **phase cancellation**. When recorded cleanly, raw hits sound distinct and immediate: the high head offers a metallic snap, while the low head delivers a hollow decay. In modern mixing, subtle dynamic equalization preserves these snappy attacks while managing proximity effect on the bass face, allowing complex polyrhythmic patterns to cut through dense acoustic mix environments.",
+   "context": "Originating in the Indian subcontinent, the mridangam is historically documented as a traditional royal instrument from the state of *Tamil Nadu*. It serves as the chief percussion driver in *Carnatic music* ensembles, dictating intricate rhythmic frameworks. A related modified version called the *pakhawaj* appears in North Indian *dhrupad* traditions, while the *kendang* fills a similar structural role across Maritime Southeast Asia. Before recording or mixing a mridangam track, producers must understand that its strokes function like a tonal language, where distinct hand striking patterns correspond to specific acoustic frequency balances.",
+   "evidence": [
+    {
+     "claim": "The mridangam is a traditional royal instrument originating in the south Indian state of Tamil Nadu.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "It serves as the primary rhythmic accompaniment in Carnatic music ensembles.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The pakhawaj is a modified version of the mridangam used in dhrupad music.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The right drum head features a black tuning paste made of iron dust and rice flour to produce overtones.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "[Bass Head] <--- ( Barrel Body ) ---> [Treble Head]\n     |                                      |\n(Low Mic)                              (High Mic)",
+   "realWorld": "Beyond traditional classical concert halls, mridangam techniques heavily influence modern world fusion, film scores, and electronic production. Contemporary composers sample or synthesize its dual-tone characteristics to create organic percussion textures that cut through electronic sub-bass, proving how ancient acoustic drum design solves modern mix-bus space allocation challenges.",
+   "exercise": {
+    "prompt": "Load any free audio editing software. Import two distinct drum sounds: a sharp high-pitched wooden click and a deep low-end thump. Place them on separate tracks, pan one slightly left and the other slightly right, then apply a high-pass filter to the click track to remove frequencies below 300 Hz.",
+    "answerHint": "Check that the low thump and high click remain distinct without muddying each other when played together."
+   },
+   "quiz": [
+    {
+     "q": "What role does the mridangam play in a Carnatic music ensemble?",
+     "options": [
+      "It provides the main melodic lead line.",
+      "It acts as the primary rhythmic accompaniment.",
+      "It provides harmonic chordal backing.",
+      "It acts as an optional sound effect layer."
+     ],
+     "answer": 1,
+     "explanation": "According to source S1, the mridangam is the primary rhythmic accompaniment in a Carnatic music ensemble."
+    },
+    {
+     "q": "Which related drum instrument is identified as a primary percussion instrument in North Indian dhrupad music?",
+     "options": [
+      "Kendang",
+      "Tabla",
+      "Pakhawaj",
+      "Dholak"
+     ],
+     "answer": 2,
+     "explanation": "Source S1 states that a modified version of the mridangam called the pakhawaj is the primary percussion instrument in dhrupad."
+    }
+   ],
+   "checklist": [
+    "Check mic phase alignment between two opposing drum heads before tracking.",
+    "Use dynamic EQ to contain low-end boom without destroying acoustic sustain.",
+    "Pan high overtones slightly opposite the bass tone for subtle stereo width."
+   ],
+   "furtherQuestions": [
+    "How does the physical application of weighted paste on a drumhead change its resonant overtone series?",
+    "What microphone patterns best prevent phase cancellation when recording dual-headed acoustic instruments?"
+   ],
+   "imagePrompt": "A detailed close-up shot of a polished wooden barrel drum head resting on a dark woven cloth, showing natural leather straps and textural black center coating under warm studio light.",
+   "keyIdea": "The mridangam generates dual tonal personalities—deep bass and tuned harmonic overtones—requiring precise dynamic control and multi-mic recording techniques to balance in a mix.",
+   "glossary": [
+    {
+     "term": "mridangam",
+     "definition": "A double-sided barrel drum from South India used as the primary percussion instrument in Carnatic music."
+    },
+    {
+     "term": "overtones",
+     "definition": "Frequencies higher than the fundamental pitch that give an instrument its unique timbral character."
+    },
+    {
+     "term": "transient control",
+     "definition": "Managing the sharp initial attack peak of an audio signal using compression or envelope shaping tools."
+    },
+    {
+     "term": "phase cancellation",
+     "definition": "The reduction of acoustic volume when two overlapping sound waves out of sync combine."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/soundroom.jpg",
+    "alt": "Illustration for: The Mridangam: Engine of Carnatic Rhythm",
+    "prompt": "A detailed close-up shot of a polished wooden barrel drum head resting on a dark woven cloth, showing natural leather straps and textural black center coating under warm studio light.. Style: motion-blurred analogue 35mm film photograph, warm marigold and deep green, orange light-leak edge, heavy grain, atmospheric. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Mridangam",
+     "url": "https://en.wikipedia.org/wiki/Mridangam",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    }
+   ]
+  },
+  "aiml": {
+   "house": "aiml",
+   "houseName": "AI/ML Fieldnotes",
+   "topic": "Retrieval-augmented generation",
+   "title": "Retrieval-Augmented Generation",
+   "hook": "Your AI model can write poetry, but it has never seen your company's latest employee handbook. **Retrieval-augmented generation** bridges that gap by fetching external documents before the model writes its answer.",
+   "core": "Imagine asking a student a complex question about a historical event. If they rely purely on memory, they might guess or hallucinate details. But if you hand them an open history book and let them read the exact chapter first, their answer becomes accurate and grounded. \n\nThat open book approach is **retrieval-augmented generation** (RAG), a technique that enables large language models to retrieve and incorporate new information from external data sources [S1]. First proposed in 2020 [S1], this method addresses a fundamental limitation of AI: models are frozen in time based on their training data. \n\nWhen a user asks a question, the system first searches a specified set of external documents for relevant paragraphs [S1]. It then injects those retrieved snippets directly into the prompt alongside the original user query. The **large language model** reads the prompt and the retrieved texts together, crafting a response that blends its internal language skills with your specific, up-to-date data. This allows chatbots to access internal company data or authoritative sources without requiring expensive retraining [S1].",
+   "context": "Prerequisites for understanding this technique include a basic grasp of how text prompts work and how databases store information. In your first-year computing degree, you have likely encountered basic file reading and search algorithms; RAG simply scales that search up to feed text directly into an AI model context window.",
+   "evidence": [
+    {
+     "claim": "Retrieval-augmented generation enables large language models to retrieve and incorporate new information from external data sources.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "With RAG, LLMs first refer to a specified set of documents, then respond to user queries.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The technique allows LLMs to use non-public, domain-specific or updated information not available in original training data.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The technique was first proposed in 2020.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "User Query --> [ Search Documents ] --> Retrieved Text + Query --> [ Large Language Model ] --> Grounded Answer",
+   "realWorld": "Customer support bots use RAG to read your company's live return policy documents before answering customer emails, ensuring they never quote outdated rules.",
+   "exercise": {
+    "prompt": "Write a short Python script that opens a local text file containing store hours, saves the text into a variable called context, and prints a combined string that looks like 'Context: [context] Question: What time do you open?'",
+    "answerHint": "Run your script and verify that the output successfully joins your local file contents with the hardcoded question string."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary function of retrieval-augmented generation?",
+     "options": [
+      "To delete old model weights",
+      "To allow LLMs to retrieve and incorporate information from external sources",
+      "To speed up computer hardware graphics cards",
+      "To translate code from Python to C++"
+     ],
+     "answer": 1,
+     "explanation": "RAG specifically enables models to look up external documents to answer queries using updated or domain-specific facts."
+    },
+    {
+     "q": "Around what year was retrieval-augmented generation first proposed?",
+     "options": [
+      "2005",
+      "2012",
+      "2020",
+      "2023"
+     ],
+     "answer": 2,
+     "explanation": "The technique was first proposed in 2020 according to foundational records."
+    }
+   ],
+   "checklist": [
+    "Verify documents are clean text files",
+    "Check that your search step returns relevant paragraphs",
+    "Ensure the retrieved text fits within the model token limit"
+   ],
+   "furtherQuestions": [
+    "How do you decide which chunks of text are most relevant to a user query?",
+    "What happens when the external document contains conflicting information?"
+   ],
+   "imagePrompt": "A vintage open reference book sitting on a wooden desk next to a glowing modern computer monitor displaying lines of code.",
+   "keyIdea": "Retrieval-augmented generation connects an AI model to external documents so it can answer questions using fresh, private facts without retraining.",
+   "glossary": [
+    {
+     "term": "retrieval-augmented generation",
+     "definition": "A technique enabling large language models to retrieve and incorporate new information from external data sources."
+    },
+    {
+     "term": "large language model",
+     "definition": "An AI program trained on vast amounts of text to recognize, summarize, and generate human-like language."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/aiml.jpg",
+    "alt": "Illustration for: Retrieval-Augmented Generation",
+    "prompt": "A vintage open reference book sitting on a wooden desk next to a glowing modern computer monitor displaying lines of code.. Style: grainy out-of-focus abstract photograph, acid yellow and deep navy and plum gradients, risograph noise, soft blurred forms. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Retrieval-augmented generation",
+     "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    }
+   ]
+  },
+  "systems": {
+   "house": "systems",
+   "houseName": "The Systems Forge",
+   "topic": "Big O notation",
+   "title": "Big O notation",
+   "hook": "When your code runs fine on your laptop but freezes on a server, you are usually dealing with a hidden scaling problem. Big O notation gives you a shared language to predict how your algorithms behave as data grows.",
+   "core": "As a first-year computing student, you do not need to memorize complex formulas to understand how code scales. **Big O notation** is a mathematical notation that describes the approximate size of a function on a domain, where the letter O stands for *Ordnung*, meaning the order of approximation [S1]. In software engineering, it helps us evaluate how the execution time or memory usage of an algorithm increases as the input size grows larger.\n\nImagine you are writing a simple Python function to find a specific number in a list of items. If you check every single item one by one, your search time scales linearly with the size of the list. Here is a tiny Python snippet demonstrating this approach:\n\n```python\ndef find_item(target, items):\n    for item in items:\n        if item == target:\n            return True\n    return False\n```\n\nIf the list has ten items, the loop runs at most ten times. If the list has one million items, it might run one million times. We describe this linear scaling behavior as *O(n)*, where *n* represents the number of elements in the input data structure.\n\nA classic bug that beginners make is nesting loops without realizing the compounding cost. For example, writing a loop inside another loop to compare every item against every other item turns a simple task into a quadratic *O(n^2)* operation. If your input size multiplies by ten, your execution time multiplies by one hundred, quickly grinding your program to a halt.",
+   "context": "Big O is a member of a family of notations invented by the German mathematicians Paul Bachmann and Edmund Landau and expanded by others, collectively called *Bachmann–Landau notation* [S1]. Prerequisites for understanding it include basic familiarity with functions, loops, and arrays or lists in a programming language like Python or C. In practical software engineering, understanding these growth rates helps developers choose efficient data structures and avoid catastrophic performance bottlenecks before pushing code to production environments.",
+   "evidence": [
+    {
+     "claim": "Big O notation is a mathematical notation that describes the approximate size of a function on a domain.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Big O is a member of a family of notations invented by German mathematicians Paul Bachmann and Edmund Landau.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "The letter O stands for Ordnung, that is, the order of approximation.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Nested loops in beginner code often lead to quadratic O(n^2) time complexity.",
+     "label": "background",
+     "source": null
+    },
+    {
+     "claim": "Linear search checks items one by one and scales with the size of the input list.",
+     "label": "background",
+     "source": null
+    }
+   ],
+   "visual": "Input size (n) -> [ 10 items ]  => Time: Fast\nInput size (n) -> [ 1,000,000 items ] => Time: Slow (Linear O(n))",
+   "realWorld": "Operating systems and system utilities manage thousands of background tasks, device drivers, and security packages. When developers patch core components or handle kernel updates, they rely on efficient algorithms to ensure that system checks do not consume excessive CPU cycles or memory resources.",
+   "exercise": {
+    "prompt": "Write a short Python function that prints every pair of elements from a single list using nested loops, and note how many times the inner print statement executes for a list of 3 items.",
+    "answerHint": "For 3 items, the inner print statement should execute 9 times, illustrating O(n^2) behavior."
+   },
+   "quiz": [
+    {
+     "q": "What does the letter O stand for in Big O notation?",
+     "options": [
+      "Ordnung",
+      "Operation",
+      "Optimization",
+      "Output"
+     ],
+     "answer": 0,
+     "explanation": "The letter O stands for Ordnung, which is German for the order of approximation."
+    },
+    {
+     "q": "Who invented the family of notations that includes Big O?",
+     "options": [
+      "Alan Turing and Alonzo Church",
+      "Paul Bachmann and Edmund Landau",
+      "Edsger Dijkstra and Donald Knuth",
+      "Ada Lovelace and Charles Babbage"
+     ],
+     "answer": 1,
+     "explanation": "Big O is part of Bachmann-Landau notation, invented by German mathematicians Paul Bachmann and Edmund Landau."
+    }
+   ],
+   "checklist": [
+    "Identify the input size variable n in your code",
+    "Check for nested loops that multiply execution time",
+    "Consider how the algorithm performs if input size increases tenfold"
+   ],
+   "furtherQuestions": [
+    "How does space complexity differ from time complexity?",
+    "What is the difference between O(n) and O(log n) performance?"
+   ],
+   "imagePrompt": "A vintage mechanical calculator resting on a wooden workbench next to a notebook filled with mathematical equations written in ink.",
+   "keyIdea": "Big O notation provides a standardized mathematical way to describe how an algorithm's execution time or memory usage scales as input size grows.",
+   "glossary": [
+    {
+     "term": "Big O notation",
+     "definition": "A mathematical notation that describes the approximate size of a function on a domain."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/systems.jpg",
+    "alt": "Illustration for: Big O notation",
+    "prompt": "A vintage mechanical calculator resting on a wooden workbench next to a notebook filled with mathematical equations written in ink.. Style: tactile still-life photograph on deep blue handmade paper, smooth stones and brass objects, soft studio light, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Big O notation",
+     "url": "https://en.wikipedia.org/wiki/Big_O_notation",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    },
+    {
+     "id": "S2",
+     "title": "LWN.net headlines: Security updates for Thursday",
+     "url": "https://lwn.net/Articles/1109990/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-27",
+     "date": "Thu, 26 Nov 2026 14:06:22 +0000"
+    },
+    {
+     "id": "S3",
+     "title": "LWN.net headlines: Dave Täht given the Jonathan B. Postel Service Award",
+     "url": "https://lwn.net/Articles/1109691/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-27",
+     "date": "Wed, 25 Nov 2026 18:16:51 +0000"
+    },
+    {
+     "id": "S4",
+     "title": "LWN.net headlines: [$] Tainting (or not) on manual driver binding",
+     "url": "https://lwn.net/Articles/1103714/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-27",
+     "date": "Wed, 25 Nov 2026 14:36:07 +0000"
+    },
+    {
+     "id": "S5",
+     "title": "LWN.net headlines: Pop!_OS 26.04 LTS released",
+     "url": "https://lwn.net/Articles/1109662/",
+     "kind": "feed",
+     "retrievedAt": "2026-11-27",
+     "date": "Wed, 25 Nov 2026 14:34:00 +0000"
+    }
+   ]
+  },
+  "design": {
+   "house": "design",
+   "houseName": "The Design Observatory",
+   "topic": "Skeuomorphism",
+   "title": "The Art of the Familiar: Understanding Skeuomorphism",
+   "hook": "When early digital interfaces needed to teach people how to use computers, they borrowed the physical look of paper, leather, and metal. This design choice is called **skeuomorphism**, and it shows how visual literacy bridges the gap between old habits and new technology.",
+   "core": "Visual design is a system of deliberate decisions involving typography, colour, hierarchy, and grids. One of the most fascinating movements in interface design is **skeuomorphism**, which describes a derivative object retaining ornamental design cues from structures that were necessary in the original [S1]. Think of a digital calendar app that mimics the paper binding of a physical desk calendar [S1]. These design choices make something new feel familiar and easier to understand by using elements that serve no pragmatic purpose in the digital system except for identification [S1].\n\nWhen we look at visual literacy, we study why these choices are made. In early computing, users did not know what a file folder or a recycling bin was on a screen. By giving digital icons the textured gradients, drop shadows, and physical shapes of real-world objects, designers created an intuitive visual hierarchy. Even though the metal rivets on digital calculator apps or the leather stitching on notepad apps are functionally useless in software, they act as visual anchors. They communicate affordance—how an object is meant to be used—by tapping into our memory of physical objects.\n\nAs a first-year computing student, understanding this helps you see that user interfaces are never neutral. Every pixel choice, colour gradient, and spatial grid is a decision about how to communicate function through familiarity. Whether you are building a command-line tool or a web dashboard, recognizing how people map physical experiences onto abstract digital data is a core skill in software design.",
+   "context": "Before the rise of flat design in the 2010s, early graphical user interfaces relied heavily on realistic textures to help users transition from the physical world to the screen. Prerequisites for studying this include basic observation skills and an interest in how humans interact with software.",
+   "evidence": [
+    {
+     "claim": "A skeuomorph is a derivative object that retains ornamental design cues from structures that were necessary in the original.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Skeuomorphs are typically used to make something new feel familiar, thus easier to understand and use.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "They employ elements that, while essential to the original object, serve no pragmatic purpose in the new system except for identification.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Examples include pottery embellished with imitation rivets reminiscent of metal pots.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "A software calendar can imitate the appearance of binding on a paper desk calendar.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "+-----------------------+\n| [Jan]  Calendar       |\n| === Paper Binding === |\n| [ 1 ] [ 2 ] [ 3 ]     |\n| [ 4 ] [ 5 ] [ 6 ]     |\n+-----------------------+",
+   "realWorld": "You see skeuomorphism whenever a digital button has a raised 3D shadow to look like something you can physically press with your finger.",
+   "exercise": {
+    "prompt": "Draw a simple digital button on paper, then add a drop shadow and a gradient to make it look like a physical plastic button.",
+    "answerHint": "Check if the shadow and highlight create the illusion that the button rises above the page."
+   },
+   "quiz": [
+    {
+     "q": "What is the primary purpose of a skeuomorph in software design?",
+     "options": [
+      "To make new systems feel familiar and easier to use",
+      "To reduce the file size of digital applications",
+      "To speed up the computer processor",
+      "To encrypt user data securely"
+     ],
+     "answer": 0,
+     "explanation": "Skeuomorphs use ornamental design cues from original structures to make new systems feel familiar and easier to understand."
+    },
+    {
+     "q": "Which of the following is an example of a skeuomorph mentioned in the text?",
+     "options": [
+      "A command-line text interface",
+      "A software calendar that imitates paper binding",
+      "A high-speed fiber optic cable",
+      "A compiled C++ program"
+     ],
+     "answer": 1,
+     "explanation": "A software calendar imitating paper desk calendar binding is explicitly noted as a skeuomorph."
+    }
+   ],
+   "checklist": [
+    "Identify if a UI element serves a functional or purely decorative identification purpose",
+    "Check if design cues help users understand a novel interface"
+   ],
+   "furtherQuestions": [
+    "Why did interface design shift away from skeuomorphism toward flat design?",
+    "How do modern interfaces signal that something is clickable without using physical textures?"
+   ],
+   "imagePrompt": "A vintage leather-bound notebook lying next to a modern metal computing device on a dark wooden desk, capturing contrasting textures.",
+   "keyIdea": "Skeuomorphism uses familiar visual cues from physical objects to make new digital systems easier to understand.",
+   "glossary": [
+    {
+     "term": "skeuomorphism",
+     "definition": "A design approach where an object retains ornamental design cues from a physical original to make it feel familiar."
+    },
+    {
+     "term": "typography",
+     "definition": "The style and appearance of printed or displayed text."
+    },
+    {
+     "term": "hierarchy",
+     "definition": "An arrangement of design elements in order of importance."
+    },
+    {
+     "term": "grids",
+     "definition": "Structured frameworks of intersecting lines used to align and layout content."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/design.jpg",
+    "alt": "Illustration for: The Art of the Familiar: Understanding Skeuomorphism",
+    "prompt": "A vintage leather-bound notebook lying next to a modern metal computing device on a dark wooden desk, capturing contrasting textures.. Style: editorial still-life photograph, dried leaves and a pear on olive green backdrop, muted earthy tones, soft natural light. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Skeuomorph",
+     "url": "https://en.wikipedia.org/wiki/Skeuomorph",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    }
+   ]
+  },
+  "frugal": {
+   "house": "frugal",
+   "houseName": "Frugal Chic",
+   "topic": "Interior lighting",
+   "title": "Lighting Rooms with Intention",
+   "hook": "Good interior lighting is not about buying expensive designer fixtures. It is about understanding how light shapes a space.",
+   "core": "Lighting is the deliberate use of light to achieve practical or aesthetic effects [S1]. It includes both artificial sources like lamps and light fixtures, and natural illumination by capturing daylight [S1]. When you rely on daylight during the day, it is called **daylighting** [S1]. This practice can save energy in place of using artificial lighting [S1]. Proper lighting can enhance task performance, improve the appearance of an area, and have positive psychological effects on occupants [S1].\n\nDeveloping taste in interior lighting means looking past brand names and focusing on the quality of light a fixture casts. You do not need to spend money to perform status. Instead of buying new retail items, look for secondhand lamps at thrift stores, repair old wiring with basic tools, or diffuse harsh bulbs with DIY shades. Check current prices before purchasing anything new.\n\nWell-made lighting uses durable materials like glass, ceramic, and solid brass that age gracefully over time. Avoid cheap plastics that yellow and brittle under heat. A thoughtful arrangement of a few modest light sources creates a warmer, more inviting room than a single expensive overhead fixture.",
+   "context": "Prerequisites: basic curiosity about your immediate living space and willingness to observe how shadows fall in a room throughout the day. Historically, artificial lighting moved from candles and gas to electric lamps, fundamentally changing how humans use indoor spaces after sunset. In modern buildings, lighting represents a major component of energy consumption, making intentional use both an aesthetic choice and an energy-saving strategy [S1].",
+   "evidence": [
+    {
+     "claim": "Lighting is the deliberate use of light to achieve practical or aesthetic effects.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Lighting includes artificial light sources and natural illumination by capturing daylight.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Daylighting is sometimes used as the main source of light during daytime in buildings to save energy.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Proper lighting can enhance task performance, improve appearance, and have positive psychological effects.",
+     "label": "established",
+     "source": "S1"
+    },
+    {
+     "claim": "Artificial lighting represents a major component of energy consumption in buildings.",
+     "label": "established",
+     "source": "S1"
+    }
+   ],
+   "visual": "",
+   "realWorld": "You see this principle in cafes that place small, warm table lamps instead of glaring overhead tubes, making the room feel calm and intimate while using less electricity.",
+   "exercise": {
+    "prompt": "Walk through your living space at midday. Note where daylight enters and identify one dark corner where you could place a secondhand lamp.",
+    "answerHint": "Look for a spot where natural light does not reach and consider how a single small lamp changes the mood."
+   },
+   "quiz": [
+    {
+     "q": "What is daylighting?",
+     "options": [
+      "Using natural illumination by capturing daylight as a main source of light",
+      "Leaving all indoor lights on during a sunny day",
+      "Painting interior walls a bright white color",
+      "Replacing old lightbulbs with energy-efficient LEDs"
+     ],
+     "answer": 0,
+     "explanation": "Daylighting is defined as capturing natural daylight to use as the main source of light during the daytime."
+    },
+    {
+     "q": "What is a benefit of proper lighting mentioned in the source text?",
+     "options": [
+      "Lowering the resale value of a house",
+      "Enhancing task performance and positive psychological effects",
+      "Increasing the ambient temperature of a room",
+      "Attracting fewer insects indoors"
+     ],
+     "answer": 1,
+     "explanation": "Proper lighting can enhance task performance, improve appearance, and have positive psychological effects on occupants."
+    }
+   ],
+   "checklist": [
+    "Check if the secondhand lamp has a sturdy base and safe wiring",
+    "Check current prices before buying any new retail lighting",
+    "Determine if the fixture uses standard, easily replaceable bulb sizes",
+    "Consider if the lamp provides warm, diffused light rather than harsh glare"
+   ],
+   "furtherQuestions": [
+    "How does color temperature affect the mood of a room?",
+    "What are the safest ways to rewire an old vintage lamp?"
+   ],
+   "imagePrompt": "A vintage ceramic table lamp with a simple fabric shade casting a warm glow on a wooden desk next to a clear glass window.",
+   "keyIdea": "Lighting is the deliberate use of natural and artificial sources to improve appearance, enhance tasks, and save energy without needing expensive fixtures.",
+   "glossary": [
+    {
+     "term": "daylighting",
+     "definition": "The use of natural illumination by capturing daylight, sometimes used as the main source of light during daytime in buildings."
+    },
+    {
+     "term": "lighting",
+     "definition": "The deliberate use of light to achieve practical or aesthetic effects using artificial sources or natural illumination."
+    },
+    {
+     "term": "lamps",
+     "definition": "Artificial light sources used within fixtures to illuminate a space."
+    }
+   ],
+   "image": {
+    "src": "data/img/019/frugal.jpg",
+    "alt": "Illustration for: Lighting Rooms with Intention",
+    "prompt": "A vintage ceramic table lamp with a simple fabric shade casting a warm glow on a wooden desk next to a clear glass window.. Style: warm minimalist interior still-life, travertine, linen, oak and ceramic objects, beige and tan tones, soft daylight, editorial. shared house look: dark moody low-key lighting, deep black shadows and large areas of empty black negative space, subject slightly off-centre, soft motion blur and shallow depth of field, analogue 35mm film look, muted tactile editorial still-life photography. No text, no letters, no logos, no people, no faces. High quality editorial photograph.",
+    "credit": "AI-generated illustration (FLUX.1 schnell, Cloudflare Workers AI). Not a photograph of the real subject.",
+    "aiGenerated": true
+   },
+   "grounded": true,
+   "aiGenerated": true,
+   "status": "unreviewed",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "Wikipedia: Lighting",
+     "url": "https://en.wikipedia.org/wiki/Lighting",
+     "kind": "wikipedia",
+     "retrievedAt": "2026-11-27"
+    }
+   ]
+  }
+ },
+ "puzzle": {
+  "type": "sequence",
+  "title": "Logic day: what comes next?",
+  "prompt": "2, 6, 18, 54, 162, ?",
+  "answer": "486",
+  "explanation": "The rule: multiply by 3 each time."
+ },
+ "dispatch": {
+  "headlines": [
+   {
+    "house": "theology",
+    "text": "Knowledge, Love, and Idol Meat in Ancient Corinth"
+   },
+   {
+    "house": "mindcraft",
+    "text": "De-escalating Conflict with Nonviolent Communication"
+   },
+   {
+    "house": "soundroom",
+    "text": "The Mridangam: Engine of Carnatic Rhythm"
+   },
+   {
+    "house": "aiml",
+    "text": "Retrieval-Augmented Generation"
+   },
+   {
+    "house": "systems",
+    "text": "Big O notation"
+   },
+   {
+    "house": "design",
+    "text": "The Art of the Familiar: Understanding Skeuomorphism"
+   },
+   {
+    "house": "frugal",
+    "text": "Lighting Rooms with Intention"
+   }
+  ],
+  "briefing": [
+   {
+    "house": "theology",
+    "title": "Knowledge, Love, and Idol Meat in Ancient Corinth",
+    "text": "When personal freedom clashes with community wellbeing, how should an early believer act? In *1 Corinthians*, Paul addresses whether Christians can eat meat previously offered to pagan deities. In his letter to the believers in Corinth, the apostle Paul addresses a practical debate: whether Christians may consume food sacrificed to idols.",
+    "sources": [
+     "https://bible-api.com/1%20Corinthians%208%3A1-13",
+     "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians"
+    ]
+   },
+   {
+    "house": "mindcraft",
+    "title": "De-escalating Conflict with Nonviolent Communication",
+    "text": "When conversations break down into defensive arguments, we often react to perceived attacks rather than underlying problems. Learning to separate raw observations from subjective judgments helps you express what you need without triggering immediate defensiveness. Clinical psychologist Marshall Rosenberg introduced Nonviolent Communication to help people express themselves without invoking judgment or defensiveness.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nonviolent_Communication"
+    ]
+   },
+   {
+    "house": "soundroom",
+    "title": "The Mridangam: Engine of Carnatic Rhythm",
+    "text": "The **mridangam** is a double-sided acoustic drum that forms the rhythmic heartbeat of South Indian classical performance. Understanding its sonic layering reveals how dynamic acoustic percussion achieves complex, speech-like tonal variety. In *Carnatic music*, South Indian classical performance relies on the mridangam as its primary rhythmic accompaniment.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mridangam"
+    ]
+   },
+   {
+    "house": "aiml",
+    "title": "Retrieval-Augmented Generation",
+    "text": "Your AI model can write poetry, but it has never seen your company's latest employee handbook. **Retrieval-augmented generation** bridges that gap by fetching external documents before the model writes its answer. Imagine asking a student a complex question about a historical event.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+    ]
+   },
+   {
+    "house": "systems",
+    "title": "Big O notation",
+    "text": "When your code runs fine on your laptop but freezes on a server, you are usually dealing with a hidden scaling problem. Big O notation gives you a shared language to predict how your algorithms behave as data grows. As a first-year computing student, you do not need to memorize complex formulas to understand how code scales.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Big_O_notation",
+     "https://lwn.net/Articles/1109990/"
+    ]
+   },
+   {
+    "house": "design",
+    "title": "The Art of the Familiar: Understanding Skeuomorphism",
+    "text": "When early digital interfaces needed to teach people how to use computers, they borrowed the physical look of paper, leather, and metal. This design choice is called **skeuomorphism**, and it shows how visual literacy bridges the gap between old habits and new technology. Visual design is a system of deliberate decisions involving typography, colour, hierarchy, and grids.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Skeuomorph"
+    ]
+   },
+   {
+    "house": "frugal",
+    "title": "Lighting Rooms with Intention",
+    "text": "Good interior lighting is not about buying expensive designer fixtures. It is about understanding how light shapes a space. Lighting is the deliberate use of light to achieve practical or aesthetic effects [S1].",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lighting"
+    ]
+   }
+  ],
+  "plus": [
+   "Word: nuance",
+   "Puzzle: Logic day: what comes next?",
+   "AI/ML signal: Can image generation help visual reasoning? An empirical study"
+  ]
+ }
+}
